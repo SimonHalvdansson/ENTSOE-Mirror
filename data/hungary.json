@@ -1,0 +1,31 @@
+{
+  "country": "hungary",
+  "country_code": "HU",
+  "display_name": "Hungary",
+  "timezone": "Europe/Budapest",
+  "target_date_local": "2026-02-14",
+  "fetched_at_utc": "2026-02-14T10:40:33.178996Z",
+  "currency": "HUF",
+  "exchange_rate": {
+    "base": "EUR",
+    "quote": "HUF",
+    "rate": 379.08,
+    "source": "ECB eurofxref-daily"
+  },
+  "default_area_code": "HU",
+  "area_code": "HU",
+  "eic_code": "10YHU-MAVIR----U",
+  "prices": [],
+  "areas": [
+    {
+      "area_code": "HU",
+      "eic_code": "10YHU-MAVIR----U",
+      "prices": [],
+      "error": "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YHU-MAVIR----U, 10YHU-MAVIR----U) and interval ."
+    }
+  ],
+  "errors": [
+    "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YHU-MAVIR----U, 10YHU-MAVIR----U) and interval ."
+  ],
+  "error": "No areas fetched successfully for HU."
+}

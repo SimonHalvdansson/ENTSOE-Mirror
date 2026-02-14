@@ -1,0 +1,31 @@
+{
+  "country": "slovakia",
+  "country_code": "SK",
+  "display_name": "Slovakia",
+  "timezone": "Europe/Bratislava",
+  "target_date_local": "2026-02-14",
+  "fetched_at_utc": "2026-02-14T10:40:32.497384Z",
+  "currency": "EUR",
+  "exchange_rate": {
+    "base": "EUR",
+    "quote": "EUR",
+    "rate": 1.0,
+    "source": "ECB eurofxref-daily"
+  },
+  "default_area_code": "SK",
+  "area_code": "SK",
+  "eic_code": "10YSK-SEPS-----K",
+  "prices": [],
+  "areas": [
+    {
+      "area_code": "SK",
+      "eic_code": "10YSK-SEPS-----K",
+      "prices": [],
+      "error": "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YSK-SEPS-----K, 10YSK-SEPS-----K) and interval ."
+    }
+  ],
+  "errors": [
+    "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YSK-SEPS-----K, 10YSK-SEPS-----K) and interval ."
+  ],
+  "error": "No areas fetched successfully for SK."
+}
