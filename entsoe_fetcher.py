@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 ENTSOE_API_URL = "https://web-api.tp.entsoe.eu/api"
 ECB_RATES_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 ENTSOE_PERIOD_FORMAT = "%Y%m%d%H%M"
-OUTPUT_DIR = Path("data/spotprice")
+OUTPUT_DIR = Path("data")
 USER_AGENT = "spotprice-fetcher/1.0 (+github-actions)"
 
 
@@ -542,3 +542,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
