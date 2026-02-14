@@ -475,6 +475,7 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
                 )
             )
         except (HTTPError, URLError, RuntimeError, TimeoutError, ET.ParseError, ValueError) as exc:
+            print(f"Warning: {country.country_code}/{area.code} failed: {exc}")
             area_results.append(
                 {
                     "area_code": area.code,
@@ -485,11 +486,14 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
             )
 
     successful_areas = [item for item in area_results if item.get("prices")]
-    if not successful_areas:
-        raise RuntimeError(f"No areas fetched successfully for {country.country_code}.")
-
     default_area_code = country.areas[0].code
-    default_area = next((item for item in area_results if item["area_code"] == default_area_code), successful_areas[0])
+    default_area = next((item for item in area_results if item["area_code"] == default_area_code), None)
+    if default_area is None:
+        default_area = successful_areas[0] if successful_areas else area_results[0]
+
+    country_error = None
+    if not successful_areas:
+        country_error = f"No areas fetched successfully for {country.country_code}."
 
     return {
         "country": country.slug,
@@ -509,8 +513,10 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
         # Backward-compatible top-level area/prices for single-area consumers.
         "area_code": default_area["area_code"],
         "eic_code": default_area["eic_code"],
-        "prices": default_area["prices"],
+        "prices": default_area.get("prices", []),
         "areas": area_results,
+        "errors": [item["error"] for item in area_results if item.get("error")],
+        "error": country_error,
     }
 
 
@@ -528,15 +534,27 @@ def main() -> None:
 
     rates = fetch_exchange_rates()
     failures: list[str] = []
+    strict_failures = os.environ.get("FAIL_ON_COUNTRY_ERRORS", "").strip().lower() in {"1", "true", "yes"}
 
     for country in COUNTRIES:
         try:
             payload = fetch_country_payload(country=country, api_key=api_key, rates=rates)
+
+            # Avoid overwriting a previously good country file with an all-error payload.
+            destination = OUTPUT_DIR / f"{country.slug}.json"
+            if payload.get("error") and destination.exists():
+                failures.append(f"{country.country_code}: {payload['error']} (kept previous file)")
+                continue
+
             write_payload(country_slug=country.slug, payload=payload)
+            if payload.get("error"):
+                failures.append(f"{country.country_code}: {payload['error']}")
         except Exception as exc:  # noqa: BLE001
             failures.append(f"{country.country_code}: {exc}")
 
     if failures:
+        print("Country warnings: " + "; ".join(failures))
+    if failures and strict_failures:
         raise RuntimeError("Failed countries: " + "; ".join(failures))
 
 
