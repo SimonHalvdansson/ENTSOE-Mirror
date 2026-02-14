@@ -346,7 +346,7 @@ def build_entsoe_url(api_key: str, eic_code: str, start_utc: datetime, end_utc: 
     return f"{ENTSOE_API_URL}?{urlencode(params)}"
 
 
-def parse_entsoe_prices(xml_text: str, zone: ZoneInfo, min_end_local: datetime) -> list[dict]:
+def parse_entsoe_prices(xml_text: str, zone: ZoneInfo) -> list[dict]:
     root = ET.fromstring(xml_text)
     prices: list[dict] = []
 
@@ -381,10 +381,6 @@ def parse_entsoe_prices(xml_text: str, zone: ZoneInfo, min_end_local: datetime) 
             period_end_utc = period_start_utc + resolution
             period_start_local = period_start_utc.astimezone(zone)
             period_end_local = period_end_utc.astimezone(zone)
-
-            # Keep only intervals that are still in the future (or currently active).
-            if period_end_local <= min_end_local:
-                continue
 
             prices.append(
                 {
@@ -426,12 +422,28 @@ def fetch_area_prices(
     url = build_entsoe_url(api_key=api_key, eic_code=area.eic_code, start_utc=start_utc, end_utc=end_utc)
     xml_text = fetch_text(url=url, timeout=30)
 
-    prices_eur = parse_entsoe_prices(xml_text=xml_text, zone=zone, min_end_local=now_local)
-    if not prices_eur:
+    prices_all = parse_entsoe_prices(xml_text=xml_text, zone=zone)
+    if not prices_all:
         error = parse_entsoe_error(xml_text)
         if error:
             raise RuntimeError(error)
         raise RuntimeError("No ENTSOE price entries parsed.")
+
+    prices_eur = []
+    for entry in prices_all:
+        end_local = datetime.fromisoformat(entry["end_local"])
+        if end_local > now_local:
+            prices_eur.append(entry)
+
+    if not prices_eur:
+        # If no forward-looking data is available yet, keep the freshest
+        # complete delivery day instead of failing the area.
+        day_buckets: dict = {}
+        for entry in prices_all:
+            day = datetime.fromisoformat(entry["start_local"]).date()
+            day_buckets.setdefault(day, []).append(entry)
+        selected_day = max(day_buckets.keys(), key=lambda day: (len(day_buckets[day]), day))
+        prices_eur = day_buckets[selected_day]
 
     prices_local = []
     for entry in prices_eur:
@@ -453,10 +465,13 @@ def fetch_area_prices(
 def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str, float]) -> dict:
     zone = ZoneInfo(country.timezone_name)
     now_local = datetime.now(zone)
-    window_start_local = datetime.combine(now_local.date(), time.min, zone)
+    # Some bidding zones return 999 for A44 unless the requested interval
+    # starts before the current local day boundary. We request from yesterday
+    # and filter out past intervals after parsing.
+    window_start_local = datetime.combine(now_local.date() - timedelta(days=1), time.min, zone)
     # Day-ahead prices are published ahead of delivery day. Request multiple
     # upcoming days and then keep only forward-looking intervals.
-    window_end_local = window_start_local + timedelta(days=3)
+    window_end_local = window_start_local + timedelta(days=4)
     target_date = now_local.date()
     start_local = window_start_local
     end_local = window_end_local
@@ -508,7 +523,6 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
         "target_date_local": target_date.isoformat(),
         "window_start_local": start_local.isoformat(),
         "window_end_local": end_local.isoformat(),
-        "fetched_at_utc": iso_z(datetime.now(timezone.utc)),
         "currency": country.currency,
         "exchange_rate": {
             "base": "EUR",

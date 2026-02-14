@@ -4,7 +4,8 @@
   "display_name": "Croatia",
   "timezone": "Europe/Zagreb",
   "target_date_local": "2026-02-14",
-  "fetched_at_utc": "2026-02-14T10:40:33.959835Z",
+  "window_start_local": "2026-02-13T00:00:00+01:00",
+  "window_end_local": "2026-02-17T00:00:00+01:00",
   "currency": "EUR",
   "exchange_rate": {
     "base": "EUR",
@@ -15,17 +16,1936 @@
   "default_area_code": "HR",
   "area_code": "HR",
   "eic_code": "10YHR-HEP------M",
-  "prices": [],
+  "prices": [
+    {
+      "start_utc": "2026-02-12T23:00:00Z",
+      "end_utc": "2026-02-12T23:15:00Z",
+      "start_local": "2026-02-13T00:00:00+01:00",
+      "end_local": "2026-02-13T00:15:00+01:00",
+      "price_per_mwh_eur": 93.75,
+      "price_per_kwh_eur": 0.09375,
+      "price_per_kwh": 0.09375,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-12T23:15:00Z",
+      "end_utc": "2026-02-12T23:30:00Z",
+      "start_local": "2026-02-13T00:15:00+01:00",
+      "end_local": "2026-02-13T00:30:00+01:00",
+      "price_per_mwh_eur": 91.77,
+      "price_per_kwh_eur": 0.09176999999999999,
+      "price_per_kwh": 0.09176999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-12T23:30:00Z",
+      "end_utc": "2026-02-12T23:45:00Z",
+      "start_local": "2026-02-13T00:30:00+01:00",
+      "end_local": "2026-02-13T00:45:00+01:00",
+      "price_per_mwh_eur": 93.47,
+      "price_per_kwh_eur": 0.09347,
+      "price_per_kwh": 0.09347,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-12T23:45:00Z",
+      "end_utc": "2026-02-13T00:00:00Z",
+      "start_local": "2026-02-13T00:45:00+01:00",
+      "end_local": "2026-02-13T01:00:00+01:00",
+      "price_per_mwh_eur": 91.74,
+      "price_per_kwh_eur": 0.09173999999999999,
+      "price_per_kwh": 0.09173999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T00:00:00Z",
+      "end_utc": "2026-02-13T00:15:00Z",
+      "start_local": "2026-02-13T01:00:00+01:00",
+      "end_local": "2026-02-13T01:15:00+01:00",
+      "price_per_mwh_eur": 92.83,
+      "price_per_kwh_eur": 0.09283,
+      "price_per_kwh": 0.09283,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T00:15:00Z",
+      "end_utc": "2026-02-13T00:30:00Z",
+      "start_local": "2026-02-13T01:15:00+01:00",
+      "end_local": "2026-02-13T01:30:00+01:00",
+      "price_per_mwh_eur": 93.28,
+      "price_per_kwh_eur": 0.09328,
+      "price_per_kwh": 0.09328,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T00:30:00Z",
+      "end_utc": "2026-02-13T00:45:00Z",
+      "start_local": "2026-02-13T01:30:00+01:00",
+      "end_local": "2026-02-13T01:45:00+01:00",
+      "price_per_mwh_eur": 92.94,
+      "price_per_kwh_eur": 0.09294,
+      "price_per_kwh": 0.09294,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T00:45:00Z",
+      "end_utc": "2026-02-13T01:00:00Z",
+      "start_local": "2026-02-13T01:45:00+01:00",
+      "end_local": "2026-02-13T02:00:00+01:00",
+      "price_per_mwh_eur": 93.02,
+      "price_per_kwh_eur": 0.09301999999999999,
+      "price_per_kwh": 0.09301999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T01:00:00Z",
+      "end_utc": "2026-02-13T01:15:00Z",
+      "start_local": "2026-02-13T02:00:00+01:00",
+      "end_local": "2026-02-13T02:15:00+01:00",
+      "price_per_mwh_eur": 90.64,
+      "price_per_kwh_eur": 0.09064,
+      "price_per_kwh": 0.09064,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T01:15:00Z",
+      "end_utc": "2026-02-13T01:30:00Z",
+      "start_local": "2026-02-13T02:15:00+01:00",
+      "end_local": "2026-02-13T02:30:00+01:00",
+      "price_per_mwh_eur": 91.7,
+      "price_per_kwh_eur": 0.0917,
+      "price_per_kwh": 0.0917,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T01:30:00Z",
+      "end_utc": "2026-02-13T01:45:00Z",
+      "start_local": "2026-02-13T02:30:00+01:00",
+      "end_local": "2026-02-13T02:45:00+01:00",
+      "price_per_mwh_eur": 92.47,
+      "price_per_kwh_eur": 0.09247,
+      "price_per_kwh": 0.09247,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T01:45:00Z",
+      "end_utc": "2026-02-13T02:00:00Z",
+      "start_local": "2026-02-13T02:45:00+01:00",
+      "end_local": "2026-02-13T03:00:00+01:00",
+      "price_per_mwh_eur": 92.96,
+      "price_per_kwh_eur": 0.09295999999999999,
+      "price_per_kwh": 0.09295999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T02:00:00Z",
+      "end_utc": "2026-02-13T02:15:00Z",
+      "start_local": "2026-02-13T03:00:00+01:00",
+      "end_local": "2026-02-13T03:15:00+01:00",
+      "price_per_mwh_eur": 90.94,
+      "price_per_kwh_eur": 0.09094,
+      "price_per_kwh": 0.09094,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T02:15:00Z",
+      "end_utc": "2026-02-13T02:30:00Z",
+      "start_local": "2026-02-13T03:15:00+01:00",
+      "end_local": "2026-02-13T03:30:00+01:00",
+      "price_per_mwh_eur": 91.81,
+      "price_per_kwh_eur": 0.09181,
+      "price_per_kwh": 0.09181,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T02:30:00Z",
+      "end_utc": "2026-02-13T02:45:00Z",
+      "start_local": "2026-02-13T03:30:00+01:00",
+      "end_local": "2026-02-13T03:45:00+01:00",
+      "price_per_mwh_eur": 92.0,
+      "price_per_kwh_eur": 0.092,
+      "price_per_kwh": 0.092,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T02:45:00Z",
+      "end_utc": "2026-02-13T03:00:00Z",
+      "start_local": "2026-02-13T03:45:00+01:00",
+      "end_local": "2026-02-13T04:00:00+01:00",
+      "price_per_mwh_eur": 91.72,
+      "price_per_kwh_eur": 0.09172,
+      "price_per_kwh": 0.09172,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T03:00:00Z",
+      "end_utc": "2026-02-13T03:15:00Z",
+      "start_local": "2026-02-13T04:00:00+01:00",
+      "end_local": "2026-02-13T04:15:00+01:00",
+      "price_per_mwh_eur": 91.87,
+      "price_per_kwh_eur": 0.09187000000000001,
+      "price_per_kwh": 0.09187000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T03:15:00Z",
+      "end_utc": "2026-02-13T03:30:00Z",
+      "start_local": "2026-02-13T04:15:00+01:00",
+      "end_local": "2026-02-13T04:30:00+01:00",
+      "price_per_mwh_eur": 92.23,
+      "price_per_kwh_eur": 0.09223,
+      "price_per_kwh": 0.09223,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T03:30:00Z",
+      "end_utc": "2026-02-13T03:45:00Z",
+      "start_local": "2026-02-13T04:30:00+01:00",
+      "end_local": "2026-02-13T04:45:00+01:00",
+      "price_per_mwh_eur": 93.63,
+      "price_per_kwh_eur": 0.09362999999999999,
+      "price_per_kwh": 0.09362999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T03:45:00Z",
+      "end_utc": "2026-02-13T04:00:00Z",
+      "start_local": "2026-02-13T04:45:00+01:00",
+      "end_local": "2026-02-13T05:00:00+01:00",
+      "price_per_mwh_eur": 95.29,
+      "price_per_kwh_eur": 0.09529,
+      "price_per_kwh": 0.09529,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T04:00:00Z",
+      "end_utc": "2026-02-13T04:15:00Z",
+      "start_local": "2026-02-13T05:00:00+01:00",
+      "end_local": "2026-02-13T05:15:00+01:00",
+      "price_per_mwh_eur": 93.45,
+      "price_per_kwh_eur": 0.09345,
+      "price_per_kwh": 0.09345,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T04:15:00Z",
+      "end_utc": "2026-02-13T04:30:00Z",
+      "start_local": "2026-02-13T05:15:00+01:00",
+      "end_local": "2026-02-13T05:30:00+01:00",
+      "price_per_mwh_eur": 92.36,
+      "price_per_kwh_eur": 0.09236,
+      "price_per_kwh": 0.09236,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T04:30:00Z",
+      "end_utc": "2026-02-13T04:45:00Z",
+      "start_local": "2026-02-13T05:30:00+01:00",
+      "end_local": "2026-02-13T05:45:00+01:00",
+      "price_per_mwh_eur": 96.15,
+      "price_per_kwh_eur": 0.09615,
+      "price_per_kwh": 0.09615,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T04:45:00Z",
+      "end_utc": "2026-02-13T05:00:00Z",
+      "start_local": "2026-02-13T05:45:00+01:00",
+      "end_local": "2026-02-13T06:00:00+01:00",
+      "price_per_mwh_eur": 102.8,
+      "price_per_kwh_eur": 0.1028,
+      "price_per_kwh": 0.1028,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T05:00:00Z",
+      "end_utc": "2026-02-13T05:15:00Z",
+      "start_local": "2026-02-13T06:00:00+01:00",
+      "end_local": "2026-02-13T06:15:00+01:00",
+      "price_per_mwh_eur": 91.72,
+      "price_per_kwh_eur": 0.09172,
+      "price_per_kwh": 0.09172,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T05:15:00Z",
+      "end_utc": "2026-02-13T05:30:00Z",
+      "start_local": "2026-02-13T06:15:00+01:00",
+      "end_local": "2026-02-13T06:30:00+01:00",
+      "price_per_mwh_eur": 103.71,
+      "price_per_kwh_eur": 0.10371,
+      "price_per_kwh": 0.10371,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T05:30:00Z",
+      "end_utc": "2026-02-13T05:45:00Z",
+      "start_local": "2026-02-13T06:30:00+01:00",
+      "end_local": "2026-02-13T06:45:00+01:00",
+      "price_per_mwh_eur": 114.23,
+      "price_per_kwh_eur": 0.11423,
+      "price_per_kwh": 0.11423,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T05:45:00Z",
+      "end_utc": "2026-02-13T06:00:00Z",
+      "start_local": "2026-02-13T06:45:00+01:00",
+      "end_local": "2026-02-13T07:00:00+01:00",
+      "price_per_mwh_eur": 120.73,
+      "price_per_kwh_eur": 0.12073,
+      "price_per_kwh": 0.12073,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T06:00:00Z",
+      "end_utc": "2026-02-13T06:15:00Z",
+      "start_local": "2026-02-13T07:00:00+01:00",
+      "end_local": "2026-02-13T07:15:00+01:00",
+      "price_per_mwh_eur": 104.56,
+      "price_per_kwh_eur": 0.10456,
+      "price_per_kwh": 0.10456,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T06:15:00Z",
+      "end_utc": "2026-02-13T06:30:00Z",
+      "start_local": "2026-02-13T07:15:00+01:00",
+      "end_local": "2026-02-13T07:30:00+01:00",
+      "price_per_mwh_eur": 123.67,
+      "price_per_kwh_eur": 0.12367,
+      "price_per_kwh": 0.12367,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T06:30:00Z",
+      "end_utc": "2026-02-13T06:45:00Z",
+      "start_local": "2026-02-13T07:30:00+01:00",
+      "end_local": "2026-02-13T07:45:00+01:00",
+      "price_per_mwh_eur": 125.66,
+      "price_per_kwh_eur": 0.12566,
+      "price_per_kwh": 0.12566,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T06:45:00Z",
+      "end_utc": "2026-02-13T07:00:00Z",
+      "start_local": "2026-02-13T07:45:00+01:00",
+      "end_local": "2026-02-13T08:00:00+01:00",
+      "price_per_mwh_eur": 127.55,
+      "price_per_kwh_eur": 0.12755,
+      "price_per_kwh": 0.12755,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T07:00:00Z",
+      "end_utc": "2026-02-13T07:15:00Z",
+      "start_local": "2026-02-13T08:00:00+01:00",
+      "end_local": "2026-02-13T08:15:00+01:00",
+      "price_per_mwh_eur": 127.29,
+      "price_per_kwh_eur": 0.12729000000000001,
+      "price_per_kwh": 0.12729000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T07:15:00Z",
+      "end_utc": "2026-02-13T07:30:00Z",
+      "start_local": "2026-02-13T08:15:00+01:00",
+      "end_local": "2026-02-13T08:30:00+01:00",
+      "price_per_mwh_eur": 129.97,
+      "price_per_kwh_eur": 0.12997,
+      "price_per_kwh": 0.12997,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T07:30:00Z",
+      "end_utc": "2026-02-13T07:45:00Z",
+      "start_local": "2026-02-13T08:30:00+01:00",
+      "end_local": "2026-02-13T08:45:00+01:00",
+      "price_per_mwh_eur": 127.14,
+      "price_per_kwh_eur": 0.12714,
+      "price_per_kwh": 0.12714,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T07:45:00Z",
+      "end_utc": "2026-02-13T08:00:00Z",
+      "start_local": "2026-02-13T08:45:00+01:00",
+      "end_local": "2026-02-13T09:00:00+01:00",
+      "price_per_mwh_eur": 123.71,
+      "price_per_kwh_eur": 0.12371,
+      "price_per_kwh": 0.12371,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T08:00:00Z",
+      "end_utc": "2026-02-13T08:15:00Z",
+      "start_local": "2026-02-13T09:00:00+01:00",
+      "end_local": "2026-02-13T09:15:00+01:00",
+      "price_per_mwh_eur": 128.97,
+      "price_per_kwh_eur": 0.12897,
+      "price_per_kwh": 0.12897,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T08:15:00Z",
+      "end_utc": "2026-02-13T08:30:00Z",
+      "start_local": "2026-02-13T09:15:00+01:00",
+      "end_local": "2026-02-13T09:30:00+01:00",
+      "price_per_mwh_eur": 126.47,
+      "price_per_kwh_eur": 0.12647,
+      "price_per_kwh": 0.12647,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T08:30:00Z",
+      "end_utc": "2026-02-13T08:45:00Z",
+      "start_local": "2026-02-13T09:30:00+01:00",
+      "end_local": "2026-02-13T09:45:00+01:00",
+      "price_per_mwh_eur": 118.1,
+      "price_per_kwh_eur": 0.1181,
+      "price_per_kwh": 0.1181,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T08:45:00Z",
+      "end_utc": "2026-02-13T09:00:00Z",
+      "start_local": "2026-02-13T09:45:00+01:00",
+      "end_local": "2026-02-13T10:00:00+01:00",
+      "price_per_mwh_eur": 111.72,
+      "price_per_kwh_eur": 0.11172,
+      "price_per_kwh": 0.11172,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T09:00:00Z",
+      "end_utc": "2026-02-13T09:15:00Z",
+      "start_local": "2026-02-13T10:00:00+01:00",
+      "end_local": "2026-02-13T10:15:00+01:00",
+      "price_per_mwh_eur": 113.56,
+      "price_per_kwh_eur": 0.11356000000000001,
+      "price_per_kwh": 0.11356000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T09:15:00Z",
+      "end_utc": "2026-02-13T09:30:00Z",
+      "start_local": "2026-02-13T10:15:00+01:00",
+      "end_local": "2026-02-13T10:30:00+01:00",
+      "price_per_mwh_eur": 109.8,
+      "price_per_kwh_eur": 0.1098,
+      "price_per_kwh": 0.1098,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T09:30:00Z",
+      "end_utc": "2026-02-13T09:45:00Z",
+      "start_local": "2026-02-13T10:30:00+01:00",
+      "end_local": "2026-02-13T10:45:00+01:00",
+      "price_per_mwh_eur": 107.44,
+      "price_per_kwh_eur": 0.10744,
+      "price_per_kwh": 0.10744,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T09:45:00Z",
+      "end_utc": "2026-02-13T10:00:00Z",
+      "start_local": "2026-02-13T10:45:00+01:00",
+      "end_local": "2026-02-13T11:00:00+01:00",
+      "price_per_mwh_eur": 103.76,
+      "price_per_kwh_eur": 0.10376,
+      "price_per_kwh": 0.10376,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T10:00:00Z",
+      "end_utc": "2026-02-13T10:15:00Z",
+      "start_local": "2026-02-13T11:00:00+01:00",
+      "end_local": "2026-02-13T11:15:00+01:00",
+      "price_per_mwh_eur": 107.4,
+      "price_per_kwh_eur": 0.10740000000000001,
+      "price_per_kwh": 0.10740000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T10:15:00Z",
+      "end_utc": "2026-02-13T10:30:00Z",
+      "start_local": "2026-02-13T11:15:00+01:00",
+      "end_local": "2026-02-13T11:30:00+01:00",
+      "price_per_mwh_eur": 104.99,
+      "price_per_kwh_eur": 0.10499,
+      "price_per_kwh": 0.10499,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T10:30:00Z",
+      "end_utc": "2026-02-13T10:45:00Z",
+      "start_local": "2026-02-13T11:30:00+01:00",
+      "end_local": "2026-02-13T11:45:00+01:00",
+      "price_per_mwh_eur": 101.84,
+      "price_per_kwh_eur": 0.10184,
+      "price_per_kwh": 0.10184,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T10:45:00Z",
+      "end_utc": "2026-02-13T11:00:00Z",
+      "start_local": "2026-02-13T11:45:00+01:00",
+      "end_local": "2026-02-13T12:00:00+01:00",
+      "price_per_mwh_eur": 100.52,
+      "price_per_kwh_eur": 0.10052,
+      "price_per_kwh": 0.10052,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T11:00:00Z",
+      "end_utc": "2026-02-13T11:15:00Z",
+      "start_local": "2026-02-13T12:00:00+01:00",
+      "end_local": "2026-02-13T12:15:00+01:00",
+      "price_per_mwh_eur": 100.38,
+      "price_per_kwh_eur": 0.10038,
+      "price_per_kwh": 0.10038,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T11:15:00Z",
+      "end_utc": "2026-02-13T11:30:00Z",
+      "start_local": "2026-02-13T12:15:00+01:00",
+      "end_local": "2026-02-13T12:30:00+01:00",
+      "price_per_mwh_eur": 99.73,
+      "price_per_kwh_eur": 0.09973,
+      "price_per_kwh": 0.09973,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T11:30:00Z",
+      "end_utc": "2026-02-13T11:45:00Z",
+      "start_local": "2026-02-13T12:30:00+01:00",
+      "end_local": "2026-02-13T12:45:00+01:00",
+      "price_per_mwh_eur": 98.83,
+      "price_per_kwh_eur": 0.09883,
+      "price_per_kwh": 0.09883,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T11:45:00Z",
+      "end_utc": "2026-02-13T12:00:00Z",
+      "start_local": "2026-02-13T12:45:00+01:00",
+      "end_local": "2026-02-13T13:00:00+01:00",
+      "price_per_mwh_eur": 99.0,
+      "price_per_kwh_eur": 0.099,
+      "price_per_kwh": 0.099,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T12:00:00Z",
+      "end_utc": "2026-02-13T12:15:00Z",
+      "start_local": "2026-02-13T13:00:00+01:00",
+      "end_local": "2026-02-13T13:15:00+01:00",
+      "price_per_mwh_eur": 98.84,
+      "price_per_kwh_eur": 0.09884,
+      "price_per_kwh": 0.09884,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T12:15:00Z",
+      "end_utc": "2026-02-13T12:30:00Z",
+      "start_local": "2026-02-13T13:15:00+01:00",
+      "end_local": "2026-02-13T13:30:00+01:00",
+      "price_per_mwh_eur": 99.91,
+      "price_per_kwh_eur": 0.09991,
+      "price_per_kwh": 0.09991,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T12:30:00Z",
+      "end_utc": "2026-02-13T12:45:00Z",
+      "start_local": "2026-02-13T13:30:00+01:00",
+      "end_local": "2026-02-13T13:45:00+01:00",
+      "price_per_mwh_eur": 102.53,
+      "price_per_kwh_eur": 0.10253,
+      "price_per_kwh": 0.10253,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T12:45:00Z",
+      "end_utc": "2026-02-13T13:00:00Z",
+      "start_local": "2026-02-13T13:45:00+01:00",
+      "end_local": "2026-02-13T14:00:00+01:00",
+      "price_per_mwh_eur": 102.06,
+      "price_per_kwh_eur": 0.10206,
+      "price_per_kwh": 0.10206,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T13:00:00Z",
+      "end_utc": "2026-02-13T13:15:00Z",
+      "start_local": "2026-02-13T14:00:00+01:00",
+      "end_local": "2026-02-13T14:15:00+01:00",
+      "price_per_mwh_eur": 101.71,
+      "price_per_kwh_eur": 0.10171,
+      "price_per_kwh": 0.10171,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T13:15:00Z",
+      "end_utc": "2026-02-13T13:30:00Z",
+      "start_local": "2026-02-13T14:15:00+01:00",
+      "end_local": "2026-02-13T14:30:00+01:00",
+      "price_per_mwh_eur": 102.8,
+      "price_per_kwh_eur": 0.1028,
+      "price_per_kwh": 0.1028,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T13:30:00Z",
+      "end_utc": "2026-02-13T13:45:00Z",
+      "start_local": "2026-02-13T14:30:00+01:00",
+      "end_local": "2026-02-13T14:45:00+01:00",
+      "price_per_mwh_eur": 107.07,
+      "price_per_kwh_eur": 0.10707,
+      "price_per_kwh": 0.10707,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T13:45:00Z",
+      "end_utc": "2026-02-13T14:00:00Z",
+      "start_local": "2026-02-13T14:45:00+01:00",
+      "end_local": "2026-02-13T15:00:00+01:00",
+      "price_per_mwh_eur": 109.49,
+      "price_per_kwh_eur": 0.10948999999999999,
+      "price_per_kwh": 0.10948999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T14:00:00Z",
+      "end_utc": "2026-02-13T14:15:00Z",
+      "start_local": "2026-02-13T15:00:00+01:00",
+      "end_local": "2026-02-13T15:15:00+01:00",
+      "price_per_mwh_eur": 104.01,
+      "price_per_kwh_eur": 0.10401,
+      "price_per_kwh": 0.10401,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T14:15:00Z",
+      "end_utc": "2026-02-13T14:30:00Z",
+      "start_local": "2026-02-13T15:15:00+01:00",
+      "end_local": "2026-02-13T15:30:00+01:00",
+      "price_per_mwh_eur": 106.0,
+      "price_per_kwh_eur": 0.106,
+      "price_per_kwh": 0.106,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T14:30:00Z",
+      "end_utc": "2026-02-13T14:45:00Z",
+      "start_local": "2026-02-13T15:30:00+01:00",
+      "end_local": "2026-02-13T15:45:00+01:00",
+      "price_per_mwh_eur": 114.24,
+      "price_per_kwh_eur": 0.11424,
+      "price_per_kwh": 0.11424,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T14:45:00Z",
+      "end_utc": "2026-02-13T15:00:00Z",
+      "start_local": "2026-02-13T15:45:00+01:00",
+      "end_local": "2026-02-13T16:00:00+01:00",
+      "price_per_mwh_eur": 119.4,
+      "price_per_kwh_eur": 0.1194,
+      "price_per_kwh": 0.1194,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T15:00:00Z",
+      "end_utc": "2026-02-13T15:15:00Z",
+      "start_local": "2026-02-13T16:00:00+01:00",
+      "end_local": "2026-02-13T16:15:00+01:00",
+      "price_per_mwh_eur": 113.61,
+      "price_per_kwh_eur": 0.11361,
+      "price_per_kwh": 0.11361,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T15:15:00Z",
+      "end_utc": "2026-02-13T15:30:00Z",
+      "start_local": "2026-02-13T16:15:00+01:00",
+      "end_local": "2026-02-13T16:30:00+01:00",
+      "price_per_mwh_eur": 122.71,
+      "price_per_kwh_eur": 0.12271,
+      "price_per_kwh": 0.12271,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T15:30:00Z",
+      "end_utc": "2026-02-13T15:45:00Z",
+      "start_local": "2026-02-13T16:30:00+01:00",
+      "end_local": "2026-02-13T16:45:00+01:00",
+      "price_per_mwh_eur": 128.55,
+      "price_per_kwh_eur": 0.12855,
+      "price_per_kwh": 0.12855,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T15:45:00Z",
+      "end_utc": "2026-02-13T16:00:00Z",
+      "start_local": "2026-02-13T16:45:00+01:00",
+      "end_local": "2026-02-13T17:00:00+01:00",
+      "price_per_mwh_eur": 129.24,
+      "price_per_kwh_eur": 0.12924000000000002,
+      "price_per_kwh": 0.12924000000000002,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T16:00:00Z",
+      "end_utc": "2026-02-13T16:15:00Z",
+      "start_local": "2026-02-13T17:00:00+01:00",
+      "end_local": "2026-02-13T17:15:00+01:00",
+      "price_per_mwh_eur": 129.26,
+      "price_per_kwh_eur": 0.12925999999999999,
+      "price_per_kwh": 0.12925999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T16:15:00Z",
+      "end_utc": "2026-02-13T16:30:00Z",
+      "start_local": "2026-02-13T17:15:00+01:00",
+      "end_local": "2026-02-13T17:30:00+01:00",
+      "price_per_mwh_eur": 131.13,
+      "price_per_kwh_eur": 0.13113,
+      "price_per_kwh": 0.13113,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T16:30:00Z",
+      "end_utc": "2026-02-13T16:45:00Z",
+      "start_local": "2026-02-13T17:30:00+01:00",
+      "end_local": "2026-02-13T17:45:00+01:00",
+      "price_per_mwh_eur": 131.62,
+      "price_per_kwh_eur": 0.13162000000000001,
+      "price_per_kwh": 0.13162000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T16:45:00Z",
+      "end_utc": "2026-02-13T17:00:00Z",
+      "start_local": "2026-02-13T17:45:00+01:00",
+      "end_local": "2026-02-13T18:00:00+01:00",
+      "price_per_mwh_eur": 137.88,
+      "price_per_kwh_eur": 0.13788,
+      "price_per_kwh": 0.13788,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T17:00:00Z",
+      "end_utc": "2026-02-13T17:15:00Z",
+      "start_local": "2026-02-13T18:00:00+01:00",
+      "end_local": "2026-02-13T18:15:00+01:00",
+      "price_per_mwh_eur": 145.86,
+      "price_per_kwh_eur": 0.14586000000000002,
+      "price_per_kwh": 0.14586000000000002,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T17:15:00Z",
+      "end_utc": "2026-02-13T17:30:00Z",
+      "start_local": "2026-02-13T18:15:00+01:00",
+      "end_local": "2026-02-13T18:30:00+01:00",
+      "price_per_mwh_eur": 140.09,
+      "price_per_kwh_eur": 0.14009,
+      "price_per_kwh": 0.14009,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T17:30:00Z",
+      "end_utc": "2026-02-13T17:45:00Z",
+      "start_local": "2026-02-13T18:30:00+01:00",
+      "end_local": "2026-02-13T18:45:00+01:00",
+      "price_per_mwh_eur": 147.85,
+      "price_per_kwh_eur": 0.14784999999999998,
+      "price_per_kwh": 0.14784999999999998,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T17:45:00Z",
+      "end_utc": "2026-02-13T18:00:00Z",
+      "start_local": "2026-02-13T18:45:00+01:00",
+      "end_local": "2026-02-13T19:00:00+01:00",
+      "price_per_mwh_eur": 154.7,
+      "price_per_kwh_eur": 0.15469999999999998,
+      "price_per_kwh": 0.15469999999999998,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T18:00:00Z",
+      "end_utc": "2026-02-13T18:15:00Z",
+      "start_local": "2026-02-13T19:00:00+01:00",
+      "end_local": "2026-02-13T19:15:00+01:00",
+      "price_per_mwh_eur": 145.66,
+      "price_per_kwh_eur": 0.14565999999999998,
+      "price_per_kwh": 0.14565999999999998,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T18:15:00Z",
+      "end_utc": "2026-02-13T18:30:00Z",
+      "start_local": "2026-02-13T19:15:00+01:00",
+      "end_local": "2026-02-13T19:30:00+01:00",
+      "price_per_mwh_eur": 143.31,
+      "price_per_kwh_eur": 0.14331,
+      "price_per_kwh": 0.14331,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T18:30:00Z",
+      "end_utc": "2026-02-13T18:45:00Z",
+      "start_local": "2026-02-13T19:30:00+01:00",
+      "end_local": "2026-02-13T19:45:00+01:00",
+      "price_per_mwh_eur": 131.25,
+      "price_per_kwh_eur": 0.13125,
+      "price_per_kwh": 0.13125,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T18:45:00Z",
+      "end_utc": "2026-02-13T19:00:00Z",
+      "start_local": "2026-02-13T19:45:00+01:00",
+      "end_local": "2026-02-13T20:00:00+01:00",
+      "price_per_mwh_eur": 124.95,
+      "price_per_kwh_eur": 0.12495,
+      "price_per_kwh": 0.12495,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T19:00:00Z",
+      "end_utc": "2026-02-13T19:15:00Z",
+      "start_local": "2026-02-13T20:00:00+01:00",
+      "end_local": "2026-02-13T20:15:00+01:00",
+      "price_per_mwh_eur": 150.46,
+      "price_per_kwh_eur": 0.15046,
+      "price_per_kwh": 0.15046,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T19:15:00Z",
+      "end_utc": "2026-02-13T19:30:00Z",
+      "start_local": "2026-02-13T20:15:00+01:00",
+      "end_local": "2026-02-13T20:30:00+01:00",
+      "price_per_mwh_eur": 136.9,
+      "price_per_kwh_eur": 0.1369,
+      "price_per_kwh": 0.1369,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T19:30:00Z",
+      "end_utc": "2026-02-13T19:45:00Z",
+      "start_local": "2026-02-13T20:30:00+01:00",
+      "end_local": "2026-02-13T20:45:00+01:00",
+      "price_per_mwh_eur": 128.27,
+      "price_per_kwh_eur": 0.12827000000000002,
+      "price_per_kwh": 0.12827000000000002,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T19:45:00Z",
+      "end_utc": "2026-02-13T20:00:00Z",
+      "start_local": "2026-02-13T20:45:00+01:00",
+      "end_local": "2026-02-13T21:00:00+01:00",
+      "price_per_mwh_eur": 122.42,
+      "price_per_kwh_eur": 0.12242,
+      "price_per_kwh": 0.12242,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T20:00:00Z",
+      "end_utc": "2026-02-13T20:15:00Z",
+      "start_local": "2026-02-13T21:00:00+01:00",
+      "end_local": "2026-02-13T21:15:00+01:00",
+      "price_per_mwh_eur": 136.08,
+      "price_per_kwh_eur": 0.13608,
+      "price_per_kwh": 0.13608,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T20:15:00Z",
+      "end_utc": "2026-02-13T20:30:00Z",
+      "start_local": "2026-02-13T21:15:00+01:00",
+      "end_local": "2026-02-13T21:30:00+01:00",
+      "price_per_mwh_eur": 133.42,
+      "price_per_kwh_eur": 0.13341999999999998,
+      "price_per_kwh": 0.13341999999999998,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T20:30:00Z",
+      "end_utc": "2026-02-13T20:45:00Z",
+      "start_local": "2026-02-13T21:30:00+01:00",
+      "end_local": "2026-02-13T21:45:00+01:00",
+      "price_per_mwh_eur": 125.19,
+      "price_per_kwh_eur": 0.12519,
+      "price_per_kwh": 0.12519,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T20:45:00Z",
+      "end_utc": "2026-02-13T21:00:00Z",
+      "start_local": "2026-02-13T21:45:00+01:00",
+      "end_local": "2026-02-13T22:00:00+01:00",
+      "price_per_mwh_eur": 118.0,
+      "price_per_kwh_eur": 0.118,
+      "price_per_kwh": 0.118,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T21:00:00Z",
+      "end_utc": "2026-02-13T21:15:00Z",
+      "start_local": "2026-02-13T22:00:00+01:00",
+      "end_local": "2026-02-13T22:15:00+01:00",
+      "price_per_mwh_eur": 130.12,
+      "price_per_kwh_eur": 0.13012,
+      "price_per_kwh": 0.13012,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T21:15:00Z",
+      "end_utc": "2026-02-13T21:30:00Z",
+      "start_local": "2026-02-13T22:15:00+01:00",
+      "end_local": "2026-02-13T22:30:00+01:00",
+      "price_per_mwh_eur": 120.96,
+      "price_per_kwh_eur": 0.12096,
+      "price_per_kwh": 0.12096,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T21:30:00Z",
+      "end_utc": "2026-02-13T21:45:00Z",
+      "start_local": "2026-02-13T22:30:00+01:00",
+      "end_local": "2026-02-13T22:45:00+01:00",
+      "price_per_mwh_eur": 112.77,
+      "price_per_kwh_eur": 0.11277,
+      "price_per_kwh": 0.11277,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T21:45:00Z",
+      "end_utc": "2026-02-13T22:00:00Z",
+      "start_local": "2026-02-13T22:45:00+01:00",
+      "end_local": "2026-02-13T23:00:00+01:00",
+      "price_per_mwh_eur": 109.57,
+      "price_per_kwh_eur": 0.10956999999999999,
+      "price_per_kwh": 0.10956999999999999,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T22:00:00Z",
+      "end_utc": "2026-02-13T22:15:00Z",
+      "start_local": "2026-02-13T23:00:00+01:00",
+      "end_local": "2026-02-13T23:15:00+01:00",
+      "price_per_mwh_eur": 112.68,
+      "price_per_kwh_eur": 0.11268,
+      "price_per_kwh": 0.11268,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T22:15:00Z",
+      "end_utc": "2026-02-13T22:30:00Z",
+      "start_local": "2026-02-13T23:15:00+01:00",
+      "end_local": "2026-02-13T23:30:00+01:00",
+      "price_per_mwh_eur": 110.48,
+      "price_per_kwh_eur": 0.11048000000000001,
+      "price_per_kwh": 0.11048000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T22:30:00Z",
+      "end_utc": "2026-02-13T22:45:00Z",
+      "start_local": "2026-02-13T23:30:00+01:00",
+      "end_local": "2026-02-13T23:45:00+01:00",
+      "price_per_mwh_eur": 105.93,
+      "price_per_kwh_eur": 0.10593000000000001,
+      "price_per_kwh": 0.10593000000000001,
+      "currency": "EUR"
+    },
+    {
+      "start_utc": "2026-02-13T22:45:00Z",
+      "end_utc": "2026-02-13T23:00:00Z",
+      "start_local": "2026-02-13T23:45:00+01:00",
+      "end_local": "2026-02-14T00:00:00+01:00",
+      "price_per_mwh_eur": 102.04,
+      "price_per_kwh_eur": 0.10204,
+      "price_per_kwh": 0.10204,
+      "currency": "EUR"
+    }
+  ],
   "areas": [
     {
       "area_code": "HR",
       "eic_code": "10YHR-HEP------M",
-      "prices": [],
-      "error": "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YHR-HEP------M, 10YHR-HEP------M) and interval ."
+      "prices": [
+        {
+          "start_utc": "2026-02-12T23:00:00Z",
+          "end_utc": "2026-02-12T23:15:00Z",
+          "start_local": "2026-02-13T00:00:00+01:00",
+          "end_local": "2026-02-13T00:15:00+01:00",
+          "price_per_mwh_eur": 93.75,
+          "price_per_kwh_eur": 0.09375,
+          "price_per_kwh": 0.09375,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-12T23:15:00Z",
+          "end_utc": "2026-02-12T23:30:00Z",
+          "start_local": "2026-02-13T00:15:00+01:00",
+          "end_local": "2026-02-13T00:30:00+01:00",
+          "price_per_mwh_eur": 91.77,
+          "price_per_kwh_eur": 0.09176999999999999,
+          "price_per_kwh": 0.09176999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-12T23:30:00Z",
+          "end_utc": "2026-02-12T23:45:00Z",
+          "start_local": "2026-02-13T00:30:00+01:00",
+          "end_local": "2026-02-13T00:45:00+01:00",
+          "price_per_mwh_eur": 93.47,
+          "price_per_kwh_eur": 0.09347,
+          "price_per_kwh": 0.09347,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-12T23:45:00Z",
+          "end_utc": "2026-02-13T00:00:00Z",
+          "start_local": "2026-02-13T00:45:00+01:00",
+          "end_local": "2026-02-13T01:00:00+01:00",
+          "price_per_mwh_eur": 91.74,
+          "price_per_kwh_eur": 0.09173999999999999,
+          "price_per_kwh": 0.09173999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T00:00:00Z",
+          "end_utc": "2026-02-13T00:15:00Z",
+          "start_local": "2026-02-13T01:00:00+01:00",
+          "end_local": "2026-02-13T01:15:00+01:00",
+          "price_per_mwh_eur": 92.83,
+          "price_per_kwh_eur": 0.09283,
+          "price_per_kwh": 0.09283,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T00:15:00Z",
+          "end_utc": "2026-02-13T00:30:00Z",
+          "start_local": "2026-02-13T01:15:00+01:00",
+          "end_local": "2026-02-13T01:30:00+01:00",
+          "price_per_mwh_eur": 93.28,
+          "price_per_kwh_eur": 0.09328,
+          "price_per_kwh": 0.09328,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T00:30:00Z",
+          "end_utc": "2026-02-13T00:45:00Z",
+          "start_local": "2026-02-13T01:30:00+01:00",
+          "end_local": "2026-02-13T01:45:00+01:00",
+          "price_per_mwh_eur": 92.94,
+          "price_per_kwh_eur": 0.09294,
+          "price_per_kwh": 0.09294,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T00:45:00Z",
+          "end_utc": "2026-02-13T01:00:00Z",
+          "start_local": "2026-02-13T01:45:00+01:00",
+          "end_local": "2026-02-13T02:00:00+01:00",
+          "price_per_mwh_eur": 93.02,
+          "price_per_kwh_eur": 0.09301999999999999,
+          "price_per_kwh": 0.09301999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T01:00:00Z",
+          "end_utc": "2026-02-13T01:15:00Z",
+          "start_local": "2026-02-13T02:00:00+01:00",
+          "end_local": "2026-02-13T02:15:00+01:00",
+          "price_per_mwh_eur": 90.64,
+          "price_per_kwh_eur": 0.09064,
+          "price_per_kwh": 0.09064,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T01:15:00Z",
+          "end_utc": "2026-02-13T01:30:00Z",
+          "start_local": "2026-02-13T02:15:00+01:00",
+          "end_local": "2026-02-13T02:30:00+01:00",
+          "price_per_mwh_eur": 91.7,
+          "price_per_kwh_eur": 0.0917,
+          "price_per_kwh": 0.0917,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T01:30:00Z",
+          "end_utc": "2026-02-13T01:45:00Z",
+          "start_local": "2026-02-13T02:30:00+01:00",
+          "end_local": "2026-02-13T02:45:00+01:00",
+          "price_per_mwh_eur": 92.47,
+          "price_per_kwh_eur": 0.09247,
+          "price_per_kwh": 0.09247,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T01:45:00Z",
+          "end_utc": "2026-02-13T02:00:00Z",
+          "start_local": "2026-02-13T02:45:00+01:00",
+          "end_local": "2026-02-13T03:00:00+01:00",
+          "price_per_mwh_eur": 92.96,
+          "price_per_kwh_eur": 0.09295999999999999,
+          "price_per_kwh": 0.09295999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T02:00:00Z",
+          "end_utc": "2026-02-13T02:15:00Z",
+          "start_local": "2026-02-13T03:00:00+01:00",
+          "end_local": "2026-02-13T03:15:00+01:00",
+          "price_per_mwh_eur": 90.94,
+          "price_per_kwh_eur": 0.09094,
+          "price_per_kwh": 0.09094,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T02:15:00Z",
+          "end_utc": "2026-02-13T02:30:00Z",
+          "start_local": "2026-02-13T03:15:00+01:00",
+          "end_local": "2026-02-13T03:30:00+01:00",
+          "price_per_mwh_eur": 91.81,
+          "price_per_kwh_eur": 0.09181,
+          "price_per_kwh": 0.09181,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T02:30:00Z",
+          "end_utc": "2026-02-13T02:45:00Z",
+          "start_local": "2026-02-13T03:30:00+01:00",
+          "end_local": "2026-02-13T03:45:00+01:00",
+          "price_per_mwh_eur": 92.0,
+          "price_per_kwh_eur": 0.092,
+          "price_per_kwh": 0.092,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T02:45:00Z",
+          "end_utc": "2026-02-13T03:00:00Z",
+          "start_local": "2026-02-13T03:45:00+01:00",
+          "end_local": "2026-02-13T04:00:00+01:00",
+          "price_per_mwh_eur": 91.72,
+          "price_per_kwh_eur": 0.09172,
+          "price_per_kwh": 0.09172,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T03:00:00Z",
+          "end_utc": "2026-02-13T03:15:00Z",
+          "start_local": "2026-02-13T04:00:00+01:00",
+          "end_local": "2026-02-13T04:15:00+01:00",
+          "price_per_mwh_eur": 91.87,
+          "price_per_kwh_eur": 0.09187000000000001,
+          "price_per_kwh": 0.09187000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T03:15:00Z",
+          "end_utc": "2026-02-13T03:30:00Z",
+          "start_local": "2026-02-13T04:15:00+01:00",
+          "end_local": "2026-02-13T04:30:00+01:00",
+          "price_per_mwh_eur": 92.23,
+          "price_per_kwh_eur": 0.09223,
+          "price_per_kwh": 0.09223,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T03:30:00Z",
+          "end_utc": "2026-02-13T03:45:00Z",
+          "start_local": "2026-02-13T04:30:00+01:00",
+          "end_local": "2026-02-13T04:45:00+01:00",
+          "price_per_mwh_eur": 93.63,
+          "price_per_kwh_eur": 0.09362999999999999,
+          "price_per_kwh": 0.09362999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T03:45:00Z",
+          "end_utc": "2026-02-13T04:00:00Z",
+          "start_local": "2026-02-13T04:45:00+01:00",
+          "end_local": "2026-02-13T05:00:00+01:00",
+          "price_per_mwh_eur": 95.29,
+          "price_per_kwh_eur": 0.09529,
+          "price_per_kwh": 0.09529,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T04:00:00Z",
+          "end_utc": "2026-02-13T04:15:00Z",
+          "start_local": "2026-02-13T05:00:00+01:00",
+          "end_local": "2026-02-13T05:15:00+01:00",
+          "price_per_mwh_eur": 93.45,
+          "price_per_kwh_eur": 0.09345,
+          "price_per_kwh": 0.09345,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T04:15:00Z",
+          "end_utc": "2026-02-13T04:30:00Z",
+          "start_local": "2026-02-13T05:15:00+01:00",
+          "end_local": "2026-02-13T05:30:00+01:00",
+          "price_per_mwh_eur": 92.36,
+          "price_per_kwh_eur": 0.09236,
+          "price_per_kwh": 0.09236,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T04:30:00Z",
+          "end_utc": "2026-02-13T04:45:00Z",
+          "start_local": "2026-02-13T05:30:00+01:00",
+          "end_local": "2026-02-13T05:45:00+01:00",
+          "price_per_mwh_eur": 96.15,
+          "price_per_kwh_eur": 0.09615,
+          "price_per_kwh": 0.09615,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T04:45:00Z",
+          "end_utc": "2026-02-13T05:00:00Z",
+          "start_local": "2026-02-13T05:45:00+01:00",
+          "end_local": "2026-02-13T06:00:00+01:00",
+          "price_per_mwh_eur": 102.8,
+          "price_per_kwh_eur": 0.1028,
+          "price_per_kwh": 0.1028,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T05:00:00Z",
+          "end_utc": "2026-02-13T05:15:00Z",
+          "start_local": "2026-02-13T06:00:00+01:00",
+          "end_local": "2026-02-13T06:15:00+01:00",
+          "price_per_mwh_eur": 91.72,
+          "price_per_kwh_eur": 0.09172,
+          "price_per_kwh": 0.09172,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T05:15:00Z",
+          "end_utc": "2026-02-13T05:30:00Z",
+          "start_local": "2026-02-13T06:15:00+01:00",
+          "end_local": "2026-02-13T06:30:00+01:00",
+          "price_per_mwh_eur": 103.71,
+          "price_per_kwh_eur": 0.10371,
+          "price_per_kwh": 0.10371,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T05:30:00Z",
+          "end_utc": "2026-02-13T05:45:00Z",
+          "start_local": "2026-02-13T06:30:00+01:00",
+          "end_local": "2026-02-13T06:45:00+01:00",
+          "price_per_mwh_eur": 114.23,
+          "price_per_kwh_eur": 0.11423,
+          "price_per_kwh": 0.11423,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T05:45:00Z",
+          "end_utc": "2026-02-13T06:00:00Z",
+          "start_local": "2026-02-13T06:45:00+01:00",
+          "end_local": "2026-02-13T07:00:00+01:00",
+          "price_per_mwh_eur": 120.73,
+          "price_per_kwh_eur": 0.12073,
+          "price_per_kwh": 0.12073,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T06:00:00Z",
+          "end_utc": "2026-02-13T06:15:00Z",
+          "start_local": "2026-02-13T07:00:00+01:00",
+          "end_local": "2026-02-13T07:15:00+01:00",
+          "price_per_mwh_eur": 104.56,
+          "price_per_kwh_eur": 0.10456,
+          "price_per_kwh": 0.10456,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T06:15:00Z",
+          "end_utc": "2026-02-13T06:30:00Z",
+          "start_local": "2026-02-13T07:15:00+01:00",
+          "end_local": "2026-02-13T07:30:00+01:00",
+          "price_per_mwh_eur": 123.67,
+          "price_per_kwh_eur": 0.12367,
+          "price_per_kwh": 0.12367,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T06:30:00Z",
+          "end_utc": "2026-02-13T06:45:00Z",
+          "start_local": "2026-02-13T07:30:00+01:00",
+          "end_local": "2026-02-13T07:45:00+01:00",
+          "price_per_mwh_eur": 125.66,
+          "price_per_kwh_eur": 0.12566,
+          "price_per_kwh": 0.12566,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T06:45:00Z",
+          "end_utc": "2026-02-13T07:00:00Z",
+          "start_local": "2026-02-13T07:45:00+01:00",
+          "end_local": "2026-02-13T08:00:00+01:00",
+          "price_per_mwh_eur": 127.55,
+          "price_per_kwh_eur": 0.12755,
+          "price_per_kwh": 0.12755,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T07:00:00Z",
+          "end_utc": "2026-02-13T07:15:00Z",
+          "start_local": "2026-02-13T08:00:00+01:00",
+          "end_local": "2026-02-13T08:15:00+01:00",
+          "price_per_mwh_eur": 127.29,
+          "price_per_kwh_eur": 0.12729000000000001,
+          "price_per_kwh": 0.12729000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T07:15:00Z",
+          "end_utc": "2026-02-13T07:30:00Z",
+          "start_local": "2026-02-13T08:15:00+01:00",
+          "end_local": "2026-02-13T08:30:00+01:00",
+          "price_per_mwh_eur": 129.97,
+          "price_per_kwh_eur": 0.12997,
+          "price_per_kwh": 0.12997,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T07:30:00Z",
+          "end_utc": "2026-02-13T07:45:00Z",
+          "start_local": "2026-02-13T08:30:00+01:00",
+          "end_local": "2026-02-13T08:45:00+01:00",
+          "price_per_mwh_eur": 127.14,
+          "price_per_kwh_eur": 0.12714,
+          "price_per_kwh": 0.12714,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T07:45:00Z",
+          "end_utc": "2026-02-13T08:00:00Z",
+          "start_local": "2026-02-13T08:45:00+01:00",
+          "end_local": "2026-02-13T09:00:00+01:00",
+          "price_per_mwh_eur": 123.71,
+          "price_per_kwh_eur": 0.12371,
+          "price_per_kwh": 0.12371,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T08:00:00Z",
+          "end_utc": "2026-02-13T08:15:00Z",
+          "start_local": "2026-02-13T09:00:00+01:00",
+          "end_local": "2026-02-13T09:15:00+01:00",
+          "price_per_mwh_eur": 128.97,
+          "price_per_kwh_eur": 0.12897,
+          "price_per_kwh": 0.12897,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T08:15:00Z",
+          "end_utc": "2026-02-13T08:30:00Z",
+          "start_local": "2026-02-13T09:15:00+01:00",
+          "end_local": "2026-02-13T09:30:00+01:00",
+          "price_per_mwh_eur": 126.47,
+          "price_per_kwh_eur": 0.12647,
+          "price_per_kwh": 0.12647,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T08:30:00Z",
+          "end_utc": "2026-02-13T08:45:00Z",
+          "start_local": "2026-02-13T09:30:00+01:00",
+          "end_local": "2026-02-13T09:45:00+01:00",
+          "price_per_mwh_eur": 118.1,
+          "price_per_kwh_eur": 0.1181,
+          "price_per_kwh": 0.1181,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T08:45:00Z",
+          "end_utc": "2026-02-13T09:00:00Z",
+          "start_local": "2026-02-13T09:45:00+01:00",
+          "end_local": "2026-02-13T10:00:00+01:00",
+          "price_per_mwh_eur": 111.72,
+          "price_per_kwh_eur": 0.11172,
+          "price_per_kwh": 0.11172,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T09:00:00Z",
+          "end_utc": "2026-02-13T09:15:00Z",
+          "start_local": "2026-02-13T10:00:00+01:00",
+          "end_local": "2026-02-13T10:15:00+01:00",
+          "price_per_mwh_eur": 113.56,
+          "price_per_kwh_eur": 0.11356000000000001,
+          "price_per_kwh": 0.11356000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T09:15:00Z",
+          "end_utc": "2026-02-13T09:30:00Z",
+          "start_local": "2026-02-13T10:15:00+01:00",
+          "end_local": "2026-02-13T10:30:00+01:00",
+          "price_per_mwh_eur": 109.8,
+          "price_per_kwh_eur": 0.1098,
+          "price_per_kwh": 0.1098,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T09:30:00Z",
+          "end_utc": "2026-02-13T09:45:00Z",
+          "start_local": "2026-02-13T10:30:00+01:00",
+          "end_local": "2026-02-13T10:45:00+01:00",
+          "price_per_mwh_eur": 107.44,
+          "price_per_kwh_eur": 0.10744,
+          "price_per_kwh": 0.10744,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T09:45:00Z",
+          "end_utc": "2026-02-13T10:00:00Z",
+          "start_local": "2026-02-13T10:45:00+01:00",
+          "end_local": "2026-02-13T11:00:00+01:00",
+          "price_per_mwh_eur": 103.76,
+          "price_per_kwh_eur": 0.10376,
+          "price_per_kwh": 0.10376,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T10:00:00Z",
+          "end_utc": "2026-02-13T10:15:00Z",
+          "start_local": "2026-02-13T11:00:00+01:00",
+          "end_local": "2026-02-13T11:15:00+01:00",
+          "price_per_mwh_eur": 107.4,
+          "price_per_kwh_eur": 0.10740000000000001,
+          "price_per_kwh": 0.10740000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T10:15:00Z",
+          "end_utc": "2026-02-13T10:30:00Z",
+          "start_local": "2026-02-13T11:15:00+01:00",
+          "end_local": "2026-02-13T11:30:00+01:00",
+          "price_per_mwh_eur": 104.99,
+          "price_per_kwh_eur": 0.10499,
+          "price_per_kwh": 0.10499,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T10:30:00Z",
+          "end_utc": "2026-02-13T10:45:00Z",
+          "start_local": "2026-02-13T11:30:00+01:00",
+          "end_local": "2026-02-13T11:45:00+01:00",
+          "price_per_mwh_eur": 101.84,
+          "price_per_kwh_eur": 0.10184,
+          "price_per_kwh": 0.10184,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T10:45:00Z",
+          "end_utc": "2026-02-13T11:00:00Z",
+          "start_local": "2026-02-13T11:45:00+01:00",
+          "end_local": "2026-02-13T12:00:00+01:00",
+          "price_per_mwh_eur": 100.52,
+          "price_per_kwh_eur": 0.10052,
+          "price_per_kwh": 0.10052,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T11:00:00Z",
+          "end_utc": "2026-02-13T11:15:00Z",
+          "start_local": "2026-02-13T12:00:00+01:00",
+          "end_local": "2026-02-13T12:15:00+01:00",
+          "price_per_mwh_eur": 100.38,
+          "price_per_kwh_eur": 0.10038,
+          "price_per_kwh": 0.10038,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T11:15:00Z",
+          "end_utc": "2026-02-13T11:30:00Z",
+          "start_local": "2026-02-13T12:15:00+01:00",
+          "end_local": "2026-02-13T12:30:00+01:00",
+          "price_per_mwh_eur": 99.73,
+          "price_per_kwh_eur": 0.09973,
+          "price_per_kwh": 0.09973,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T11:30:00Z",
+          "end_utc": "2026-02-13T11:45:00Z",
+          "start_local": "2026-02-13T12:30:00+01:00",
+          "end_local": "2026-02-13T12:45:00+01:00",
+          "price_per_mwh_eur": 98.83,
+          "price_per_kwh_eur": 0.09883,
+          "price_per_kwh": 0.09883,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T11:45:00Z",
+          "end_utc": "2026-02-13T12:00:00Z",
+          "start_local": "2026-02-13T12:45:00+01:00",
+          "end_local": "2026-02-13T13:00:00+01:00",
+          "price_per_mwh_eur": 99.0,
+          "price_per_kwh_eur": 0.099,
+          "price_per_kwh": 0.099,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T12:00:00Z",
+          "end_utc": "2026-02-13T12:15:00Z",
+          "start_local": "2026-02-13T13:00:00+01:00",
+          "end_local": "2026-02-13T13:15:00+01:00",
+          "price_per_mwh_eur": 98.84,
+          "price_per_kwh_eur": 0.09884,
+          "price_per_kwh": 0.09884,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T12:15:00Z",
+          "end_utc": "2026-02-13T12:30:00Z",
+          "start_local": "2026-02-13T13:15:00+01:00",
+          "end_local": "2026-02-13T13:30:00+01:00",
+          "price_per_mwh_eur": 99.91,
+          "price_per_kwh_eur": 0.09991,
+          "price_per_kwh": 0.09991,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T12:30:00Z",
+          "end_utc": "2026-02-13T12:45:00Z",
+          "start_local": "2026-02-13T13:30:00+01:00",
+          "end_local": "2026-02-13T13:45:00+01:00",
+          "price_per_mwh_eur": 102.53,
+          "price_per_kwh_eur": 0.10253,
+          "price_per_kwh": 0.10253,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T12:45:00Z",
+          "end_utc": "2026-02-13T13:00:00Z",
+          "start_local": "2026-02-13T13:45:00+01:00",
+          "end_local": "2026-02-13T14:00:00+01:00",
+          "price_per_mwh_eur": 102.06,
+          "price_per_kwh_eur": 0.10206,
+          "price_per_kwh": 0.10206,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T13:00:00Z",
+          "end_utc": "2026-02-13T13:15:00Z",
+          "start_local": "2026-02-13T14:00:00+01:00",
+          "end_local": "2026-02-13T14:15:00+01:00",
+          "price_per_mwh_eur": 101.71,
+          "price_per_kwh_eur": 0.10171,
+          "price_per_kwh": 0.10171,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T13:15:00Z",
+          "end_utc": "2026-02-13T13:30:00Z",
+          "start_local": "2026-02-13T14:15:00+01:00",
+          "end_local": "2026-02-13T14:30:00+01:00",
+          "price_per_mwh_eur": 102.8,
+          "price_per_kwh_eur": 0.1028,
+          "price_per_kwh": 0.1028,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T13:30:00Z",
+          "end_utc": "2026-02-13T13:45:00Z",
+          "start_local": "2026-02-13T14:30:00+01:00",
+          "end_local": "2026-02-13T14:45:00+01:00",
+          "price_per_mwh_eur": 107.07,
+          "price_per_kwh_eur": 0.10707,
+          "price_per_kwh": 0.10707,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T13:45:00Z",
+          "end_utc": "2026-02-13T14:00:00Z",
+          "start_local": "2026-02-13T14:45:00+01:00",
+          "end_local": "2026-02-13T15:00:00+01:00",
+          "price_per_mwh_eur": 109.49,
+          "price_per_kwh_eur": 0.10948999999999999,
+          "price_per_kwh": 0.10948999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T14:00:00Z",
+          "end_utc": "2026-02-13T14:15:00Z",
+          "start_local": "2026-02-13T15:00:00+01:00",
+          "end_local": "2026-02-13T15:15:00+01:00",
+          "price_per_mwh_eur": 104.01,
+          "price_per_kwh_eur": 0.10401,
+          "price_per_kwh": 0.10401,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T14:15:00Z",
+          "end_utc": "2026-02-13T14:30:00Z",
+          "start_local": "2026-02-13T15:15:00+01:00",
+          "end_local": "2026-02-13T15:30:00+01:00",
+          "price_per_mwh_eur": 106.0,
+          "price_per_kwh_eur": 0.106,
+          "price_per_kwh": 0.106,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T14:30:00Z",
+          "end_utc": "2026-02-13T14:45:00Z",
+          "start_local": "2026-02-13T15:30:00+01:00",
+          "end_local": "2026-02-13T15:45:00+01:00",
+          "price_per_mwh_eur": 114.24,
+          "price_per_kwh_eur": 0.11424,
+          "price_per_kwh": 0.11424,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T14:45:00Z",
+          "end_utc": "2026-02-13T15:00:00Z",
+          "start_local": "2026-02-13T15:45:00+01:00",
+          "end_local": "2026-02-13T16:00:00+01:00",
+          "price_per_mwh_eur": 119.4,
+          "price_per_kwh_eur": 0.1194,
+          "price_per_kwh": 0.1194,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T15:00:00Z",
+          "end_utc": "2026-02-13T15:15:00Z",
+          "start_local": "2026-02-13T16:00:00+01:00",
+          "end_local": "2026-02-13T16:15:00+01:00",
+          "price_per_mwh_eur": 113.61,
+          "price_per_kwh_eur": 0.11361,
+          "price_per_kwh": 0.11361,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T15:15:00Z",
+          "end_utc": "2026-02-13T15:30:00Z",
+          "start_local": "2026-02-13T16:15:00+01:00",
+          "end_local": "2026-02-13T16:30:00+01:00",
+          "price_per_mwh_eur": 122.71,
+          "price_per_kwh_eur": 0.12271,
+          "price_per_kwh": 0.12271,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T15:30:00Z",
+          "end_utc": "2026-02-13T15:45:00Z",
+          "start_local": "2026-02-13T16:30:00+01:00",
+          "end_local": "2026-02-13T16:45:00+01:00",
+          "price_per_mwh_eur": 128.55,
+          "price_per_kwh_eur": 0.12855,
+          "price_per_kwh": 0.12855,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T15:45:00Z",
+          "end_utc": "2026-02-13T16:00:00Z",
+          "start_local": "2026-02-13T16:45:00+01:00",
+          "end_local": "2026-02-13T17:00:00+01:00",
+          "price_per_mwh_eur": 129.24,
+          "price_per_kwh_eur": 0.12924000000000002,
+          "price_per_kwh": 0.12924000000000002,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T16:00:00Z",
+          "end_utc": "2026-02-13T16:15:00Z",
+          "start_local": "2026-02-13T17:00:00+01:00",
+          "end_local": "2026-02-13T17:15:00+01:00",
+          "price_per_mwh_eur": 129.26,
+          "price_per_kwh_eur": 0.12925999999999999,
+          "price_per_kwh": 0.12925999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T16:15:00Z",
+          "end_utc": "2026-02-13T16:30:00Z",
+          "start_local": "2026-02-13T17:15:00+01:00",
+          "end_local": "2026-02-13T17:30:00+01:00",
+          "price_per_mwh_eur": 131.13,
+          "price_per_kwh_eur": 0.13113,
+          "price_per_kwh": 0.13113,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T16:30:00Z",
+          "end_utc": "2026-02-13T16:45:00Z",
+          "start_local": "2026-02-13T17:30:00+01:00",
+          "end_local": "2026-02-13T17:45:00+01:00",
+          "price_per_mwh_eur": 131.62,
+          "price_per_kwh_eur": 0.13162000000000001,
+          "price_per_kwh": 0.13162000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T16:45:00Z",
+          "end_utc": "2026-02-13T17:00:00Z",
+          "start_local": "2026-02-13T17:45:00+01:00",
+          "end_local": "2026-02-13T18:00:00+01:00",
+          "price_per_mwh_eur": 137.88,
+          "price_per_kwh_eur": 0.13788,
+          "price_per_kwh": 0.13788,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T17:00:00Z",
+          "end_utc": "2026-02-13T17:15:00Z",
+          "start_local": "2026-02-13T18:00:00+01:00",
+          "end_local": "2026-02-13T18:15:00+01:00",
+          "price_per_mwh_eur": 145.86,
+          "price_per_kwh_eur": 0.14586000000000002,
+          "price_per_kwh": 0.14586000000000002,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T17:15:00Z",
+          "end_utc": "2026-02-13T17:30:00Z",
+          "start_local": "2026-02-13T18:15:00+01:00",
+          "end_local": "2026-02-13T18:30:00+01:00",
+          "price_per_mwh_eur": 140.09,
+          "price_per_kwh_eur": 0.14009,
+          "price_per_kwh": 0.14009,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T17:30:00Z",
+          "end_utc": "2026-02-13T17:45:00Z",
+          "start_local": "2026-02-13T18:30:00+01:00",
+          "end_local": "2026-02-13T18:45:00+01:00",
+          "price_per_mwh_eur": 147.85,
+          "price_per_kwh_eur": 0.14784999999999998,
+          "price_per_kwh": 0.14784999999999998,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T17:45:00Z",
+          "end_utc": "2026-02-13T18:00:00Z",
+          "start_local": "2026-02-13T18:45:00+01:00",
+          "end_local": "2026-02-13T19:00:00+01:00",
+          "price_per_mwh_eur": 154.7,
+          "price_per_kwh_eur": 0.15469999999999998,
+          "price_per_kwh": 0.15469999999999998,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T18:00:00Z",
+          "end_utc": "2026-02-13T18:15:00Z",
+          "start_local": "2026-02-13T19:00:00+01:00",
+          "end_local": "2026-02-13T19:15:00+01:00",
+          "price_per_mwh_eur": 145.66,
+          "price_per_kwh_eur": 0.14565999999999998,
+          "price_per_kwh": 0.14565999999999998,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T18:15:00Z",
+          "end_utc": "2026-02-13T18:30:00Z",
+          "start_local": "2026-02-13T19:15:00+01:00",
+          "end_local": "2026-02-13T19:30:00+01:00",
+          "price_per_mwh_eur": 143.31,
+          "price_per_kwh_eur": 0.14331,
+          "price_per_kwh": 0.14331,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T18:30:00Z",
+          "end_utc": "2026-02-13T18:45:00Z",
+          "start_local": "2026-02-13T19:30:00+01:00",
+          "end_local": "2026-02-13T19:45:00+01:00",
+          "price_per_mwh_eur": 131.25,
+          "price_per_kwh_eur": 0.13125,
+          "price_per_kwh": 0.13125,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T18:45:00Z",
+          "end_utc": "2026-02-13T19:00:00Z",
+          "start_local": "2026-02-13T19:45:00+01:00",
+          "end_local": "2026-02-13T20:00:00+01:00",
+          "price_per_mwh_eur": 124.95,
+          "price_per_kwh_eur": 0.12495,
+          "price_per_kwh": 0.12495,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T19:00:00Z",
+          "end_utc": "2026-02-13T19:15:00Z",
+          "start_local": "2026-02-13T20:00:00+01:00",
+          "end_local": "2026-02-13T20:15:00+01:00",
+          "price_per_mwh_eur": 150.46,
+          "price_per_kwh_eur": 0.15046,
+          "price_per_kwh": 0.15046,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T19:15:00Z",
+          "end_utc": "2026-02-13T19:30:00Z",
+          "start_local": "2026-02-13T20:15:00+01:00",
+          "end_local": "2026-02-13T20:30:00+01:00",
+          "price_per_mwh_eur": 136.9,
+          "price_per_kwh_eur": 0.1369,
+          "price_per_kwh": 0.1369,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T19:30:00Z",
+          "end_utc": "2026-02-13T19:45:00Z",
+          "start_local": "2026-02-13T20:30:00+01:00",
+          "end_local": "2026-02-13T20:45:00+01:00",
+          "price_per_mwh_eur": 128.27,
+          "price_per_kwh_eur": 0.12827000000000002,
+          "price_per_kwh": 0.12827000000000002,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T19:45:00Z",
+          "end_utc": "2026-02-13T20:00:00Z",
+          "start_local": "2026-02-13T20:45:00+01:00",
+          "end_local": "2026-02-13T21:00:00+01:00",
+          "price_per_mwh_eur": 122.42,
+          "price_per_kwh_eur": 0.12242,
+          "price_per_kwh": 0.12242,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T20:00:00Z",
+          "end_utc": "2026-02-13T20:15:00Z",
+          "start_local": "2026-02-13T21:00:00+01:00",
+          "end_local": "2026-02-13T21:15:00+01:00",
+          "price_per_mwh_eur": 136.08,
+          "price_per_kwh_eur": 0.13608,
+          "price_per_kwh": 0.13608,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T20:15:00Z",
+          "end_utc": "2026-02-13T20:30:00Z",
+          "start_local": "2026-02-13T21:15:00+01:00",
+          "end_local": "2026-02-13T21:30:00+01:00",
+          "price_per_mwh_eur": 133.42,
+          "price_per_kwh_eur": 0.13341999999999998,
+          "price_per_kwh": 0.13341999999999998,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T20:30:00Z",
+          "end_utc": "2026-02-13T20:45:00Z",
+          "start_local": "2026-02-13T21:30:00+01:00",
+          "end_local": "2026-02-13T21:45:00+01:00",
+          "price_per_mwh_eur": 125.19,
+          "price_per_kwh_eur": 0.12519,
+          "price_per_kwh": 0.12519,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T20:45:00Z",
+          "end_utc": "2026-02-13T21:00:00Z",
+          "start_local": "2026-02-13T21:45:00+01:00",
+          "end_local": "2026-02-13T22:00:00+01:00",
+          "price_per_mwh_eur": 118.0,
+          "price_per_kwh_eur": 0.118,
+          "price_per_kwh": 0.118,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T21:00:00Z",
+          "end_utc": "2026-02-13T21:15:00Z",
+          "start_local": "2026-02-13T22:00:00+01:00",
+          "end_local": "2026-02-13T22:15:00+01:00",
+          "price_per_mwh_eur": 130.12,
+          "price_per_kwh_eur": 0.13012,
+          "price_per_kwh": 0.13012,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T21:15:00Z",
+          "end_utc": "2026-02-13T21:30:00Z",
+          "start_local": "2026-02-13T22:15:00+01:00",
+          "end_local": "2026-02-13T22:30:00+01:00",
+          "price_per_mwh_eur": 120.96,
+          "price_per_kwh_eur": 0.12096,
+          "price_per_kwh": 0.12096,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T21:30:00Z",
+          "end_utc": "2026-02-13T21:45:00Z",
+          "start_local": "2026-02-13T22:30:00+01:00",
+          "end_local": "2026-02-13T22:45:00+01:00",
+          "price_per_mwh_eur": 112.77,
+          "price_per_kwh_eur": 0.11277,
+          "price_per_kwh": 0.11277,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T21:45:00Z",
+          "end_utc": "2026-02-13T22:00:00Z",
+          "start_local": "2026-02-13T22:45:00+01:00",
+          "end_local": "2026-02-13T23:00:00+01:00",
+          "price_per_mwh_eur": 109.57,
+          "price_per_kwh_eur": 0.10956999999999999,
+          "price_per_kwh": 0.10956999999999999,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T22:00:00Z",
+          "end_utc": "2026-02-13T22:15:00Z",
+          "start_local": "2026-02-13T23:00:00+01:00",
+          "end_local": "2026-02-13T23:15:00+01:00",
+          "price_per_mwh_eur": 112.68,
+          "price_per_kwh_eur": 0.11268,
+          "price_per_kwh": 0.11268,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T22:15:00Z",
+          "end_utc": "2026-02-13T22:30:00Z",
+          "start_local": "2026-02-13T23:15:00+01:00",
+          "end_local": "2026-02-13T23:30:00+01:00",
+          "price_per_mwh_eur": 110.48,
+          "price_per_kwh_eur": 0.11048000000000001,
+          "price_per_kwh": 0.11048000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T22:30:00Z",
+          "end_utc": "2026-02-13T22:45:00Z",
+          "start_local": "2026-02-13T23:30:00+01:00",
+          "end_local": "2026-02-13T23:45:00+01:00",
+          "price_per_mwh_eur": 105.93,
+          "price_per_kwh_eur": 0.10593000000000001,
+          "price_per_kwh": 0.10593000000000001,
+          "currency": "EUR"
+        },
+        {
+          "start_utc": "2026-02-13T22:45:00Z",
+          "end_utc": "2026-02-13T23:00:00Z",
+          "start_local": "2026-02-13T23:45:00+01:00",
+          "end_local": "2026-02-14T00:00:00+01:00",
+          "price_per_mwh_eur": 102.04,
+          "price_per_kwh_eur": 0.10204,
+          "price_per_kwh": 0.10204,
+          "currency": "EUR"
+        }
+      ]
     }
   ],
-  "errors": [
-    "999: No matching data found for Data item ENERGY_PRICES [12.1.D] (10YHR-HEP------M, 10YHR-HEP------M) and interval ."
-  ],
-  "error": "No areas fetched successfully for HR."
+  "errors": [],
+  "error": null
 }
