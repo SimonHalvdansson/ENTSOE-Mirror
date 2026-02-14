@@ -5,7 +5,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import date, datetime, time, timedelta, timezone
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -338,7 +338,6 @@ def build_entsoe_url(api_key: str, eic_code: str, start_utc: datetime, end_utc: 
     params = {
         "securityToken": api_key,
         "documentType": "A44",
-        "processType": "A01",
         "in_Domain": eic_code,
         "out_Domain": eic_code,
         "periodStart": start_utc.strftime(ENTSOE_PERIOD_FORMAT),
@@ -347,7 +346,7 @@ def build_entsoe_url(api_key: str, eic_code: str, start_utc: datetime, end_utc: 
     return f"{ENTSOE_API_URL}?{urlencode(params)}"
 
 
-def parse_entsoe_prices(xml_text: str, zone: ZoneInfo, target_date: date) -> list[dict]:
+def parse_entsoe_prices(xml_text: str, zone: ZoneInfo, min_end_local: datetime) -> list[dict]:
     root = ET.fromstring(xml_text)
     prices: list[dict] = []
 
@@ -383,7 +382,8 @@ def parse_entsoe_prices(xml_text: str, zone: ZoneInfo, target_date: date) -> lis
             period_start_local = period_start_utc.astimezone(zone)
             period_end_local = period_end_utc.astimezone(zone)
 
-            if period_start_local.date() != target_date:
+            # Keep only intervals that are still in the future (or currently active).
+            if period_end_local <= min_end_local:
                 continue
 
             prices.append(
@@ -417,7 +417,7 @@ def fetch_area_prices(
     api_key: str,
     area: AreaConfig,
     zone: ZoneInfo,
-    target_date: date,
+    now_local: datetime,
     start_utc: datetime,
     end_utc: datetime,
     currency: str,
@@ -426,7 +426,7 @@ def fetch_area_prices(
     url = build_entsoe_url(api_key=api_key, eic_code=area.eic_code, start_utc=start_utc, end_utc=end_utc)
     xml_text = fetch_text(url=url, timeout=30)
 
-    prices_eur = parse_entsoe_prices(xml_text=xml_text, zone=zone, target_date=target_date)
+    prices_eur = parse_entsoe_prices(xml_text=xml_text, zone=zone, min_end_local=now_local)
     if not prices_eur:
         error = parse_entsoe_error(xml_text)
         if error:
@@ -452,9 +452,14 @@ def fetch_area_prices(
 
 def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str, float]) -> dict:
     zone = ZoneInfo(country.timezone_name)
-    target_date = datetime.now(zone).date()
-    start_local = datetime.combine(target_date, time.min, zone)
-    end_local = start_local + timedelta(days=1)
+    now_local = datetime.now(zone)
+    window_start_local = datetime.combine(now_local.date(), time.min, zone)
+    # Day-ahead prices are published ahead of delivery day. Request multiple
+    # upcoming days and then keep only forward-looking intervals.
+    window_end_local = window_start_local + timedelta(days=3)
+    target_date = now_local.date()
+    start_local = window_start_local
+    end_local = window_end_local
     start_utc = start_local.astimezone(timezone.utc)
     end_utc = end_local.astimezone(timezone.utc)
 
@@ -467,7 +472,7 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
                     api_key=api_key,
                     area=area,
                     zone=zone,
-                    target_date=target_date,
+                    now_local=now_local,
                     start_utc=start_utc,
                     end_utc=end_utc,
                     currency=country.currency,
@@ -501,6 +506,8 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
         "display_name": country.display_name,
         "timezone": country.timezone_name,
         "target_date_local": target_date.isoformat(),
+        "window_start_local": start_local.isoformat(),
+        "window_end_local": end_local.isoformat(),
         "fetched_at_utc": iso_z(datetime.now(timezone.utc)),
         "currency": country.currency,
         "exchange_rate": {
