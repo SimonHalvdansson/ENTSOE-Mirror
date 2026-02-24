@@ -548,6 +548,41 @@ def write_payload(country_slug: str, payload: dict) -> None:
     print(f"Wrote {destination}")
 
 
+def discover_country_index() -> list[dict[str, str]]:
+    countries: list[dict[str, str]] = []
+    if not OUTPUT_DIR.exists():
+        return countries
+
+    for path in OUTPUT_DIR.glob("*.json"):
+        if path.name == "countries.json":
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        slug = path.stem
+        countries.append(
+            {
+                "slug": slug,
+                "display_name": payload.get("display_name") or slug.replace("-", " ").title(),
+                "country_code": payload.get("country_code") or "",
+                "timezone": payload.get("timezone") or "UTC",
+            }
+        )
+
+    countries.sort(key=lambda item: item["display_name"].casefold())
+    return countries
+
+
+def write_country_index() -> None:
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    destination = OUTPUT_DIR / "countries.json"
+    payload = {"countries": discover_country_index()}
+    destination.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {destination}")
+
+
 def main() -> None:
     api_key = os.environ.get("ENTSOE_API_KEY", "").strip()
     if not api_key:
@@ -573,6 +608,8 @@ def main() -> None:
         except Exception as exc:  # noqa: BLE001
             failures.append(f"{country.country_code}: {exc}")
 
+    write_country_index()
+
     if failures:
         print("Country warnings: " + "; ".join(failures))
     if failures and strict_failures:
@@ -581,4 +618,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -52,11 +52,14 @@ async function init() {
 }
 
 async function fetchCountryList() {
-  const response = await fetch("/api/countries", { cache: "no-store" });
+  const response = await fetch("data/countries.json", { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Country list failed (${response.status}).`);
   }
   const payload = await response.json();
+  if (Array.isArray(payload)) {
+    return payload;
+  }
   return Array.isArray(payload.countries) ? payload.countries : [];
 }
 
