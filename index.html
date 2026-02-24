@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ENTSO-E Spot Prices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="glass top-card">
+      <div>
+        <p class="eyebrow">ENTSO-E Mirror</p>
+        <h1>Electricity Spot Prices</h1>
+      </div>
+      <div class="controls">
+        <div class="control-grid">
+          <div class="control-field country-field">
+            <label for="country-select">Country</label>
+            <select id="country-select" aria-label="Select country"></select>
+          </div>
+          <div class="control-field area-field" id="area-field" hidden>
+            <label for="area-select">Area</label>
+            <select id="area-select" aria-label="Select area"></select>
+          </div>
+          <a id="raw-json-link" class="raw-button" href="#" target="_blank" rel="noopener noreferrer">View Raw JSON</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="glass current-card">
+        <p id="price-label" class="label">Current interval</p>
+        <p id="country-name" class="country-name">Loading...</p>
+        <p id="price-value" class="price-value">--</p>
+        <p id="price-subtitle" class="muted">Waiting for data...</p>
+        <dl class="stats">
+          <div>
+            <dt>Min</dt>
+            <dd id="stat-min">--</dd>
+          </div>
+          <div>
+            <dt>Max</dt>
+            <dd id="stat-max">--</dd>
+          </div>
+          <div>
+            <dt>Points</dt>
+            <dd id="stat-points">--</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="glass chart-card">
+        <h2>Price Over Time</h2>
+        <div id="chart" class="chart" role="img" aria-label="Line chart of spot prices"></div>
+        <p id="chart-summary" class="muted"></p>
+      </section>
+
+      <section class="glass list-card">
+        <h2>Upcoming Prices</h2>
+        <ul id="future-list" class="future-list">
+          <li>Loading...</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
