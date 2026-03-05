@@ -2,16 +2,13 @@ const elements = {
   countrySelect: document.getElementById("country-select"),
   areaSelect: document.getElementById("area-select"),
   areaField: document.getElementById("area-field"),
-  rawJsonLink: document.getElementById("raw-json-link"),
   priceLabel: document.getElementById("price-label"),
   countryName: document.getElementById("country-name"),
   priceValue: document.getElementById("price-value"),
   priceSubtitle: document.getElementById("price-subtitle"),
   statMin: document.getElementById("stat-min"),
   statMax: document.getElementById("stat-max"),
-  statPoints: document.getElementById("stat-points"),
   chart: document.getElementById("chart"),
-  chartSummary: document.getElementById("chart-summary"),
   futureList: document.getElementById("future-list"),
 };
 
@@ -79,7 +76,6 @@ async function loadCountryData(slug) {
   }
 
   state.selectedSlug = slug;
-  elements.rawJsonLink.href = `data/${slug}.json`;
   elements.priceValue.textContent = "Loading...";
   elements.priceSubtitle.textContent = "Fetching latest values...";
   elements.futureList.innerHTML = "<li>Loading...</li>";
@@ -175,7 +171,6 @@ function renderDashboard() {
   elements.priceSubtitle.textContent = formatInterval(activePoint, timezone);
   elements.statMin.textContent = formatKwh(min, currency);
   elements.statMax.textContent = formatKwh(max, currency);
-  elements.statPoints.textContent = String(points.length);
 
   renderFutureList(points, active.index, timezone, currency);
   renderChart(points, active.index, timezone);
@@ -199,7 +194,7 @@ function renderFutureList(points, activeIndex, timezone, currency) {
     }
 
     item.innerHTML = `
-      <span class="interval-time">${formatInterval(point, timezone)}</span>
+      <span class="interval-time">${formatIntervalNoWeekday(point, timezone)}</span>
       <span class="interval-price">${formatKwh(point.value, currency)}</span>
     `;
     elements.futureList.appendChild(item);
@@ -209,7 +204,6 @@ function renderFutureList(points, activeIndex, timezone, currency) {
 function renderChart(points, activeIndex, timezone) {
   if (points.length < 2) {
     elements.chart.innerHTML = "<p class='muted'>Not enough points to draw chart.</p>";
-    elements.chartSummary.textContent = "";
     return;
   }
 
@@ -223,8 +217,11 @@ function renderChart(points, activeIndex, timezone) {
   const rawMin = Math.min(...values);
   const rawMax = Math.max(...values);
   const spread = Math.max(rawMax - rawMin, Math.max(Math.abs(rawMax), 0.01) * 0.05);
-  const min = rawMin - spread * 0.1;
-  const max = rawMax + spread * 0.1;
+  const min = rawMin >= 0 ? 0 : rawMin - spread * 0.1;
+  let max = rawMax + spread * 0.1;
+  if (max <= min) {
+    max = min + 1;
+  }
 
   const xAt = (index) => {
     if (points.length === 1) {
@@ -293,11 +290,6 @@ function renderChart(points, activeIndex, timezone) {
       <g class="xlabels">${xLabels}</g>
     </svg>
   `;
-
-  const first = points[0].start;
-  const last = points[points.length - 1].end;
-  elements.chartSummary.textContent =
-    `${points.length} points from ${formatChartTime(first, timezone)} to ${formatChartTime(last, timezone)}.`;
 }
 
 function renderFatal(message) {
@@ -307,9 +299,7 @@ function renderFatal(message) {
   elements.priceSubtitle.textContent = message;
   elements.statMin.textContent = "--";
   elements.statMax.textContent = "--";
-  elements.statPoints.textContent = "--";
   elements.chart.innerHTML = "<p class='muted'>No chart data.</p>";
-  elements.chartSummary.textContent = "";
   elements.futureList.innerHTML = `<li>${message}</li>`;
 }
 
@@ -357,15 +347,14 @@ function formatInterval(point, timezone) {
   return `${formatter.format(point.start)} - ${formatter.format(point.end)}`;
 }
 
-function formatChartTime(date, timezone) {
+function formatIntervalNoWeekday(point, timezone) {
   const formatter = new Intl.DateTimeFormat("en-GB", {
-    month: "short",
-    day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
+    hour12: false,
     timeZone: timezone,
   });
-  return formatter.format(date);
+  return `${formatter.format(point.start)} - ${formatter.format(point.end)}`;
 }
 
 function formatAxisTime(date, timezone) {
@@ -380,7 +369,26 @@ function formatAxisTime(date, timezone) {
 }
 
 function formatKwh(value, currency) {
-  return `${value.toFixed(5)} ${currency}/kWh`;
+  return `${value.toFixed(5)} ${formatCurrencyPerKwh(currency)}`;
+}
+
+function formatCurrencyPerKwh(currencyCode) {
+  const code = String(currencyCode || "").toUpperCase();
+  const symbolMap = {
+    EUR: "€/kWh",
+    NOK: "kr/kWh",
+    SEK: "kr/kWh",
+    DKK: "kr/kWh",
+    CHF: "Fr/kWh",
+    CZK: "Kc/kWh",
+    PLN: "zl/kWh",
+    HUF: "Ft/kWh",
+    RON: "lei/kWh",
+    BGN: "lv/kWh",
+    RSD: "din/kWh",
+  };
+
+  return symbolMap[code] || `${code || "EUR"}/kWh`;
 }
 
 function formatTick(value) {

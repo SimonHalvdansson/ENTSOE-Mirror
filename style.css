@@ -100,6 +100,10 @@ h2 {
   flex-direction: column;
 }
 
+.control-field[hidden] {
+  display: none !important;
+}
+
 .country-field {
   flex: 1;
   min-width: 220px;
@@ -162,8 +166,16 @@ select {
   gap: 1rem;
 }
 
+.bottom-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .current-card,
 .chart-card,
+.avg-card,
 .list-card {
   padding: 1.15rem 1.2rem;
 }
@@ -177,7 +189,14 @@ select {
 }
 
 .list-card {
-  grid-column: 1 / -1;
+  grid-column: auto;
+}
+
+.avg-placeholder {
+  margin: 0.55rem 0 0;
+  font-size: 1rem;
+  font-family: var(--mono-font);
+  color: var(--muted);
 }
 
 .label {
@@ -213,7 +232,7 @@ select {
 .stats {
   margin: 1rem 0 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.55rem;
 }
 
@@ -358,8 +377,14 @@ select {
 
   .current-card,
   .chart-card,
+  .bottom-row,
+  .avg-card,
   .list-card {
     grid-column: 1;
+  }
+
+  .bottom-row {
+    grid-template-columns: 1fr;
   }
 }
 

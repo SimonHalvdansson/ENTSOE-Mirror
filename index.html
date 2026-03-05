@@ -26,7 +26,6 @@
             <label for="area-select">Area</label>
             <select id="area-select" aria-label="Select area"></select>
           </div>
-          <a id="raw-json-link" class="raw-button" href="#" target="_blank" rel="noopener noreferrer">View Raw JSON</a>
         </div>
       </div>
     </header>
@@ -46,25 +45,27 @@
             <dt>Max</dt>
             <dd id="stat-max">--</dd>
           </div>
-          <div>
-            <dt>Points</dt>
-            <dd id="stat-points">--</dd>
-          </div>
         </dl>
       </section>
 
       <section class="glass chart-card">
         <h2>Price Over Time</h2>
         <div id="chart" class="chart" role="img" aria-label="Line chart of spot prices"></div>
-        <p id="chart-summary" class="muted"></p>
       </section>
 
-      <section class="glass list-card">
-        <h2>Upcoming Prices</h2>
-        <ul id="future-list" class="future-list">
-          <li>Loading...</li>
-        </ul>
-      </section>
+      <div class="bottom-row">
+        <section class="glass avg-card">
+          <h2>Today's Average</h2>
+          <p class="avg-placeholder">Today's average</p>
+        </section>
+
+        <section class="glass list-card">
+          <h2>Upcoming Prices</h2>
+          <ul id="future-list" class="future-list">
+            <li>Loading...</li>
+          </ul>
+        </section>
+      </div>
     </main>
   </div>
 
