@@ -429,14 +429,15 @@ def fetch_area_prices(
             raise RuntimeError(error)
         raise RuntimeError("No ENTSOE price entries parsed.")
 
+    trailing_cutoff_local = now_local - timedelta(hours=12)
     prices_eur = []
     for entry in prices_all:
         end_local = datetime.fromisoformat(entry["end_local"])
-        if end_local > now_local:
+        if end_local >= trailing_cutoff_local:
             prices_eur.append(entry)
 
     if not prices_eur:
-        # If no forward-looking data is available yet, keep the freshest
+        # If no data exists in the trailing window yet, keep the freshest
         # complete delivery day instead of failing the area.
         day_buckets: dict = {}
         for entry in prices_all:
@@ -467,10 +468,10 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
     now_local = datetime.now(zone)
     # Some bidding zones return 999 for A44 unless the requested interval
     # starts before the current local day boundary. We request from yesterday
-    # and filter out past intervals after parsing.
+    # and later keep only the recent trailing window after parsing.
     window_start_local = datetime.combine(now_local.date() - timedelta(days=1), time.min, zone)
     # Day-ahead prices are published ahead of delivery day. Request multiple
-    # upcoming days and then keep only forward-looking intervals.
+    # upcoming days while retaining recent historical intervals.
     window_end_local = window_start_local + timedelta(days=4)
     target_date = now_local.date()
     start_local = window_start_local
