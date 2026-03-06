@@ -1,7 +1,9 @@
 const elements = {
+  regionButton: document.getElementById("detect-country-button"),
   countrySelect: document.getElementById("country-select"),
   areaSelect: document.getElementById("area-select"),
   areaField: document.getElementById("area-field"),
+  selectionHint: document.getElementById("selection-hint"),
   priceLabel: document.getElementById("price-label"),
   countryName: document.getElementById("country-name"),
   priceValue: document.getElementById("price-value"),
@@ -11,6 +13,11 @@ const elements = {
   chart: document.getElementById("chart"),
   futureList: document.getElementById("future-list"),
 };
+
+const STORAGE_KEY = "entsoe-selection";
+const IP_LOOKUP_URL = "https://ipapi.co/json/";
+const IP_LOOKUP_TIMEOUT_MS = 5000;
+const DEVICE_LOCATION_TIMEOUT_MS = 8000;
 
 const state = {
   countries: [],
@@ -23,11 +30,16 @@ document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   elements.countrySelect.addEventListener("change", async (event) => {
+    setSelectionHint("");
     await loadCountryData(event.target.value);
   });
   elements.areaSelect.addEventListener("change", () => {
     state.selectedAreaCode = elements.areaSelect.value;
+    persistSelection();
     renderDashboard();
+  });
+  elements.regionButton.addEventListener("click", async () => {
+    await detectRegionFromLocation();
   });
 
   try {
@@ -39,9 +51,13 @@ async function init() {
       return;
     }
 
-    const firstSlug = state.countries[0].slug;
-    elements.countrySelect.value = firstSlug;
-    await loadCountryData(firstSlug);
+    const initialSelection = resolveInitialSelection(state.countries);
+    elements.countrySelect.value = initialSelection.slug;
+    await loadCountryData(initialSelection.slug, {
+      preferredAreaCode: initialSelection.areaCode,
+      useStoredArea: false,
+    });
+    void refineSelectionFromIp(getCurrentSelection());
   } catch (error) {
     console.error(error);
     renderFatal("Could not load country list.");
@@ -70,12 +86,17 @@ function renderCountryOptions(countries) {
   }
 }
 
-async function loadCountryData(slug) {
+async function loadCountryData(slug, options = {}) {
   if (!slug) {
     return;
   }
 
+  const preferredAreaCode =
+    typeof options.preferredAreaCode === "string" ? options.preferredAreaCode : "";
+  const useStoredArea = options.useStoredArea !== false;
   state.selectedSlug = slug;
+  state.selectedAreaCode =
+    preferredAreaCode || (useStoredArea ? getStoredAreaCode(slug) : "");
   elements.priceValue.textContent = "Loading...";
   elements.priceSubtitle.textContent = "Fetching latest values...";
   elements.futureList.innerHTML = "<li>Loading...</li>";
@@ -88,11 +109,467 @@ async function loadCountryData(slug) {
 
     state.data = await response.json();
     syncAreaOptions();
+    persistSelection();
     renderDashboard();
   } catch (error) {
     console.error(error);
     renderFatal(`Could not load data/${slug}.json.`);
   }
+}
+
+function resolveInitialSelection(countries) {
+  const browserCountry = detectCountryFromBrowser(countries);
+  if (browserCountry) {
+    setSelectionHint(`Defaulted to ${browserCountry.display_name} from browser settings.`);
+    return { slug: browserCountry.slug, areaCode: "" };
+  }
+
+  const storedSelection = readStoredSelection();
+  const storedCountry = countries.find(
+    (country) => country.slug === storedSelection.slug
+  );
+  if (storedCountry) {
+    const areaCode = getStoredAreaCode(storedCountry.slug);
+    setSelectionHint(`Loaded saved region: ${storedCountry.display_name}.`);
+    return { slug: storedCountry.slug, areaCode };
+  }
+
+  setSelectionHint("");
+  return { slug: countries[0].slug, areaCode: "" };
+}
+
+function detectCountryFromBrowser(countries) {
+  const regionCodes = getBrowserRegionCodes();
+  for (const code of regionCodes) {
+    const match = findCountryByCode(countries, code);
+    if (match) {
+      return match;
+    }
+  }
+
+  const timezone = getBrowserTimezone();
+  if (timezone) {
+    return findCountryByTimezone(countries, timezone);
+  }
+
+  return null;
+}
+
+function getBrowserRegionCodes() {
+  const locales = Array.isArray(navigator.languages)
+    ? navigator.languages
+    : [navigator.language];
+  const codes = [];
+
+  for (const locale of locales) {
+    const match = String(locale || "")
+      .trim()
+      .match(/[-_]([A-Za-z]{2})(?:$|[-_])/);
+    if (!match) {
+      continue;
+    }
+
+    const code = match[1].toUpperCase();
+    if (!codes.includes(code)) {
+      codes.push(code);
+    }
+  }
+
+  return codes;
+}
+
+function getBrowserTimezone() {
+  try {
+    return Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+  } catch (error) {
+    console.error(error);
+    return "";
+  }
+}
+
+async function refineSelectionFromIp(expectedSelection) {
+  try {
+    const payload = await fetchIpLookup();
+    const selection = matchSelectionFromLocationPayload(payload, state.countries);
+
+    if (
+      !selection.country ||
+      (expectedSelection &&
+        !selectionExactlyMatches(expectedSelection, getCurrentSelection())) ||
+      selectionMatchesCurrent(selection)
+    ) {
+      return;
+    }
+
+    await applyDetectedSelection(selection);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function detectRegionFromLocation() {
+  setRegionButtonState(true);
+
+  try {
+    setSelectionHint("Checking device GPS location...");
+    const deviceCoords = await getDeviceCoordinates();
+    const selection = matchSelectionFromCoordinates(deviceCoords, state.countries);
+
+    if (!selection.country) {
+      throw new Error("No supported country match found.");
+    }
+
+    await applyDetectedSelection(selection, { sourcePrefix: "Exact location" });
+  } catch (error) {
+    console.error(error);
+    setSelectionHint("Could not determine an exact location from GPS.");
+  } finally {
+    setRegionButtonState(false);
+  }
+}
+
+function selectionMatchesCurrent(selection) {
+  if (!selection?.country) {
+    return false;
+  }
+
+  return selectionMatchesLoosely(
+    { slug: selection.country.slug, areaCode: selection.areaCode },
+    getCurrentSelection()
+  );
+}
+
+function selectionMatchesLoosely(left, right) {
+  if (!left || !right || left.slug !== right.slug) {
+    return false;
+  }
+
+  if (!left.areaCode || !right.areaCode) {
+    return true;
+  }
+
+  return left.areaCode === right.areaCode;
+}
+
+function selectionExactlyMatches(left, right) {
+  return Boolean(
+    left &&
+      right &&
+      left.slug === right.slug &&
+      (left.areaCode || "") === (right.areaCode || "")
+  );
+}
+
+function getCurrentSelection() {
+  return {
+    slug: state.selectedSlug,
+    areaCode: state.selectedAreaCode,
+  };
+}
+
+function getDeviceCoordinates() {
+  if (!("geolocation" in navigator)) {
+    return Promise.reject(new Error("Geolocation is not available."));
+  }
+
+  return new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        resolve({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+          source: "device location",
+        });
+      },
+      reject,
+      {
+        enableHighAccuracy: true,
+        timeout: DEVICE_LOCATION_TIMEOUT_MS,
+        maximumAge: 300000,
+      }
+    );
+  });
+}
+
+async function fetchIpLookup() {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), IP_LOOKUP_TIMEOUT_MS);
+
+  try {
+    const response = await fetch(IP_LOOKUP_URL, {
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`IP lookup failed (${response.status}).`);
+    }
+
+    return await response.json();
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+}
+
+function matchSelectionFromLocationPayload(payload, countries) {
+  const countryCode = String(
+    payload?.country_code || payload?.country || payload?.countryCode || ""
+  ).toUpperCase();
+  const timezone = String(payload?.timezone || "");
+  const coordinates = extractCoordinates(payload);
+  const country =
+    findCountryByCode(countries, countryCode) ||
+    findCountryByTimezone(countries, timezone) ||
+    null;
+
+  if (!country) {
+    return { country: null, areaCode: "", sourceLabel: "" };
+  }
+
+  const areaCode = coordinates
+    ? inferAreaCodeFromCoordinates(
+        country.slug,
+        coordinates.latitude,
+        coordinates.longitude
+      )
+    : "";
+
+  return {
+    country,
+    areaCode,
+    sourceLabel: areaCode ? "IP coordinates" : "IP lookup",
+  };
+}
+
+function extractCoordinates(payload) {
+  const latitude = Number(
+    payload?.latitude ?? payload?.lat ?? payload?.location?.latitude ?? NaN
+  );
+  const longitude = Number(
+    payload?.longitude ?? payload?.lon ?? payload?.lng ?? payload?.location?.longitude ?? NaN
+  );
+
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+    return null;
+  }
+
+  return { latitude, longitude };
+}
+
+function matchSelectionFromCoordinates(coordinates, countries) {
+  if (!coordinates) {
+    return { country: null, areaCode: "", sourceLabel: "" };
+  }
+
+  const countrySlug = inferCountrySlugFromCoordinates(
+    coordinates.latitude,
+    coordinates.longitude
+  );
+  if (!countrySlug) {
+    return { country: null, areaCode: "", sourceLabel: "" };
+  }
+
+  const country = countries.find((entry) => entry.slug === countrySlug) || null;
+  if (!country) {
+    return { country: null, areaCode: "", sourceLabel: "" };
+  }
+
+  return {
+    country,
+    areaCode: inferAreaCodeFromCoordinates(
+      country.slug,
+      coordinates.latitude,
+      coordinates.longitude
+    ),
+    sourceLabel: coordinates.source || "device location",
+  };
+}
+
+function inferCountrySlugFromCoordinates(latitude, longitude) {
+  if (isInsideNorwayBounds(latitude, longitude)) {
+    return "norway";
+  }
+
+  if (isInsideSwedenBounds(latitude, longitude)) {
+    return "sweden";
+  }
+
+  return "";
+}
+
+function inferAreaCodeFromCoordinates(slug, latitude, longitude) {
+  switch (slug) {
+    case "norway":
+      return inferNorwayAreaCode(latitude, longitude);
+    case "sweden":
+      return inferSwedenAreaCode(latitude, longitude);
+    default:
+      return "";
+  }
+}
+
+function isInsideNorwayBounds(latitude, longitude) {
+  return latitude >= 57.5 && latitude <= 71.5 && longitude >= 4 && longitude <= 32;
+}
+
+function isInsideSwedenBounds(latitude, longitude) {
+  return latitude >= 55 && latitude <= 69.5 && longitude >= 10.5 && longitude <= 24.5;
+}
+
+// Approximate bidding-zone inference for static hosting without GIS boundary data.
+function inferNorwayAreaCode(latitude, longitude) {
+  if (!isInsideNorwayBounds(latitude, longitude)) {
+    return "";
+  }
+
+  if (latitude >= 65) {
+    return "NO4";
+  }
+
+  if (latitude >= 62.8) {
+    return "NO3";
+  }
+
+  if (longitude <= 6.8 && latitude >= 59.3) {
+    return "NO5";
+  }
+
+  if (longitude <= 8.8 && latitude >= 60.9) {
+    return "NO5";
+  }
+
+  if (latitude < 59.1) {
+    return "NO2";
+  }
+
+  if (longitude < 8.2 && latitude < 60.9) {
+    return "NO2";
+  }
+
+  return "NO1";
+}
+
+function inferSwedenAreaCode(latitude, longitude) {
+  if (!isInsideSwedenBounds(latitude, longitude)) {
+    return "";
+  }
+
+  if (latitude >= 65) {
+    return "SE1";
+  }
+
+  if (latitude >= 62.2) {
+    return "SE2";
+  }
+
+  if (latitude < 56.2) {
+    return "SE4";
+  }
+
+  if (latitude < 58.2 && longitude > 12) {
+    return "SE4";
+  }
+
+  return "SE3";
+}
+
+async function applyDetectedSelection(selection, options = {}) {
+  const { country, areaCode, sourceLabel } = selection;
+  if (!country) {
+    throw new Error("No country available for detected selection.");
+  }
+
+  elements.countrySelect.value = country.slug;
+  await loadCountryData(country.slug, { preferredAreaCode: areaCode });
+
+  const sourcePrefix =
+    typeof options.sourcePrefix === "string" && options.sourcePrefix
+      ? options.sourcePrefix
+      : "Detected";
+  const label = areaCode
+    ? `${sourcePrefix}: ${country.display_name} (${areaCode}) from ${sourceLabel}.`
+    : `${sourcePrefix}: ${country.display_name} from ${sourceLabel}.`;
+  setSelectionHint(label);
+}
+
+function findCountryByCode(countries, code) {
+  if (!code) {
+    return null;
+  }
+
+  return (
+    countries.find(
+      (country) => String(country.country_code || "").toUpperCase() === code
+    ) || null
+  );
+}
+
+function findCountryByTimezone(countries, timezone) {
+  if (!timezone) {
+    return null;
+  }
+
+  return (
+    countries.find(
+      (country) => String(country.timezone || "") === timezone
+    ) || null
+  );
+}
+
+function setRegionButtonState(isLoading) {
+  elements.regionButton.disabled = isLoading;
+  elements.regionButton.textContent = isLoading ? "Locating..." : "Use Exact Location";
+}
+
+function readStoredSelection() {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      return { slug: "", areas: {} };
+    }
+
+    const parsed = JSON.parse(raw);
+    return {
+      slug: typeof parsed?.slug === "string" ? parsed.slug : "",
+      areas:
+        parsed?.areas && typeof parsed.areas === "object" ? parsed.areas : {},
+    };
+  } catch (error) {
+    console.error(error);
+    return { slug: "", areas: {} };
+  }
+}
+
+function getStoredAreaCode(slug) {
+  const { areas } = readStoredSelection();
+  return typeof areas?.[slug] === "string" ? areas[slug] : "";
+}
+
+function persistSelection() {
+  if (!state.selectedSlug) {
+    return;
+  }
+
+  const existing = readStoredSelection();
+  const next = {
+    slug: state.selectedSlug,
+    areas: {
+      ...existing.areas,
+    },
+  };
+
+  if (state.selectedAreaCode) {
+    next.areas[state.selectedSlug] = state.selectedAreaCode;
+  }
+
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+function setSelectionHint(message) {
+  elements.selectionHint.textContent = message;
 }
 
 function normalizePoints(entries) {

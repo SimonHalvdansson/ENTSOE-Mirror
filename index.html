@@ -18,6 +18,12 @@
       </div>
       <div class="controls">
         <div class="control-grid">
+          <div class="control-field detect-field">
+            <label for="detect-country-button">Region</label>
+            <button id="detect-country-button" class="region-button" type="button">
+              Use Exact Location
+            </button>
+          </div>
           <div class="control-field country-field">
             <label for="country-select">Country</label>
             <select id="country-select" aria-label="Select country"></select>
@@ -27,6 +33,7 @@
             <select id="area-select" aria-label="Select area"></select>
           </div>
         </div>
+        <p id="selection-hint" class="control-hint" aria-live="polite"></p>
       </div>
     </header>
 
