@@ -99,7 +99,7 @@ COUNTRIES: tuple[CountryConfig, ...] = (
         country_code="BG",
         display_name="Bulgaria",
         timezone_name="Europe/Sofia",
-        currency="BGN",
+        currency="EUR",
         areas=(AreaConfig(code="BG", eic_code="10YCA-BULGARIA-R"),),
     ),
     CountryConfig(
