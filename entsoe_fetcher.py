@@ -18,6 +18,7 @@ ECB_RATES_URL = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 ENTSOE_PERIOD_FORMAT = "%Y%m%d%H%M"
 OUTPUT_DIR = Path("data")
 USER_AGENT = "spotprice-fetcher/1.0 (+github-actions)"
+QUARTER_HOUR = timedelta(minutes=15)
 
 
 @dataclass(frozen=True)
@@ -409,6 +410,41 @@ def parse_entsoe_error(xml_text: str) -> str | None:
     return f"{code}: {reason}" if code else reason
 
 
+def fill_missing_quarter_hour_prices(prices: list[dict], zone: ZoneInfo) -> list[dict]:
+    if len(prices) < 2:
+        return prices
+
+    filled_prices = [prices[0]]
+    for entry in prices[1:]:
+        previous = filled_prices[-1]
+        previous_start_utc = datetime.fromisoformat(previous["start_utc"].replace("Z", "+00:00"))
+        previous_end_utc = datetime.fromisoformat(previous["end_utc"].replace("Z", "+00:00"))
+        entry_start_utc = datetime.fromisoformat(entry["start_utc"].replace("Z", "+00:00"))
+        previous_duration = previous_end_utc - previous_start_utc
+
+        if previous_duration == QUARTER_HOUR and entry_start_utc > previous_end_utc:
+            fill_start_utc = previous_end_utc
+            while fill_start_utc < entry_start_utc:
+                fill_end_utc = fill_start_utc + QUARTER_HOUR
+                fill_start_local = fill_start_utc.astimezone(zone)
+                fill_end_local = fill_end_utc.astimezone(zone)
+                filled_prices.append(
+                    {
+                        **previous,
+                        "start_utc": iso_z(fill_start_utc),
+                        "end_utc": iso_z(fill_end_utc),
+                        "start_local": fill_start_local.isoformat(),
+                        "end_local": fill_end_local.isoformat(),
+                    }
+                )
+                fill_start_utc = fill_end_utc
+                previous = filled_prices[-1]
+
+        filled_prices.append(entry)
+
+    return filled_prices
+
+
 def fetch_area_prices(
     api_key: str,
     area: AreaConfig,
@@ -445,6 +481,8 @@ def fetch_area_prices(
             day_buckets.setdefault(day, []).append(entry)
         selected_day = max(day_buckets.keys(), key=lambda day: (len(day_buckets[day]), day))
         prices_eur = day_buckets[selected_day]
+
+    prices_eur = fill_missing_quarter_hour_prices(prices=prices_eur, zone=zone)
 
     prices_local = []
     for entry in prices_eur:
