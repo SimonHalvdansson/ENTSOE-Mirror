@@ -347,55 +347,104 @@ def build_entsoe_url(api_key: str, eic_code: str, start_utc: datetime, end_utc: 
     return f"{ENTSOE_API_URL}?{urlencode(params)}"
 
 
+def parse_optional_int(value: str | None) -> int | None:
+    if value is None:
+        return None
+    stripped = value.strip()
+    if not stripped:
+        return None
+    try:
+        return int(stripped)
+    except ValueError:
+        return None
+
+
+def price_entry_priority(entry: dict) -> tuple[int, int, int]:
+    series_point_count = int(entry.get("_series_point_count", 0))
+    classification_sequence = entry.get("_classification_sequence")
+    classification_rank = (
+        classification_sequence if isinstance(classification_sequence, int) and classification_sequence >= 0 else 0
+    )
+    series_mrid = entry.get("_series_mrid")
+    series_mrid_rank = series_mrid if isinstance(series_mrid, int) and series_mrid >= 0 else 0
+    return (series_point_count, -classification_rank, -series_mrid_rank)
+
+
+def dedupe_entsoe_prices(prices: list[dict]) -> list[dict]:
+    deduped: dict[tuple[str, str], dict] = {}
+    for entry in prices:
+        key = (entry["start_utc"], entry["end_utc"])
+        current = deduped.get(key)
+        if current is None or price_entry_priority(entry) > price_entry_priority(current):
+            deduped[key] = entry
+
+    cleaned: list[dict] = []
+    for entry in deduped.values():
+        cleaned.append({key: value for key, value in entry.items() if not key.startswith("_")})
+
+    cleaned.sort(key=lambda item: item["start_utc"])
+    return cleaned
+
+
 def parse_entsoe_prices(xml_text: str, zone: ZoneInfo) -> list[dict]:
     root = ET.fromstring(xml_text)
     prices: list[dict] = []
 
-    for period in root.iter():
-        if xml_local_name(period.tag) != "Period":
+    for time_series in root.iter():
+        if xml_local_name(time_series.tag) != "TimeSeries":
             continue
 
-        start_str = find_first_text(period, "start")
-        resolution_str = find_first_text(period, "resolution")
-        if not start_str or not resolution_str:
-            continue
+        classification_sequence = parse_optional_int(
+            find_first_text(time_series, "classificationSequence_AttributeInstanceComponent.position")
+        )
+        series_mrid = parse_optional_int(find_first_text(time_series, "mRID"))
 
-        base_start = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
-        resolution = parse_duration(resolution_str)
-
-        for point in period.iter():
-            if xml_local_name(point.tag) != "Point":
+        for period in time_series:
+            if xml_local_name(period.tag) != "Period":
                 continue
 
-            position_str = find_first_text(point, "position")
-            price_str = find_first_text(point, "price.amount")
-            if not position_str or not price_str:
+            start_str = find_first_text(period, "start")
+            resolution_str = find_first_text(period, "resolution")
+            if not start_str or not resolution_str:
                 continue
 
-            try:
-                position = int(position_str)
-                price_per_mwh_eur = float(price_str)
-            except ValueError:
-                continue
+            base_start = datetime.fromisoformat(start_str.replace("Z", "+00:00"))
+            resolution = parse_duration(resolution_str)
+            points = [node for node in period if xml_local_name(node.tag) == "Point"]
+            series_point_count = len(points)
 
-            period_start_utc = base_start + (max(position - 1, 0) * resolution)
-            period_end_utc = period_start_utc + resolution
-            period_start_local = period_start_utc.astimezone(zone)
-            period_end_local = period_end_utc.astimezone(zone)
+            for point in points:
+                position_str = find_first_text(point, "position")
+                price_str = find_first_text(point, "price.amount")
+                if not position_str or not price_str:
+                    continue
 
-            prices.append(
-                {
-                    "start_utc": iso_z(period_start_utc),
-                    "end_utc": iso_z(period_end_utc),
-                    "start_local": period_start_local.isoformat(),
-                    "end_local": period_end_local.isoformat(),
-                    "price_per_mwh_eur": price_per_mwh_eur,
-                    "price_per_kwh_eur": price_per_mwh_eur / 1000.0,
-                }
-            )
+                try:
+                    position = int(position_str)
+                    price_per_mwh_eur = float(price_str)
+                except ValueError:
+                    continue
 
-    prices.sort(key=lambda item: item["start_utc"])
-    return prices
+                period_start_utc = base_start + (max(position - 1, 0) * resolution)
+                period_end_utc = period_start_utc + resolution
+                period_start_local = period_start_utc.astimezone(zone)
+                period_end_local = period_end_utc.astimezone(zone)
+
+                prices.append(
+                    {
+                        "start_utc": iso_z(period_start_utc),
+                        "end_utc": iso_z(period_end_utc),
+                        "start_local": period_start_local.isoformat(),
+                        "end_local": period_end_local.isoformat(),
+                        "price_per_mwh_eur": price_per_mwh_eur,
+                        "price_per_kwh_eur": price_per_mwh_eur / 1000.0,
+                        "_classification_sequence": classification_sequence,
+                        "_series_mrid": series_mrid,
+                        "_series_point_count": series_point_count,
+                    }
+                )
+
+    return dedupe_entsoe_prices(prices)
 
 
 def parse_entsoe_error(xml_text: str) -> str | None:
