@@ -3,9 +3,9 @@
   "country_code": "NO",
   "display_name": "Norway",
   "timezone": "Europe/Oslo",
-  "target_date_local": "2026-04-01",
-  "window_start_local": "2026-03-31T00:00:00+02:00",
-  "window_end_local": "2026-04-04T00:00:00+02:00",
+  "target_date_local": "2026-04-02",
+  "window_start_local": "2026-04-01T00:00:00+02:00",
+  "window_end_local": "2026-04-05T00:00:00+02:00",
   "currency": "NOK",
   "exchange_rate": {
     "base": "EUR",
@@ -17,36 +17,6 @@
   "area_code": "NO1",
   "eic_code": "10YNO-1--------2",
   "prices": [
-    {
-      "start_utc": "2026-04-01T09:45:00Z",
-      "end_utc": "2026-04-01T10:00:00Z",
-      "start_local": "2026-04-01T11:45:00+02:00",
-      "end_local": "2026-04-01T12:00:00+02:00",
-      "price_per_mwh_eur": 117.1,
-      "price_per_kwh_eur": 0.1171,
-      "price_per_kwh": 1.3124567999999999,
-      "currency": "NOK"
-    },
-    {
-      "start_utc": "2026-04-01T10:00:00Z",
-      "end_utc": "2026-04-01T10:15:00Z",
-      "start_local": "2026-04-01T12:00:00+02:00",
-      "end_local": "2026-04-01T12:15:00+02:00",
-      "price_per_mwh_eur": 116.91,
-      "price_per_kwh_eur": 0.11691,
-      "price_per_kwh": 1.31032728,
-      "currency": "NOK"
-    },
-    {
-      "start_utc": "2026-04-01T10:15:00Z",
-      "end_utc": "2026-04-01T10:30:00Z",
-      "start_local": "2026-04-01T12:15:00+02:00",
-      "end_local": "2026-04-01T12:30:00+02:00",
-      "price_per_mwh_eur": 115.11,
-      "price_per_kwh_eur": 0.11511,
-      "price_per_kwh": 1.2901528800000002,
-      "currency": "NOK"
-    },
     {
       "start_utc": "2026-04-01T10:30:00Z",
       "end_utc": "2026-04-01T10:45:00Z",
@@ -1474,36 +1444,6 @@
       "eic_code": "10YNO-1--------2",
       "prices": [
         {
-          "start_utc": "2026-04-01T09:45:00Z",
-          "end_utc": "2026-04-01T10:00:00Z",
-          "start_local": "2026-04-01T11:45:00+02:00",
-          "end_local": "2026-04-01T12:00:00+02:00",
-          "price_per_mwh_eur": 117.1,
-          "price_per_kwh_eur": 0.1171,
-          "price_per_kwh": 1.3124567999999999,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:00:00Z",
-          "end_utc": "2026-04-01T10:15:00Z",
-          "start_local": "2026-04-01T12:00:00+02:00",
-          "end_local": "2026-04-01T12:15:00+02:00",
-          "price_per_mwh_eur": 116.91,
-          "price_per_kwh_eur": 0.11691,
-          "price_per_kwh": 1.31032728,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:15:00Z",
-          "end_utc": "2026-04-01T10:30:00Z",
-          "start_local": "2026-04-01T12:15:00+02:00",
-          "end_local": "2026-04-01T12:30:00+02:00",
-          "price_per_mwh_eur": 115.11,
-          "price_per_kwh_eur": 0.11511,
-          "price_per_kwh": 1.2901528800000002,
-          "currency": "NOK"
-        },
-        {
           "start_utc": "2026-04-01T10:30:00Z",
           "end_utc": "2026-04-01T10:45:00Z",
           "start_local": "2026-04-01T12:30:00+02:00",
@@ -2929,36 +2869,6 @@
       "area_code": "NO2",
       "eic_code": "10YNO-2--------T",
       "prices": [
-        {
-          "start_utc": "2026-04-01T09:45:00Z",
-          "end_utc": "2026-04-01T10:00:00Z",
-          "start_local": "2026-04-01T11:45:00+02:00",
-          "end_local": "2026-04-01T12:00:00+02:00",
-          "price_per_mwh_eur": 116.87,
-          "price_per_kwh_eur": 0.11687,
-          "price_per_kwh": 1.30987896,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:00:00Z",
-          "end_utc": "2026-04-01T10:15:00Z",
-          "start_local": "2026-04-01T12:00:00+02:00",
-          "end_local": "2026-04-01T12:15:00+02:00",
-          "price_per_mwh_eur": 117.42,
-          "price_per_kwh_eur": 0.11742,
-          "price_per_kwh": 1.3160433599999999,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:15:00Z",
-          "end_utc": "2026-04-01T10:30:00Z",
-          "start_local": "2026-04-01T12:15:00+02:00",
-          "end_local": "2026-04-01T12:30:00+02:00",
-          "price_per_mwh_eur": 115.0,
-          "price_per_kwh_eur": 0.115,
-          "price_per_kwh": 1.28892,
-          "currency": "NOK"
-        },
         {
           "start_utc": "2026-04-01T10:30:00Z",
           "end_utc": "2026-04-01T10:45:00Z",
@@ -4386,36 +4296,6 @@
       "eic_code": "10YNO-3--------J",
       "prices": [
         {
-          "start_utc": "2026-04-01T09:45:00Z",
-          "end_utc": "2026-04-01T10:00:00Z",
-          "start_local": "2026-04-01T11:45:00+02:00",
-          "end_local": "2026-04-01T12:00:00+02:00",
-          "price_per_mwh_eur": 81.1,
-          "price_per_kwh_eur": 0.08109999999999999,
-          "price_per_kwh": 0.9089687999999999,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:00:00Z",
-          "end_utc": "2026-04-01T10:15:00Z",
-          "start_local": "2026-04-01T12:00:00+02:00",
-          "end_local": "2026-04-01T12:15:00+02:00",
-          "price_per_mwh_eur": 75.06,
-          "price_per_kwh_eur": 0.07506,
-          "price_per_kwh": 0.84127248,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:15:00Z",
-          "end_utc": "2026-04-01T10:30:00Z",
-          "start_local": "2026-04-01T12:15:00+02:00",
-          "end_local": "2026-04-01T12:30:00+02:00",
-          "price_per_mwh_eur": 78.55,
-          "price_per_kwh_eur": 0.07855,
-          "price_per_kwh": 0.8803884,
-          "currency": "NOK"
-        },
-        {
           "start_utc": "2026-04-01T10:30:00Z",
           "end_utc": "2026-04-01T10:45:00Z",
           "start_local": "2026-04-01T12:30:00+02:00",
@@ -5842,36 +5722,6 @@
       "eic_code": "10YNO-4--------9",
       "prices": [
         {
-          "start_utc": "2026-04-01T09:45:00Z",
-          "end_utc": "2026-04-01T10:00:00Z",
-          "start_local": "2026-04-01T11:45:00+02:00",
-          "end_local": "2026-04-01T12:00:00+02:00",
-          "price_per_mwh_eur": 3.42,
-          "price_per_kwh_eur": 0.00342,
-          "price_per_kwh": 0.03833136,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:00:00Z",
-          "end_utc": "2026-04-01T10:15:00Z",
-          "start_local": "2026-04-01T12:00:00+02:00",
-          "end_local": "2026-04-01T12:15:00+02:00",
-          "price_per_mwh_eur": 7.51,
-          "price_per_kwh_eur": 0.00751,
-          "price_per_kwh": 0.08417208000000001,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:15:00Z",
-          "end_utc": "2026-04-01T10:30:00Z",
-          "start_local": "2026-04-01T12:15:00+02:00",
-          "end_local": "2026-04-01T12:30:00+02:00",
-          "price_per_mwh_eur": 3.54,
-          "price_per_kwh_eur": 0.00354,
-          "price_per_kwh": 0.03967632,
-          "currency": "NOK"
-        },
-        {
           "start_utc": "2026-04-01T10:30:00Z",
           "end_utc": "2026-04-01T10:45:00Z",
           "start_local": "2026-04-01T12:30:00+02:00",
@@ -7297,36 +7147,6 @@
       "area_code": "NO5",
       "eic_code": "10Y1001A1001A48H",
       "prices": [
-        {
-          "start_utc": "2026-04-01T09:45:00Z",
-          "end_utc": "2026-04-01T10:00:00Z",
-          "start_local": "2026-04-01T11:45:00+02:00",
-          "end_local": "2026-04-01T12:00:00+02:00",
-          "price_per_mwh_eur": 117.41,
-          "price_per_kwh_eur": 0.11741,
-          "price_per_kwh": 1.31593128,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:00:00Z",
-          "end_utc": "2026-04-01T10:15:00Z",
-          "start_local": "2026-04-01T12:00:00+02:00",
-          "end_local": "2026-04-01T12:15:00+02:00",
-          "price_per_mwh_eur": 115.76,
-          "price_per_kwh_eur": 0.11576,
-          "price_per_kwh": 1.29743808,
-          "currency": "NOK"
-        },
-        {
-          "start_utc": "2026-04-01T10:15:00Z",
-          "end_utc": "2026-04-01T10:30:00Z",
-          "start_local": "2026-04-01T12:15:00+02:00",
-          "end_local": "2026-04-01T12:30:00+02:00",
-          "price_per_mwh_eur": 115.2,
-          "price_per_kwh_eur": 0.1152,
-          "price_per_kwh": 1.2911616,
-          "currency": "NOK"
-        },
         {
           "start_utc": "2026-04-01T10:30:00Z",
           "end_utc": "2026-04-01T10:45:00Z",
