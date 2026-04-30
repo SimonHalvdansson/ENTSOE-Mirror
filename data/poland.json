@@ -3,9 +3,9 @@
   "country_code": "PL",
   "display_name": "Poland",
   "timezone": "Europe/Warsaw",
-  "target_date_local": "2026-04-30",
-  "window_start_local": "2026-04-29T00:00:00+02:00",
-  "window_end_local": "2026-05-03T00:00:00+02:00",
+  "target_date_local": "2026-05-01",
+  "window_start_local": "2026-04-30T00:00:00+02:00",
+  "window_end_local": "2026-05-04T00:00:00+02:00",
   "currency": "PLN",
   "exchange_rate": {
     "base": "EUR",
@@ -17,56 +17,6 @@
   "area_code": "PL",
   "eic_code": "10YPL-AREA-----S",
   "prices": [
-    {
-      "start_utc": "2026-04-30T08:45:00Z",
-      "end_utc": "2026-04-30T09:00:00Z",
-      "start_local": "2026-04-30T10:45:00+02:00",
-      "end_local": "2026-04-30T11:00:00+02:00",
-      "price_per_mwh_eur": -1.13,
-      "price_per_kwh_eur": -0.00113,
-      "price_per_kwh": -0.004814365,
-      "currency": "PLN"
-    },
-    {
-      "start_utc": "2026-04-30T09:00:00Z",
-      "end_utc": "2026-04-30T09:15:00Z",
-      "start_local": "2026-04-30T11:00:00+02:00",
-      "end_local": "2026-04-30T11:15:00+02:00",
-      "price_per_mwh_eur": 0.11,
-      "price_per_kwh_eur": 0.00011,
-      "price_per_kwh": 0.00046865500000000006,
-      "currency": "PLN"
-    },
-    {
-      "start_utc": "2026-04-30T09:15:00Z",
-      "end_utc": "2026-04-30T09:30:00Z",
-      "start_local": "2026-04-30T11:15:00+02:00",
-      "end_local": "2026-04-30T11:30:00+02:00",
-      "price_per_mwh_eur": -0.41,
-      "price_per_kwh_eur": -0.00041,
-      "price_per_kwh": -0.0017468050000000001,
-      "currency": "PLN"
-    },
-    {
-      "start_utc": "2026-04-30T09:30:00Z",
-      "end_utc": "2026-04-30T09:45:00Z",
-      "start_local": "2026-04-30T11:30:00+02:00",
-      "end_local": "2026-04-30T11:45:00+02:00",
-      "price_per_mwh_eur": -2.51,
-      "price_per_kwh_eur": -0.0025099999999999996,
-      "price_per_kwh": -0.010693854999999999,
-      "currency": "PLN"
-    },
-    {
-      "start_utc": "2026-04-30T09:45:00Z",
-      "end_utc": "2026-04-30T10:00:00Z",
-      "start_local": "2026-04-30T11:45:00+02:00",
-      "end_local": "2026-04-30T12:00:00+02:00",
-      "price_per_mwh_eur": -6.79,
-      "price_per_kwh_eur": -0.00679,
-      "price_per_kwh": -0.028928795000000004,
-      "currency": "PLN"
-    },
     {
       "start_utc": "2026-04-30T10:00:00Z",
       "end_utc": "2026-04-30T10:15:00Z",
@@ -1513,56 +1463,6 @@
       "area_code": "PL",
       "eic_code": "10YPL-AREA-----S",
       "prices": [
-        {
-          "start_utc": "2026-04-30T08:45:00Z",
-          "end_utc": "2026-04-30T09:00:00Z",
-          "start_local": "2026-04-30T10:45:00+02:00",
-          "end_local": "2026-04-30T11:00:00+02:00",
-          "price_per_mwh_eur": -1.13,
-          "price_per_kwh_eur": -0.00113,
-          "price_per_kwh": -0.004814365,
-          "currency": "PLN"
-        },
-        {
-          "start_utc": "2026-04-30T09:00:00Z",
-          "end_utc": "2026-04-30T09:15:00Z",
-          "start_local": "2026-04-30T11:00:00+02:00",
-          "end_local": "2026-04-30T11:15:00+02:00",
-          "price_per_mwh_eur": 0.11,
-          "price_per_kwh_eur": 0.00011,
-          "price_per_kwh": 0.00046865500000000006,
-          "currency": "PLN"
-        },
-        {
-          "start_utc": "2026-04-30T09:15:00Z",
-          "end_utc": "2026-04-30T09:30:00Z",
-          "start_local": "2026-04-30T11:15:00+02:00",
-          "end_local": "2026-04-30T11:30:00+02:00",
-          "price_per_mwh_eur": -0.41,
-          "price_per_kwh_eur": -0.00041,
-          "price_per_kwh": -0.0017468050000000001,
-          "currency": "PLN"
-        },
-        {
-          "start_utc": "2026-04-30T09:30:00Z",
-          "end_utc": "2026-04-30T09:45:00Z",
-          "start_local": "2026-04-30T11:30:00+02:00",
-          "end_local": "2026-04-30T11:45:00+02:00",
-          "price_per_mwh_eur": -2.51,
-          "price_per_kwh_eur": -0.0025099999999999996,
-          "price_per_kwh": -0.010693854999999999,
-          "currency": "PLN"
-        },
-        {
-          "start_utc": "2026-04-30T09:45:00Z",
-          "end_utc": "2026-04-30T10:00:00Z",
-          "start_local": "2026-04-30T11:45:00+02:00",
-          "end_local": "2026-04-30T12:00:00+02:00",
-          "price_per_mwh_eur": -6.79,
-          "price_per_kwh_eur": -0.00679,
-          "price_per_kwh": -0.028928795000000004,
-          "currency": "PLN"
-        },
         {
           "start_utc": "2026-04-30T10:00:00Z",
           "end_utc": "2026-04-30T10:15:00Z",
