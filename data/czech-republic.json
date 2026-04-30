@@ -10,7 +10,7 @@
   "exchange_rate": {
     "base": "EUR",
     "quote": "CZK",
-    "rate": 24.382,
+    "rate": 24.366,
     "source": "ECB eurofxref-daily"
   },
   "default_area_code": "CZ",
@@ -18,133 +18,13 @@
   "eic_code": "10YCZ-CEPS-----N",
   "prices": [
     {
-      "start_utc": "2026-04-30T00:00:00Z",
-      "end_utc": "2026-04-30T00:15:00Z",
-      "start_local": "2026-04-30T02:00:00+02:00",
-      "end_local": "2026-04-30T02:15:00+02:00",
-      "price_per_mwh_eur": 106.35,
-      "price_per_kwh_eur": 0.10635,
-      "price_per_kwh": 2.5930257,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T00:15:00Z",
-      "end_utc": "2026-04-30T00:30:00Z",
-      "start_local": "2026-04-30T02:15:00+02:00",
-      "end_local": "2026-04-30T02:30:00+02:00",
-      "price_per_mwh_eur": 102.8,
-      "price_per_kwh_eur": 0.1028,
-      "price_per_kwh": 2.5064696000000004,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T00:30:00Z",
-      "end_utc": "2026-04-30T00:45:00Z",
-      "start_local": "2026-04-30T02:30:00+02:00",
-      "end_local": "2026-04-30T02:45:00+02:00",
-      "price_per_mwh_eur": 102.51,
-      "price_per_kwh_eur": 0.10251,
-      "price_per_kwh": 2.49939882,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T00:45:00Z",
-      "end_utc": "2026-04-30T01:00:00Z",
-      "start_local": "2026-04-30T02:45:00+02:00",
-      "end_local": "2026-04-30T03:00:00+02:00",
-      "price_per_mwh_eur": 102.86,
-      "price_per_kwh_eur": 0.10286,
-      "price_per_kwh": 2.5079325199999998,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T01:00:00Z",
-      "end_utc": "2026-04-30T01:15:00Z",
-      "start_local": "2026-04-30T03:00:00+02:00",
-      "end_local": "2026-04-30T03:15:00+02:00",
-      "price_per_mwh_eur": 104.44,
-      "price_per_kwh_eur": 0.10443999999999999,
-      "price_per_kwh": 2.54645608,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T01:15:00Z",
-      "end_utc": "2026-04-30T01:30:00Z",
-      "start_local": "2026-04-30T03:15:00+02:00",
-      "end_local": "2026-04-30T03:30:00+02:00",
-      "price_per_mwh_eur": 104.95,
-      "price_per_kwh_eur": 0.10495,
-      "price_per_kwh": 2.5588909,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T01:30:00Z",
-      "end_utc": "2026-04-30T01:45:00Z",
-      "start_local": "2026-04-30T03:30:00+02:00",
-      "end_local": "2026-04-30T03:45:00+02:00",
-      "price_per_mwh_eur": 105.25,
-      "price_per_kwh_eur": 0.10525,
-      "price_per_kwh": 2.5662055,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T01:45:00Z",
-      "end_utc": "2026-04-30T02:00:00Z",
-      "start_local": "2026-04-30T03:45:00+02:00",
-      "end_local": "2026-04-30T04:00:00+02:00",
-      "price_per_mwh_eur": 106.92,
-      "price_per_kwh_eur": 0.10692,
-      "price_per_kwh": 2.60692344,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T02:00:00Z",
-      "end_utc": "2026-04-30T02:15:00Z",
-      "start_local": "2026-04-30T04:00:00+02:00",
-      "end_local": "2026-04-30T04:15:00+02:00",
-      "price_per_mwh_eur": 104.12,
-      "price_per_kwh_eur": 0.10412,
-      "price_per_kwh": 2.5386538400000003,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T02:15:00Z",
-      "end_utc": "2026-04-30T02:30:00Z",
-      "start_local": "2026-04-30T04:15:00+02:00",
-      "end_local": "2026-04-30T04:30:00+02:00",
-      "price_per_mwh_eur": 107.43,
-      "price_per_kwh_eur": 0.10743000000000001,
-      "price_per_kwh": 2.6193582600000003,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T02:30:00Z",
-      "end_utc": "2026-04-30T02:45:00Z",
-      "start_local": "2026-04-30T04:30:00+02:00",
-      "end_local": "2026-04-30T04:45:00+02:00",
-      "price_per_mwh_eur": 112.86,
-      "price_per_kwh_eur": 0.11286,
-      "price_per_kwh": 2.75175252,
-      "currency": "CZK"
-    },
-    {
-      "start_utc": "2026-04-30T02:45:00Z",
-      "end_utc": "2026-04-30T03:00:00Z",
-      "start_local": "2026-04-30T04:45:00+02:00",
-      "end_local": "2026-04-30T05:00:00+02:00",
-      "price_per_mwh_eur": 115.65,
-      "price_per_kwh_eur": 0.11565,
-      "price_per_kwh": 2.8197783000000003,
-      "currency": "CZK"
-    },
-    {
       "start_utc": "2026-04-30T03:00:00Z",
       "end_utc": "2026-04-30T03:15:00Z",
       "start_local": "2026-04-30T05:00:00+02:00",
       "end_local": "2026-04-30T05:15:00+02:00",
       "price_per_mwh_eur": 112.29,
       "price_per_kwh_eur": 0.11229,
-      "price_per_kwh": 2.73785478,
+      "price_per_kwh": 2.73605814,
       "currency": "CZK"
     },
     {
@@ -154,7 +34,7 @@
       "end_local": "2026-04-30T05:30:00+02:00",
       "price_per_mwh_eur": 116.89,
       "price_per_kwh_eur": 0.11689,
-      "price_per_kwh": 2.85001198,
+      "price_per_kwh": 2.84814174,
       "currency": "CZK"
     },
     {
@@ -164,7 +44,7 @@
       "end_local": "2026-04-30T05:45:00+02:00",
       "price_per_mwh_eur": 123.03,
       "price_per_kwh_eur": 0.12303,
-      "price_per_kwh": 2.9997174600000003,
+      "price_per_kwh": 2.99774898,
       "currency": "CZK"
     },
     {
@@ -174,7 +54,7 @@
       "end_local": "2026-04-30T06:00:00+02:00",
       "price_per_mwh_eur": 129.54,
       "price_per_kwh_eur": 0.12954,
-      "price_per_kwh": 3.15844428,
+      "price_per_kwh": 3.1563716399999997,
       "currency": "CZK"
     },
     {
@@ -184,7 +64,7 @@
       "end_local": "2026-04-30T06:15:00+02:00",
       "price_per_mwh_eur": 116.34,
       "price_per_kwh_eur": 0.11634,
-      "price_per_kwh": 2.8366018800000004,
+      "price_per_kwh": 2.83474044,
       "currency": "CZK"
     },
     {
@@ -194,7 +74,7 @@
       "end_local": "2026-04-30T06:30:00+02:00",
       "price_per_mwh_eur": 139.64,
       "price_per_kwh_eur": 0.13964,
-      "price_per_kwh": 3.40470248,
+      "price_per_kwh": 3.4024682399999997,
       "currency": "CZK"
     },
     {
@@ -204,7 +84,7 @@
       "end_local": "2026-04-30T06:45:00+02:00",
       "price_per_mwh_eur": 141.79,
       "price_per_kwh_eur": 0.14179,
-      "price_per_kwh": 3.4571237800000003,
+      "price_per_kwh": 3.45485514,
       "currency": "CZK"
     },
     {
@@ -214,7 +94,7 @@
       "end_local": "2026-04-30T07:00:00+02:00",
       "price_per_mwh_eur": 130.72,
       "price_per_kwh_eur": 0.13072,
-      "price_per_kwh": 3.1872150400000003,
+      "price_per_kwh": 3.18512352,
       "currency": "CZK"
     },
     {
@@ -224,7 +104,7 @@
       "end_local": "2026-04-30T07:15:00+02:00",
       "price_per_mwh_eur": 147.2,
       "price_per_kwh_eur": 0.1472,
-      "price_per_kwh": 3.5890304,
+      "price_per_kwh": 3.5866751999999997,
       "currency": "CZK"
     },
     {
@@ -234,7 +114,7 @@
       "end_local": "2026-04-30T07:30:00+02:00",
       "price_per_mwh_eur": 128.98,
       "price_per_kwh_eur": 0.12897999999999998,
-      "price_per_kwh": 3.14479036,
+      "price_per_kwh": 3.1427266799999996,
       "currency": "CZK"
     },
     {
@@ -244,7 +124,7 @@
       "end_local": "2026-04-30T07:45:00+02:00",
       "price_per_mwh_eur": 115.26,
       "price_per_kwh_eur": 0.11526,
-      "price_per_kwh": 2.81026932,
+      "price_per_kwh": 2.80842516,
       "currency": "CZK"
     },
     {
@@ -254,7 +134,7 @@
       "end_local": "2026-04-30T08:00:00+02:00",
       "price_per_mwh_eur": 96.76,
       "price_per_kwh_eur": 0.09676,
-      "price_per_kwh": 2.35920232,
+      "price_per_kwh": 2.35765416,
       "currency": "CZK"
     },
     {
@@ -264,7 +144,7 @@
       "end_local": "2026-04-30T08:15:00+02:00",
       "price_per_mwh_eur": 133.84,
       "price_per_kwh_eur": 0.13384000000000001,
-      "price_per_kwh": 3.2632868800000003,
+      "price_per_kwh": 3.2611454400000004,
       "currency": "CZK"
     },
     {
@@ -274,7 +154,7 @@
       "end_local": "2026-04-30T08:30:00+02:00",
       "price_per_mwh_eur": 121.47,
       "price_per_kwh_eur": 0.12147,
-      "price_per_kwh": 2.96168154,
+      "price_per_kwh": 2.9597380199999996,
       "currency": "CZK"
     },
     {
@@ -284,7 +164,7 @@
       "end_local": "2026-04-30T08:45:00+02:00",
       "price_per_mwh_eur": 98.31,
       "price_per_kwh_eur": 0.09831000000000001,
-      "price_per_kwh": 2.3969944200000004,
+      "price_per_kwh": 2.39542146,
       "currency": "CZK"
     },
     {
@@ -294,7 +174,7 @@
       "end_local": "2026-04-30T09:00:00+02:00",
       "price_per_mwh_eur": 51.09,
       "price_per_kwh_eur": 0.05109,
-      "price_per_kwh": 1.2456763800000001,
+      "price_per_kwh": 1.24485894,
       "currency": "CZK"
     },
     {
@@ -304,7 +184,7 @@
       "end_local": "2026-04-30T09:15:00+02:00",
       "price_per_mwh_eur": 114.27,
       "price_per_kwh_eur": 0.11427,
-      "price_per_kwh": 2.78613114,
+      "price_per_kwh": 2.7843028199999997,
       "currency": "CZK"
     },
     {
@@ -314,7 +194,7 @@
       "end_local": "2026-04-30T09:30:00+02:00",
       "price_per_mwh_eur": 61.09,
       "price_per_kwh_eur": 0.061090000000000005,
-      "price_per_kwh": 1.4894963800000003,
+      "price_per_kwh": 1.48851894,
       "currency": "CZK"
     },
     {
@@ -324,7 +204,7 @@
       "end_local": "2026-04-30T09:45:00+02:00",
       "price_per_mwh_eur": 14.66,
       "price_per_kwh_eur": 0.01466,
-      "price_per_kwh": 0.35744012000000003,
+      "price_per_kwh": 0.35720556,
       "currency": "CZK"
     },
     {
@@ -334,7 +214,7 @@
       "end_local": "2026-04-30T10:00:00+02:00",
       "price_per_mwh_eur": 0.01,
       "price_per_kwh_eur": 1e-05,
-      "price_per_kwh": 0.00024382000000000003,
+      "price_per_kwh": 0.00024366,
       "currency": "CZK"
     },
     {
@@ -344,7 +224,7 @@
       "end_local": "2026-04-30T10:15:00+02:00",
       "price_per_mwh_eur": 1.99,
       "price_per_kwh_eur": 0.00199,
-      "price_per_kwh": 0.04852018,
+      "price_per_kwh": 0.04848834,
       "currency": "CZK"
     },
     {
@@ -374,7 +254,7 @@
       "end_local": "2026-04-30T11:00:00+02:00",
       "price_per_mwh_eur": -1.03,
       "price_per_kwh_eur": -0.00103,
-      "price_per_kwh": -0.025113460000000004,
+      "price_per_kwh": -0.02509698,
       "currency": "CZK"
     },
     {
@@ -384,7 +264,7 @@
       "end_local": "2026-04-30T11:15:00+02:00",
       "price_per_mwh_eur": 0.08,
       "price_per_kwh_eur": 8e-05,
-      "price_per_kwh": 0.0019505600000000003,
+      "price_per_kwh": 0.00194928,
       "currency": "CZK"
     },
     {
@@ -394,7 +274,7 @@
       "end_local": "2026-04-30T11:30:00+02:00",
       "price_per_mwh_eur": -0.47,
       "price_per_kwh_eur": -0.00047,
-      "price_per_kwh": -0.01145954,
+      "price_per_kwh": -0.01145202,
       "currency": "CZK"
     },
     {
@@ -404,7 +284,7 @@
       "end_local": "2026-04-30T11:45:00+02:00",
       "price_per_mwh_eur": -2.61,
       "price_per_kwh_eur": -0.00261,
-      "price_per_kwh": -0.06363702,
+      "price_per_kwh": -0.06359526,
       "currency": "CZK"
     },
     {
@@ -414,7 +294,7 @@
       "end_local": "2026-04-30T12:00:00+02:00",
       "price_per_mwh_eur": -6.99,
       "price_per_kwh_eur": -0.0069900000000000006,
-      "price_per_kwh": -0.17043018000000001,
+      "price_per_kwh": -0.17031834,
       "currency": "CZK"
     },
     {
@@ -424,7 +304,7 @@
       "end_local": "2026-04-30T12:15:00+02:00",
       "price_per_mwh_eur": -6.1,
       "price_per_kwh_eur": -0.0060999999999999995,
-      "price_per_kwh": -0.1487302,
+      "price_per_kwh": -0.14863259999999998,
       "currency": "CZK"
     },
     {
@@ -434,7 +314,7 @@
       "end_local": "2026-04-30T12:30:00+02:00",
       "price_per_mwh_eur": -11.97,
       "price_per_kwh_eur": -0.011970000000000001,
-      "price_per_kwh": -0.29185254000000005,
+      "price_per_kwh": -0.29166102000000005,
       "currency": "CZK"
     },
     {
@@ -444,7 +324,7 @@
       "end_local": "2026-04-30T12:45:00+02:00",
       "price_per_mwh_eur": -14.96,
       "price_per_kwh_eur": -0.014960000000000001,
-      "price_per_kwh": -0.36475472000000003,
+      "price_per_kwh": -0.36451536,
       "currency": "CZK"
     },
     {
@@ -454,7 +334,7 @@
       "end_local": "2026-04-30T13:00:00+02:00",
       "price_per_mwh_eur": -20.86,
       "price_per_kwh_eur": -0.02086,
-      "price_per_kwh": -0.50860852,
+      "price_per_kwh": -0.50827476,
       "currency": "CZK"
     },
     {
@@ -464,7 +344,7 @@
       "end_local": "2026-04-30T13:15:00+02:00",
       "price_per_mwh_eur": -22.43,
       "price_per_kwh_eur": -0.02243,
-      "price_per_kwh": -0.54688826,
+      "price_per_kwh": -0.54652938,
       "currency": "CZK"
     },
     {
@@ -474,7 +354,7 @@
       "end_local": "2026-04-30T13:30:00+02:00",
       "price_per_mwh_eur": -25.87,
       "price_per_kwh_eur": -0.02587,
-      "price_per_kwh": -0.6307623400000001,
+      "price_per_kwh": -0.63034842,
       "currency": "CZK"
     },
     {
@@ -484,7 +364,7 @@
       "end_local": "2026-04-30T13:45:00+02:00",
       "price_per_mwh_eur": -29.87,
       "price_per_kwh_eur": -0.02987,
-      "price_per_kwh": -0.72829034,
+      "price_per_kwh": -0.72781242,
       "currency": "CZK"
     },
     {
@@ -494,7 +374,7 @@
       "end_local": "2026-04-30T14:00:00+02:00",
       "price_per_mwh_eur": -32.04,
       "price_per_kwh_eur": -0.03204,
-      "price_per_kwh": -0.78119928,
+      "price_per_kwh": -0.78068664,
       "currency": "CZK"
     },
     {
@@ -504,7 +384,7 @@
       "end_local": "2026-04-30T14:15:00+02:00",
       "price_per_mwh_eur": -27.06,
       "price_per_kwh_eur": -0.027059999999999997,
-      "price_per_kwh": -0.65977692,
+      "price_per_kwh": -0.65934396,
       "currency": "CZK"
     },
     {
@@ -514,7 +394,7 @@
       "end_local": "2026-04-30T14:30:00+02:00",
       "price_per_mwh_eur": -21.75,
       "price_per_kwh_eur": -0.02175,
-      "price_per_kwh": -0.5303085,
+      "price_per_kwh": -0.5299605,
       "currency": "CZK"
     },
     {
@@ -524,7 +404,7 @@
       "end_local": "2026-04-30T14:45:00+02:00",
       "price_per_mwh_eur": -20.02,
       "price_per_kwh_eur": -0.02002,
-      "price_per_kwh": -0.48812764000000003,
+      "price_per_kwh": -0.48780732,
       "currency": "CZK"
     },
     {
@@ -534,7 +414,7 @@
       "end_local": "2026-04-30T15:00:00+02:00",
       "price_per_mwh_eur": -15.36,
       "price_per_kwh_eur": -0.015359999999999999,
-      "price_per_kwh": -0.37450752,
+      "price_per_kwh": -0.37426175999999994,
       "currency": "CZK"
     },
     {
@@ -544,7 +424,7 @@
       "end_local": "2026-04-30T15:15:00+02:00",
       "price_per_mwh_eur": -14.48,
       "price_per_kwh_eur": -0.01448,
-      "price_per_kwh": -0.35305136000000004,
+      "price_per_kwh": -0.35281967999999997,
       "currency": "CZK"
     },
     {
@@ -554,7 +434,7 @@
       "end_local": "2026-04-30T15:30:00+02:00",
       "price_per_mwh_eur": -10.2,
       "price_per_kwh_eur": -0.010199999999999999,
-      "price_per_kwh": -0.24869639999999998,
+      "price_per_kwh": -0.24853319999999998,
       "currency": "CZK"
     },
     {
@@ -564,7 +444,7 @@
       "end_local": "2026-04-30T15:45:00+02:00",
       "price_per_mwh_eur": -6.28,
       "price_per_kwh_eur": -0.00628,
-      "price_per_kwh": -0.15311896,
+      "price_per_kwh": -0.15301847999999998,
       "currency": "CZK"
     },
     {
@@ -574,7 +454,7 @@
       "end_local": "2026-04-30T16:00:00+02:00",
       "price_per_mwh_eur": -1.34,
       "price_per_kwh_eur": -0.00134,
-      "price_per_kwh": -0.03267188,
+      "price_per_kwh": -0.03265044,
       "currency": "CZK"
     },
     {
@@ -584,7 +464,7 @@
       "end_local": "2026-04-30T16:15:00+02:00",
       "price_per_mwh_eur": -3.98,
       "price_per_kwh_eur": -0.00398,
-      "price_per_kwh": -0.09704036,
+      "price_per_kwh": -0.09697668,
       "currency": "CZK"
     },
     {
@@ -594,7 +474,7 @@
       "end_local": "2026-04-30T16:30:00+02:00",
       "price_per_mwh_eur": 0.35,
       "price_per_kwh_eur": 0.00035,
-      "price_per_kwh": 0.0085337,
+      "price_per_kwh": 0.0085281,
       "currency": "CZK"
     },
     {
@@ -604,7 +484,7 @@
       "end_local": "2026-04-30T16:45:00+02:00",
       "price_per_mwh_eur": 1.45,
       "price_per_kwh_eur": 0.00145,
-      "price_per_kwh": 0.0353539,
+      "price_per_kwh": 0.0353307,
       "currency": "CZK"
     },
     {
@@ -614,7 +494,7 @@
       "end_local": "2026-04-30T17:00:00+02:00",
       "price_per_mwh_eur": 9.51,
       "price_per_kwh_eur": 0.00951,
-      "price_per_kwh": 0.23187282,
+      "price_per_kwh": 0.23172065999999997,
       "currency": "CZK"
     },
     {
@@ -624,7 +504,7 @@
       "end_local": "2026-04-30T17:15:00+02:00",
       "price_per_mwh_eur": -0.42,
       "price_per_kwh_eur": -0.00041999999999999996,
-      "price_per_kwh": -0.01024044,
+      "price_per_kwh": -0.010233719999999998,
       "currency": "CZK"
     },
     {
@@ -634,7 +514,7 @@
       "end_local": "2026-04-30T17:30:00+02:00",
       "price_per_mwh_eur": 6.07,
       "price_per_kwh_eur": 0.00607,
-      "price_per_kwh": 0.14799874000000002,
+      "price_per_kwh": 0.14790161999999998,
       "currency": "CZK"
     },
     {
@@ -644,7 +524,7 @@
       "end_local": "2026-04-30T17:45:00+02:00",
       "price_per_mwh_eur": 59.47,
       "price_per_kwh_eur": 0.05947,
-      "price_per_kwh": 1.44999754,
+      "price_per_kwh": 1.44904602,
       "currency": "CZK"
     },
     {
@@ -654,7 +534,7 @@
       "end_local": "2026-04-30T18:00:00+02:00",
       "price_per_mwh_eur": 94.44,
       "price_per_kwh_eur": 0.09444,
-      "price_per_kwh": 2.30263608,
+      "price_per_kwh": 2.30112504,
       "currency": "CZK"
     },
     {
@@ -664,7 +544,7 @@
       "end_local": "2026-04-30T18:15:00+02:00",
       "price_per_mwh_eur": 47.52,
       "price_per_kwh_eur": 0.04752,
-      "price_per_kwh": 1.15863264,
+      "price_per_kwh": 1.15787232,
       "currency": "CZK"
     },
     {
@@ -674,7 +554,7 @@
       "end_local": "2026-04-30T18:30:00+02:00",
       "price_per_mwh_eur": 102.15,
       "price_per_kwh_eur": 0.10215,
-      "price_per_kwh": 2.4906213000000004,
+      "price_per_kwh": 2.4889869,
       "currency": "CZK"
     },
     {
@@ -684,7 +564,7 @@
       "end_local": "2026-04-30T18:45:00+02:00",
       "price_per_mwh_eur": 121.03,
       "price_per_kwh_eur": 0.12103,
-      "price_per_kwh": 2.95095346,
+      "price_per_kwh": 2.94901698,
       "currency": "CZK"
     },
     {
@@ -694,7 +574,7 @@
       "end_local": "2026-04-30T19:00:00+02:00",
       "price_per_mwh_eur": 143.01,
       "price_per_kwh_eur": 0.14301,
-      "price_per_kwh": 3.4868698200000003,
+      "price_per_kwh": 3.48458166,
       "currency": "CZK"
     },
     {
@@ -704,7 +584,7 @@
       "end_local": "2026-04-30T19:15:00+02:00",
       "price_per_mwh_eur": 115.16,
       "price_per_kwh_eur": 0.11516,
-      "price_per_kwh": 2.8078311200000003,
+      "price_per_kwh": 2.80598856,
       "currency": "CZK"
     },
     {
@@ -714,7 +594,7 @@
       "end_local": "2026-04-30T19:30:00+02:00",
       "price_per_mwh_eur": 129.07,
       "price_per_kwh_eur": 0.12907,
-      "price_per_kwh": 3.14698474,
+      "price_per_kwh": 3.1449196199999996,
       "currency": "CZK"
     },
     {
@@ -724,7 +604,7 @@
       "end_local": "2026-04-30T19:45:00+02:00",
       "price_per_mwh_eur": 151.44,
       "price_per_kwh_eur": 0.15144,
-      "price_per_kwh": 3.69241008,
+      "price_per_kwh": 3.6899870399999997,
       "currency": "CZK"
     },
     {
@@ -734,7 +614,7 @@
       "end_local": "2026-04-30T20:00:00+02:00",
       "price_per_mwh_eur": 185.77,
       "price_per_kwh_eur": 0.18577000000000002,
-      "price_per_kwh": 4.529444140000001,
+      "price_per_kwh": 4.52647182,
       "currency": "CZK"
     },
     {
@@ -744,7 +624,7 @@
       "end_local": "2026-04-30T20:15:00+02:00",
       "price_per_mwh_eur": 176.26,
       "price_per_kwh_eur": 0.17626,
-      "price_per_kwh": 4.29757132,
+      "price_per_kwh": 4.29475116,
       "currency": "CZK"
     },
     {
@@ -754,7 +634,7 @@
       "end_local": "2026-04-30T20:30:00+02:00",
       "price_per_mwh_eur": 181.45,
       "price_per_kwh_eur": 0.18145,
-      "price_per_kwh": 4.4241139,
+      "price_per_kwh": 4.4212107,
       "currency": "CZK"
     },
     {
@@ -764,7 +644,7 @@
       "end_local": "2026-04-30T20:45:00+02:00",
       "price_per_mwh_eur": 171.21,
       "price_per_kwh_eur": 0.17121,
-      "price_per_kwh": 4.17444222,
+      "price_per_kwh": 4.17170286,
       "currency": "CZK"
     },
     {
@@ -774,7 +654,7 @@
       "end_local": "2026-04-30T21:00:00+02:00",
       "price_per_mwh_eur": 153.16,
       "price_per_kwh_eur": 0.15316,
-      "price_per_kwh": 3.73434712,
+      "price_per_kwh": 3.7318965599999996,
       "currency": "CZK"
     },
     {
@@ -784,7 +664,7 @@
       "end_local": "2026-04-30T21:15:00+02:00",
       "price_per_mwh_eur": 167.81,
       "price_per_kwh_eur": 0.16781000000000001,
-      "price_per_kwh": 4.091543420000001,
+      "price_per_kwh": 4.08885846,
       "currency": "CZK"
     },
     {
@@ -794,7 +674,7 @@
       "end_local": "2026-04-30T21:30:00+02:00",
       "price_per_mwh_eur": 138.58,
       "price_per_kwh_eur": 0.13858,
-      "price_per_kwh": 3.3788575600000006,
+      "price_per_kwh": 3.37664028,
       "currency": "CZK"
     },
     {
@@ -804,7 +684,7 @@
       "end_local": "2026-04-30T21:45:00+02:00",
       "price_per_mwh_eur": 116.71,
       "price_per_kwh_eur": 0.11671,
-      "price_per_kwh": 2.8456232200000002,
+      "price_per_kwh": 2.84375586,
       "currency": "CZK"
     },
     {
@@ -814,7 +694,7 @@
       "end_local": "2026-04-30T22:00:00+02:00",
       "price_per_mwh_eur": 103.31,
       "price_per_kwh_eur": 0.10331,
-      "price_per_kwh": 2.51890442,
+      "price_per_kwh": 2.5172514599999998,
       "currency": "CZK"
     },
     {
@@ -824,7 +704,7 @@
       "end_local": "2026-04-30T22:15:00+02:00",
       "price_per_mwh_eur": 135.81,
       "price_per_kwh_eur": 0.13581000000000001,
-      "price_per_kwh": 3.3113194200000007,
+      "price_per_kwh": 3.3091464600000005,
       "currency": "CZK"
     },
     {
@@ -834,7 +714,7 @@
       "end_local": "2026-04-30T22:30:00+02:00",
       "price_per_mwh_eur": 123.56,
       "price_per_kwh_eur": 0.12356,
-      "price_per_kwh": 3.0126399200000002,
+      "price_per_kwh": 3.01066296,
       "currency": "CZK"
     },
     {
@@ -844,7 +724,7 @@
       "end_local": "2026-04-30T22:45:00+02:00",
       "price_per_mwh_eur": 114.43,
       "price_per_kwh_eur": 0.11443,
-      "price_per_kwh": 2.7900322600000003,
+      "price_per_kwh": 2.78820138,
       "currency": "CZK"
     },
     {
@@ -854,7 +734,7 @@
       "end_local": "2026-04-30T23:00:00+02:00",
       "price_per_mwh_eur": 109.86,
       "price_per_kwh_eur": 0.10986,
-      "price_per_kwh": 2.67860652,
+      "price_per_kwh": 2.67684876,
       "currency": "CZK"
     },
     {
@@ -864,7 +744,7 @@
       "end_local": "2026-04-30T23:15:00+02:00",
       "price_per_mwh_eur": 119.66,
       "price_per_kwh_eur": 0.11966,
-      "price_per_kwh": 2.91755012,
+      "price_per_kwh": 2.91563556,
       "currency": "CZK"
     },
     {
@@ -874,7 +754,7 @@
       "end_local": "2026-04-30T23:30:00+02:00",
       "price_per_mwh_eur": 113.42,
       "price_per_kwh_eur": 0.11342,
-      "price_per_kwh": 2.7654064400000005,
+      "price_per_kwh": 2.76359172,
       "currency": "CZK"
     },
     {
@@ -884,7 +764,7 @@
       "end_local": "2026-04-30T23:45:00+02:00",
       "price_per_mwh_eur": 107.55,
       "price_per_kwh_eur": 0.10754999999999999,
-      "price_per_kwh": 2.6222841,
+      "price_per_kwh": 2.6205632999999997,
       "currency": "CZK"
     },
     {
@@ -894,7 +774,7 @@
       "end_local": "2026-05-01T00:00:00+02:00",
       "price_per_mwh_eur": 105.76,
       "price_per_kwh_eur": 0.10576,
-      "price_per_kwh": 2.5786403200000003,
+      "price_per_kwh": 2.57694816,
       "currency": "CZK"
     },
     {
@@ -904,7 +784,7 @@
       "end_local": "2026-05-01T00:15:00+02:00",
       "price_per_mwh_eur": 119.49,
       "price_per_kwh_eur": 0.11949,
-      "price_per_kwh": 2.9134051800000003,
+      "price_per_kwh": 2.91149334,
       "currency": "CZK"
     },
     {
@@ -914,7 +794,7 @@
       "end_local": "2026-05-01T00:30:00+02:00",
       "price_per_mwh_eur": 113.62,
       "price_per_kwh_eur": 0.11362,
-      "price_per_kwh": 2.77028284,
+      "price_per_kwh": 2.76846492,
       "currency": "CZK"
     },
     {
@@ -924,7 +804,7 @@
       "end_local": "2026-05-01T00:45:00+02:00",
       "price_per_mwh_eur": 107.43,
       "price_per_kwh_eur": 0.10743000000000001,
-      "price_per_kwh": 2.6193582600000003,
+      "price_per_kwh": 2.6176393800000004,
       "currency": "CZK"
     },
     {
@@ -934,7 +814,7 @@
       "end_local": "2026-05-01T01:00:00+02:00",
       "price_per_mwh_eur": 105.56,
       "price_per_kwh_eur": 0.10556,
-      "price_per_kwh": 2.57376392,
+      "price_per_kwh": 2.57207496,
       "currency": "CZK"
     },
     {
@@ -944,7 +824,7 @@
       "end_local": "2026-05-01T01:15:00+02:00",
       "price_per_mwh_eur": 108.61,
       "price_per_kwh_eur": 0.10861,
-      "price_per_kwh": 2.6481290200000003,
+      "price_per_kwh": 2.64639126,
       "currency": "CZK"
     },
     {
@@ -954,7 +834,7 @@
       "end_local": "2026-05-01T01:30:00+02:00",
       "price_per_mwh_eur": 107.99,
       "price_per_kwh_eur": 0.10798999999999999,
-      "price_per_kwh": 2.6330121799999997,
+      "price_per_kwh": 2.6312843399999997,
       "currency": "CZK"
     },
     {
@@ -964,7 +844,7 @@
       "end_local": "2026-05-01T01:45:00+02:00",
       "price_per_mwh_eur": 107.14,
       "price_per_kwh_eur": 0.10714,
-      "price_per_kwh": 2.61228748,
+      "price_per_kwh": 2.61057324,
       "currency": "CZK"
     },
     {
@@ -974,7 +854,7 @@
       "end_local": "2026-05-01T02:00:00+02:00",
       "price_per_mwh_eur": 106.26,
       "price_per_kwh_eur": 0.10626000000000001,
-      "price_per_kwh": 2.5908313200000004,
+      "price_per_kwh": 2.58913116,
       "currency": "CZK"
     },
     {
@@ -984,7 +864,7 @@
       "end_local": "2026-05-01T02:15:00+02:00",
       "price_per_mwh_eur": 107.08,
       "price_per_kwh_eur": 0.10708,
-      "price_per_kwh": 2.61082456,
+      "price_per_kwh": 2.60911128,
       "currency": "CZK"
     },
     {
@@ -994,7 +874,7 @@
       "end_local": "2026-05-01T02:30:00+02:00",
       "price_per_mwh_eur": 105.35,
       "price_per_kwh_eur": 0.10535,
-      "price_per_kwh": 2.5686437,
+      "price_per_kwh": 2.5669581,
       "currency": "CZK"
     },
     {
@@ -1004,7 +884,7 @@
       "end_local": "2026-05-01T02:45:00+02:00",
       "price_per_mwh_eur": 106.87,
       "price_per_kwh_eur": 0.10687,
-      "price_per_kwh": 2.6057043400000004,
+      "price_per_kwh": 2.6039944200000003,
       "currency": "CZK"
     },
     {
@@ -1014,7 +894,7 @@
       "end_local": "2026-05-01T03:00:00+02:00",
       "price_per_mwh_eur": 107.24,
       "price_per_kwh_eur": 0.10723999999999999,
-      "price_per_kwh": 2.61472568,
+      "price_per_kwh": 2.6130098399999997,
       "currency": "CZK"
     },
     {
@@ -1024,7 +904,7 @@
       "end_local": "2026-05-01T03:15:00+02:00",
       "price_per_mwh_eur": 105.03,
       "price_per_kwh_eur": 0.10503,
-      "price_per_kwh": 2.5608414600000002,
+      "price_per_kwh": 2.55916098,
       "currency": "CZK"
     },
     {
@@ -1034,7 +914,7 @@
       "end_local": "2026-05-01T03:30:00+02:00",
       "price_per_mwh_eur": 104.49,
       "price_per_kwh_eur": 0.10449,
-      "price_per_kwh": 2.54767518,
+      "price_per_kwh": 2.54600334,
       "currency": "CZK"
     },
     {
@@ -1044,7 +924,7 @@
       "end_local": "2026-05-01T03:45:00+02:00",
       "price_per_mwh_eur": 104.81,
       "price_per_kwh_eur": 0.10481,
-      "price_per_kwh": 2.5554774200000003,
+      "price_per_kwh": 2.55380046,
       "currency": "CZK"
     },
     {
@@ -1054,7 +934,7 @@
       "end_local": "2026-05-01T04:00:00+02:00",
       "price_per_mwh_eur": 104.0,
       "price_per_kwh_eur": 0.104,
-      "price_per_kwh": 2.535728,
+      "price_per_kwh": 2.534064,
       "currency": "CZK"
     },
     {
@@ -1064,7 +944,7 @@
       "end_local": "2026-05-01T04:15:00+02:00",
       "price_per_mwh_eur": 103.0,
       "price_per_kwh_eur": 0.103,
-      "price_per_kwh": 2.511346,
+      "price_per_kwh": 2.5096979999999998,
       "currency": "CZK"
     },
     {
@@ -1074,7 +954,7 @@
       "end_local": "2026-05-01T04:30:00+02:00",
       "price_per_mwh_eur": 103.7,
       "price_per_kwh_eur": 0.1037,
-      "price_per_kwh": 2.5284134000000003,
+      "price_per_kwh": 2.5267542,
       "currency": "CZK"
     },
     {
@@ -1084,7 +964,7 @@
       "end_local": "2026-05-01T04:45:00+02:00",
       "price_per_mwh_eur": 102.82,
       "price_per_kwh_eur": 0.10282,
-      "price_per_kwh": 2.50695724,
+      "price_per_kwh": 2.5053121199999997,
       "currency": "CZK"
     },
     {
@@ -1094,7 +974,7 @@
       "end_local": "2026-05-01T05:00:00+02:00",
       "price_per_mwh_eur": 104.34,
       "price_per_kwh_eur": 0.10434,
-      "price_per_kwh": 2.54401788,
+      "price_per_kwh": 2.54234844,
       "currency": "CZK"
     },
     {
@@ -1104,7 +984,7 @@
       "end_local": "2026-05-01T05:15:00+02:00",
       "price_per_mwh_eur": 103.0,
       "price_per_kwh_eur": 0.103,
-      "price_per_kwh": 2.511346,
+      "price_per_kwh": 2.5096979999999998,
       "currency": "CZK"
     },
     {
@@ -1114,7 +994,7 @@
       "end_local": "2026-05-01T05:30:00+02:00",
       "price_per_mwh_eur": 102.56,
       "price_per_kwh_eur": 0.10256,
-      "price_per_kwh": 2.5006179200000003,
+      "price_per_kwh": 2.49897696,
       "currency": "CZK"
     },
     {
@@ -1124,7 +1004,7 @@
       "end_local": "2026-05-01T05:45:00+02:00",
       "price_per_mwh_eur": 103.55,
       "price_per_kwh_eur": 0.10355,
-      "price_per_kwh": 2.5247561000000003,
+      "price_per_kwh": 2.5230993,
       "currency": "CZK"
     },
     {
@@ -1134,7 +1014,7 @@
       "end_local": "2026-05-01T06:00:00+02:00",
       "price_per_mwh_eur": 100.41,
       "price_per_kwh_eur": 0.10041,
-      "price_per_kwh": 2.44819662,
+      "price_per_kwh": 2.44659006,
       "currency": "CZK"
     },
     {
@@ -1144,7 +1024,7 @@
       "end_local": "2026-05-01T06:15:00+02:00",
       "price_per_mwh_eur": 105.12,
       "price_per_kwh_eur": 0.10512,
-      "price_per_kwh": 2.5630358400000004,
+      "price_per_kwh": 2.56135392,
       "currency": "CZK"
     },
     {
@@ -1154,7 +1034,7 @@
       "end_local": "2026-05-01T06:30:00+02:00",
       "price_per_mwh_eur": 103.66,
       "price_per_kwh_eur": 0.10366,
-      "price_per_kwh": 2.5274381200000002,
+      "price_per_kwh": 2.52577956,
       "currency": "CZK"
     },
     {
@@ -1164,7 +1044,7 @@
       "end_local": "2026-05-01T06:45:00+02:00",
       "price_per_mwh_eur": 96.42,
       "price_per_kwh_eur": 0.09642,
-      "price_per_kwh": 2.35091244,
+      "price_per_kwh": 2.3493697200000003,
       "currency": "CZK"
     },
     {
@@ -1174,7 +1054,7 @@
       "end_local": "2026-05-01T07:00:00+02:00",
       "price_per_mwh_eur": 75.46,
       "price_per_kwh_eur": 0.07546,
-      "price_per_kwh": 1.8398657200000001,
+      "price_per_kwh": 1.83865836,
       "currency": "CZK"
     },
     {
@@ -1184,7 +1064,7 @@
       "end_local": "2026-05-01T07:15:00+02:00",
       "price_per_mwh_eur": 132.3,
       "price_per_kwh_eur": 0.1323,
-      "price_per_kwh": 3.2257386,
+      "price_per_kwh": 3.2236218,
       "currency": "CZK"
     },
     {
@@ -1194,7 +1074,7 @@
       "end_local": "2026-05-01T07:30:00+02:00",
       "price_per_mwh_eur": 101.19,
       "price_per_kwh_eur": 0.10119,
-      "price_per_kwh": 2.4672145800000003,
+      "price_per_kwh": 2.46559554,
       "currency": "CZK"
     },
     {
@@ -1204,7 +1084,7 @@
       "end_local": "2026-05-01T07:45:00+02:00",
       "price_per_mwh_eur": 73.56,
       "price_per_kwh_eur": 0.07356,
-      "price_per_kwh": 1.7935399200000002,
+      "price_per_kwh": 1.79236296,
       "currency": "CZK"
     },
     {
@@ -1214,7 +1094,7 @@
       "end_local": "2026-05-01T08:00:00+02:00",
       "price_per_mwh_eur": 33.19,
       "price_per_kwh_eur": 0.03319,
-      "price_per_kwh": 0.8092385799999999,
+      "price_per_kwh": 0.8087075399999999,
       "currency": "CZK"
     },
     {
@@ -1224,7 +1104,7 @@
       "end_local": "2026-05-01T08:15:00+02:00",
       "price_per_mwh_eur": 102.24,
       "price_per_kwh_eur": 0.10224,
-      "price_per_kwh": 2.49281568,
+      "price_per_kwh": 2.49117984,
       "currency": "CZK"
     },
     {
@@ -1234,7 +1114,7 @@
       "end_local": "2026-05-01T08:30:00+02:00",
       "price_per_mwh_eur": 35.98,
       "price_per_kwh_eur": 0.03598,
-      "price_per_kwh": 0.87726436,
+      "price_per_kwh": 0.8766886799999999,
       "currency": "CZK"
     },
     {
@@ -1244,7 +1124,7 @@
       "end_local": "2026-05-01T08:45:00+02:00",
       "price_per_mwh_eur": 7.66,
       "price_per_kwh_eur": 0.00766,
-      "price_per_kwh": 0.18676612,
+      "price_per_kwh": 0.18664356000000001,
       "currency": "CZK"
     },
     {
@@ -1254,7 +1134,7 @@
       "end_local": "2026-05-01T09:00:00+02:00",
       "price_per_mwh_eur": 0.03,
       "price_per_kwh_eur": 2.9999999999999997e-05,
-      "price_per_kwh": 0.00073146,
+      "price_per_kwh": 0.0007309799999999999,
       "currency": "CZK"
     },
     {
@@ -1264,7 +1144,7 @@
       "end_local": "2026-05-01T09:15:00+02:00",
       "price_per_mwh_eur": 1.16,
       "price_per_kwh_eur": 0.00116,
-      "price_per_kwh": 0.028283120000000002,
+      "price_per_kwh": 0.02826456,
       "currency": "CZK"
     },
     {
@@ -1284,7 +1164,7 @@
       "end_local": "2026-05-01T09:45:00+02:00",
       "price_per_mwh_eur": -0.01,
       "price_per_kwh_eur": -1e-05,
-      "price_per_kwh": -0.00024382000000000003,
+      "price_per_kwh": -0.00024366,
       "currency": "CZK"
     },
     {
@@ -1294,7 +1174,7 @@
       "end_local": "2026-05-01T10:00:00+02:00",
       "price_per_mwh_eur": -1.3,
       "price_per_kwh_eur": -0.0013,
-      "price_per_kwh": -0.0316966,
+      "price_per_kwh": -0.0316758,
       "currency": "CZK"
     },
     {
@@ -1304,7 +1184,7 @@
       "end_local": "2026-05-01T10:15:00+02:00",
       "price_per_mwh_eur": -1.43,
       "price_per_kwh_eur": -0.0014299999999999998,
-      "price_per_kwh": -0.034866259999999996,
+      "price_per_kwh": -0.03484337999999999,
       "currency": "CZK"
     },
     {
@@ -1314,7 +1194,7 @@
       "end_local": "2026-05-01T10:30:00+02:00",
       "price_per_mwh_eur": -8.3,
       "price_per_kwh_eur": -0.0083,
-      "price_per_kwh": -0.2023706,
+      "price_per_kwh": -0.2022378,
       "currency": "CZK"
     },
     {
@@ -1324,7 +1204,7 @@
       "end_local": "2026-05-01T10:45:00+02:00",
       "price_per_mwh_eur": -25.95,
       "price_per_kwh_eur": -0.02595,
-      "price_per_kwh": -0.6327129,
+      "price_per_kwh": -0.6322977,
       "currency": "CZK"
     },
     {
@@ -1334,7 +1214,7 @@
       "end_local": "2026-05-01T11:00:00+02:00",
       "price_per_mwh_eur": -52.26,
       "price_per_kwh_eur": -0.05226,
-      "price_per_kwh": -1.27420332,
+      "price_per_kwh": -1.27336716,
       "currency": "CZK"
     },
     {
@@ -1344,7 +1224,7 @@
       "end_local": "2026-05-01T11:15:00+02:00",
       "price_per_mwh_eur": -72.7,
       "price_per_kwh_eur": -0.0727,
-      "price_per_kwh": -1.7725714000000001,
+      "price_per_kwh": -1.7714082,
       "currency": "CZK"
     },
     {
@@ -1354,7 +1234,7 @@
       "end_local": "2026-05-01T11:30:00+02:00",
       "price_per_mwh_eur": -94.0,
       "price_per_kwh_eur": -0.094,
-      "price_per_kwh": -2.2919080000000003,
+      "price_per_kwh": -2.290404,
       "currency": "CZK"
     },
     {
@@ -1364,7 +1244,7 @@
       "end_local": "2026-05-01T11:45:00+02:00",
       "price_per_mwh_eur": -124.65,
       "price_per_kwh_eur": -0.12465000000000001,
-      "price_per_kwh": -3.0392163000000005,
+      "price_per_kwh": -3.0372219,
       "currency": "CZK"
     },
     {
@@ -1374,7 +1254,7 @@
       "end_local": "2026-05-01T12:00:00+02:00",
       "price_per_mwh_eur": -159.98,
       "price_per_kwh_eur": -0.15997999999999998,
-      "price_per_kwh": -3.90063236,
+      "price_per_kwh": -3.8980726799999994,
       "currency": "CZK"
     },
     {
@@ -1384,7 +1264,7 @@
       "end_local": "2026-05-01T12:15:00+02:00",
       "price_per_mwh_eur": -166.36,
       "price_per_kwh_eur": -0.16636,
-      "price_per_kwh": -4.05618952,
+      "price_per_kwh": -4.05352776,
       "currency": "CZK"
     },
     {
@@ -1394,7 +1274,7 @@
       "end_local": "2026-05-01T12:30:00+02:00",
       "price_per_mwh_eur": -286.22,
       "price_per_kwh_eur": -0.28622000000000003,
-      "price_per_kwh": -6.978616040000001,
+      "price_per_kwh": -6.97403652,
       "currency": "CZK"
     },
     {
@@ -1404,7 +1284,7 @@
       "end_local": "2026-05-01T12:45:00+02:00",
       "price_per_mwh_eur": -353.69,
       "price_per_kwh_eur": -0.35369,
-      "price_per_kwh": -8.623669580000001,
+      "price_per_kwh": -8.61801054,
       "currency": "CZK"
     },
     {
@@ -1414,7 +1294,7 @@
       "end_local": "2026-05-01T13:00:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1424,7 +1304,7 @@
       "end_local": "2026-05-01T13:15:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1434,7 +1314,7 @@
       "end_local": "2026-05-01T13:30:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1444,7 +1324,7 @@
       "end_local": "2026-05-01T13:45:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1454,7 +1334,7 @@
       "end_local": "2026-05-01T14:00:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1464,7 +1344,7 @@
       "end_local": "2026-05-01T14:15:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1474,7 +1354,7 @@
       "end_local": "2026-05-01T14:30:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1484,7 +1364,7 @@
       "end_local": "2026-05-01T14:45:00+02:00",
       "price_per_mwh_eur": -500.0,
       "price_per_kwh_eur": -0.5,
-      "price_per_kwh": -12.191,
+      "price_per_kwh": -12.183,
       "currency": "CZK"
     },
     {
@@ -1494,7 +1374,7 @@
       "end_local": "2026-05-01T15:00:00+02:00",
       "price_per_mwh_eur": -416.39,
       "price_per_kwh_eur": -0.41639,
-      "price_per_kwh": -10.15242098,
+      "price_per_kwh": -10.14575874,
       "currency": "CZK"
     },
     {
@@ -1504,7 +1384,7 @@
       "end_local": "2026-05-01T15:15:00+02:00",
       "price_per_mwh_eur": -416.41,
       "price_per_kwh_eur": -0.41641,
-      "price_per_kwh": -10.15290862,
+      "price_per_kwh": -10.14624606,
       "currency": "CZK"
     },
     {
@@ -1514,7 +1394,7 @@
       "end_local": "2026-05-01T15:30:00+02:00",
       "price_per_mwh_eur": -224.5,
       "price_per_kwh_eur": -0.2245,
-      "price_per_kwh": -5.473759,
+      "price_per_kwh": -5.470167,
       "currency": "CZK"
     },
     {
@@ -1524,7 +1404,7 @@
       "end_local": "2026-05-01T15:45:00+02:00",
       "price_per_mwh_eur": -135.28,
       "price_per_kwh_eur": -0.13528,
-      "price_per_kwh": -3.2983969600000003,
+      "price_per_kwh": -3.29623248,
       "currency": "CZK"
     },
     {
@@ -1534,7 +1414,7 @@
       "end_local": "2026-05-01T16:00:00+02:00",
       "price_per_mwh_eur": -81.11,
       "price_per_kwh_eur": -0.08111,
-      "price_per_kwh": -1.9776240200000001,
+      "price_per_kwh": -1.97632626,
       "currency": "CZK"
     },
     {
@@ -1544,7 +1424,7 @@
       "end_local": "2026-05-01T16:15:00+02:00",
       "price_per_mwh_eur": -66.04,
       "price_per_kwh_eur": -0.06604,
-      "price_per_kwh": -1.61018728,
+      "price_per_kwh": -1.60913064,
       "currency": "CZK"
     },
     {
@@ -1554,7 +1434,7 @@
       "end_local": "2026-05-01T16:30:00+02:00",
       "price_per_mwh_eur": -31.65,
       "price_per_kwh_eur": -0.03165,
-      "price_per_kwh": -0.7716902999999999,
+      "price_per_kwh": -0.7711838999999999,
       "currency": "CZK"
     },
     {
@@ -1564,7 +1444,7 @@
       "end_local": "2026-05-01T16:45:00+02:00",
       "price_per_mwh_eur": -10.79,
       "price_per_kwh_eur": -0.01079,
-      "price_per_kwh": -0.26308178,
+      "price_per_kwh": -0.26290914,
       "currency": "CZK"
     },
     {
@@ -1574,7 +1454,7 @@
       "end_local": "2026-05-01T17:00:00+02:00",
       "price_per_mwh_eur": -1.3,
       "price_per_kwh_eur": -0.0013,
-      "price_per_kwh": -0.0316966,
+      "price_per_kwh": -0.0316758,
       "currency": "CZK"
     },
     {
@@ -1584,7 +1464,7 @@
       "end_local": "2026-05-01T17:15:00+02:00",
       "price_per_mwh_eur": -1.7,
       "price_per_kwh_eur": -0.0017,
-      "price_per_kwh": -0.0414494,
+      "price_per_kwh": -0.0414222,
       "currency": "CZK"
     },
     {
@@ -1594,7 +1474,7 @@
       "end_local": "2026-05-01T17:30:00+02:00",
       "price_per_mwh_eur": -0.71,
       "price_per_kwh_eur": -0.0007099999999999999,
-      "price_per_kwh": -0.01731122,
+      "price_per_kwh": -0.017299859999999997,
       "currency": "CZK"
     },
     {
@@ -1604,7 +1484,7 @@
       "end_local": "2026-05-01T17:45:00+02:00",
       "price_per_mwh_eur": -4.86,
       "price_per_kwh_eur": -0.004860000000000001,
-      "price_per_kwh": -0.11849652000000002,
+      "price_per_kwh": -0.11841876000000001,
       "currency": "CZK"
     },
     {
@@ -1614,7 +1494,7 @@
       "end_local": "2026-05-01T18:00:00+02:00",
       "price_per_mwh_eur": 18.89,
       "price_per_kwh_eur": 0.01889,
-      "price_per_kwh": 0.46057598000000005,
+      "price_per_kwh": 0.46027374,
       "currency": "CZK"
     },
     {
@@ -1624,7 +1504,7 @@
       "end_local": "2026-05-01T18:15:00+02:00",
       "price_per_mwh_eur": 4.73,
       "price_per_kwh_eur": 0.004730000000000001,
-      "price_per_kwh": 0.11532686000000002,
+      "price_per_kwh": 0.11525118000000001,
       "currency": "CZK"
     },
     {
@@ -1634,7 +1514,7 @@
       "end_local": "2026-05-01T18:30:00+02:00",
       "price_per_mwh_eur": 82.87,
       "price_per_kwh_eur": 0.08287,
-      "price_per_kwh": 2.02053634,
+      "price_per_kwh": 2.01921042,
       "currency": "CZK"
     },
     {
@@ -1644,7 +1524,7 @@
       "end_local": "2026-05-01T18:45:00+02:00",
       "price_per_mwh_eur": 114.51,
       "price_per_kwh_eur": 0.11451,
-      "price_per_kwh": 2.7919828200000003,
+      "price_per_kwh": 2.79015066,
       "currency": "CZK"
     },
     {
@@ -1654,7 +1534,7 @@
       "end_local": "2026-05-01T19:00:00+02:00",
       "price_per_mwh_eur": 173.78,
       "price_per_kwh_eur": 0.17378,
-      "price_per_kwh": 4.23710396,
+      "price_per_kwh": 4.23432348,
       "currency": "CZK"
     },
     {
@@ -1664,7 +1544,7 @@
       "end_local": "2026-05-01T19:15:00+02:00",
       "price_per_mwh_eur": 98.65,
       "price_per_kwh_eur": 0.09865,
-      "price_per_kwh": 2.4052843000000004,
+      "price_per_kwh": 2.4037059,
       "currency": "CZK"
     },
     {
@@ -1674,7 +1554,7 @@
       "end_local": "2026-05-01T19:30:00+02:00",
       "price_per_mwh_eur": 116.63,
       "price_per_kwh_eur": 0.11663,
-      "price_per_kwh": 2.84367266,
+      "price_per_kwh": 2.84180658,
       "currency": "CZK"
     },
     {
@@ -1684,7 +1564,7 @@
       "end_local": "2026-05-01T19:45:00+02:00",
       "price_per_mwh_eur": 136.58,
       "price_per_kwh_eur": 0.13658,
-      "price_per_kwh": 3.3300935600000003,
+      "price_per_kwh": 3.32790828,
       "currency": "CZK"
     },
     {
@@ -1694,7 +1574,7 @@
       "end_local": "2026-05-01T20:00:00+02:00",
       "price_per_mwh_eur": 206.95,
       "price_per_kwh_eur": 0.20695,
-      "price_per_kwh": 5.0458549,
+      "price_per_kwh": 5.0425436999999995,
       "currency": "CZK"
     },
     {
@@ -1704,7 +1584,7 @@
       "end_local": "2026-05-01T20:15:00+02:00",
       "price_per_mwh_eur": 170.11,
       "price_per_kwh_eur": 0.17011,
-      "price_per_kwh": 4.147622020000001,
+      "price_per_kwh": 4.14490026,
       "currency": "CZK"
     },
     {
@@ -1714,7 +1594,7 @@
       "end_local": "2026-05-01T20:30:00+02:00",
       "price_per_mwh_eur": 174.0,
       "price_per_kwh_eur": 0.174,
-      "price_per_kwh": 4.242468,
+      "price_per_kwh": 4.239684,
       "currency": "CZK"
     },
     {
@@ -1724,7 +1604,7 @@
       "end_local": "2026-05-01T20:45:00+02:00",
       "price_per_mwh_eur": 170.0,
       "price_per_kwh_eur": 0.17,
-      "price_per_kwh": 4.144940000000001,
+      "price_per_kwh": 4.14222,
       "currency": "CZK"
     },
     {
@@ -1734,7 +1614,7 @@
       "end_local": "2026-05-01T21:00:00+02:00",
       "price_per_mwh_eur": 136.94,
       "price_per_kwh_eur": 0.13694,
-      "price_per_kwh": 3.3388710800000005,
+      "price_per_kwh": 3.33668004,
       "currency": "CZK"
     },
     {
@@ -1744,7 +1624,7 @@
       "end_local": "2026-05-01T21:15:00+02:00",
       "price_per_mwh_eur": 201.3,
       "price_per_kwh_eur": 0.2013,
-      "price_per_kwh": 4.9080966,
+      "price_per_kwh": 4.9048758,
       "currency": "CZK"
     },
     {
@@ -1754,7 +1634,7 @@
       "end_local": "2026-05-01T21:30:00+02:00",
       "price_per_mwh_eur": 123.98,
       "price_per_kwh_eur": 0.12398,
-      "price_per_kwh": 3.0228803600000003,
+      "price_per_kwh": 3.0208966800000003,
       "currency": "CZK"
     },
     {
@@ -1764,7 +1644,7 @@
       "end_local": "2026-05-01T21:45:00+02:00",
       "price_per_mwh_eur": 113.94,
       "price_per_kwh_eur": 0.11394,
-      "price_per_kwh": 2.7780850800000003,
+      "price_per_kwh": 2.7762620399999998,
       "currency": "CZK"
     },
     {
@@ -1774,7 +1654,7 @@
       "end_local": "2026-05-01T22:00:00+02:00",
       "price_per_mwh_eur": 110.3,
       "price_per_kwh_eur": 0.1103,
-      "price_per_kwh": 2.6893346,
+      "price_per_kwh": 2.6875698,
       "currency": "CZK"
     },
     {
@@ -1784,7 +1664,7 @@
       "end_local": "2026-05-01T22:15:00+02:00",
       "price_per_mwh_eur": 136.14,
       "price_per_kwh_eur": 0.13613999999999998,
-      "price_per_kwh": 3.3193654799999996,
+      "price_per_kwh": 3.3171872399999995,
       "currency": "CZK"
     },
     {
@@ -1794,7 +1674,7 @@
       "end_local": "2026-05-01T22:30:00+02:00",
       "price_per_mwh_eur": 123.83,
       "price_per_kwh_eur": 0.12383,
-      "price_per_kwh": 3.0192230600000003,
+      "price_per_kwh": 3.01724178,
       "currency": "CZK"
     },
     {
@@ -1804,7 +1684,7 @@
       "end_local": "2026-05-01T22:45:00+02:00",
       "price_per_mwh_eur": 113.1,
       "price_per_kwh_eur": 0.11309999999999999,
-      "price_per_kwh": 2.7576042,
+      "price_per_kwh": 2.7557945999999998,
       "currency": "CZK"
     },
     {
@@ -1814,7 +1694,7 @@
       "end_local": "2026-05-01T23:00:00+02:00",
       "price_per_mwh_eur": 105.48,
       "price_per_kwh_eur": 0.10548,
-      "price_per_kwh": 2.57181336,
+      "price_per_kwh": 2.57012568,
       "currency": "CZK"
     },
     {
@@ -1824,7 +1704,7 @@
       "end_local": "2026-05-01T23:15:00+02:00",
       "price_per_mwh_eur": 110.78,
       "price_per_kwh_eur": 0.11078,
-      "price_per_kwh": 2.7010379600000003,
+      "price_per_kwh": 2.69926548,
       "currency": "CZK"
     },
     {
@@ -1834,7 +1714,7 @@
       "end_local": "2026-05-01T23:30:00+02:00",
       "price_per_mwh_eur": 105.07,
       "price_per_kwh_eur": 0.10507,
-      "price_per_kwh": 2.5618167400000003,
+      "price_per_kwh": 2.56013562,
       "currency": "CZK"
     },
     {
@@ -1844,7 +1724,7 @@
       "end_local": "2026-05-01T23:45:00+02:00",
       "price_per_mwh_eur": 97.37,
       "price_per_kwh_eur": 0.09737,
-      "price_per_kwh": 2.37407534,
+      "price_per_kwh": 2.37251742,
       "currency": "CZK"
     },
     {
@@ -1854,7 +1734,7 @@
       "end_local": "2026-05-02T00:00:00+02:00",
       "price_per_mwh_eur": 90.05,
       "price_per_kwh_eur": 0.09004999999999999,
-      "price_per_kwh": 2.1955991,
+      "price_per_kwh": 2.1941583,
       "currency": "CZK"
     }
   ],
@@ -1864,133 +1744,13 @@
       "eic_code": "10YCZ-CEPS-----N",
       "prices": [
         {
-          "start_utc": "2026-04-30T00:00:00Z",
-          "end_utc": "2026-04-30T00:15:00Z",
-          "start_local": "2026-04-30T02:00:00+02:00",
-          "end_local": "2026-04-30T02:15:00+02:00",
-          "price_per_mwh_eur": 106.35,
-          "price_per_kwh_eur": 0.10635,
-          "price_per_kwh": 2.5930257,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T00:15:00Z",
-          "end_utc": "2026-04-30T00:30:00Z",
-          "start_local": "2026-04-30T02:15:00+02:00",
-          "end_local": "2026-04-30T02:30:00+02:00",
-          "price_per_mwh_eur": 102.8,
-          "price_per_kwh_eur": 0.1028,
-          "price_per_kwh": 2.5064696000000004,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T00:30:00Z",
-          "end_utc": "2026-04-30T00:45:00Z",
-          "start_local": "2026-04-30T02:30:00+02:00",
-          "end_local": "2026-04-30T02:45:00+02:00",
-          "price_per_mwh_eur": 102.51,
-          "price_per_kwh_eur": 0.10251,
-          "price_per_kwh": 2.49939882,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T00:45:00Z",
-          "end_utc": "2026-04-30T01:00:00Z",
-          "start_local": "2026-04-30T02:45:00+02:00",
-          "end_local": "2026-04-30T03:00:00+02:00",
-          "price_per_mwh_eur": 102.86,
-          "price_per_kwh_eur": 0.10286,
-          "price_per_kwh": 2.5079325199999998,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T01:00:00Z",
-          "end_utc": "2026-04-30T01:15:00Z",
-          "start_local": "2026-04-30T03:00:00+02:00",
-          "end_local": "2026-04-30T03:15:00+02:00",
-          "price_per_mwh_eur": 104.44,
-          "price_per_kwh_eur": 0.10443999999999999,
-          "price_per_kwh": 2.54645608,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T01:15:00Z",
-          "end_utc": "2026-04-30T01:30:00Z",
-          "start_local": "2026-04-30T03:15:00+02:00",
-          "end_local": "2026-04-30T03:30:00+02:00",
-          "price_per_mwh_eur": 104.95,
-          "price_per_kwh_eur": 0.10495,
-          "price_per_kwh": 2.5588909,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T01:30:00Z",
-          "end_utc": "2026-04-30T01:45:00Z",
-          "start_local": "2026-04-30T03:30:00+02:00",
-          "end_local": "2026-04-30T03:45:00+02:00",
-          "price_per_mwh_eur": 105.25,
-          "price_per_kwh_eur": 0.10525,
-          "price_per_kwh": 2.5662055,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T01:45:00Z",
-          "end_utc": "2026-04-30T02:00:00Z",
-          "start_local": "2026-04-30T03:45:00+02:00",
-          "end_local": "2026-04-30T04:00:00+02:00",
-          "price_per_mwh_eur": 106.92,
-          "price_per_kwh_eur": 0.10692,
-          "price_per_kwh": 2.60692344,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T02:00:00Z",
-          "end_utc": "2026-04-30T02:15:00Z",
-          "start_local": "2026-04-30T04:00:00+02:00",
-          "end_local": "2026-04-30T04:15:00+02:00",
-          "price_per_mwh_eur": 104.12,
-          "price_per_kwh_eur": 0.10412,
-          "price_per_kwh": 2.5386538400000003,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T02:15:00Z",
-          "end_utc": "2026-04-30T02:30:00Z",
-          "start_local": "2026-04-30T04:15:00+02:00",
-          "end_local": "2026-04-30T04:30:00+02:00",
-          "price_per_mwh_eur": 107.43,
-          "price_per_kwh_eur": 0.10743000000000001,
-          "price_per_kwh": 2.6193582600000003,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T02:30:00Z",
-          "end_utc": "2026-04-30T02:45:00Z",
-          "start_local": "2026-04-30T04:30:00+02:00",
-          "end_local": "2026-04-30T04:45:00+02:00",
-          "price_per_mwh_eur": 112.86,
-          "price_per_kwh_eur": 0.11286,
-          "price_per_kwh": 2.75175252,
-          "currency": "CZK"
-        },
-        {
-          "start_utc": "2026-04-30T02:45:00Z",
-          "end_utc": "2026-04-30T03:00:00Z",
-          "start_local": "2026-04-30T04:45:00+02:00",
-          "end_local": "2026-04-30T05:00:00+02:00",
-          "price_per_mwh_eur": 115.65,
-          "price_per_kwh_eur": 0.11565,
-          "price_per_kwh": 2.8197783000000003,
-          "currency": "CZK"
-        },
-        {
           "start_utc": "2026-04-30T03:00:00Z",
           "end_utc": "2026-04-30T03:15:00Z",
           "start_local": "2026-04-30T05:00:00+02:00",
           "end_local": "2026-04-30T05:15:00+02:00",
           "price_per_mwh_eur": 112.29,
           "price_per_kwh_eur": 0.11229,
-          "price_per_kwh": 2.73785478,
+          "price_per_kwh": 2.73605814,
           "currency": "CZK"
         },
         {
@@ -2000,7 +1760,7 @@
           "end_local": "2026-04-30T05:30:00+02:00",
           "price_per_mwh_eur": 116.89,
           "price_per_kwh_eur": 0.11689,
-          "price_per_kwh": 2.85001198,
+          "price_per_kwh": 2.84814174,
           "currency": "CZK"
         },
         {
@@ -2010,7 +1770,7 @@
           "end_local": "2026-04-30T05:45:00+02:00",
           "price_per_mwh_eur": 123.03,
           "price_per_kwh_eur": 0.12303,
-          "price_per_kwh": 2.9997174600000003,
+          "price_per_kwh": 2.99774898,
           "currency": "CZK"
         },
         {
@@ -2020,7 +1780,7 @@
           "end_local": "2026-04-30T06:00:00+02:00",
           "price_per_mwh_eur": 129.54,
           "price_per_kwh_eur": 0.12954,
-          "price_per_kwh": 3.15844428,
+          "price_per_kwh": 3.1563716399999997,
           "currency": "CZK"
         },
         {
@@ -2030,7 +1790,7 @@
           "end_local": "2026-04-30T06:15:00+02:00",
           "price_per_mwh_eur": 116.34,
           "price_per_kwh_eur": 0.11634,
-          "price_per_kwh": 2.8366018800000004,
+          "price_per_kwh": 2.83474044,
           "currency": "CZK"
         },
         {
@@ -2040,7 +1800,7 @@
           "end_local": "2026-04-30T06:30:00+02:00",
           "price_per_mwh_eur": 139.64,
           "price_per_kwh_eur": 0.13964,
-          "price_per_kwh": 3.40470248,
+          "price_per_kwh": 3.4024682399999997,
           "currency": "CZK"
         },
         {
@@ -2050,7 +1810,7 @@
           "end_local": "2026-04-30T06:45:00+02:00",
           "price_per_mwh_eur": 141.79,
           "price_per_kwh_eur": 0.14179,
-          "price_per_kwh": 3.4571237800000003,
+          "price_per_kwh": 3.45485514,
           "currency": "CZK"
         },
         {
@@ -2060,7 +1820,7 @@
           "end_local": "2026-04-30T07:00:00+02:00",
           "price_per_mwh_eur": 130.72,
           "price_per_kwh_eur": 0.13072,
-          "price_per_kwh": 3.1872150400000003,
+          "price_per_kwh": 3.18512352,
           "currency": "CZK"
         },
         {
@@ -2070,7 +1830,7 @@
           "end_local": "2026-04-30T07:15:00+02:00",
           "price_per_mwh_eur": 147.2,
           "price_per_kwh_eur": 0.1472,
-          "price_per_kwh": 3.5890304,
+          "price_per_kwh": 3.5866751999999997,
           "currency": "CZK"
         },
         {
@@ -2080,7 +1840,7 @@
           "end_local": "2026-04-30T07:30:00+02:00",
           "price_per_mwh_eur": 128.98,
           "price_per_kwh_eur": 0.12897999999999998,
-          "price_per_kwh": 3.14479036,
+          "price_per_kwh": 3.1427266799999996,
           "currency": "CZK"
         },
         {
@@ -2090,7 +1850,7 @@
           "end_local": "2026-04-30T07:45:00+02:00",
           "price_per_mwh_eur": 115.26,
           "price_per_kwh_eur": 0.11526,
-          "price_per_kwh": 2.81026932,
+          "price_per_kwh": 2.80842516,
           "currency": "CZK"
         },
         {
@@ -2100,7 +1860,7 @@
           "end_local": "2026-04-30T08:00:00+02:00",
           "price_per_mwh_eur": 96.76,
           "price_per_kwh_eur": 0.09676,
-          "price_per_kwh": 2.35920232,
+          "price_per_kwh": 2.35765416,
           "currency": "CZK"
         },
         {
@@ -2110,7 +1870,7 @@
           "end_local": "2026-04-30T08:15:00+02:00",
           "price_per_mwh_eur": 133.84,
           "price_per_kwh_eur": 0.13384000000000001,
-          "price_per_kwh": 3.2632868800000003,
+          "price_per_kwh": 3.2611454400000004,
           "currency": "CZK"
         },
         {
@@ -2120,7 +1880,7 @@
           "end_local": "2026-04-30T08:30:00+02:00",
           "price_per_mwh_eur": 121.47,
           "price_per_kwh_eur": 0.12147,
-          "price_per_kwh": 2.96168154,
+          "price_per_kwh": 2.9597380199999996,
           "currency": "CZK"
         },
         {
@@ -2130,7 +1890,7 @@
           "end_local": "2026-04-30T08:45:00+02:00",
           "price_per_mwh_eur": 98.31,
           "price_per_kwh_eur": 0.09831000000000001,
-          "price_per_kwh": 2.3969944200000004,
+          "price_per_kwh": 2.39542146,
           "currency": "CZK"
         },
         {
@@ -2140,7 +1900,7 @@
           "end_local": "2026-04-30T09:00:00+02:00",
           "price_per_mwh_eur": 51.09,
           "price_per_kwh_eur": 0.05109,
-          "price_per_kwh": 1.2456763800000001,
+          "price_per_kwh": 1.24485894,
           "currency": "CZK"
         },
         {
@@ -2150,7 +1910,7 @@
           "end_local": "2026-04-30T09:15:00+02:00",
           "price_per_mwh_eur": 114.27,
           "price_per_kwh_eur": 0.11427,
-          "price_per_kwh": 2.78613114,
+          "price_per_kwh": 2.7843028199999997,
           "currency": "CZK"
         },
         {
@@ -2160,7 +1920,7 @@
           "end_local": "2026-04-30T09:30:00+02:00",
           "price_per_mwh_eur": 61.09,
           "price_per_kwh_eur": 0.061090000000000005,
-          "price_per_kwh": 1.4894963800000003,
+          "price_per_kwh": 1.48851894,
           "currency": "CZK"
         },
         {
@@ -2170,7 +1930,7 @@
           "end_local": "2026-04-30T09:45:00+02:00",
           "price_per_mwh_eur": 14.66,
           "price_per_kwh_eur": 0.01466,
-          "price_per_kwh": 0.35744012000000003,
+          "price_per_kwh": 0.35720556,
           "currency": "CZK"
         },
         {
@@ -2180,7 +1940,7 @@
           "end_local": "2026-04-30T10:00:00+02:00",
           "price_per_mwh_eur": 0.01,
           "price_per_kwh_eur": 1e-05,
-          "price_per_kwh": 0.00024382000000000003,
+          "price_per_kwh": 0.00024366,
           "currency": "CZK"
         },
         {
@@ -2190,7 +1950,7 @@
           "end_local": "2026-04-30T10:15:00+02:00",
           "price_per_mwh_eur": 1.99,
           "price_per_kwh_eur": 0.00199,
-          "price_per_kwh": 0.04852018,
+          "price_per_kwh": 0.04848834,
           "currency": "CZK"
         },
         {
@@ -2220,7 +1980,7 @@
           "end_local": "2026-04-30T11:00:00+02:00",
           "price_per_mwh_eur": -1.03,
           "price_per_kwh_eur": -0.00103,
-          "price_per_kwh": -0.025113460000000004,
+          "price_per_kwh": -0.02509698,
           "currency": "CZK"
         },
         {
@@ -2230,7 +1990,7 @@
           "end_local": "2026-04-30T11:15:00+02:00",
           "price_per_mwh_eur": 0.08,
           "price_per_kwh_eur": 8e-05,
-          "price_per_kwh": 0.0019505600000000003,
+          "price_per_kwh": 0.00194928,
           "currency": "CZK"
         },
         {
@@ -2240,7 +2000,7 @@
           "end_local": "2026-04-30T11:30:00+02:00",
           "price_per_mwh_eur": -0.47,
           "price_per_kwh_eur": -0.00047,
-          "price_per_kwh": -0.01145954,
+          "price_per_kwh": -0.01145202,
           "currency": "CZK"
         },
         {
@@ -2250,7 +2010,7 @@
           "end_local": "2026-04-30T11:45:00+02:00",
           "price_per_mwh_eur": -2.61,
           "price_per_kwh_eur": -0.00261,
-          "price_per_kwh": -0.06363702,
+          "price_per_kwh": -0.06359526,
           "currency": "CZK"
         },
         {
@@ -2260,7 +2020,7 @@
           "end_local": "2026-04-30T12:00:00+02:00",
           "price_per_mwh_eur": -6.99,
           "price_per_kwh_eur": -0.0069900000000000006,
-          "price_per_kwh": -0.17043018000000001,
+          "price_per_kwh": -0.17031834,
           "currency": "CZK"
         },
         {
@@ -2270,7 +2030,7 @@
           "end_local": "2026-04-30T12:15:00+02:00",
           "price_per_mwh_eur": -6.1,
           "price_per_kwh_eur": -0.0060999999999999995,
-          "price_per_kwh": -0.1487302,
+          "price_per_kwh": -0.14863259999999998,
           "currency": "CZK"
         },
         {
@@ -2280,7 +2040,7 @@
           "end_local": "2026-04-30T12:30:00+02:00",
           "price_per_mwh_eur": -11.97,
           "price_per_kwh_eur": -0.011970000000000001,
-          "price_per_kwh": -0.29185254000000005,
+          "price_per_kwh": -0.29166102000000005,
           "currency": "CZK"
         },
         {
@@ -2290,7 +2050,7 @@
           "end_local": "2026-04-30T12:45:00+02:00",
           "price_per_mwh_eur": -14.96,
           "price_per_kwh_eur": -0.014960000000000001,
-          "price_per_kwh": -0.36475472000000003,
+          "price_per_kwh": -0.36451536,
           "currency": "CZK"
         },
         {
@@ -2300,7 +2060,7 @@
           "end_local": "2026-04-30T13:00:00+02:00",
           "price_per_mwh_eur": -20.86,
           "price_per_kwh_eur": -0.02086,
-          "price_per_kwh": -0.50860852,
+          "price_per_kwh": -0.50827476,
           "currency": "CZK"
         },
         {
@@ -2310,7 +2070,7 @@
           "end_local": "2026-04-30T13:15:00+02:00",
           "price_per_mwh_eur": -22.43,
           "price_per_kwh_eur": -0.02243,
-          "price_per_kwh": -0.54688826,
+          "price_per_kwh": -0.54652938,
           "currency": "CZK"
         },
         {
@@ -2320,7 +2080,7 @@
           "end_local": "2026-04-30T13:30:00+02:00",
           "price_per_mwh_eur": -25.87,
           "price_per_kwh_eur": -0.02587,
-          "price_per_kwh": -0.6307623400000001,
+          "price_per_kwh": -0.63034842,
           "currency": "CZK"
         },
         {
@@ -2330,7 +2090,7 @@
           "end_local": "2026-04-30T13:45:00+02:00",
           "price_per_mwh_eur": -29.87,
           "price_per_kwh_eur": -0.02987,
-          "price_per_kwh": -0.72829034,
+          "price_per_kwh": -0.72781242,
           "currency": "CZK"
         },
         {
@@ -2340,7 +2100,7 @@
           "end_local": "2026-04-30T14:00:00+02:00",
           "price_per_mwh_eur": -32.04,
           "price_per_kwh_eur": -0.03204,
-          "price_per_kwh": -0.78119928,
+          "price_per_kwh": -0.78068664,
           "currency": "CZK"
         },
         {
@@ -2350,7 +2110,7 @@
           "end_local": "2026-04-30T14:15:00+02:00",
           "price_per_mwh_eur": -27.06,
           "price_per_kwh_eur": -0.027059999999999997,
-          "price_per_kwh": -0.65977692,
+          "price_per_kwh": -0.65934396,
           "currency": "CZK"
         },
         {
@@ -2360,7 +2120,7 @@
           "end_local": "2026-04-30T14:30:00+02:00",
           "price_per_mwh_eur": -21.75,
           "price_per_kwh_eur": -0.02175,
-          "price_per_kwh": -0.5303085,
+          "price_per_kwh": -0.5299605,
           "currency": "CZK"
         },
         {
@@ -2370,7 +2130,7 @@
           "end_local": "2026-04-30T14:45:00+02:00",
           "price_per_mwh_eur": -20.02,
           "price_per_kwh_eur": -0.02002,
-          "price_per_kwh": -0.48812764000000003,
+          "price_per_kwh": -0.48780732,
           "currency": "CZK"
         },
         {
@@ -2380,7 +2140,7 @@
           "end_local": "2026-04-30T15:00:00+02:00",
           "price_per_mwh_eur": -15.36,
           "price_per_kwh_eur": -0.015359999999999999,
-          "price_per_kwh": -0.37450752,
+          "price_per_kwh": -0.37426175999999994,
           "currency": "CZK"
         },
         {
@@ -2390,7 +2150,7 @@
           "end_local": "2026-04-30T15:15:00+02:00",
           "price_per_mwh_eur": -14.48,
           "price_per_kwh_eur": -0.01448,
-          "price_per_kwh": -0.35305136000000004,
+          "price_per_kwh": -0.35281967999999997,
           "currency": "CZK"
         },
         {
@@ -2400,7 +2160,7 @@
           "end_local": "2026-04-30T15:30:00+02:00",
           "price_per_mwh_eur": -10.2,
           "price_per_kwh_eur": -0.010199999999999999,
-          "price_per_kwh": -0.24869639999999998,
+          "price_per_kwh": -0.24853319999999998,
           "currency": "CZK"
         },
         {
@@ -2410,7 +2170,7 @@
           "end_local": "2026-04-30T15:45:00+02:00",
           "price_per_mwh_eur": -6.28,
           "price_per_kwh_eur": -0.00628,
-          "price_per_kwh": -0.15311896,
+          "price_per_kwh": -0.15301847999999998,
           "currency": "CZK"
         },
         {
@@ -2420,7 +2180,7 @@
           "end_local": "2026-04-30T16:00:00+02:00",
           "price_per_mwh_eur": -1.34,
           "price_per_kwh_eur": -0.00134,
-          "price_per_kwh": -0.03267188,
+          "price_per_kwh": -0.03265044,
           "currency": "CZK"
         },
         {
@@ -2430,7 +2190,7 @@
           "end_local": "2026-04-30T16:15:00+02:00",
           "price_per_mwh_eur": -3.98,
           "price_per_kwh_eur": -0.00398,
-          "price_per_kwh": -0.09704036,
+          "price_per_kwh": -0.09697668,
           "currency": "CZK"
         },
         {
@@ -2440,7 +2200,7 @@
           "end_local": "2026-04-30T16:30:00+02:00",
           "price_per_mwh_eur": 0.35,
           "price_per_kwh_eur": 0.00035,
-          "price_per_kwh": 0.0085337,
+          "price_per_kwh": 0.0085281,
           "currency": "CZK"
         },
         {
@@ -2450,7 +2210,7 @@
           "end_local": "2026-04-30T16:45:00+02:00",
           "price_per_mwh_eur": 1.45,
           "price_per_kwh_eur": 0.00145,
-          "price_per_kwh": 0.0353539,
+          "price_per_kwh": 0.0353307,
           "currency": "CZK"
         },
         {
@@ -2460,7 +2220,7 @@
           "end_local": "2026-04-30T17:00:00+02:00",
           "price_per_mwh_eur": 9.51,
           "price_per_kwh_eur": 0.00951,
-          "price_per_kwh": 0.23187282,
+          "price_per_kwh": 0.23172065999999997,
           "currency": "CZK"
         },
         {
@@ -2470,7 +2230,7 @@
           "end_local": "2026-04-30T17:15:00+02:00",
           "price_per_mwh_eur": -0.42,
           "price_per_kwh_eur": -0.00041999999999999996,
-          "price_per_kwh": -0.01024044,
+          "price_per_kwh": -0.010233719999999998,
           "currency": "CZK"
         },
         {
@@ -2480,7 +2240,7 @@
           "end_local": "2026-04-30T17:30:00+02:00",
           "price_per_mwh_eur": 6.07,
           "price_per_kwh_eur": 0.00607,
-          "price_per_kwh": 0.14799874000000002,
+          "price_per_kwh": 0.14790161999999998,
           "currency": "CZK"
         },
         {
@@ -2490,7 +2250,7 @@
           "end_local": "2026-04-30T17:45:00+02:00",
           "price_per_mwh_eur": 59.47,
           "price_per_kwh_eur": 0.05947,
-          "price_per_kwh": 1.44999754,
+          "price_per_kwh": 1.44904602,
           "currency": "CZK"
         },
         {
@@ -2500,7 +2260,7 @@
           "end_local": "2026-04-30T18:00:00+02:00",
           "price_per_mwh_eur": 94.44,
           "price_per_kwh_eur": 0.09444,
-          "price_per_kwh": 2.30263608,
+          "price_per_kwh": 2.30112504,
           "currency": "CZK"
         },
         {
@@ -2510,7 +2270,7 @@
           "end_local": "2026-04-30T18:15:00+02:00",
           "price_per_mwh_eur": 47.52,
           "price_per_kwh_eur": 0.04752,
-          "price_per_kwh": 1.15863264,
+          "price_per_kwh": 1.15787232,
           "currency": "CZK"
         },
         {
@@ -2520,7 +2280,7 @@
           "end_local": "2026-04-30T18:30:00+02:00",
           "price_per_mwh_eur": 102.15,
           "price_per_kwh_eur": 0.10215,
-          "price_per_kwh": 2.4906213000000004,
+          "price_per_kwh": 2.4889869,
           "currency": "CZK"
         },
         {
@@ -2530,7 +2290,7 @@
           "end_local": "2026-04-30T18:45:00+02:00",
           "price_per_mwh_eur": 121.03,
           "price_per_kwh_eur": 0.12103,
-          "price_per_kwh": 2.95095346,
+          "price_per_kwh": 2.94901698,
           "currency": "CZK"
         },
         {
@@ -2540,7 +2300,7 @@
           "end_local": "2026-04-30T19:00:00+02:00",
           "price_per_mwh_eur": 143.01,
           "price_per_kwh_eur": 0.14301,
-          "price_per_kwh": 3.4868698200000003,
+          "price_per_kwh": 3.48458166,
           "currency": "CZK"
         },
         {
@@ -2550,7 +2310,7 @@
           "end_local": "2026-04-30T19:15:00+02:00",
           "price_per_mwh_eur": 115.16,
           "price_per_kwh_eur": 0.11516,
-          "price_per_kwh": 2.8078311200000003,
+          "price_per_kwh": 2.80598856,
           "currency": "CZK"
         },
         {
@@ -2560,7 +2320,7 @@
           "end_local": "2026-04-30T19:30:00+02:00",
           "price_per_mwh_eur": 129.07,
           "price_per_kwh_eur": 0.12907,
-          "price_per_kwh": 3.14698474,
+          "price_per_kwh": 3.1449196199999996,
           "currency": "CZK"
         },
         {
@@ -2570,7 +2330,7 @@
           "end_local": "2026-04-30T19:45:00+02:00",
           "price_per_mwh_eur": 151.44,
           "price_per_kwh_eur": 0.15144,
-          "price_per_kwh": 3.69241008,
+          "price_per_kwh": 3.6899870399999997,
           "currency": "CZK"
         },
         {
@@ -2580,7 +2340,7 @@
           "end_local": "2026-04-30T20:00:00+02:00",
           "price_per_mwh_eur": 185.77,
           "price_per_kwh_eur": 0.18577000000000002,
-          "price_per_kwh": 4.529444140000001,
+          "price_per_kwh": 4.52647182,
           "currency": "CZK"
         },
         {
@@ -2590,7 +2350,7 @@
           "end_local": "2026-04-30T20:15:00+02:00",
           "price_per_mwh_eur": 176.26,
           "price_per_kwh_eur": 0.17626,
-          "price_per_kwh": 4.29757132,
+          "price_per_kwh": 4.29475116,
           "currency": "CZK"
         },
         {
@@ -2600,7 +2360,7 @@
           "end_local": "2026-04-30T20:30:00+02:00",
           "price_per_mwh_eur": 181.45,
           "price_per_kwh_eur": 0.18145,
-          "price_per_kwh": 4.4241139,
+          "price_per_kwh": 4.4212107,
           "currency": "CZK"
         },
         {
@@ -2610,7 +2370,7 @@
           "end_local": "2026-04-30T20:45:00+02:00",
           "price_per_mwh_eur": 171.21,
           "price_per_kwh_eur": 0.17121,
-          "price_per_kwh": 4.17444222,
+          "price_per_kwh": 4.17170286,
           "currency": "CZK"
         },
         {
@@ -2620,7 +2380,7 @@
           "end_local": "2026-04-30T21:00:00+02:00",
           "price_per_mwh_eur": 153.16,
           "price_per_kwh_eur": 0.15316,
-          "price_per_kwh": 3.73434712,
+          "price_per_kwh": 3.7318965599999996,
           "currency": "CZK"
         },
         {
@@ -2630,7 +2390,7 @@
           "end_local": "2026-04-30T21:15:00+02:00",
           "price_per_mwh_eur": 167.81,
           "price_per_kwh_eur": 0.16781000000000001,
-          "price_per_kwh": 4.091543420000001,
+          "price_per_kwh": 4.08885846,
           "currency": "CZK"
         },
         {
@@ -2640,7 +2400,7 @@
           "end_local": "2026-04-30T21:30:00+02:00",
           "price_per_mwh_eur": 138.58,
           "price_per_kwh_eur": 0.13858,
-          "price_per_kwh": 3.3788575600000006,
+          "price_per_kwh": 3.37664028,
           "currency": "CZK"
         },
         {
@@ -2650,7 +2410,7 @@
           "end_local": "2026-04-30T21:45:00+02:00",
           "price_per_mwh_eur": 116.71,
           "price_per_kwh_eur": 0.11671,
-          "price_per_kwh": 2.8456232200000002,
+          "price_per_kwh": 2.84375586,
           "currency": "CZK"
         },
         {
@@ -2660,7 +2420,7 @@
           "end_local": "2026-04-30T22:00:00+02:00",
           "price_per_mwh_eur": 103.31,
           "price_per_kwh_eur": 0.10331,
-          "price_per_kwh": 2.51890442,
+          "price_per_kwh": 2.5172514599999998,
           "currency": "CZK"
         },
         {
@@ -2670,7 +2430,7 @@
           "end_local": "2026-04-30T22:15:00+02:00",
           "price_per_mwh_eur": 135.81,
           "price_per_kwh_eur": 0.13581000000000001,
-          "price_per_kwh": 3.3113194200000007,
+          "price_per_kwh": 3.3091464600000005,
           "currency": "CZK"
         },
         {
@@ -2680,7 +2440,7 @@
           "end_local": "2026-04-30T22:30:00+02:00",
           "price_per_mwh_eur": 123.56,
           "price_per_kwh_eur": 0.12356,
-          "price_per_kwh": 3.0126399200000002,
+          "price_per_kwh": 3.01066296,
           "currency": "CZK"
         },
         {
@@ -2690,7 +2450,7 @@
           "end_local": "2026-04-30T22:45:00+02:00",
           "price_per_mwh_eur": 114.43,
           "price_per_kwh_eur": 0.11443,
-          "price_per_kwh": 2.7900322600000003,
+          "price_per_kwh": 2.78820138,
           "currency": "CZK"
         },
         {
@@ -2700,7 +2460,7 @@
           "end_local": "2026-04-30T23:00:00+02:00",
           "price_per_mwh_eur": 109.86,
           "price_per_kwh_eur": 0.10986,
-          "price_per_kwh": 2.67860652,
+          "price_per_kwh": 2.67684876,
           "currency": "CZK"
         },
         {
@@ -2710,7 +2470,7 @@
           "end_local": "2026-04-30T23:15:00+02:00",
           "price_per_mwh_eur": 119.66,
           "price_per_kwh_eur": 0.11966,
-          "price_per_kwh": 2.91755012,
+          "price_per_kwh": 2.91563556,
           "currency": "CZK"
         },
         {
@@ -2720,7 +2480,7 @@
           "end_local": "2026-04-30T23:30:00+02:00",
           "price_per_mwh_eur": 113.42,
           "price_per_kwh_eur": 0.11342,
-          "price_per_kwh": 2.7654064400000005,
+          "price_per_kwh": 2.76359172,
           "currency": "CZK"
         },
         {
@@ -2730,7 +2490,7 @@
           "end_local": "2026-04-30T23:45:00+02:00",
           "price_per_mwh_eur": 107.55,
           "price_per_kwh_eur": 0.10754999999999999,
-          "price_per_kwh": 2.6222841,
+          "price_per_kwh": 2.6205632999999997,
           "currency": "CZK"
         },
         {
@@ -2740,7 +2500,7 @@
           "end_local": "2026-05-01T00:00:00+02:00",
           "price_per_mwh_eur": 105.76,
           "price_per_kwh_eur": 0.10576,
-          "price_per_kwh": 2.5786403200000003,
+          "price_per_kwh": 2.57694816,
           "currency": "CZK"
         },
         {
@@ -2750,7 +2510,7 @@
           "end_local": "2026-05-01T00:15:00+02:00",
           "price_per_mwh_eur": 119.49,
           "price_per_kwh_eur": 0.11949,
-          "price_per_kwh": 2.9134051800000003,
+          "price_per_kwh": 2.91149334,
           "currency": "CZK"
         },
         {
@@ -2760,7 +2520,7 @@
           "end_local": "2026-05-01T00:30:00+02:00",
           "price_per_mwh_eur": 113.62,
           "price_per_kwh_eur": 0.11362,
-          "price_per_kwh": 2.77028284,
+          "price_per_kwh": 2.76846492,
           "currency": "CZK"
         },
         {
@@ -2770,7 +2530,7 @@
           "end_local": "2026-05-01T00:45:00+02:00",
           "price_per_mwh_eur": 107.43,
           "price_per_kwh_eur": 0.10743000000000001,
-          "price_per_kwh": 2.6193582600000003,
+          "price_per_kwh": 2.6176393800000004,
           "currency": "CZK"
         },
         {
@@ -2780,7 +2540,7 @@
           "end_local": "2026-05-01T01:00:00+02:00",
           "price_per_mwh_eur": 105.56,
           "price_per_kwh_eur": 0.10556,
-          "price_per_kwh": 2.57376392,
+          "price_per_kwh": 2.57207496,
           "currency": "CZK"
         },
         {
@@ -2790,7 +2550,7 @@
           "end_local": "2026-05-01T01:15:00+02:00",
           "price_per_mwh_eur": 108.61,
           "price_per_kwh_eur": 0.10861,
-          "price_per_kwh": 2.6481290200000003,
+          "price_per_kwh": 2.64639126,
           "currency": "CZK"
         },
         {
@@ -2800,7 +2560,7 @@
           "end_local": "2026-05-01T01:30:00+02:00",
           "price_per_mwh_eur": 107.99,
           "price_per_kwh_eur": 0.10798999999999999,
-          "price_per_kwh": 2.6330121799999997,
+          "price_per_kwh": 2.6312843399999997,
           "currency": "CZK"
         },
         {
@@ -2810,7 +2570,7 @@
           "end_local": "2026-05-01T01:45:00+02:00",
           "price_per_mwh_eur": 107.14,
           "price_per_kwh_eur": 0.10714,
-          "price_per_kwh": 2.61228748,
+          "price_per_kwh": 2.61057324,
           "currency": "CZK"
         },
         {
@@ -2820,7 +2580,7 @@
           "end_local": "2026-05-01T02:00:00+02:00",
           "price_per_mwh_eur": 106.26,
           "price_per_kwh_eur": 0.10626000000000001,
-          "price_per_kwh": 2.5908313200000004,
+          "price_per_kwh": 2.58913116,
           "currency": "CZK"
         },
         {
@@ -2830,7 +2590,7 @@
           "end_local": "2026-05-01T02:15:00+02:00",
           "price_per_mwh_eur": 107.08,
           "price_per_kwh_eur": 0.10708,
-          "price_per_kwh": 2.61082456,
+          "price_per_kwh": 2.60911128,
           "currency": "CZK"
         },
         {
@@ -2840,7 +2600,7 @@
           "end_local": "2026-05-01T02:30:00+02:00",
           "price_per_mwh_eur": 105.35,
           "price_per_kwh_eur": 0.10535,
-          "price_per_kwh": 2.5686437,
+          "price_per_kwh": 2.5669581,
           "currency": "CZK"
         },
         {
@@ -2850,7 +2610,7 @@
           "end_local": "2026-05-01T02:45:00+02:00",
           "price_per_mwh_eur": 106.87,
           "price_per_kwh_eur": 0.10687,
-          "price_per_kwh": 2.6057043400000004,
+          "price_per_kwh": 2.6039944200000003,
           "currency": "CZK"
         },
         {
@@ -2860,7 +2620,7 @@
           "end_local": "2026-05-01T03:00:00+02:00",
           "price_per_mwh_eur": 107.24,
           "price_per_kwh_eur": 0.10723999999999999,
-          "price_per_kwh": 2.61472568,
+          "price_per_kwh": 2.6130098399999997,
           "currency": "CZK"
         },
         {
@@ -2870,7 +2630,7 @@
           "end_local": "2026-05-01T03:15:00+02:00",
           "price_per_mwh_eur": 105.03,
           "price_per_kwh_eur": 0.10503,
-          "price_per_kwh": 2.5608414600000002,
+          "price_per_kwh": 2.55916098,
           "currency": "CZK"
         },
         {
@@ -2880,7 +2640,7 @@
           "end_local": "2026-05-01T03:30:00+02:00",
           "price_per_mwh_eur": 104.49,
           "price_per_kwh_eur": 0.10449,
-          "price_per_kwh": 2.54767518,
+          "price_per_kwh": 2.54600334,
           "currency": "CZK"
         },
         {
@@ -2890,7 +2650,7 @@
           "end_local": "2026-05-01T03:45:00+02:00",
           "price_per_mwh_eur": 104.81,
           "price_per_kwh_eur": 0.10481,
-          "price_per_kwh": 2.5554774200000003,
+          "price_per_kwh": 2.55380046,
           "currency": "CZK"
         },
         {
@@ -2900,7 +2660,7 @@
           "end_local": "2026-05-01T04:00:00+02:00",
           "price_per_mwh_eur": 104.0,
           "price_per_kwh_eur": 0.104,
-          "price_per_kwh": 2.535728,
+          "price_per_kwh": 2.534064,
           "currency": "CZK"
         },
         {
@@ -2910,7 +2670,7 @@
           "end_local": "2026-05-01T04:15:00+02:00",
           "price_per_mwh_eur": 103.0,
           "price_per_kwh_eur": 0.103,
-          "price_per_kwh": 2.511346,
+          "price_per_kwh": 2.5096979999999998,
           "currency": "CZK"
         },
         {
@@ -2920,7 +2680,7 @@
           "end_local": "2026-05-01T04:30:00+02:00",
           "price_per_mwh_eur": 103.7,
           "price_per_kwh_eur": 0.1037,
-          "price_per_kwh": 2.5284134000000003,
+          "price_per_kwh": 2.5267542,
           "currency": "CZK"
         },
         {
@@ -2930,7 +2690,7 @@
           "end_local": "2026-05-01T04:45:00+02:00",
           "price_per_mwh_eur": 102.82,
           "price_per_kwh_eur": 0.10282,
-          "price_per_kwh": 2.50695724,
+          "price_per_kwh": 2.5053121199999997,
           "currency": "CZK"
         },
         {
@@ -2940,7 +2700,7 @@
           "end_local": "2026-05-01T05:00:00+02:00",
           "price_per_mwh_eur": 104.34,
           "price_per_kwh_eur": 0.10434,
-          "price_per_kwh": 2.54401788,
+          "price_per_kwh": 2.54234844,
           "currency": "CZK"
         },
         {
@@ -2950,7 +2710,7 @@
           "end_local": "2026-05-01T05:15:00+02:00",
           "price_per_mwh_eur": 103.0,
           "price_per_kwh_eur": 0.103,
-          "price_per_kwh": 2.511346,
+          "price_per_kwh": 2.5096979999999998,
           "currency": "CZK"
         },
         {
@@ -2960,7 +2720,7 @@
           "end_local": "2026-05-01T05:30:00+02:00",
           "price_per_mwh_eur": 102.56,
           "price_per_kwh_eur": 0.10256,
-          "price_per_kwh": 2.5006179200000003,
+          "price_per_kwh": 2.49897696,
           "currency": "CZK"
         },
         {
@@ -2970,7 +2730,7 @@
           "end_local": "2026-05-01T05:45:00+02:00",
           "price_per_mwh_eur": 103.55,
           "price_per_kwh_eur": 0.10355,
-          "price_per_kwh": 2.5247561000000003,
+          "price_per_kwh": 2.5230993,
           "currency": "CZK"
         },
         {
@@ -2980,7 +2740,7 @@
           "end_local": "2026-05-01T06:00:00+02:00",
           "price_per_mwh_eur": 100.41,
           "price_per_kwh_eur": 0.10041,
-          "price_per_kwh": 2.44819662,
+          "price_per_kwh": 2.44659006,
           "currency": "CZK"
         },
         {
@@ -2990,7 +2750,7 @@
           "end_local": "2026-05-01T06:15:00+02:00",
           "price_per_mwh_eur": 105.12,
           "price_per_kwh_eur": 0.10512,
-          "price_per_kwh": 2.5630358400000004,
+          "price_per_kwh": 2.56135392,
           "currency": "CZK"
         },
         {
@@ -3000,7 +2760,7 @@
           "end_local": "2026-05-01T06:30:00+02:00",
           "price_per_mwh_eur": 103.66,
           "price_per_kwh_eur": 0.10366,
-          "price_per_kwh": 2.5274381200000002,
+          "price_per_kwh": 2.52577956,
           "currency": "CZK"
         },
         {
@@ -3010,7 +2770,7 @@
           "end_local": "2026-05-01T06:45:00+02:00",
           "price_per_mwh_eur": 96.42,
           "price_per_kwh_eur": 0.09642,
-          "price_per_kwh": 2.35091244,
+          "price_per_kwh": 2.3493697200000003,
           "currency": "CZK"
         },
         {
@@ -3020,7 +2780,7 @@
           "end_local": "2026-05-01T07:00:00+02:00",
           "price_per_mwh_eur": 75.46,
           "price_per_kwh_eur": 0.07546,
-          "price_per_kwh": 1.8398657200000001,
+          "price_per_kwh": 1.83865836,
           "currency": "CZK"
         },
         {
@@ -3030,7 +2790,7 @@
           "end_local": "2026-05-01T07:15:00+02:00",
           "price_per_mwh_eur": 132.3,
           "price_per_kwh_eur": 0.1323,
-          "price_per_kwh": 3.2257386,
+          "price_per_kwh": 3.2236218,
           "currency": "CZK"
         },
         {
@@ -3040,7 +2800,7 @@
           "end_local": "2026-05-01T07:30:00+02:00",
           "price_per_mwh_eur": 101.19,
           "price_per_kwh_eur": 0.10119,
-          "price_per_kwh": 2.4672145800000003,
+          "price_per_kwh": 2.46559554,
           "currency": "CZK"
         },
         {
@@ -3050,7 +2810,7 @@
           "end_local": "2026-05-01T07:45:00+02:00",
           "price_per_mwh_eur": 73.56,
           "price_per_kwh_eur": 0.07356,
-          "price_per_kwh": 1.7935399200000002,
+          "price_per_kwh": 1.79236296,
           "currency": "CZK"
         },
         {
@@ -3060,7 +2820,7 @@
           "end_local": "2026-05-01T08:00:00+02:00",
           "price_per_mwh_eur": 33.19,
           "price_per_kwh_eur": 0.03319,
-          "price_per_kwh": 0.8092385799999999,
+          "price_per_kwh": 0.8087075399999999,
           "currency": "CZK"
         },
         {
@@ -3070,7 +2830,7 @@
           "end_local": "2026-05-01T08:15:00+02:00",
           "price_per_mwh_eur": 102.24,
           "price_per_kwh_eur": 0.10224,
-          "price_per_kwh": 2.49281568,
+          "price_per_kwh": 2.49117984,
           "currency": "CZK"
         },
         {
@@ -3080,7 +2840,7 @@
           "end_local": "2026-05-01T08:30:00+02:00",
           "price_per_mwh_eur": 35.98,
           "price_per_kwh_eur": 0.03598,
-          "price_per_kwh": 0.87726436,
+          "price_per_kwh": 0.8766886799999999,
           "currency": "CZK"
         },
         {
@@ -3090,7 +2850,7 @@
           "end_local": "2026-05-01T08:45:00+02:00",
           "price_per_mwh_eur": 7.66,
           "price_per_kwh_eur": 0.00766,
-          "price_per_kwh": 0.18676612,
+          "price_per_kwh": 0.18664356000000001,
           "currency": "CZK"
         },
         {
@@ -3100,7 +2860,7 @@
           "end_local": "2026-05-01T09:00:00+02:00",
           "price_per_mwh_eur": 0.03,
           "price_per_kwh_eur": 2.9999999999999997e-05,
-          "price_per_kwh": 0.00073146,
+          "price_per_kwh": 0.0007309799999999999,
           "currency": "CZK"
         },
         {
@@ -3110,7 +2870,7 @@
           "end_local": "2026-05-01T09:15:00+02:00",
           "price_per_mwh_eur": 1.16,
           "price_per_kwh_eur": 0.00116,
-          "price_per_kwh": 0.028283120000000002,
+          "price_per_kwh": 0.02826456,
           "currency": "CZK"
         },
         {
@@ -3130,7 +2890,7 @@
           "end_local": "2026-05-01T09:45:00+02:00",
           "price_per_mwh_eur": -0.01,
           "price_per_kwh_eur": -1e-05,
-          "price_per_kwh": -0.00024382000000000003,
+          "price_per_kwh": -0.00024366,
           "currency": "CZK"
         },
         {
@@ -3140,7 +2900,7 @@
           "end_local": "2026-05-01T10:00:00+02:00",
           "price_per_mwh_eur": -1.3,
           "price_per_kwh_eur": -0.0013,
-          "price_per_kwh": -0.0316966,
+          "price_per_kwh": -0.0316758,
           "currency": "CZK"
         },
         {
@@ -3150,7 +2910,7 @@
           "end_local": "2026-05-01T10:15:00+02:00",
           "price_per_mwh_eur": -1.43,
           "price_per_kwh_eur": -0.0014299999999999998,
-          "price_per_kwh": -0.034866259999999996,
+          "price_per_kwh": -0.03484337999999999,
           "currency": "CZK"
         },
         {
@@ -3160,7 +2920,7 @@
           "end_local": "2026-05-01T10:30:00+02:00",
           "price_per_mwh_eur": -8.3,
           "price_per_kwh_eur": -0.0083,
-          "price_per_kwh": -0.2023706,
+          "price_per_kwh": -0.2022378,
           "currency": "CZK"
         },
         {
@@ -3170,7 +2930,7 @@
           "end_local": "2026-05-01T10:45:00+02:00",
           "price_per_mwh_eur": -25.95,
           "price_per_kwh_eur": -0.02595,
-          "price_per_kwh": -0.6327129,
+          "price_per_kwh": -0.6322977,
           "currency": "CZK"
         },
         {
@@ -3180,7 +2940,7 @@
           "end_local": "2026-05-01T11:00:00+02:00",
           "price_per_mwh_eur": -52.26,
           "price_per_kwh_eur": -0.05226,
-          "price_per_kwh": -1.27420332,
+          "price_per_kwh": -1.27336716,
           "currency": "CZK"
         },
         {
@@ -3190,7 +2950,7 @@
           "end_local": "2026-05-01T11:15:00+02:00",
           "price_per_mwh_eur": -72.7,
           "price_per_kwh_eur": -0.0727,
-          "price_per_kwh": -1.7725714000000001,
+          "price_per_kwh": -1.7714082,
           "currency": "CZK"
         },
         {
@@ -3200,7 +2960,7 @@
           "end_local": "2026-05-01T11:30:00+02:00",
           "price_per_mwh_eur": -94.0,
           "price_per_kwh_eur": -0.094,
-          "price_per_kwh": -2.2919080000000003,
+          "price_per_kwh": -2.290404,
           "currency": "CZK"
         },
         {
@@ -3210,7 +2970,7 @@
           "end_local": "2026-05-01T11:45:00+02:00",
           "price_per_mwh_eur": -124.65,
           "price_per_kwh_eur": -0.12465000000000001,
-          "price_per_kwh": -3.0392163000000005,
+          "price_per_kwh": -3.0372219,
           "currency": "CZK"
         },
         {
@@ -3220,7 +2980,7 @@
           "end_local": "2026-05-01T12:00:00+02:00",
           "price_per_mwh_eur": -159.98,
           "price_per_kwh_eur": -0.15997999999999998,
-          "price_per_kwh": -3.90063236,
+          "price_per_kwh": -3.8980726799999994,
           "currency": "CZK"
         },
         {
@@ -3230,7 +2990,7 @@
           "end_local": "2026-05-01T12:15:00+02:00",
           "price_per_mwh_eur": -166.36,
           "price_per_kwh_eur": -0.16636,
-          "price_per_kwh": -4.05618952,
+          "price_per_kwh": -4.05352776,
           "currency": "CZK"
         },
         {
@@ -3240,7 +3000,7 @@
           "end_local": "2026-05-01T12:30:00+02:00",
           "price_per_mwh_eur": -286.22,
           "price_per_kwh_eur": -0.28622000000000003,
-          "price_per_kwh": -6.978616040000001,
+          "price_per_kwh": -6.97403652,
           "currency": "CZK"
         },
         {
@@ -3250,7 +3010,7 @@
           "end_local": "2026-05-01T12:45:00+02:00",
           "price_per_mwh_eur": -353.69,
           "price_per_kwh_eur": -0.35369,
-          "price_per_kwh": -8.623669580000001,
+          "price_per_kwh": -8.61801054,
           "currency": "CZK"
         },
         {
@@ -3260,7 +3020,7 @@
           "end_local": "2026-05-01T13:00:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3270,7 +3030,7 @@
           "end_local": "2026-05-01T13:15:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3280,7 +3040,7 @@
           "end_local": "2026-05-01T13:30:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3290,7 +3050,7 @@
           "end_local": "2026-05-01T13:45:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3300,7 +3060,7 @@
           "end_local": "2026-05-01T14:00:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3310,7 +3070,7 @@
           "end_local": "2026-05-01T14:15:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3320,7 +3080,7 @@
           "end_local": "2026-05-01T14:30:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3330,7 +3090,7 @@
           "end_local": "2026-05-01T14:45:00+02:00",
           "price_per_mwh_eur": -500.0,
           "price_per_kwh_eur": -0.5,
-          "price_per_kwh": -12.191,
+          "price_per_kwh": -12.183,
           "currency": "CZK"
         },
         {
@@ -3340,7 +3100,7 @@
           "end_local": "2026-05-01T15:00:00+02:00",
           "price_per_mwh_eur": -416.39,
           "price_per_kwh_eur": -0.41639,
-          "price_per_kwh": -10.15242098,
+          "price_per_kwh": -10.14575874,
           "currency": "CZK"
         },
         {
@@ -3350,7 +3110,7 @@
           "end_local": "2026-05-01T15:15:00+02:00",
           "price_per_mwh_eur": -416.41,
           "price_per_kwh_eur": -0.41641,
-          "price_per_kwh": -10.15290862,
+          "price_per_kwh": -10.14624606,
           "currency": "CZK"
         },
         {
@@ -3360,7 +3120,7 @@
           "end_local": "2026-05-01T15:30:00+02:00",
           "price_per_mwh_eur": -224.5,
           "price_per_kwh_eur": -0.2245,
-          "price_per_kwh": -5.473759,
+          "price_per_kwh": -5.470167,
           "currency": "CZK"
         },
         {
@@ -3370,7 +3130,7 @@
           "end_local": "2026-05-01T15:45:00+02:00",
           "price_per_mwh_eur": -135.28,
           "price_per_kwh_eur": -0.13528,
-          "price_per_kwh": -3.2983969600000003,
+          "price_per_kwh": -3.29623248,
           "currency": "CZK"
         },
         {
@@ -3380,7 +3140,7 @@
           "end_local": "2026-05-01T16:00:00+02:00",
           "price_per_mwh_eur": -81.11,
           "price_per_kwh_eur": -0.08111,
-          "price_per_kwh": -1.9776240200000001,
+          "price_per_kwh": -1.97632626,
           "currency": "CZK"
         },
         {
@@ -3390,7 +3150,7 @@
           "end_local": "2026-05-01T16:15:00+02:00",
           "price_per_mwh_eur": -66.04,
           "price_per_kwh_eur": -0.06604,
-          "price_per_kwh": -1.61018728,
+          "price_per_kwh": -1.60913064,
           "currency": "CZK"
         },
         {
@@ -3400,7 +3160,7 @@
           "end_local": "2026-05-01T16:30:00+02:00",
           "price_per_mwh_eur": -31.65,
           "price_per_kwh_eur": -0.03165,
-          "price_per_kwh": -0.7716902999999999,
+          "price_per_kwh": -0.7711838999999999,
           "currency": "CZK"
         },
         {
@@ -3410,7 +3170,7 @@
           "end_local": "2026-05-01T16:45:00+02:00",
           "price_per_mwh_eur": -10.79,
           "price_per_kwh_eur": -0.01079,
-          "price_per_kwh": -0.26308178,
+          "price_per_kwh": -0.26290914,
           "currency": "CZK"
         },
         {
@@ -3420,7 +3180,7 @@
           "end_local": "2026-05-01T17:00:00+02:00",
           "price_per_mwh_eur": -1.3,
           "price_per_kwh_eur": -0.0013,
-          "price_per_kwh": -0.0316966,
+          "price_per_kwh": -0.0316758,
           "currency": "CZK"
         },
         {
@@ -3430,7 +3190,7 @@
           "end_local": "2026-05-01T17:15:00+02:00",
           "price_per_mwh_eur": -1.7,
           "price_per_kwh_eur": -0.0017,
-          "price_per_kwh": -0.0414494,
+          "price_per_kwh": -0.0414222,
           "currency": "CZK"
         },
         {
@@ -3440,7 +3200,7 @@
           "end_local": "2026-05-01T17:30:00+02:00",
           "price_per_mwh_eur": -0.71,
           "price_per_kwh_eur": -0.0007099999999999999,
-          "price_per_kwh": -0.01731122,
+          "price_per_kwh": -0.017299859999999997,
           "currency": "CZK"
         },
         {
@@ -3450,7 +3210,7 @@
           "end_local": "2026-05-01T17:45:00+02:00",
           "price_per_mwh_eur": -4.86,
           "price_per_kwh_eur": -0.004860000000000001,
-          "price_per_kwh": -0.11849652000000002,
+          "price_per_kwh": -0.11841876000000001,
           "currency": "CZK"
         },
         {
@@ -3460,7 +3220,7 @@
           "end_local": "2026-05-01T18:00:00+02:00",
           "price_per_mwh_eur": 18.89,
           "price_per_kwh_eur": 0.01889,
-          "price_per_kwh": 0.46057598000000005,
+          "price_per_kwh": 0.46027374,
           "currency": "CZK"
         },
         {
@@ -3470,7 +3230,7 @@
           "end_local": "2026-05-01T18:15:00+02:00",
           "price_per_mwh_eur": 4.73,
           "price_per_kwh_eur": 0.004730000000000001,
-          "price_per_kwh": 0.11532686000000002,
+          "price_per_kwh": 0.11525118000000001,
           "currency": "CZK"
         },
         {
@@ -3480,7 +3240,7 @@
           "end_local": "2026-05-01T18:30:00+02:00",
           "price_per_mwh_eur": 82.87,
           "price_per_kwh_eur": 0.08287,
-          "price_per_kwh": 2.02053634,
+          "price_per_kwh": 2.01921042,
           "currency": "CZK"
         },
         {
@@ -3490,7 +3250,7 @@
           "end_local": "2026-05-01T18:45:00+02:00",
           "price_per_mwh_eur": 114.51,
           "price_per_kwh_eur": 0.11451,
-          "price_per_kwh": 2.7919828200000003,
+          "price_per_kwh": 2.79015066,
           "currency": "CZK"
         },
         {
@@ -3500,7 +3260,7 @@
           "end_local": "2026-05-01T19:00:00+02:00",
           "price_per_mwh_eur": 173.78,
           "price_per_kwh_eur": 0.17378,
-          "price_per_kwh": 4.23710396,
+          "price_per_kwh": 4.23432348,
           "currency": "CZK"
         },
         {
@@ -3510,7 +3270,7 @@
           "end_local": "2026-05-01T19:15:00+02:00",
           "price_per_mwh_eur": 98.65,
           "price_per_kwh_eur": 0.09865,
-          "price_per_kwh": 2.4052843000000004,
+          "price_per_kwh": 2.4037059,
           "currency": "CZK"
         },
         {
@@ -3520,7 +3280,7 @@
           "end_local": "2026-05-01T19:30:00+02:00",
           "price_per_mwh_eur": 116.63,
           "price_per_kwh_eur": 0.11663,
-          "price_per_kwh": 2.84367266,
+          "price_per_kwh": 2.84180658,
           "currency": "CZK"
         },
         {
@@ -3530,7 +3290,7 @@
           "end_local": "2026-05-01T19:45:00+02:00",
           "price_per_mwh_eur": 136.58,
           "price_per_kwh_eur": 0.13658,
-          "price_per_kwh": 3.3300935600000003,
+          "price_per_kwh": 3.32790828,
           "currency": "CZK"
         },
         {
@@ -3540,7 +3300,7 @@
           "end_local": "2026-05-01T20:00:00+02:00",
           "price_per_mwh_eur": 206.95,
           "price_per_kwh_eur": 0.20695,
-          "price_per_kwh": 5.0458549,
+          "price_per_kwh": 5.0425436999999995,
           "currency": "CZK"
         },
         {
@@ -3550,7 +3310,7 @@
           "end_local": "2026-05-01T20:15:00+02:00",
           "price_per_mwh_eur": 170.11,
           "price_per_kwh_eur": 0.17011,
-          "price_per_kwh": 4.147622020000001,
+          "price_per_kwh": 4.14490026,
           "currency": "CZK"
         },
         {
@@ -3560,7 +3320,7 @@
           "end_local": "2026-05-01T20:30:00+02:00",
           "price_per_mwh_eur": 174.0,
           "price_per_kwh_eur": 0.174,
-          "price_per_kwh": 4.242468,
+          "price_per_kwh": 4.239684,
           "currency": "CZK"
         },
         {
@@ -3570,7 +3330,7 @@
           "end_local": "2026-05-01T20:45:00+02:00",
           "price_per_mwh_eur": 170.0,
           "price_per_kwh_eur": 0.17,
-          "price_per_kwh": 4.144940000000001,
+          "price_per_kwh": 4.14222,
           "currency": "CZK"
         },
         {
@@ -3580,7 +3340,7 @@
           "end_local": "2026-05-01T21:00:00+02:00",
           "price_per_mwh_eur": 136.94,
           "price_per_kwh_eur": 0.13694,
-          "price_per_kwh": 3.3388710800000005,
+          "price_per_kwh": 3.33668004,
           "currency": "CZK"
         },
         {
@@ -3590,7 +3350,7 @@
           "end_local": "2026-05-01T21:15:00+02:00",
           "price_per_mwh_eur": 201.3,
           "price_per_kwh_eur": 0.2013,
-          "price_per_kwh": 4.9080966,
+          "price_per_kwh": 4.9048758,
           "currency": "CZK"
         },
         {
@@ -3600,7 +3360,7 @@
           "end_local": "2026-05-01T21:30:00+02:00",
           "price_per_mwh_eur": 123.98,
           "price_per_kwh_eur": 0.12398,
-          "price_per_kwh": 3.0228803600000003,
+          "price_per_kwh": 3.0208966800000003,
           "currency": "CZK"
         },
         {
@@ -3610,7 +3370,7 @@
           "end_local": "2026-05-01T21:45:00+02:00",
           "price_per_mwh_eur": 113.94,
           "price_per_kwh_eur": 0.11394,
-          "price_per_kwh": 2.7780850800000003,
+          "price_per_kwh": 2.7762620399999998,
           "currency": "CZK"
         },
         {
@@ -3620,7 +3380,7 @@
           "end_local": "2026-05-01T22:00:00+02:00",
           "price_per_mwh_eur": 110.3,
           "price_per_kwh_eur": 0.1103,
-          "price_per_kwh": 2.6893346,
+          "price_per_kwh": 2.6875698,
           "currency": "CZK"
         },
         {
@@ -3630,7 +3390,7 @@
           "end_local": "2026-05-01T22:15:00+02:00",
           "price_per_mwh_eur": 136.14,
           "price_per_kwh_eur": 0.13613999999999998,
-          "price_per_kwh": 3.3193654799999996,
+          "price_per_kwh": 3.3171872399999995,
           "currency": "CZK"
         },
         {
@@ -3640,7 +3400,7 @@
           "end_local": "2026-05-01T22:30:00+02:00",
           "price_per_mwh_eur": 123.83,
           "price_per_kwh_eur": 0.12383,
-          "price_per_kwh": 3.0192230600000003,
+          "price_per_kwh": 3.01724178,
           "currency": "CZK"
         },
         {
@@ -3650,7 +3410,7 @@
           "end_local": "2026-05-01T22:45:00+02:00",
           "price_per_mwh_eur": 113.1,
           "price_per_kwh_eur": 0.11309999999999999,
-          "price_per_kwh": 2.7576042,
+          "price_per_kwh": 2.7557945999999998,
           "currency": "CZK"
         },
         {
@@ -3660,7 +3420,7 @@
           "end_local": "2026-05-01T23:00:00+02:00",
           "price_per_mwh_eur": 105.48,
           "price_per_kwh_eur": 0.10548,
-          "price_per_kwh": 2.57181336,
+          "price_per_kwh": 2.57012568,
           "currency": "CZK"
         },
         {
@@ -3670,7 +3430,7 @@
           "end_local": "2026-05-01T23:15:00+02:00",
           "price_per_mwh_eur": 110.78,
           "price_per_kwh_eur": 0.11078,
-          "price_per_kwh": 2.7010379600000003,
+          "price_per_kwh": 2.69926548,
           "currency": "CZK"
         },
         {
@@ -3680,7 +3440,7 @@
           "end_local": "2026-05-01T23:30:00+02:00",
           "price_per_mwh_eur": 105.07,
           "price_per_kwh_eur": 0.10507,
-          "price_per_kwh": 2.5618167400000003,
+          "price_per_kwh": 2.56013562,
           "currency": "CZK"
         },
         {
@@ -3690,7 +3450,7 @@
           "end_local": "2026-05-01T23:45:00+02:00",
           "price_per_mwh_eur": 97.37,
           "price_per_kwh_eur": 0.09737,
-          "price_per_kwh": 2.37407534,
+          "price_per_kwh": 2.37251742,
           "currency": "CZK"
         },
         {
@@ -3700,7 +3460,7 @@
           "end_local": "2026-05-02T00:00:00+02:00",
           "price_per_mwh_eur": 90.05,
           "price_per_kwh_eur": 0.09004999999999999,
-          "price_per_kwh": 2.1955991,
+          "price_per_kwh": 2.1941583,
           "currency": "CZK"
         }
       ]
