@@ -5,7 +5,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime, time, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone, tzinfo
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
@@ -19,6 +19,8 @@ ENTSOE_PERIOD_FORMAT = "%Y%m%d%H%M"
 OUTPUT_DIR = Path("data")
 USER_AGENT = "spotprice-fetcher/1.0 (+github-actions)"
 QUARTER_HOUR = timedelta(minutes=15)
+RETAINED_PAST_DAYS = 1
+RETAINED_FUTURE_DAYS = 1
 
 
 @dataclass(frozen=True)
@@ -347,6 +349,29 @@ def build_entsoe_url(api_key: str, eic_code: str, start_utc: datetime, end_utc: 
     return f"{ENTSOE_API_URL}?{urlencode(params)}"
 
 
+def retained_delivery_dates(now_local: datetime) -> set[date]:
+    today = now_local.date()
+    return {
+        today + timedelta(days=offset)
+        for offset in range(-RETAINED_PAST_DAYS, RETAINED_FUTURE_DAYS + 1)
+    }
+
+
+def delivery_window_local(now_local: datetime, zone: tzinfo) -> tuple[datetime, datetime]:
+    today = now_local.date()
+    start_local = datetime.combine(today - timedelta(days=RETAINED_PAST_DAYS), time.min, zone)
+    end_local = datetime.combine(today + timedelta(days=RETAINED_FUTURE_DAYS + 1), time.min, zone)
+    return start_local, end_local
+
+
+def filter_prices_by_delivery_date(prices: list[dict], delivery_dates: set[date]) -> list[dict]:
+    return [
+        entry
+        for entry in prices
+        if datetime.fromisoformat(entry["start_local"]).date() in delivery_dates
+    ]
+
+
 def parse_entsoe_prices(xml_text: str, zone: ZoneInfo) -> list[dict]:
     root = ET.fromstring(xml_text)
     prices: list[dict] = []
@@ -465,16 +490,14 @@ def fetch_area_prices(
             raise RuntimeError(error)
         raise RuntimeError("No ENTSOE price entries parsed.")
 
-    trailing_cutoff_local = now_local - timedelta(hours=12)
-    prices_eur = []
-    for entry in prices_all:
-        end_local = datetime.fromisoformat(entry["end_local"])
-        if end_local >= trailing_cutoff_local:
-            prices_eur.append(entry)
+    prices_eur = filter_prices_by_delivery_date(
+        prices=prices_all,
+        delivery_dates=retained_delivery_dates(now_local),
+    )
 
     if not prices_eur:
-        # If no data exists in the trailing window yet, keep the freshest
-        # complete delivery day instead of failing the area.
+        # If no data exists in the expected delivery window yet, keep the
+        # freshest complete delivery day instead of failing the area.
         day_buckets: dict = {}
         for entry in prices_all:
             day = datetime.fromisoformat(entry["start_local"]).date()
@@ -506,11 +529,8 @@ def fetch_country_payload(country: CountryConfig, api_key: str, rates: dict[str,
     now_local = datetime.now(zone)
     # Some bidding zones return 999 for A44 unless the requested interval
     # starts before the current local day boundary. We request from yesterday
-    # and later keep only the recent trailing window after parsing.
-    window_start_local = datetime.combine(now_local.date() - timedelta(days=1), time.min, zone)
-    # Day-ahead prices are published ahead of delivery day. Request multiple
-    # upcoming days while retaining recent historical intervals.
-    window_end_local = window_start_local + timedelta(days=4)
+    # and keep whole local delivery days after parsing.
+    window_start_local, window_end_local = delivery_window_local(now_local=now_local, zone=zone)
     target_date = now_local.date()
     start_local = window_start_local
     end_local = window_end_local
