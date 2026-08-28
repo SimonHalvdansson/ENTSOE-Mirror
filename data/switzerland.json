@@ -3,14 +3,14 @@
   "country_code": "CH",
   "display_name": "Switzerland",
   "timezone": "Europe/Zurich",
-  "target_date_local": "2026-08-27",
-  "window_start_local": "2026-08-26T00:00:00+02:00",
-  "window_end_local": "2026-08-29T00:00:00+02:00",
+  "target_date_local": "2026-08-28",
+  "window_start_local": "2026-08-27T00:00:00+02:00",
+  "window_end_local": "2026-08-30T00:00:00+02:00",
   "currency": "CHF",
   "exchange_rate": {
     "base": "EUR",
     "quote": "CHF",
-    "rate": 0.938,
+    "rate": 0.9376,
     "source": "ECB eurofxref-daily"
   },
   "default_area_code": "CH",
@@ -18,253 +18,13 @@
   "eic_code": "10YCH-SWISSGRIDZ",
   "prices": [
     {
-      "start_utc": "2026-08-25T22:00:00Z",
-      "end_utc": "2026-08-25T23:00:00Z",
-      "start_local": "2026-08-26T00:00:00+02:00",
-      "end_local": "2026-08-26T01:00:00+02:00",
-      "price_per_mwh_eur": 164.81,
-      "price_per_kwh_eur": 0.16481,
-      "price_per_kwh": 0.15459178,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-25T23:00:00Z",
-      "end_utc": "2026-08-26T00:00:00Z",
-      "start_local": "2026-08-26T01:00:00+02:00",
-      "end_local": "2026-08-26T02:00:00+02:00",
-      "price_per_mwh_eur": 160.1,
-      "price_per_kwh_eur": 0.1601,
-      "price_per_kwh": 0.1501738,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T00:00:00Z",
-      "end_utc": "2026-08-26T01:00:00Z",
-      "start_local": "2026-08-26T02:00:00+02:00",
-      "end_local": "2026-08-26T03:00:00+02:00",
-      "price_per_mwh_eur": 150.79,
-      "price_per_kwh_eur": 0.15078999999999998,
-      "price_per_kwh": 0.14144101999999997,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T01:00:00Z",
-      "end_utc": "2026-08-26T02:00:00Z",
-      "start_local": "2026-08-26T03:00:00+02:00",
-      "end_local": "2026-08-26T04:00:00+02:00",
-      "price_per_mwh_eur": 146.99,
-      "price_per_kwh_eur": 0.14699,
-      "price_per_kwh": 0.13787662,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T02:00:00Z",
-      "end_utc": "2026-08-26T03:00:00Z",
-      "start_local": "2026-08-26T04:00:00+02:00",
-      "end_local": "2026-08-26T05:00:00+02:00",
-      "price_per_mwh_eur": 146.95,
-      "price_per_kwh_eur": 0.14695,
-      "price_per_kwh": 0.1378391,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T03:00:00Z",
-      "end_utc": "2026-08-26T04:00:00Z",
-      "start_local": "2026-08-26T05:00:00+02:00",
-      "end_local": "2026-08-26T06:00:00+02:00",
-      "price_per_mwh_eur": 155.0,
-      "price_per_kwh_eur": 0.155,
-      "price_per_kwh": 0.14539,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T04:00:00Z",
-      "end_utc": "2026-08-26T05:00:00Z",
-      "start_local": "2026-08-26T06:00:00+02:00",
-      "end_local": "2026-08-26T07:00:00+02:00",
-      "price_per_mwh_eur": 180.0,
-      "price_per_kwh_eur": 0.18,
-      "price_per_kwh": 0.16884,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T05:00:00Z",
-      "end_utc": "2026-08-26T06:00:00Z",
-      "start_local": "2026-08-26T07:00:00+02:00",
-      "end_local": "2026-08-26T08:00:00+02:00",
-      "price_per_mwh_eur": 190.95,
-      "price_per_kwh_eur": 0.19094999999999998,
-      "price_per_kwh": 0.17911109999999997,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T06:00:00Z",
-      "end_utc": "2026-08-26T07:00:00Z",
-      "start_local": "2026-08-26T08:00:00+02:00",
-      "end_local": "2026-08-26T09:00:00+02:00",
-      "price_per_mwh_eur": 183.71,
-      "price_per_kwh_eur": 0.18371,
-      "price_per_kwh": 0.17231998,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T07:00:00Z",
-      "end_utc": "2026-08-26T08:00:00Z",
-      "start_local": "2026-08-26T09:00:00+02:00",
-      "end_local": "2026-08-26T10:00:00+02:00",
-      "price_per_mwh_eur": 163.01,
-      "price_per_kwh_eur": 0.16301,
-      "price_per_kwh": 0.15290337999999998,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T08:00:00Z",
-      "end_utc": "2026-08-26T09:00:00Z",
-      "start_local": "2026-08-26T10:00:00+02:00",
-      "end_local": "2026-08-26T11:00:00+02:00",
-      "price_per_mwh_eur": 133.23,
-      "price_per_kwh_eur": 0.13323,
-      "price_per_kwh": 0.12496973999999998,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T09:00:00Z",
-      "end_utc": "2026-08-26T10:00:00Z",
-      "start_local": "2026-08-26T11:00:00+02:00",
-      "end_local": "2026-08-26T12:00:00+02:00",
-      "price_per_mwh_eur": 131.71,
-      "price_per_kwh_eur": 0.13171000000000002,
-      "price_per_kwh": 0.12354398000000001,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T10:00:00Z",
-      "end_utc": "2026-08-26T11:00:00Z",
-      "start_local": "2026-08-26T12:00:00+02:00",
-      "end_local": "2026-08-26T13:00:00+02:00",
-      "price_per_mwh_eur": 125.0,
-      "price_per_kwh_eur": 0.125,
-      "price_per_kwh": 0.11725,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T11:00:00Z",
-      "end_utc": "2026-08-26T12:00:00Z",
-      "start_local": "2026-08-26T13:00:00+02:00",
-      "end_local": "2026-08-26T14:00:00+02:00",
-      "price_per_mwh_eur": 125.01,
-      "price_per_kwh_eur": 0.12501,
-      "price_per_kwh": 0.11725938,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T12:00:00Z",
-      "end_utc": "2026-08-26T13:00:00Z",
-      "start_local": "2026-08-26T14:00:00+02:00",
-      "end_local": "2026-08-26T15:00:00+02:00",
-      "price_per_mwh_eur": 124.13,
-      "price_per_kwh_eur": 0.12412999999999999,
-      "price_per_kwh": 0.11643393999999999,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T13:00:00Z",
-      "end_utc": "2026-08-26T14:00:00Z",
-      "start_local": "2026-08-26T15:00:00+02:00",
-      "end_local": "2026-08-26T16:00:00+02:00",
-      "price_per_mwh_eur": 126.85,
-      "price_per_kwh_eur": 0.12685,
-      "price_per_kwh": 0.11898529999999999,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T14:00:00Z",
-      "end_utc": "2026-08-26T15:00:00Z",
-      "start_local": "2026-08-26T16:00:00+02:00",
-      "end_local": "2026-08-26T17:00:00+02:00",
-      "price_per_mwh_eur": 131.36,
-      "price_per_kwh_eur": 0.13136,
-      "price_per_kwh": 0.12321568,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T15:00:00Z",
-      "end_utc": "2026-08-26T16:00:00Z",
-      "start_local": "2026-08-26T17:00:00+02:00",
-      "end_local": "2026-08-26T18:00:00+02:00",
-      "price_per_mwh_eur": 145.99,
-      "price_per_kwh_eur": 0.14599,
-      "price_per_kwh": 0.13693862,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T16:00:00Z",
-      "end_utc": "2026-08-26T17:00:00Z",
-      "start_local": "2026-08-26T18:00:00+02:00",
-      "end_local": "2026-08-26T19:00:00+02:00",
-      "price_per_mwh_eur": 167.88,
-      "price_per_kwh_eur": 0.16788,
-      "price_per_kwh": 0.15747144,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T17:00:00Z",
-      "end_utc": "2026-08-26T18:00:00Z",
-      "start_local": "2026-08-26T19:00:00+02:00",
-      "end_local": "2026-08-26T20:00:00+02:00",
-      "price_per_mwh_eur": 200.0,
-      "price_per_kwh_eur": 0.2,
-      "price_per_kwh": 0.1876,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T18:00:00Z",
-      "end_utc": "2026-08-26T19:00:00Z",
-      "start_local": "2026-08-26T20:00:00+02:00",
-      "end_local": "2026-08-26T21:00:00+02:00",
-      "price_per_mwh_eur": 190.1,
-      "price_per_kwh_eur": 0.1901,
-      "price_per_kwh": 0.1783138,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T19:00:00Z",
-      "end_utc": "2026-08-26T20:00:00Z",
-      "start_local": "2026-08-26T21:00:00+02:00",
-      "end_local": "2026-08-26T22:00:00+02:00",
-      "price_per_mwh_eur": 176.46,
-      "price_per_kwh_eur": 0.17646,
-      "price_per_kwh": 0.16551948,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T20:00:00Z",
-      "end_utc": "2026-08-26T21:00:00Z",
-      "start_local": "2026-08-26T22:00:00+02:00",
-      "end_local": "2026-08-26T23:00:00+02:00",
-      "price_per_mwh_eur": 164.89,
-      "price_per_kwh_eur": 0.16488999999999998,
-      "price_per_kwh": 0.15466681999999998,
-      "currency": "CHF"
-    },
-    {
-      "start_utc": "2026-08-26T21:00:00Z",
-      "end_utc": "2026-08-26T22:00:00Z",
-      "start_local": "2026-08-26T23:00:00+02:00",
-      "end_local": "2026-08-27T00:00:00+02:00",
-      "price_per_mwh_eur": 153.93,
-      "price_per_kwh_eur": 0.15393,
-      "price_per_kwh": 0.14438634,
-      "currency": "CHF"
-    },
-    {
       "start_utc": "2026-08-26T22:00:00Z",
       "end_utc": "2026-08-26T23:00:00Z",
       "start_local": "2026-08-27T00:00:00+02:00",
       "end_local": "2026-08-27T01:00:00+02:00",
       "price_per_mwh_eur": 146.75,
       "price_per_kwh_eur": 0.14675,
-      "price_per_kwh": 0.13765149999999998,
+      "price_per_kwh": 0.1375928,
       "currency": "CHF"
     },
     {
@@ -274,7 +34,7 @@
       "end_local": "2026-08-27T02:00:00+02:00",
       "price_per_mwh_eur": 141.0,
       "price_per_kwh_eur": 0.141,
-      "price_per_kwh": 0.132258,
+      "price_per_kwh": 0.13220159999999997,
       "currency": "CHF"
     },
     {
@@ -284,7 +44,7 @@
       "end_local": "2026-08-27T03:00:00+02:00",
       "price_per_mwh_eur": 136.07,
       "price_per_kwh_eur": 0.13607,
-      "price_per_kwh": 0.12763365999999998,
+      "price_per_kwh": 0.127579232,
       "currency": "CHF"
     },
     {
@@ -294,7 +54,7 @@
       "end_local": "2026-08-27T04:00:00+02:00",
       "price_per_mwh_eur": 137.03,
       "price_per_kwh_eur": 0.13703,
-      "price_per_kwh": 0.12853414,
+      "price_per_kwh": 0.128479328,
       "currency": "CHF"
     },
     {
@@ -304,7 +64,7 @@
       "end_local": "2026-08-27T05:00:00+02:00",
       "price_per_mwh_eur": 137.99,
       "price_per_kwh_eur": 0.13799,
-      "price_per_kwh": 0.12943462,
+      "price_per_kwh": 0.129379424,
       "currency": "CHF"
     },
     {
@@ -314,7 +74,7 @@
       "end_local": "2026-08-27T06:00:00+02:00",
       "price_per_mwh_eur": 144.92,
       "price_per_kwh_eur": 0.14492,
-      "price_per_kwh": 0.13593496,
+      "price_per_kwh": 0.135876992,
       "currency": "CHF"
     },
     {
@@ -324,7 +84,7 @@
       "end_local": "2026-08-27T07:00:00+02:00",
       "price_per_mwh_eur": 160.1,
       "price_per_kwh_eur": 0.1601,
-      "price_per_kwh": 0.1501738,
+      "price_per_kwh": 0.15010975999999998,
       "currency": "CHF"
     },
     {
@@ -334,7 +94,7 @@
       "end_local": "2026-08-27T08:00:00+02:00",
       "price_per_mwh_eur": 164.93,
       "price_per_kwh_eur": 0.16493,
-      "price_per_kwh": 0.15470434,
+      "price_per_kwh": 0.154638368,
       "currency": "CHF"
     },
     {
@@ -344,7 +104,7 @@
       "end_local": "2026-08-27T09:00:00+02:00",
       "price_per_mwh_eur": 159.3,
       "price_per_kwh_eur": 0.15930000000000002,
-      "price_per_kwh": 0.1494234,
+      "price_per_kwh": 0.14935968000000002,
       "currency": "CHF"
     },
     {
@@ -354,7 +114,7 @@
       "end_local": "2026-08-27T10:00:00+02:00",
       "price_per_mwh_eur": 140.1,
       "price_per_kwh_eur": 0.1401,
-      "price_per_kwh": 0.1314138,
+      "price_per_kwh": 0.13135776,
       "currency": "CHF"
     },
     {
@@ -364,7 +124,7 @@
       "end_local": "2026-08-27T11:00:00+02:00",
       "price_per_mwh_eur": 130.7,
       "price_per_kwh_eur": 0.13069999999999998,
-      "price_per_kwh": 0.12259659999999997,
+      "price_per_kwh": 0.12254431999999998,
       "currency": "CHF"
     },
     {
@@ -374,7 +134,7 @@
       "end_local": "2026-08-27T12:00:00+02:00",
       "price_per_mwh_eur": 124.51,
       "price_per_kwh_eur": 0.12451000000000001,
-      "price_per_kwh": 0.11679038,
+      "price_per_kwh": 0.11674057600000001,
       "currency": "CHF"
     },
     {
@@ -384,7 +144,7 @@
       "end_local": "2026-08-27T13:00:00+02:00",
       "price_per_mwh_eur": 117.04,
       "price_per_kwh_eur": 0.11704,
-      "price_per_kwh": 0.10978352,
+      "price_per_kwh": 0.109736704,
       "currency": "CHF"
     },
     {
@@ -394,7 +154,7 @@
       "end_local": "2026-08-27T14:00:00+02:00",
       "price_per_mwh_eur": 114.29,
       "price_per_kwh_eur": 0.11429,
-      "price_per_kwh": 0.10720402,
+      "price_per_kwh": 0.107158304,
       "currency": "CHF"
     },
     {
@@ -404,7 +164,7 @@
       "end_local": "2026-08-27T15:00:00+02:00",
       "price_per_mwh_eur": 120.53,
       "price_per_kwh_eur": 0.12053,
-      "price_per_kwh": 0.11305713999999999,
+      "price_per_kwh": 0.113008928,
       "currency": "CHF"
     },
     {
@@ -414,7 +174,7 @@
       "end_local": "2026-08-27T16:00:00+02:00",
       "price_per_mwh_eur": 131.59,
       "price_per_kwh_eur": 0.13159,
-      "price_per_kwh": 0.12343142,
+      "price_per_kwh": 0.123378784,
       "currency": "CHF"
     },
     {
@@ -424,7 +184,7 @@
       "end_local": "2026-08-27T17:00:00+02:00",
       "price_per_mwh_eur": 131.96,
       "price_per_kwh_eur": 0.13196000000000002,
-      "price_per_kwh": 0.12377848000000001,
+      "price_per_kwh": 0.12372569600000002,
       "currency": "CHF"
     },
     {
@@ -434,7 +194,7 @@
       "end_local": "2026-08-27T18:00:00+02:00",
       "price_per_mwh_eur": 150.9,
       "price_per_kwh_eur": 0.1509,
-      "price_per_kwh": 0.1415442,
+      "price_per_kwh": 0.14148384,
       "currency": "CHF"
     },
     {
@@ -444,7 +204,7 @@
       "end_local": "2026-08-27T19:00:00+02:00",
       "price_per_mwh_eur": 175.17,
       "price_per_kwh_eur": 0.17517,
-      "price_per_kwh": 0.16430946,
+      "price_per_kwh": 0.16423939199999998,
       "currency": "CHF"
     },
     {
@@ -454,7 +214,7 @@
       "end_local": "2026-08-27T20:00:00+02:00",
       "price_per_mwh_eur": 200.0,
       "price_per_kwh_eur": 0.2,
-      "price_per_kwh": 0.1876,
+      "price_per_kwh": 0.18752000000000002,
       "currency": "CHF"
     },
     {
@@ -464,7 +224,7 @@
       "end_local": "2026-08-27T21:00:00+02:00",
       "price_per_mwh_eur": 197.24,
       "price_per_kwh_eur": 0.19724,
-      "price_per_kwh": 0.18501112,
+      "price_per_kwh": 0.184932224,
       "currency": "CHF"
     },
     {
@@ -474,7 +234,7 @@
       "end_local": "2026-08-27T22:00:00+02:00",
       "price_per_mwh_eur": 176.4,
       "price_per_kwh_eur": 0.1764,
-      "price_per_kwh": 0.1654632,
+      "price_per_kwh": 0.16539264,
       "currency": "CHF"
     },
     {
@@ -484,7 +244,7 @@
       "end_local": "2026-08-27T23:00:00+02:00",
       "price_per_mwh_eur": 167.0,
       "price_per_kwh_eur": 0.167,
-      "price_per_kwh": 0.156646,
+      "price_per_kwh": 0.1565792,
       "currency": "CHF"
     },
     {
@@ -494,7 +254,7 @@
       "end_local": "2026-08-28T00:00:00+02:00",
       "price_per_mwh_eur": 162.29,
       "price_per_kwh_eur": 0.16229,
-      "price_per_kwh": 0.15222802,
+      "price_per_kwh": 0.152163104,
       "currency": "CHF"
     },
     {
@@ -504,7 +264,7 @@
       "end_local": "2026-08-28T01:00:00+02:00",
       "price_per_mwh_eur": 157.0,
       "price_per_kwh_eur": 0.157,
-      "price_per_kwh": 0.14726599999999998,
+      "price_per_kwh": 0.1472032,
       "currency": "CHF"
     },
     {
@@ -514,7 +274,7 @@
       "end_local": "2026-08-28T02:00:00+02:00",
       "price_per_mwh_eur": 150.96,
       "price_per_kwh_eur": 0.15096,
-      "price_per_kwh": 0.14160048,
+      "price_per_kwh": 0.141540096,
       "currency": "CHF"
     },
     {
@@ -524,7 +284,7 @@
       "end_local": "2026-08-28T03:00:00+02:00",
       "price_per_mwh_eur": 141.01,
       "price_per_kwh_eur": 0.14101,
-      "price_per_kwh": 0.13226738,
+      "price_per_kwh": 0.132210976,
       "currency": "CHF"
     },
     {
@@ -534,7 +294,7 @@
       "end_local": "2026-08-28T04:00:00+02:00",
       "price_per_mwh_eur": 140.89,
       "price_per_kwh_eur": 0.14089,
-      "price_per_kwh": 0.13215481999999998,
+      "price_per_kwh": 0.132098464,
       "currency": "CHF"
     },
     {
@@ -544,7 +304,7 @@
       "end_local": "2026-08-28T05:00:00+02:00",
       "price_per_mwh_eur": 140.0,
       "price_per_kwh_eur": 0.14,
-      "price_per_kwh": 0.13132,
+      "price_per_kwh": 0.13126400000000002,
       "currency": "CHF"
     },
     {
@@ -554,7 +314,7 @@
       "end_local": "2026-08-28T06:00:00+02:00",
       "price_per_mwh_eur": 145.0,
       "price_per_kwh_eur": 0.145,
-      "price_per_kwh": 0.13601,
+      "price_per_kwh": 0.135952,
       "currency": "CHF"
     },
     {
@@ -564,7 +324,7 @@
       "end_local": "2026-08-28T07:00:00+02:00",
       "price_per_mwh_eur": 167.86,
       "price_per_kwh_eur": 0.16786,
-      "price_per_kwh": 0.15745268,
+      "price_per_kwh": 0.15738553600000002,
       "currency": "CHF"
     },
     {
@@ -574,7 +334,7 @@
       "end_local": "2026-08-28T08:00:00+02:00",
       "price_per_mwh_eur": 175.26,
       "price_per_kwh_eur": 0.17526,
-      "price_per_kwh": 0.16439388,
+      "price_per_kwh": 0.164323776,
       "currency": "CHF"
     },
     {
@@ -584,7 +344,7 @@
       "end_local": "2026-08-28T09:00:00+02:00",
       "price_per_mwh_eur": 172.12,
       "price_per_kwh_eur": 0.17212,
-      "price_per_kwh": 0.16144856,
+      "price_per_kwh": 0.16137971199999998,
       "currency": "CHF"
     },
     {
@@ -594,7 +354,7 @@
       "end_local": "2026-08-28T10:00:00+02:00",
       "price_per_mwh_eur": 150.24,
       "price_per_kwh_eur": 0.15024,
-      "price_per_kwh": 0.14092512000000001,
+      "price_per_kwh": 0.140865024,
       "currency": "CHF"
     },
     {
@@ -604,7 +364,7 @@
       "end_local": "2026-08-28T11:00:00+02:00",
       "price_per_mwh_eur": 137.14,
       "price_per_kwh_eur": 0.13713999999999998,
-      "price_per_kwh": 0.12863731999999997,
+      "price_per_kwh": 0.12858246399999998,
       "currency": "CHF"
     },
     {
@@ -614,7 +374,7 @@
       "end_local": "2026-08-28T12:00:00+02:00",
       "price_per_mwh_eur": 136.0,
       "price_per_kwh_eur": 0.136,
-      "price_per_kwh": 0.12756800000000001,
+      "price_per_kwh": 0.1275136,
       "currency": "CHF"
     },
     {
@@ -624,7 +384,7 @@
       "end_local": "2026-08-28T13:00:00+02:00",
       "price_per_mwh_eur": 135.41,
       "price_per_kwh_eur": 0.13541,
-      "price_per_kwh": 0.12701458,
+      "price_per_kwh": 0.126960416,
       "currency": "CHF"
     },
     {
@@ -634,7 +394,7 @@
       "end_local": "2026-08-28T14:00:00+02:00",
       "price_per_mwh_eur": 135.65,
       "price_per_kwh_eur": 0.13565,
-      "price_per_kwh": 0.12723969999999998,
+      "price_per_kwh": 0.12718543999999998,
       "currency": "CHF"
     },
     {
@@ -644,7 +404,7 @@
       "end_local": "2026-08-28T15:00:00+02:00",
       "price_per_mwh_eur": 135.19,
       "price_per_kwh_eur": 0.13519,
-      "price_per_kwh": 0.12680822,
+      "price_per_kwh": 0.126754144,
       "currency": "CHF"
     },
     {
@@ -654,7 +414,7 @@
       "end_local": "2026-08-28T16:00:00+02:00",
       "price_per_mwh_eur": 137.4,
       "price_per_kwh_eur": 0.1374,
-      "price_per_kwh": 0.12888119999999997,
+      "price_per_kwh": 0.12882623999999998,
       "currency": "CHF"
     },
     {
@@ -664,7 +424,7 @@
       "end_local": "2026-08-28T17:00:00+02:00",
       "price_per_mwh_eur": 140.09,
       "price_per_kwh_eur": 0.14009,
-      "price_per_kwh": 0.13140442,
+      "price_per_kwh": 0.13134838399999998,
       "currency": "CHF"
     },
     {
@@ -674,7 +434,7 @@
       "end_local": "2026-08-28T18:00:00+02:00",
       "price_per_mwh_eur": 159.19,
       "price_per_kwh_eur": 0.15919,
-      "price_per_kwh": 0.14932021999999998,
+      "price_per_kwh": 0.149256544,
       "currency": "CHF"
     },
     {
@@ -684,7 +444,7 @@
       "end_local": "2026-08-28T19:00:00+02:00",
       "price_per_mwh_eur": 160.1,
       "price_per_kwh_eur": 0.1601,
-      "price_per_kwh": 0.1501738,
+      "price_per_kwh": 0.15010975999999998,
       "currency": "CHF"
     },
     {
@@ -694,7 +454,7 @@
       "end_local": "2026-08-28T20:00:00+02:00",
       "price_per_mwh_eur": 174.69,
       "price_per_kwh_eur": 0.17468999999999998,
-      "price_per_kwh": 0.16385921999999997,
+      "price_per_kwh": 0.16378934399999998,
       "currency": "CHF"
     },
     {
@@ -704,7 +464,7 @@
       "end_local": "2026-08-28T21:00:00+02:00",
       "price_per_mwh_eur": 167.72,
       "price_per_kwh_eur": 0.16772,
-      "price_per_kwh": 0.15732136,
+      "price_per_kwh": 0.157254272,
       "currency": "CHF"
     },
     {
@@ -714,7 +474,7 @@
       "end_local": "2026-08-28T22:00:00+02:00",
       "price_per_mwh_eur": 164.21,
       "price_per_kwh_eur": 0.16421,
-      "price_per_kwh": 0.15402897999999998,
+      "price_per_kwh": 0.153963296,
       "currency": "CHF"
     },
     {
@@ -724,7 +484,7 @@
       "end_local": "2026-08-28T23:00:00+02:00",
       "price_per_mwh_eur": 160.1,
       "price_per_kwh_eur": 0.1601,
-      "price_per_kwh": 0.1501738,
+      "price_per_kwh": 0.15010975999999998,
       "currency": "CHF"
     },
     {
@@ -734,7 +494,7 @@
       "end_local": "2026-08-29T00:00:00+02:00",
       "price_per_mwh_eur": 147.19,
       "price_per_kwh_eur": 0.14719,
-      "price_per_kwh": 0.13806422,
+      "price_per_kwh": 0.13800534399999997,
       "currency": "CHF"
     }
   ],
@@ -744,253 +504,13 @@
       "eic_code": "10YCH-SWISSGRIDZ",
       "prices": [
         {
-          "start_utc": "2026-08-25T22:00:00Z",
-          "end_utc": "2026-08-25T23:00:00Z",
-          "start_local": "2026-08-26T00:00:00+02:00",
-          "end_local": "2026-08-26T01:00:00+02:00",
-          "price_per_mwh_eur": 164.81,
-          "price_per_kwh_eur": 0.16481,
-          "price_per_kwh": 0.15459178,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-25T23:00:00Z",
-          "end_utc": "2026-08-26T00:00:00Z",
-          "start_local": "2026-08-26T01:00:00+02:00",
-          "end_local": "2026-08-26T02:00:00+02:00",
-          "price_per_mwh_eur": 160.1,
-          "price_per_kwh_eur": 0.1601,
-          "price_per_kwh": 0.1501738,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T00:00:00Z",
-          "end_utc": "2026-08-26T01:00:00Z",
-          "start_local": "2026-08-26T02:00:00+02:00",
-          "end_local": "2026-08-26T03:00:00+02:00",
-          "price_per_mwh_eur": 150.79,
-          "price_per_kwh_eur": 0.15078999999999998,
-          "price_per_kwh": 0.14144101999999997,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T01:00:00Z",
-          "end_utc": "2026-08-26T02:00:00Z",
-          "start_local": "2026-08-26T03:00:00+02:00",
-          "end_local": "2026-08-26T04:00:00+02:00",
-          "price_per_mwh_eur": 146.99,
-          "price_per_kwh_eur": 0.14699,
-          "price_per_kwh": 0.13787662,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T02:00:00Z",
-          "end_utc": "2026-08-26T03:00:00Z",
-          "start_local": "2026-08-26T04:00:00+02:00",
-          "end_local": "2026-08-26T05:00:00+02:00",
-          "price_per_mwh_eur": 146.95,
-          "price_per_kwh_eur": 0.14695,
-          "price_per_kwh": 0.1378391,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T03:00:00Z",
-          "end_utc": "2026-08-26T04:00:00Z",
-          "start_local": "2026-08-26T05:00:00+02:00",
-          "end_local": "2026-08-26T06:00:00+02:00",
-          "price_per_mwh_eur": 155.0,
-          "price_per_kwh_eur": 0.155,
-          "price_per_kwh": 0.14539,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T04:00:00Z",
-          "end_utc": "2026-08-26T05:00:00Z",
-          "start_local": "2026-08-26T06:00:00+02:00",
-          "end_local": "2026-08-26T07:00:00+02:00",
-          "price_per_mwh_eur": 180.0,
-          "price_per_kwh_eur": 0.18,
-          "price_per_kwh": 0.16884,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T05:00:00Z",
-          "end_utc": "2026-08-26T06:00:00Z",
-          "start_local": "2026-08-26T07:00:00+02:00",
-          "end_local": "2026-08-26T08:00:00+02:00",
-          "price_per_mwh_eur": 190.95,
-          "price_per_kwh_eur": 0.19094999999999998,
-          "price_per_kwh": 0.17911109999999997,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T06:00:00Z",
-          "end_utc": "2026-08-26T07:00:00Z",
-          "start_local": "2026-08-26T08:00:00+02:00",
-          "end_local": "2026-08-26T09:00:00+02:00",
-          "price_per_mwh_eur": 183.71,
-          "price_per_kwh_eur": 0.18371,
-          "price_per_kwh": 0.17231998,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T07:00:00Z",
-          "end_utc": "2026-08-26T08:00:00Z",
-          "start_local": "2026-08-26T09:00:00+02:00",
-          "end_local": "2026-08-26T10:00:00+02:00",
-          "price_per_mwh_eur": 163.01,
-          "price_per_kwh_eur": 0.16301,
-          "price_per_kwh": 0.15290337999999998,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T08:00:00Z",
-          "end_utc": "2026-08-26T09:00:00Z",
-          "start_local": "2026-08-26T10:00:00+02:00",
-          "end_local": "2026-08-26T11:00:00+02:00",
-          "price_per_mwh_eur": 133.23,
-          "price_per_kwh_eur": 0.13323,
-          "price_per_kwh": 0.12496973999999998,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T09:00:00Z",
-          "end_utc": "2026-08-26T10:00:00Z",
-          "start_local": "2026-08-26T11:00:00+02:00",
-          "end_local": "2026-08-26T12:00:00+02:00",
-          "price_per_mwh_eur": 131.71,
-          "price_per_kwh_eur": 0.13171000000000002,
-          "price_per_kwh": 0.12354398000000001,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T10:00:00Z",
-          "end_utc": "2026-08-26T11:00:00Z",
-          "start_local": "2026-08-26T12:00:00+02:00",
-          "end_local": "2026-08-26T13:00:00+02:00",
-          "price_per_mwh_eur": 125.0,
-          "price_per_kwh_eur": 0.125,
-          "price_per_kwh": 0.11725,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T11:00:00Z",
-          "end_utc": "2026-08-26T12:00:00Z",
-          "start_local": "2026-08-26T13:00:00+02:00",
-          "end_local": "2026-08-26T14:00:00+02:00",
-          "price_per_mwh_eur": 125.01,
-          "price_per_kwh_eur": 0.12501,
-          "price_per_kwh": 0.11725938,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T12:00:00Z",
-          "end_utc": "2026-08-26T13:00:00Z",
-          "start_local": "2026-08-26T14:00:00+02:00",
-          "end_local": "2026-08-26T15:00:00+02:00",
-          "price_per_mwh_eur": 124.13,
-          "price_per_kwh_eur": 0.12412999999999999,
-          "price_per_kwh": 0.11643393999999999,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T13:00:00Z",
-          "end_utc": "2026-08-26T14:00:00Z",
-          "start_local": "2026-08-26T15:00:00+02:00",
-          "end_local": "2026-08-26T16:00:00+02:00",
-          "price_per_mwh_eur": 126.85,
-          "price_per_kwh_eur": 0.12685,
-          "price_per_kwh": 0.11898529999999999,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T14:00:00Z",
-          "end_utc": "2026-08-26T15:00:00Z",
-          "start_local": "2026-08-26T16:00:00+02:00",
-          "end_local": "2026-08-26T17:00:00+02:00",
-          "price_per_mwh_eur": 131.36,
-          "price_per_kwh_eur": 0.13136,
-          "price_per_kwh": 0.12321568,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T15:00:00Z",
-          "end_utc": "2026-08-26T16:00:00Z",
-          "start_local": "2026-08-26T17:00:00+02:00",
-          "end_local": "2026-08-26T18:00:00+02:00",
-          "price_per_mwh_eur": 145.99,
-          "price_per_kwh_eur": 0.14599,
-          "price_per_kwh": 0.13693862,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T16:00:00Z",
-          "end_utc": "2026-08-26T17:00:00Z",
-          "start_local": "2026-08-26T18:00:00+02:00",
-          "end_local": "2026-08-26T19:00:00+02:00",
-          "price_per_mwh_eur": 167.88,
-          "price_per_kwh_eur": 0.16788,
-          "price_per_kwh": 0.15747144,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T17:00:00Z",
-          "end_utc": "2026-08-26T18:00:00Z",
-          "start_local": "2026-08-26T19:00:00+02:00",
-          "end_local": "2026-08-26T20:00:00+02:00",
-          "price_per_mwh_eur": 200.0,
-          "price_per_kwh_eur": 0.2,
-          "price_per_kwh": 0.1876,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T18:00:00Z",
-          "end_utc": "2026-08-26T19:00:00Z",
-          "start_local": "2026-08-26T20:00:00+02:00",
-          "end_local": "2026-08-26T21:00:00+02:00",
-          "price_per_mwh_eur": 190.1,
-          "price_per_kwh_eur": 0.1901,
-          "price_per_kwh": 0.1783138,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T19:00:00Z",
-          "end_utc": "2026-08-26T20:00:00Z",
-          "start_local": "2026-08-26T21:00:00+02:00",
-          "end_local": "2026-08-26T22:00:00+02:00",
-          "price_per_mwh_eur": 176.46,
-          "price_per_kwh_eur": 0.17646,
-          "price_per_kwh": 0.16551948,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T20:00:00Z",
-          "end_utc": "2026-08-26T21:00:00Z",
-          "start_local": "2026-08-26T22:00:00+02:00",
-          "end_local": "2026-08-26T23:00:00+02:00",
-          "price_per_mwh_eur": 164.89,
-          "price_per_kwh_eur": 0.16488999999999998,
-          "price_per_kwh": 0.15466681999999998,
-          "currency": "CHF"
-        },
-        {
-          "start_utc": "2026-08-26T21:00:00Z",
-          "end_utc": "2026-08-26T22:00:00Z",
-          "start_local": "2026-08-26T23:00:00+02:00",
-          "end_local": "2026-08-27T00:00:00+02:00",
-          "price_per_mwh_eur": 153.93,
-          "price_per_kwh_eur": 0.15393,
-          "price_per_kwh": 0.14438634,
-          "currency": "CHF"
-        },
-        {
           "start_utc": "2026-08-26T22:00:00Z",
           "end_utc": "2026-08-26T23:00:00Z",
           "start_local": "2026-08-27T00:00:00+02:00",
           "end_local": "2026-08-27T01:00:00+02:00",
           "price_per_mwh_eur": 146.75,
           "price_per_kwh_eur": 0.14675,
-          "price_per_kwh": 0.13765149999999998,
+          "price_per_kwh": 0.1375928,
           "currency": "CHF"
         },
         {
@@ -1000,7 +520,7 @@
           "end_local": "2026-08-27T02:00:00+02:00",
           "price_per_mwh_eur": 141.0,
           "price_per_kwh_eur": 0.141,
-          "price_per_kwh": 0.132258,
+          "price_per_kwh": 0.13220159999999997,
           "currency": "CHF"
         },
         {
@@ -1010,7 +530,7 @@
           "end_local": "2026-08-27T03:00:00+02:00",
           "price_per_mwh_eur": 136.07,
           "price_per_kwh_eur": 0.13607,
-          "price_per_kwh": 0.12763365999999998,
+          "price_per_kwh": 0.127579232,
           "currency": "CHF"
         },
         {
@@ -1020,7 +540,7 @@
           "end_local": "2026-08-27T04:00:00+02:00",
           "price_per_mwh_eur": 137.03,
           "price_per_kwh_eur": 0.13703,
-          "price_per_kwh": 0.12853414,
+          "price_per_kwh": 0.128479328,
           "currency": "CHF"
         },
         {
@@ -1030,7 +550,7 @@
           "end_local": "2026-08-27T05:00:00+02:00",
           "price_per_mwh_eur": 137.99,
           "price_per_kwh_eur": 0.13799,
-          "price_per_kwh": 0.12943462,
+          "price_per_kwh": 0.129379424,
           "currency": "CHF"
         },
         {
@@ -1040,7 +560,7 @@
           "end_local": "2026-08-27T06:00:00+02:00",
           "price_per_mwh_eur": 144.92,
           "price_per_kwh_eur": 0.14492,
-          "price_per_kwh": 0.13593496,
+          "price_per_kwh": 0.135876992,
           "currency": "CHF"
         },
         {
@@ -1050,7 +570,7 @@
           "end_local": "2026-08-27T07:00:00+02:00",
           "price_per_mwh_eur": 160.1,
           "price_per_kwh_eur": 0.1601,
-          "price_per_kwh": 0.1501738,
+          "price_per_kwh": 0.15010975999999998,
           "currency": "CHF"
         },
         {
@@ -1060,7 +580,7 @@
           "end_local": "2026-08-27T08:00:00+02:00",
           "price_per_mwh_eur": 164.93,
           "price_per_kwh_eur": 0.16493,
-          "price_per_kwh": 0.15470434,
+          "price_per_kwh": 0.154638368,
           "currency": "CHF"
         },
         {
@@ -1070,7 +590,7 @@
           "end_local": "2026-08-27T09:00:00+02:00",
           "price_per_mwh_eur": 159.3,
           "price_per_kwh_eur": 0.15930000000000002,
-          "price_per_kwh": 0.1494234,
+          "price_per_kwh": 0.14935968000000002,
           "currency": "CHF"
         },
         {
@@ -1080,7 +600,7 @@
           "end_local": "2026-08-27T10:00:00+02:00",
           "price_per_mwh_eur": 140.1,
           "price_per_kwh_eur": 0.1401,
-          "price_per_kwh": 0.1314138,
+          "price_per_kwh": 0.13135776,
           "currency": "CHF"
         },
         {
@@ -1090,7 +610,7 @@
           "end_local": "2026-08-27T11:00:00+02:00",
           "price_per_mwh_eur": 130.7,
           "price_per_kwh_eur": 0.13069999999999998,
-          "price_per_kwh": 0.12259659999999997,
+          "price_per_kwh": 0.12254431999999998,
           "currency": "CHF"
         },
         {
@@ -1100,7 +620,7 @@
           "end_local": "2026-08-27T12:00:00+02:00",
           "price_per_mwh_eur": 124.51,
           "price_per_kwh_eur": 0.12451000000000001,
-          "price_per_kwh": 0.11679038,
+          "price_per_kwh": 0.11674057600000001,
           "currency": "CHF"
         },
         {
@@ -1110,7 +630,7 @@
           "end_local": "2026-08-27T13:00:00+02:00",
           "price_per_mwh_eur": 117.04,
           "price_per_kwh_eur": 0.11704,
-          "price_per_kwh": 0.10978352,
+          "price_per_kwh": 0.109736704,
           "currency": "CHF"
         },
         {
@@ -1120,7 +640,7 @@
           "end_local": "2026-08-27T14:00:00+02:00",
           "price_per_mwh_eur": 114.29,
           "price_per_kwh_eur": 0.11429,
-          "price_per_kwh": 0.10720402,
+          "price_per_kwh": 0.107158304,
           "currency": "CHF"
         },
         {
@@ -1130,7 +650,7 @@
           "end_local": "2026-08-27T15:00:00+02:00",
           "price_per_mwh_eur": 120.53,
           "price_per_kwh_eur": 0.12053,
-          "price_per_kwh": 0.11305713999999999,
+          "price_per_kwh": 0.113008928,
           "currency": "CHF"
         },
         {
@@ -1140,7 +660,7 @@
           "end_local": "2026-08-27T16:00:00+02:00",
           "price_per_mwh_eur": 131.59,
           "price_per_kwh_eur": 0.13159,
-          "price_per_kwh": 0.12343142,
+          "price_per_kwh": 0.123378784,
           "currency": "CHF"
         },
         {
@@ -1150,7 +670,7 @@
           "end_local": "2026-08-27T17:00:00+02:00",
           "price_per_mwh_eur": 131.96,
           "price_per_kwh_eur": 0.13196000000000002,
-          "price_per_kwh": 0.12377848000000001,
+          "price_per_kwh": 0.12372569600000002,
           "currency": "CHF"
         },
         {
@@ -1160,7 +680,7 @@
           "end_local": "2026-08-27T18:00:00+02:00",
           "price_per_mwh_eur": 150.9,
           "price_per_kwh_eur": 0.1509,
-          "price_per_kwh": 0.1415442,
+          "price_per_kwh": 0.14148384,
           "currency": "CHF"
         },
         {
@@ -1170,7 +690,7 @@
           "end_local": "2026-08-27T19:00:00+02:00",
           "price_per_mwh_eur": 175.17,
           "price_per_kwh_eur": 0.17517,
-          "price_per_kwh": 0.16430946,
+          "price_per_kwh": 0.16423939199999998,
           "currency": "CHF"
         },
         {
@@ -1180,7 +700,7 @@
           "end_local": "2026-08-27T20:00:00+02:00",
           "price_per_mwh_eur": 200.0,
           "price_per_kwh_eur": 0.2,
-          "price_per_kwh": 0.1876,
+          "price_per_kwh": 0.18752000000000002,
           "currency": "CHF"
         },
         {
@@ -1190,7 +710,7 @@
           "end_local": "2026-08-27T21:00:00+02:00",
           "price_per_mwh_eur": 197.24,
           "price_per_kwh_eur": 0.19724,
-          "price_per_kwh": 0.18501112,
+          "price_per_kwh": 0.184932224,
           "currency": "CHF"
         },
         {
@@ -1200,7 +720,7 @@
           "end_local": "2026-08-27T22:00:00+02:00",
           "price_per_mwh_eur": 176.4,
           "price_per_kwh_eur": 0.1764,
-          "price_per_kwh": 0.1654632,
+          "price_per_kwh": 0.16539264,
           "currency": "CHF"
         },
         {
@@ -1210,7 +730,7 @@
           "end_local": "2026-08-27T23:00:00+02:00",
           "price_per_mwh_eur": 167.0,
           "price_per_kwh_eur": 0.167,
-          "price_per_kwh": 0.156646,
+          "price_per_kwh": 0.1565792,
           "currency": "CHF"
         },
         {
@@ -1220,7 +740,7 @@
           "end_local": "2026-08-28T00:00:00+02:00",
           "price_per_mwh_eur": 162.29,
           "price_per_kwh_eur": 0.16229,
-          "price_per_kwh": 0.15222802,
+          "price_per_kwh": 0.152163104,
           "currency": "CHF"
         },
         {
@@ -1230,7 +750,7 @@
           "end_local": "2026-08-28T01:00:00+02:00",
           "price_per_mwh_eur": 157.0,
           "price_per_kwh_eur": 0.157,
-          "price_per_kwh": 0.14726599999999998,
+          "price_per_kwh": 0.1472032,
           "currency": "CHF"
         },
         {
@@ -1240,7 +760,7 @@
           "end_local": "2026-08-28T02:00:00+02:00",
           "price_per_mwh_eur": 150.96,
           "price_per_kwh_eur": 0.15096,
-          "price_per_kwh": 0.14160048,
+          "price_per_kwh": 0.141540096,
           "currency": "CHF"
         },
         {
@@ -1250,7 +770,7 @@
           "end_local": "2026-08-28T03:00:00+02:00",
           "price_per_mwh_eur": 141.01,
           "price_per_kwh_eur": 0.14101,
-          "price_per_kwh": 0.13226738,
+          "price_per_kwh": 0.132210976,
           "currency": "CHF"
         },
         {
@@ -1260,7 +780,7 @@
           "end_local": "2026-08-28T04:00:00+02:00",
           "price_per_mwh_eur": 140.89,
           "price_per_kwh_eur": 0.14089,
-          "price_per_kwh": 0.13215481999999998,
+          "price_per_kwh": 0.132098464,
           "currency": "CHF"
         },
         {
@@ -1270,7 +790,7 @@
           "end_local": "2026-08-28T05:00:00+02:00",
           "price_per_mwh_eur": 140.0,
           "price_per_kwh_eur": 0.14,
-          "price_per_kwh": 0.13132,
+          "price_per_kwh": 0.13126400000000002,
           "currency": "CHF"
         },
         {
@@ -1280,7 +800,7 @@
           "end_local": "2026-08-28T06:00:00+02:00",
           "price_per_mwh_eur": 145.0,
           "price_per_kwh_eur": 0.145,
-          "price_per_kwh": 0.13601,
+          "price_per_kwh": 0.135952,
           "currency": "CHF"
         },
         {
@@ -1290,7 +810,7 @@
           "end_local": "2026-08-28T07:00:00+02:00",
           "price_per_mwh_eur": 167.86,
           "price_per_kwh_eur": 0.16786,
-          "price_per_kwh": 0.15745268,
+          "price_per_kwh": 0.15738553600000002,
           "currency": "CHF"
         },
         {
@@ -1300,7 +820,7 @@
           "end_local": "2026-08-28T08:00:00+02:00",
           "price_per_mwh_eur": 175.26,
           "price_per_kwh_eur": 0.17526,
-          "price_per_kwh": 0.16439388,
+          "price_per_kwh": 0.164323776,
           "currency": "CHF"
         },
         {
@@ -1310,7 +830,7 @@
           "end_local": "2026-08-28T09:00:00+02:00",
           "price_per_mwh_eur": 172.12,
           "price_per_kwh_eur": 0.17212,
-          "price_per_kwh": 0.16144856,
+          "price_per_kwh": 0.16137971199999998,
           "currency": "CHF"
         },
         {
@@ -1320,7 +840,7 @@
           "end_local": "2026-08-28T10:00:00+02:00",
           "price_per_mwh_eur": 150.24,
           "price_per_kwh_eur": 0.15024,
-          "price_per_kwh": 0.14092512000000001,
+          "price_per_kwh": 0.140865024,
           "currency": "CHF"
         },
         {
@@ -1330,7 +850,7 @@
           "end_local": "2026-08-28T11:00:00+02:00",
           "price_per_mwh_eur": 137.14,
           "price_per_kwh_eur": 0.13713999999999998,
-          "price_per_kwh": 0.12863731999999997,
+          "price_per_kwh": 0.12858246399999998,
           "currency": "CHF"
         },
         {
@@ -1340,7 +860,7 @@
           "end_local": "2026-08-28T12:00:00+02:00",
           "price_per_mwh_eur": 136.0,
           "price_per_kwh_eur": 0.136,
-          "price_per_kwh": 0.12756800000000001,
+          "price_per_kwh": 0.1275136,
           "currency": "CHF"
         },
         {
@@ -1350,7 +870,7 @@
           "end_local": "2026-08-28T13:00:00+02:00",
           "price_per_mwh_eur": 135.41,
           "price_per_kwh_eur": 0.13541,
-          "price_per_kwh": 0.12701458,
+          "price_per_kwh": 0.126960416,
           "currency": "CHF"
         },
         {
@@ -1360,7 +880,7 @@
           "end_local": "2026-08-28T14:00:00+02:00",
           "price_per_mwh_eur": 135.65,
           "price_per_kwh_eur": 0.13565,
-          "price_per_kwh": 0.12723969999999998,
+          "price_per_kwh": 0.12718543999999998,
           "currency": "CHF"
         },
         {
@@ -1370,7 +890,7 @@
           "end_local": "2026-08-28T15:00:00+02:00",
           "price_per_mwh_eur": 135.19,
           "price_per_kwh_eur": 0.13519,
-          "price_per_kwh": 0.12680822,
+          "price_per_kwh": 0.126754144,
           "currency": "CHF"
         },
         {
@@ -1380,7 +900,7 @@
           "end_local": "2026-08-28T16:00:00+02:00",
           "price_per_mwh_eur": 137.4,
           "price_per_kwh_eur": 0.1374,
-          "price_per_kwh": 0.12888119999999997,
+          "price_per_kwh": 0.12882623999999998,
           "currency": "CHF"
         },
         {
@@ -1390,7 +910,7 @@
           "end_local": "2026-08-28T17:00:00+02:00",
           "price_per_mwh_eur": 140.09,
           "price_per_kwh_eur": 0.14009,
-          "price_per_kwh": 0.13140442,
+          "price_per_kwh": 0.13134838399999998,
           "currency": "CHF"
         },
         {
@@ -1400,7 +920,7 @@
           "end_local": "2026-08-28T18:00:00+02:00",
           "price_per_mwh_eur": 159.19,
           "price_per_kwh_eur": 0.15919,
-          "price_per_kwh": 0.14932021999999998,
+          "price_per_kwh": 0.149256544,
           "currency": "CHF"
         },
         {
@@ -1410,7 +930,7 @@
           "end_local": "2026-08-28T19:00:00+02:00",
           "price_per_mwh_eur": 160.1,
           "price_per_kwh_eur": 0.1601,
-          "price_per_kwh": 0.1501738,
+          "price_per_kwh": 0.15010975999999998,
           "currency": "CHF"
         },
         {
@@ -1420,7 +940,7 @@
           "end_local": "2026-08-28T20:00:00+02:00",
           "price_per_mwh_eur": 174.69,
           "price_per_kwh_eur": 0.17468999999999998,
-          "price_per_kwh": 0.16385921999999997,
+          "price_per_kwh": 0.16378934399999998,
           "currency": "CHF"
         },
         {
@@ -1430,7 +950,7 @@
           "end_local": "2026-08-28T21:00:00+02:00",
           "price_per_mwh_eur": 167.72,
           "price_per_kwh_eur": 0.16772,
-          "price_per_kwh": 0.15732136,
+          "price_per_kwh": 0.157254272,
           "currency": "CHF"
         },
         {
@@ -1440,7 +960,7 @@
           "end_local": "2026-08-28T22:00:00+02:00",
           "price_per_mwh_eur": 164.21,
           "price_per_kwh_eur": 0.16421,
-          "price_per_kwh": 0.15402897999999998,
+          "price_per_kwh": 0.153963296,
           "currency": "CHF"
         },
         {
@@ -1450,7 +970,7 @@
           "end_local": "2026-08-28T23:00:00+02:00",
           "price_per_mwh_eur": 160.1,
           "price_per_kwh_eur": 0.1601,
-          "price_per_kwh": 0.1501738,
+          "price_per_kwh": 0.15010975999999998,
           "currency": "CHF"
         },
         {
@@ -1460,7 +980,7 @@
           "end_local": "2026-08-29T00:00:00+02:00",
           "price_per_mwh_eur": 147.19,
           "price_per_kwh_eur": 0.14719,
-          "price_per_kwh": 0.13806422,
+          "price_per_kwh": 0.13800534399999997,
           "currency": "CHF"
         }
       ]
