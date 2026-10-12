@@ -10,7 +10,7 @@
   "exchange_rate": {
     "base": "EUR",
     "quote": "RON",
-    "rate": 5.3406,
+    "rate": 5.337,
     "source": "ECB eurofxref-daily"
   },
   "default_area_code": "RO",
@@ -18,13 +18,53 @@
   "eic_code": "10YRO-TEL------P",
   "prices": [
     {
+      "start_utc": "2026-10-10T21:00:00Z",
+      "end_utc": "2026-10-10T21:15:00Z",
+      "start_local": "2026-10-11T00:00:00+03:00",
+      "end_local": "2026-10-11T00:15:00+03:00",
+      "price_per_mwh_eur": 254.53,
+      "price_per_kwh_eur": 0.25453,
+      "price_per_kwh": 1.3584266099999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-10T21:15:00Z",
+      "end_utc": "2026-10-10T21:30:00Z",
+      "start_local": "2026-10-11T00:15:00+03:00",
+      "end_local": "2026-10-11T00:30:00+03:00",
+      "price_per_mwh_eur": 230.58,
+      "price_per_kwh_eur": 0.23058,
+      "price_per_kwh": 1.23060546,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-10T21:30:00Z",
+      "end_utc": "2026-10-10T21:45:00Z",
+      "start_local": "2026-10-11T00:30:00+03:00",
+      "end_local": "2026-10-11T00:45:00+03:00",
+      "price_per_mwh_eur": 228.23,
+      "price_per_kwh_eur": 0.22823,
+      "price_per_kwh": 1.21806351,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-10T21:45:00Z",
+      "end_utc": "2026-10-10T22:00:00Z",
+      "start_local": "2026-10-11T00:45:00+03:00",
+      "end_local": "2026-10-11T01:00:00+03:00",
+      "price_per_mwh_eur": 206.71,
+      "price_per_kwh_eur": 0.20671,
+      "price_per_kwh": 1.10321127,
+      "currency": "RON"
+    },
+    {
       "start_utc": "2026-10-10T22:00:00Z",
       "end_utc": "2026-10-10T22:15:00Z",
       "start_local": "2026-10-11T01:00:00+03:00",
       "end_local": "2026-10-11T01:15:00+03:00",
       "price_per_mwh_eur": 245.13,
       "price_per_kwh_eur": 0.24513,
-      "price_per_kwh": 1.309141278,
+      "price_per_kwh": 1.3082588099999999,
       "currency": "RON"
     },
     {
@@ -34,7 +74,7 @@
       "end_local": "2026-10-11T01:30:00+03:00",
       "price_per_mwh_eur": 229.2,
       "price_per_kwh_eur": 0.2292,
-      "price_per_kwh": 1.22406552,
+      "price_per_kwh": 1.2232404,
       "currency": "RON"
     },
     {
@@ -44,7 +84,7 @@
       "end_local": "2026-10-11T01:45:00+03:00",
       "price_per_mwh_eur": 241.05,
       "price_per_kwh_eur": 0.24105000000000001,
-      "price_per_kwh": 1.28735163,
+      "price_per_kwh": 1.28648385,
       "currency": "RON"
     },
     {
@@ -54,7 +94,7 @@
       "end_local": "2026-10-11T02:00:00+03:00",
       "price_per_mwh_eur": 224.23,
       "price_per_kwh_eur": 0.22422999999999998,
-      "price_per_kwh": 1.197522738,
+      "price_per_kwh": 1.1967155099999998,
       "currency": "RON"
     },
     {
@@ -64,7 +104,7 @@
       "end_local": "2026-10-11T02:15:00+03:00",
       "price_per_mwh_eur": 236.74,
       "price_per_kwh_eur": 0.23674,
-      "price_per_kwh": 1.2643336440000001,
+      "price_per_kwh": 1.26348138,
       "currency": "RON"
     },
     {
@@ -74,7 +114,7 @@
       "end_local": "2026-10-11T02:30:00+03:00",
       "price_per_mwh_eur": 226.7,
       "price_per_kwh_eur": 0.22669999999999998,
-      "price_per_kwh": 1.21071402,
+      "price_per_kwh": 1.2098978999999999,
       "currency": "RON"
     },
     {
@@ -84,7 +124,7 @@
       "end_local": "2026-10-11T02:45:00+03:00",
       "price_per_mwh_eur": 216.39,
       "price_per_kwh_eur": 0.21639,
-      "price_per_kwh": 1.155652434,
+      "price_per_kwh": 1.1548734299999999,
       "currency": "RON"
     },
     {
@@ -94,7 +134,7 @@
       "end_local": "2026-10-11T03:00:00+03:00",
       "price_per_mwh_eur": 218.06,
       "price_per_kwh_eur": 0.21806,
-      "price_per_kwh": 1.164571236,
+      "price_per_kwh": 1.16378622,
       "currency": "RON"
     },
     {
@@ -104,7 +144,7 @@
       "end_local": "2026-10-11T03:15:00+03:00",
       "price_per_mwh_eur": 239.24,
       "price_per_kwh_eur": 0.23924,
-      "price_per_kwh": 1.277685144,
+      "price_per_kwh": 1.27682388,
       "currency": "RON"
     },
     {
@@ -114,7 +154,7 @@
       "end_local": "2026-10-11T03:30:00+03:00",
       "price_per_mwh_eur": 215.34,
       "price_per_kwh_eur": 0.21534,
-      "price_per_kwh": 1.150044804,
+      "price_per_kwh": 1.14926958,
       "currency": "RON"
     },
     {
@@ -124,7 +164,7 @@
       "end_local": "2026-10-11T03:45:00+03:00",
       "price_per_mwh_eur": 218.36,
       "price_per_kwh_eur": 0.21836000000000003,
-      "price_per_kwh": 1.1661734160000001,
+      "price_per_kwh": 1.16538732,
       "currency": "RON"
     },
     {
@@ -134,7 +174,7 @@
       "end_local": "2026-10-11T04:00:00+03:00",
       "price_per_mwh_eur": 200.02,
       "price_per_kwh_eur": 0.20002,
-      "price_per_kwh": 1.068226812,
+      "price_per_kwh": 1.06750674,
       "currency": "RON"
     },
     {
@@ -144,7 +184,7 @@
       "end_local": "2026-10-11T04:15:00+03:00",
       "price_per_mwh_eur": 223.29,
       "price_per_kwh_eur": 0.22329,
-      "price_per_kwh": 1.192502574,
+      "price_per_kwh": 1.19169873,
       "currency": "RON"
     },
     {
@@ -154,7 +194,7 @@
       "end_local": "2026-10-11T04:30:00+03:00",
       "price_per_mwh_eur": 205.76,
       "price_per_kwh_eur": 0.20576,
-      "price_per_kwh": 1.098881856,
+      "price_per_kwh": 1.09814112,
       "currency": "RON"
     },
     {
@@ -164,7 +204,7 @@
       "end_local": "2026-10-11T04:45:00+03:00",
       "price_per_mwh_eur": 201.61,
       "price_per_kwh_eur": 0.20161,
-      "price_per_kwh": 1.0767183660000001,
+      "price_per_kwh": 1.07599257,
       "currency": "RON"
     },
     {
@@ -174,7 +214,7 @@
       "end_local": "2026-10-11T05:00:00+03:00",
       "price_per_mwh_eur": 192.42,
       "price_per_kwh_eur": 0.19241999999999998,
-      "price_per_kwh": 1.027638252,
+      "price_per_kwh": 1.0269455399999998,
       "currency": "RON"
     },
     {
@@ -184,7 +224,7 @@
       "end_local": "2026-10-11T05:15:00+03:00",
       "price_per_mwh_eur": 194.02,
       "price_per_kwh_eur": 0.19402,
-      "price_per_kwh": 1.036183212,
+      "price_per_kwh": 1.03548474,
       "currency": "RON"
     },
     {
@@ -194,7 +234,7 @@
       "end_local": "2026-10-11T05:30:00+03:00",
       "price_per_mwh_eur": 194.08,
       "price_per_kwh_eur": 0.19408,
-      "price_per_kwh": 1.036503648,
+      "price_per_kwh": 1.0358049599999999,
       "currency": "RON"
     },
     {
@@ -204,7 +244,7 @@
       "end_local": "2026-10-11T05:45:00+03:00",
       "price_per_mwh_eur": 198.55,
       "price_per_kwh_eur": 0.19855,
-      "price_per_kwh": 1.06037613,
+      "price_per_kwh": 1.05966135,
       "currency": "RON"
     },
     {
@@ -214,7 +254,7 @@
       "end_local": "2026-10-11T06:00:00+03:00",
       "price_per_mwh_eur": 211.76,
       "price_per_kwh_eur": 0.21176,
-      "price_per_kwh": 1.1309254560000002,
+      "price_per_kwh": 1.13016312,
       "currency": "RON"
     },
     {
@@ -224,7 +264,7 @@
       "end_local": "2026-10-11T06:15:00+03:00",
       "price_per_mwh_eur": 190.79,
       "price_per_kwh_eur": 0.19079,
-      "price_per_kwh": 1.018933074,
+      "price_per_kwh": 1.01824623,
       "currency": "RON"
     },
     {
@@ -234,7 +274,7 @@
       "end_local": "2026-10-11T06:30:00+03:00",
       "price_per_mwh_eur": 200.8,
       "price_per_kwh_eur": 0.2008,
-      "price_per_kwh": 1.07239248,
+      "price_per_kwh": 1.0716695999999999,
       "currency": "RON"
     },
     {
@@ -244,7 +284,7 @@
       "end_local": "2026-10-11T06:45:00+03:00",
       "price_per_mwh_eur": 220.77,
       "price_per_kwh_eur": 0.22077000000000002,
-      "price_per_kwh": 1.1790442620000001,
+      "price_per_kwh": 1.17824949,
       "currency": "RON"
     },
     {
@@ -254,7 +294,7 @@
       "end_local": "2026-10-11T07:00:00+03:00",
       "price_per_mwh_eur": 219.42,
       "price_per_kwh_eur": 0.21941999999999998,
-      "price_per_kwh": 1.171834452,
+      "price_per_kwh": 1.1710445399999998,
       "currency": "RON"
     },
     {
@@ -264,7 +304,7 @@
       "end_local": "2026-10-11T07:15:00+03:00",
       "price_per_mwh_eur": 214.05,
       "price_per_kwh_eur": 0.21405000000000002,
-      "price_per_kwh": 1.1431554300000002,
+      "price_per_kwh": 1.14238485,
       "currency": "RON"
     },
     {
@@ -274,7 +314,7 @@
       "end_local": "2026-10-11T07:30:00+03:00",
       "price_per_mwh_eur": 208.84,
       "price_per_kwh_eur": 0.20884,
-      "price_per_kwh": 1.1153309040000001,
+      "price_per_kwh": 1.11457908,
       "currency": "RON"
     },
     {
@@ -284,7 +324,7 @@
       "end_local": "2026-10-11T07:45:00+03:00",
       "price_per_mwh_eur": 220.42,
       "price_per_kwh_eur": 0.22041999999999998,
-      "price_per_kwh": 1.177175052,
+      "price_per_kwh": 1.1763815399999997,
       "currency": "RON"
     },
     {
@@ -294,7 +334,7 @@
       "end_local": "2026-10-11T08:00:00+03:00",
       "price_per_mwh_eur": 221.34,
       "price_per_kwh_eur": 0.22134,
-      "price_per_kwh": 1.1820884040000001,
+      "price_per_kwh": 1.18129158,
       "currency": "RON"
     },
     {
@@ -304,7 +344,7 @@
       "end_local": "2026-10-11T08:15:00+03:00",
       "price_per_mwh_eur": 243.83,
       "price_per_kwh_eur": 0.24383000000000002,
-      "price_per_kwh": 1.302198498,
+      "price_per_kwh": 1.30132071,
       "currency": "RON"
     },
     {
@@ -314,7 +354,7 @@
       "end_local": "2026-10-11T08:30:00+03:00",
       "price_per_mwh_eur": 224.93,
       "price_per_kwh_eur": 0.22493000000000002,
-      "price_per_kwh": 1.201261158,
+      "price_per_kwh": 1.20045141,
       "currency": "RON"
     },
     {
@@ -324,7 +364,7 @@
       "end_local": "2026-10-11T08:45:00+03:00",
       "price_per_mwh_eur": 219.36,
       "price_per_kwh_eur": 0.21936000000000003,
-      "price_per_kwh": 1.1715140160000002,
+      "price_per_kwh": 1.1707243200000002,
       "currency": "RON"
     },
     {
@@ -334,7 +374,7 @@
       "end_local": "2026-10-11T09:00:00+03:00",
       "price_per_mwh_eur": 186.12,
       "price_per_kwh_eur": 0.18612,
-      "price_per_kwh": 0.9939924720000001,
+      "price_per_kwh": 0.99332244,
       "currency": "RON"
     },
     {
@@ -344,7 +384,7 @@
       "end_local": "2026-10-11T09:15:00+03:00",
       "price_per_mwh_eur": 228.93,
       "price_per_kwh_eur": 0.22893,
-      "price_per_kwh": 1.222623558,
+      "price_per_kwh": 1.2217994099999998,
       "currency": "RON"
     },
     {
@@ -354,7 +394,7 @@
       "end_local": "2026-10-11T09:30:00+03:00",
       "price_per_mwh_eur": 189.97,
       "price_per_kwh_eur": 0.18997,
-      "price_per_kwh": 1.0145537820000001,
+      "price_per_kwh": 1.01386989,
       "currency": "RON"
     },
     {
@@ -364,7 +404,7 @@
       "end_local": "2026-10-11T09:45:00+03:00",
       "price_per_mwh_eur": 174.83,
       "price_per_kwh_eur": 0.17483,
-      "price_per_kwh": 0.9336970980000001,
+      "price_per_kwh": 0.93306771,
       "currency": "RON"
     },
     {
@@ -374,7 +414,7 @@
       "end_local": "2026-10-11T10:00:00+03:00",
       "price_per_mwh_eur": 168.44,
       "price_per_kwh_eur": 0.16844,
-      "price_per_kwh": 0.8995706640000001,
+      "price_per_kwh": 0.89896428,
       "currency": "RON"
     },
     {
@@ -384,7 +424,7 @@
       "end_local": "2026-10-11T10:15:00+03:00",
       "price_per_mwh_eur": 172.06,
       "price_per_kwh_eur": 0.17206,
-      "price_per_kwh": 0.918903636,
+      "price_per_kwh": 0.9182842199999999,
       "currency": "RON"
     },
     {
@@ -394,7 +434,7 @@
       "end_local": "2026-10-11T10:30:00+03:00",
       "price_per_mwh_eur": 137.24,
       "price_per_kwh_eur": 0.13724,
-      "price_per_kwh": 0.7329439440000001,
+      "price_per_kwh": 0.73244988,
       "currency": "RON"
     },
     {
@@ -404,7 +444,7 @@
       "end_local": "2026-10-11T10:45:00+03:00",
       "price_per_mwh_eur": 77.91,
       "price_per_kwh_eur": 0.07791,
-      "price_per_kwh": 0.416086146,
+      "price_per_kwh": 0.41580566999999996,
       "currency": "RON"
     },
     {
@@ -414,7 +454,7 @@
       "end_local": "2026-10-11T11:00:00+03:00",
       "price_per_mwh_eur": 77.36,
       "price_per_kwh_eur": 0.07736,
-      "price_per_kwh": 0.41314881600000003,
+      "price_per_kwh": 0.41287031999999996,
       "currency": "RON"
     },
     {
@@ -424,7 +464,7 @@
       "end_local": "2026-10-11T11:15:00+03:00",
       "price_per_mwh_eur": 77.39,
       "price_per_kwh_eur": 0.07739,
-      "price_per_kwh": 0.413309034,
+      "price_per_kwh": 0.41303043,
       "currency": "RON"
     },
     {
@@ -434,7 +474,7 @@
       "end_local": "2026-10-11T11:30:00+03:00",
       "price_per_mwh_eur": 87.62,
       "price_per_kwh_eur": 0.08762,
-      "price_per_kwh": 0.467943372,
+      "price_per_kwh": 0.46762794,
       "currency": "RON"
     },
     {
@@ -444,7 +484,7 @@
       "end_local": "2026-10-11T11:45:00+03:00",
       "price_per_mwh_eur": 87.85,
       "price_per_kwh_eur": 0.08785,
-      "price_per_kwh": 0.46917171,
+      "price_per_kwh": 0.46885544999999995,
       "currency": "RON"
     },
     {
@@ -454,7 +494,7 @@
       "end_local": "2026-10-11T12:00:00+03:00",
       "price_per_mwh_eur": 86.96,
       "price_per_kwh_eur": 0.08696,
-      "price_per_kwh": 0.46441857599999997,
+      "price_per_kwh": 0.46410551999999994,
       "currency": "RON"
     },
     {
@@ -464,7 +504,7 @@
       "end_local": "2026-10-11T12:15:00+03:00",
       "price_per_mwh_eur": 116.02,
       "price_per_kwh_eur": 0.11602,
-      "price_per_kwh": 0.6196164120000001,
+      "price_per_kwh": 0.61919874,
       "currency": "RON"
     },
     {
@@ -474,7 +514,7 @@
       "end_local": "2026-10-11T12:30:00+03:00",
       "price_per_mwh_eur": 130.46,
       "price_per_kwh_eur": 0.13046000000000002,
-      "price_per_kwh": 0.6967346760000002,
+      "price_per_kwh": 0.6962650200000001,
       "currency": "RON"
     },
     {
@@ -484,7 +524,7 @@
       "end_local": "2026-10-11T12:45:00+03:00",
       "price_per_mwh_eur": 123.31,
       "price_per_kwh_eur": 0.12331,
-      "price_per_kwh": 0.658549386,
+      "price_per_kwh": 0.65810547,
       "currency": "RON"
     },
     {
@@ -494,7 +534,7 @@
       "end_local": "2026-10-11T13:00:00+03:00",
       "price_per_mwh_eur": 115.9,
       "price_per_kwh_eur": 0.1159,
-      "price_per_kwh": 0.61897554,
+      "price_per_kwh": 0.6185583,
       "currency": "RON"
     },
     {
@@ -504,7 +544,7 @@
       "end_local": "2026-10-11T13:15:00+03:00",
       "price_per_mwh_eur": 99.9,
       "price_per_kwh_eur": 0.0999,
-      "price_per_kwh": 0.5335259400000001,
+      "price_per_kwh": 0.5331663,
       "currency": "RON"
     },
     {
@@ -514,7 +554,7 @@
       "end_local": "2026-10-11T13:30:00+03:00",
       "price_per_mwh_eur": 81.37,
       "price_per_kwh_eur": 0.08137,
-      "price_per_kwh": 0.434564622,
+      "price_per_kwh": 0.43427169,
       "currency": "RON"
     },
     {
@@ -524,7 +564,7 @@
       "end_local": "2026-10-11T13:45:00+03:00",
       "price_per_mwh_eur": 67.85,
       "price_per_kwh_eur": 0.06785,
-      "price_per_kwh": 0.36235971,
+      "price_per_kwh": 0.36211544999999995,
       "currency": "RON"
     },
     {
@@ -534,7 +574,7 @@
       "end_local": "2026-10-11T14:00:00+03:00",
       "price_per_mwh_eur": 67.07,
       "price_per_kwh_eur": 0.06706999999999999,
-      "price_per_kwh": 0.358194042,
+      "price_per_kwh": 0.35795258999999996,
       "currency": "RON"
     },
     {
@@ -544,7 +584,7 @@
       "end_local": "2026-10-11T14:15:00+03:00",
       "price_per_mwh_eur": 53.69,
       "price_per_kwh_eur": 0.053689999999999995,
-      "price_per_kwh": 0.286736814,
+      "price_per_kwh": 0.28654352999999994,
       "currency": "RON"
     },
     {
@@ -554,7 +594,7 @@
       "end_local": "2026-10-11T14:30:00+03:00",
       "price_per_mwh_eur": 40.68,
       "price_per_kwh_eur": 0.04068,
-      "price_per_kwh": 0.21725560800000002,
+      "price_per_kwh": 0.21710916,
       "currency": "RON"
     },
     {
@@ -564,7 +604,7 @@
       "end_local": "2026-10-11T14:45:00+03:00",
       "price_per_mwh_eur": 15.22,
       "price_per_kwh_eur": 0.015220000000000001,
-      "price_per_kwh": 0.081283932,
+      "price_per_kwh": 0.08122914,
       "currency": "RON"
     },
     {
@@ -574,7 +614,7 @@
       "end_local": "2026-10-11T15:00:00+03:00",
       "price_per_mwh_eur": 19.24,
       "price_per_kwh_eur": 0.01924,
-      "price_per_kwh": 0.102753144,
+      "price_per_kwh": 0.10268387999999999,
       "currency": "RON"
     },
     {
@@ -584,7 +624,7 @@
       "end_local": "2026-10-11T15:15:00+03:00",
       "price_per_mwh_eur": 44.97,
       "price_per_kwh_eur": 0.044969999999999996,
-      "price_per_kwh": 0.240166782,
+      "price_per_kwh": 0.24000488999999997,
       "currency": "RON"
     },
     {
@@ -594,7 +634,7 @@
       "end_local": "2026-10-11T15:30:00+03:00",
       "price_per_mwh_eur": 45.24,
       "price_per_kwh_eur": 0.04524,
-      "price_per_kwh": 0.24160874400000001,
+      "price_per_kwh": 0.24144588,
       "currency": "RON"
     },
     {
@@ -604,7 +644,7 @@
       "end_local": "2026-10-11T15:45:00+03:00",
       "price_per_mwh_eur": 51.71,
       "price_per_kwh_eur": 0.05171,
-      "price_per_kwh": 0.276162426,
+      "price_per_kwh": 0.27597626999999997,
       "currency": "RON"
     },
     {
@@ -614,7 +654,7 @@
       "end_local": "2026-10-11T16:00:00+03:00",
       "price_per_mwh_eur": 46.53,
       "price_per_kwh_eur": 0.04653,
-      "price_per_kwh": 0.24849811800000002,
+      "price_per_kwh": 0.24833061,
       "currency": "RON"
     },
     {
@@ -624,7 +664,7 @@
       "end_local": "2026-10-11T16:15:00+03:00",
       "price_per_mwh_eur": 62.44,
       "price_per_kwh_eur": 0.062439999999999996,
-      "price_per_kwh": 0.333467064,
+      "price_per_kwh": 0.33324227999999995,
       "currency": "RON"
     },
     {
@@ -634,7 +674,7 @@
       "end_local": "2026-10-11T16:30:00+03:00",
       "price_per_mwh_eur": 73.76,
       "price_per_kwh_eur": 0.07376,
-      "price_per_kwh": 0.39392265600000004,
+      "price_per_kwh": 0.39365712,
       "currency": "RON"
     },
     {
@@ -644,7 +684,7 @@
       "end_local": "2026-10-11T16:45:00+03:00",
       "price_per_mwh_eur": 85.35,
       "price_per_kwh_eur": 0.08535,
-      "price_per_kwh": 0.45582021,
+      "price_per_kwh": 0.45551294999999997,
       "currency": "RON"
     },
     {
@@ -654,7 +694,7 @@
       "end_local": "2026-10-11T17:00:00+03:00",
       "price_per_mwh_eur": 103.09,
       "price_per_kwh_eur": 0.10309,
-      "price_per_kwh": 0.550562454,
+      "price_per_kwh": 0.55019133,
       "currency": "RON"
     },
     {
@@ -664,7 +704,7 @@
       "end_local": "2026-10-11T17:15:00+03:00",
       "price_per_mwh_eur": 97.59,
       "price_per_kwh_eur": 0.09759000000000001,
-      "price_per_kwh": 0.5211891540000001,
+      "price_per_kwh": 0.5208378300000001,
       "currency": "RON"
     },
     {
@@ -674,7 +714,7 @@
       "end_local": "2026-10-11T17:30:00+03:00",
       "price_per_mwh_eur": 147.8,
       "price_per_kwh_eur": 0.14780000000000001,
-      "price_per_kwh": 0.7893406800000001,
+      "price_per_kwh": 0.7888086000000001,
       "currency": "RON"
     },
     {
@@ -684,7 +724,7 @@
       "end_local": "2026-10-11T17:45:00+03:00",
       "price_per_mwh_eur": 187.54,
       "price_per_kwh_eur": 0.18753999999999998,
-      "price_per_kwh": 1.001576124,
+      "price_per_kwh": 1.00090098,
       "currency": "RON"
     },
     {
@@ -694,7 +734,7 @@
       "end_local": "2026-10-11T18:00:00+03:00",
       "price_per_mwh_eur": 248.09,
       "price_per_kwh_eur": 0.24809,
-      "price_per_kwh": 1.3249494540000002,
+      "price_per_kwh": 1.32405633,
       "currency": "RON"
     },
     {
@@ -704,7 +744,7 @@
       "end_local": "2026-10-11T18:15:00+03:00",
       "price_per_mwh_eur": 177.13,
       "price_per_kwh_eur": 0.17712999999999998,
-      "price_per_kwh": 0.945980478,
+      "price_per_kwh": 0.9453428099999999,
       "currency": "RON"
     },
     {
@@ -714,7 +754,7 @@
       "end_local": "2026-10-11T18:30:00+03:00",
       "price_per_mwh_eur": 197.94,
       "price_per_kwh_eur": 0.19794,
-      "price_per_kwh": 1.0571183640000001,
+      "price_per_kwh": 1.05640578,
       "currency": "RON"
     },
     {
@@ -724,7 +764,7 @@
       "end_local": "2026-10-11T18:45:00+03:00",
       "price_per_mwh_eur": 220.85,
       "price_per_kwh_eur": 0.22085,
-      "price_per_kwh": 1.17947151,
+      "price_per_kwh": 1.17867645,
       "currency": "RON"
     },
     {
@@ -734,7 +774,7 @@
       "end_local": "2026-10-11T19:00:00+03:00",
       "price_per_mwh_eur": 243.78,
       "price_per_kwh_eur": 0.24378,
-      "price_per_kwh": 1.301931468,
+      "price_per_kwh": 1.30105386,
       "currency": "RON"
     },
     {
@@ -744,7 +784,7 @@
       "end_local": "2026-10-11T19:15:00+03:00",
       "price_per_mwh_eur": 216.93,
       "price_per_kwh_eur": 0.21693,
-      "price_per_kwh": 1.158536358,
+      "price_per_kwh": 1.15775541,
       "currency": "RON"
     },
     {
@@ -754,7 +794,7 @@
       "end_local": "2026-10-11T19:30:00+03:00",
       "price_per_mwh_eur": 228.39,
       "price_per_kwh_eur": 0.22838999999999998,
-      "price_per_kwh": 1.219739634,
+      "price_per_kwh": 1.2189174299999999,
       "currency": "RON"
     },
     {
@@ -764,7 +804,7 @@
       "end_local": "2026-10-11T19:45:00+03:00",
       "price_per_mwh_eur": 228.8,
       "price_per_kwh_eur": 0.2288,
-      "price_per_kwh": 1.2219292800000001,
+      "price_per_kwh": 1.2211056,
       "currency": "RON"
     },
     {
@@ -774,7 +814,7 @@
       "end_local": "2026-10-11T20:00:00+03:00",
       "price_per_mwh_eur": 239.41,
       "price_per_kwh_eur": 0.23940999999999998,
-      "price_per_kwh": 1.278593046,
+      "price_per_kwh": 1.2777311699999998,
       "currency": "RON"
     },
     {
@@ -784,7 +824,7 @@
       "end_local": "2026-10-11T20:15:00+03:00",
       "price_per_mwh_eur": 223.63,
       "price_per_kwh_eur": 0.22363,
-      "price_per_kwh": 1.194318378,
+      "price_per_kwh": 1.19351331,
       "currency": "RON"
     },
     {
@@ -794,7 +834,7 @@
       "end_local": "2026-10-11T20:30:00+03:00",
       "price_per_mwh_eur": 234.01,
       "price_per_kwh_eur": 0.23401,
-      "price_per_kwh": 1.249753806,
+      "price_per_kwh": 1.2489113699999999,
       "currency": "RON"
     },
     {
@@ -804,7 +844,7 @@
       "end_local": "2026-10-11T20:45:00+03:00",
       "price_per_mwh_eur": 239.92,
       "price_per_kwh_eur": 0.23992,
-      "price_per_kwh": 1.281316752,
+      "price_per_kwh": 1.2804530399999998,
       "currency": "RON"
     },
     {
@@ -814,7 +854,7 @@
       "end_local": "2026-10-11T21:00:00+03:00",
       "price_per_mwh_eur": 241.59,
       "price_per_kwh_eur": 0.24159,
-      "price_per_kwh": 1.2902355540000001,
+      "price_per_kwh": 1.28936583,
       "currency": "RON"
     },
     {
@@ -824,7 +864,7 @@
       "end_local": "2026-10-11T21:15:00+03:00",
       "price_per_mwh_eur": 236.61,
       "price_per_kwh_eur": 0.23661000000000001,
-      "price_per_kwh": 1.263639366,
+      "price_per_kwh": 1.26278757,
       "currency": "RON"
     },
     {
@@ -834,7 +874,7 @@
       "end_local": "2026-10-11T21:30:00+03:00",
       "price_per_mwh_eur": 234.14,
       "price_per_kwh_eur": 0.23414,
-      "price_per_kwh": 1.250448084,
+      "price_per_kwh": 1.2496051799999999,
       "currency": "RON"
     },
     {
@@ -844,7 +884,7 @@
       "end_local": "2026-10-11T21:45:00+03:00",
       "price_per_mwh_eur": 231.65,
       "price_per_kwh_eur": 0.23165,
-      "price_per_kwh": 1.23714999,
+      "price_per_kwh": 1.2363160499999999,
       "currency": "RON"
     },
     {
@@ -854,7 +894,7 @@
       "end_local": "2026-10-11T22:00:00+03:00",
       "price_per_mwh_eur": 217.78,
       "price_per_kwh_eur": 0.21778,
-      "price_per_kwh": 1.163075868,
+      "price_per_kwh": 1.1622918599999998,
       "currency": "RON"
     },
     {
@@ -864,7 +904,7 @@
       "end_local": "2026-10-11T22:15:00+03:00",
       "price_per_mwh_eur": 225.52,
       "price_per_kwh_eur": 0.22552,
-      "price_per_kwh": 1.204412112,
+      "price_per_kwh": 1.2036002399999999,
       "currency": "RON"
     },
     {
@@ -874,7 +914,7 @@
       "end_local": "2026-10-11T22:30:00+03:00",
       "price_per_mwh_eur": 215.55,
       "price_per_kwh_eur": 0.21555000000000002,
-      "price_per_kwh": 1.1511663300000001,
+      "price_per_kwh": 1.1503903500000001,
       "currency": "RON"
     },
     {
@@ -884,7 +924,7 @@
       "end_local": "2026-10-11T22:45:00+03:00",
       "price_per_mwh_eur": 212.34,
       "price_per_kwh_eur": 0.21234,
-      "price_per_kwh": 1.1340230040000001,
+      "price_per_kwh": 1.13325858,
       "currency": "RON"
     },
     {
@@ -894,7 +934,7 @@
       "end_local": "2026-10-11T23:00:00+03:00",
       "price_per_mwh_eur": 244.55,
       "price_per_kwh_eur": 0.24455000000000002,
-      "price_per_kwh": 1.30604373,
+      "price_per_kwh": 1.30516335,
       "currency": "RON"
     },
     {
@@ -904,7 +944,7 @@
       "end_local": "2026-10-11T23:15:00+03:00",
       "price_per_mwh_eur": 236.28,
       "price_per_kwh_eur": 0.23628,
-      "price_per_kwh": 1.261876968,
+      "price_per_kwh": 1.2610263599999998,
       "currency": "RON"
     },
     {
@@ -914,7 +954,7 @@
       "end_local": "2026-10-11T23:30:00+03:00",
       "price_per_mwh_eur": 228.28,
       "price_per_kwh_eur": 0.22828,
-      "price_per_kwh": 1.2191521680000001,
+      "price_per_kwh": 1.21833036,
       "currency": "RON"
     },
     {
@@ -924,7 +964,7 @@
       "end_local": "2026-10-11T23:45:00+03:00",
       "price_per_mwh_eur": 231.54,
       "price_per_kwh_eur": 0.23154,
-      "price_per_kwh": 1.236562524,
+      "price_per_kwh": 1.23572898,
       "currency": "RON"
     },
     {
@@ -934,7 +974,7 @@
       "end_local": "2026-10-12T00:00:00+03:00",
       "price_per_mwh_eur": 228.38,
       "price_per_kwh_eur": 0.22838,
-      "price_per_kwh": 1.219686228,
+      "price_per_kwh": 1.21886406,
       "currency": "RON"
     },
     {
@@ -944,7 +984,7 @@
       "end_local": "2026-10-12T00:15:00+03:00",
       "price_per_mwh_eur": 234.62,
       "price_per_kwh_eur": 0.23462,
-      "price_per_kwh": 1.2530115720000001,
+      "price_per_kwh": 1.25216694,
       "currency": "RON"
     },
     {
@@ -954,7 +994,7 @@
       "end_local": "2026-10-12T00:30:00+03:00",
       "price_per_mwh_eur": 226.12,
       "price_per_kwh_eur": 0.22612000000000002,
-      "price_per_kwh": 1.2076164720000002,
+      "price_per_kwh": 1.20680244,
       "currency": "RON"
     },
     {
@@ -964,7 +1004,7 @@
       "end_local": "2026-10-12T00:45:00+03:00",
       "price_per_mwh_eur": 216.99,
       "price_per_kwh_eur": 0.21699000000000002,
-      "price_per_kwh": 1.158856794,
+      "price_per_kwh": 1.1580756300000001,
       "currency": "RON"
     },
     {
@@ -974,7 +1014,7 @@
       "end_local": "2026-10-12T01:00:00+03:00",
       "price_per_mwh_eur": 195.24,
       "price_per_kwh_eur": 0.19524,
-      "price_per_kwh": 1.042698744,
+      "price_per_kwh": 1.04199588,
       "currency": "RON"
     },
     {
@@ -984,7 +1024,7 @@
       "end_local": "2026-10-12T01:15:00+03:00",
       "price_per_mwh_eur": 216.83,
       "price_per_kwh_eur": 0.21683000000000002,
-      "price_per_kwh": 1.1580022980000002,
+      "price_per_kwh": 1.15722171,
       "currency": "RON"
     },
     {
@@ -994,7 +1034,7 @@
       "end_local": "2026-10-12T01:30:00+03:00",
       "price_per_mwh_eur": 204.51,
       "price_per_kwh_eur": 0.20451,
-      "price_per_kwh": 1.0922061060000001,
+      "price_per_kwh": 1.0914698699999998,
       "currency": "RON"
     },
     {
@@ -1004,7 +1044,7 @@
       "end_local": "2026-10-12T01:45:00+03:00",
       "price_per_mwh_eur": 195.56,
       "price_per_kwh_eur": 0.19556,
-      "price_per_kwh": 1.0444077360000001,
+      "price_per_kwh": 1.0437037200000001,
       "currency": "RON"
     },
     {
@@ -1014,7 +1054,7 @@
       "end_local": "2026-10-12T02:00:00+03:00",
       "price_per_mwh_eur": 199.25,
       "price_per_kwh_eur": 0.19925,
-      "price_per_kwh": 1.06411455,
+      "price_per_kwh": 1.06339725,
       "currency": "RON"
     },
     {
@@ -1024,7 +1064,7 @@
       "end_local": "2026-10-12T02:15:00+03:00",
       "price_per_mwh_eur": 201.89,
       "price_per_kwh_eur": 0.20189,
-      "price_per_kwh": 1.078213734,
+      "price_per_kwh": 1.0774869299999998,
       "currency": "RON"
     },
     {
@@ -1034,7 +1074,7 @@
       "end_local": "2026-10-12T02:30:00+03:00",
       "price_per_mwh_eur": 205.45,
       "price_per_kwh_eur": 0.20545,
-      "price_per_kwh": 1.09722627,
+      "price_per_kwh": 1.09648665,
       "currency": "RON"
     },
     {
@@ -1044,7 +1084,7 @@
       "end_local": "2026-10-12T02:45:00+03:00",
       "price_per_mwh_eur": 212.29,
       "price_per_kwh_eur": 0.21228999999999998,
-      "price_per_kwh": 1.1337559739999998,
+      "price_per_kwh": 1.1329917299999999,
       "currency": "RON"
     },
     {
@@ -1054,7 +1094,7 @@
       "end_local": "2026-10-12T03:00:00+03:00",
       "price_per_mwh_eur": 207.4,
       "price_per_kwh_eur": 0.2074,
-      "price_per_kwh": 1.10764044,
+      "price_per_kwh": 1.1068938,
       "currency": "RON"
     },
     {
@@ -1064,7 +1104,7 @@
       "end_local": "2026-10-12T03:15:00+03:00",
       "price_per_mwh_eur": 200.62,
       "price_per_kwh_eur": 0.20062,
-      "price_per_kwh": 1.071431172,
+      "price_per_kwh": 1.0707089399999998,
       "currency": "RON"
     },
     {
@@ -1074,7 +1114,7 @@
       "end_local": "2026-10-12T03:30:00+03:00",
       "price_per_mwh_eur": 207.73,
       "price_per_kwh_eur": 0.20773,
-      "price_per_kwh": 1.109402838,
+      "price_per_kwh": 1.1086550099999999,
       "currency": "RON"
     },
     {
@@ -1084,7 +1124,7 @@
       "end_local": "2026-10-12T03:45:00+03:00",
       "price_per_mwh_eur": 207.98,
       "price_per_kwh_eur": 0.20798,
-      "price_per_kwh": 1.1107379880000001,
+      "price_per_kwh": 1.1099892599999999,
       "currency": "RON"
     },
     {
@@ -1094,7 +1134,7 @@
       "end_local": "2026-10-12T04:00:00+03:00",
       "price_per_mwh_eur": 217.65,
       "price_per_kwh_eur": 0.21765,
-      "price_per_kwh": 1.16238159,
+      "price_per_kwh": 1.16159805,
       "currency": "RON"
     },
     {
@@ -1104,7 +1144,7 @@
       "end_local": "2026-10-12T04:15:00+03:00",
       "price_per_mwh_eur": 216.74,
       "price_per_kwh_eur": 0.21674000000000002,
-      "price_per_kwh": 1.1575216440000002,
+      "price_per_kwh": 1.15674138,
       "currency": "RON"
     },
     {
@@ -1114,7 +1154,7 @@
       "end_local": "2026-10-12T04:30:00+03:00",
       "price_per_mwh_eur": 206.81,
       "price_per_kwh_eur": 0.20681,
-      "price_per_kwh": 1.104489486,
+      "price_per_kwh": 1.10374497,
       "currency": "RON"
     },
     {
@@ -1124,7 +1164,7 @@
       "end_local": "2026-10-12T04:45:00+03:00",
       "price_per_mwh_eur": 198.42,
       "price_per_kwh_eur": 0.19841999999999999,
-      "price_per_kwh": 1.059681852,
+      "price_per_kwh": 1.0589675399999998,
       "currency": "RON"
     },
     {
@@ -1134,7 +1174,7 @@
       "end_local": "2026-10-12T05:00:00+03:00",
       "price_per_mwh_eur": 199.69,
       "price_per_kwh_eur": 0.19969,
-      "price_per_kwh": 1.0664644140000001,
+      "price_per_kwh": 1.06574553,
       "currency": "RON"
     },
     {
@@ -1144,7 +1184,7 @@
       "end_local": "2026-10-12T05:15:00+03:00",
       "price_per_mwh_eur": 191.35,
       "price_per_kwh_eur": 0.19135,
-      "price_per_kwh": 1.02192381,
+      "price_per_kwh": 1.02123495,
       "currency": "RON"
     },
     {
@@ -1154,7 +1194,7 @@
       "end_local": "2026-10-12T05:30:00+03:00",
       "price_per_mwh_eur": 201.78,
       "price_per_kwh_eur": 0.20178000000000001,
-      "price_per_kwh": 1.0776262680000002,
+      "price_per_kwh": 1.07689986,
       "currency": "RON"
     },
     {
@@ -1164,7 +1204,7 @@
       "end_local": "2026-10-12T05:45:00+03:00",
       "price_per_mwh_eur": 199.6,
       "price_per_kwh_eur": 0.1996,
-      "price_per_kwh": 1.06598376,
+      "price_per_kwh": 1.0652652,
       "currency": "RON"
     },
     {
@@ -1174,7 +1214,7 @@
       "end_local": "2026-10-12T06:00:00+03:00",
       "price_per_mwh_eur": 212.9,
       "price_per_kwh_eur": 0.2129,
-      "price_per_kwh": 1.13701374,
+      "price_per_kwh": 1.1362473,
       "currency": "RON"
     },
     {
@@ -1184,7 +1224,7 @@
       "end_local": "2026-10-12T06:15:00+03:00",
       "price_per_mwh_eur": 216.66,
       "price_per_kwh_eur": 0.21666,
-      "price_per_kwh": 1.157094396,
+      "price_per_kwh": 1.15631442,
       "currency": "RON"
     },
     {
@@ -1194,7 +1234,7 @@
       "end_local": "2026-10-12T06:30:00+03:00",
       "price_per_mwh_eur": 269.25,
       "price_per_kwh_eur": 0.26925,
-      "price_per_kwh": 1.43795655,
+      "price_per_kwh": 1.4369872499999998,
       "currency": "RON"
     },
     {
@@ -1204,7 +1244,7 @@
       "end_local": "2026-10-12T06:45:00+03:00",
       "price_per_mwh_eur": 285.64,
       "price_per_kwh_eur": 0.28564,
-      "price_per_kwh": 1.525488984,
+      "price_per_kwh": 1.52446068,
       "currency": "RON"
     },
     {
@@ -1214,7 +1254,7 @@
       "end_local": "2026-10-12T07:00:00+03:00",
       "price_per_mwh_eur": 299.23,
       "price_per_kwh_eur": 0.29923,
-      "price_per_kwh": 1.5980677380000001,
+      "price_per_kwh": 1.59699051,
       "currency": "RON"
     },
     {
@@ -1224,7 +1264,7 @@
       "end_local": "2026-10-12T07:15:00+03:00",
       "price_per_mwh_eur": 265.96,
       "price_per_kwh_eur": 0.26596,
-      "price_per_kwh": 1.420385976,
+      "price_per_kwh": 1.4194285199999999,
       "currency": "RON"
     },
     {
@@ -1234,7 +1274,7 @@
       "end_local": "2026-10-12T07:30:00+03:00",
       "price_per_mwh_eur": 277.69,
       "price_per_kwh_eur": 0.27769,
-      "price_per_kwh": 1.483031214,
+      "price_per_kwh": 1.48203153,
       "currency": "RON"
     },
     {
@@ -1244,7 +1284,7 @@
       "end_local": "2026-10-12T07:45:00+03:00",
       "price_per_mwh_eur": 291.41,
       "price_per_kwh_eur": 0.29141,
-      "price_per_kwh": 1.556304246,
+      "price_per_kwh": 1.55525517,
       "currency": "RON"
     },
     {
@@ -1254,7 +1294,7 @@
       "end_local": "2026-10-12T08:00:00+03:00",
       "price_per_mwh_eur": 286.45,
       "price_per_kwh_eur": 0.28645,
-      "price_per_kwh": 1.52981487,
+      "price_per_kwh": 1.5287836499999998,
       "currency": "RON"
     },
     {
@@ -1264,7 +1304,7 @@
       "end_local": "2026-10-12T08:15:00+03:00",
       "price_per_mwh_eur": 344.11,
       "price_per_kwh_eur": 0.34411,
-      "price_per_kwh": 1.8377538660000001,
+      "price_per_kwh": 1.8365150700000001,
       "currency": "RON"
     },
     {
@@ -1274,7 +1314,7 @@
       "end_local": "2026-10-12T08:30:00+03:00",
       "price_per_mwh_eur": 327.94,
       "price_per_kwh_eur": 0.32794,
-      "price_per_kwh": 1.751396364,
+      "price_per_kwh": 1.75021578,
       "currency": "RON"
     },
     {
@@ -1284,7 +1324,7 @@
       "end_local": "2026-10-12T08:45:00+03:00",
       "price_per_mwh_eur": 299.36,
       "price_per_kwh_eur": 0.29936,
-      "price_per_kwh": 1.5987620160000002,
+      "price_per_kwh": 1.59768432,
       "currency": "RON"
     },
     {
@@ -1294,7 +1334,7 @@
       "end_local": "2026-10-12T09:00:00+03:00",
       "price_per_mwh_eur": 270.8,
       "price_per_kwh_eur": 0.2708,
-      "price_per_kwh": 1.44623448,
+      "price_per_kwh": 1.4452595999999998,
       "currency": "RON"
     },
     {
@@ -1304,7 +1344,7 @@
       "end_local": "2026-10-12T09:15:00+03:00",
       "price_per_mwh_eur": 300.28,
       "price_per_kwh_eur": 0.30028,
-      "price_per_kwh": 1.603675368,
+      "price_per_kwh": 1.6025943599999999,
       "currency": "RON"
     },
     {
@@ -1314,7 +1354,7 @@
       "end_local": "2026-10-12T09:30:00+03:00",
       "price_per_mwh_eur": 301.19,
       "price_per_kwh_eur": 0.30119,
-      "price_per_kwh": 1.608535314,
+      "price_per_kwh": 1.60745103,
       "currency": "RON"
     },
     {
@@ -1324,7 +1364,7 @@
       "end_local": "2026-10-12T09:45:00+03:00",
       "price_per_mwh_eur": 257.17,
       "price_per_kwh_eur": 0.25717,
-      "price_per_kwh": 1.373442102,
+      "price_per_kwh": 1.37251629,
       "currency": "RON"
     },
     {
@@ -1334,7 +1374,7 @@
       "end_local": "2026-10-12T10:00:00+03:00",
       "price_per_mwh_eur": 241.19,
       "price_per_kwh_eur": 0.24119,
-      "price_per_kwh": 1.2880993139999999,
+      "price_per_kwh": 1.2872310299999998,
       "currency": "RON"
     },
     {
@@ -1344,7 +1384,7 @@
       "end_local": "2026-10-12T10:15:00+03:00",
       "price_per_mwh_eur": 266.74,
       "price_per_kwh_eur": 0.26674000000000003,
-      "price_per_kwh": 1.4245516440000003,
+      "price_per_kwh": 1.4235913800000002,
       "currency": "RON"
     },
     {
@@ -1354,7 +1394,7 @@
       "end_local": "2026-10-12T10:30:00+03:00",
       "price_per_mwh_eur": 242.59,
       "price_per_kwh_eur": 0.24259,
-      "price_per_kwh": 1.2955761540000001,
+      "price_per_kwh": 1.2947028299999999,
       "currency": "RON"
     },
     {
@@ -1364,7 +1404,7 @@
       "end_local": "2026-10-12T10:45:00+03:00",
       "price_per_mwh_eur": 218.05,
       "price_per_kwh_eur": 0.21805000000000002,
-      "price_per_kwh": 1.16451783,
+      "price_per_kwh": 1.1637328500000002,
       "currency": "RON"
     },
     {
@@ -1374,7 +1414,7 @@
       "end_local": "2026-10-12T11:00:00+03:00",
       "price_per_mwh_eur": 190.23,
       "price_per_kwh_eur": 0.19022999999999998,
-      "price_per_kwh": 1.015942338,
+      "price_per_kwh": 1.0152575099999999,
       "currency": "RON"
     },
     {
@@ -1384,7 +1424,7 @@
       "end_local": "2026-10-12T11:15:00+03:00",
       "price_per_mwh_eur": 233.95,
       "price_per_kwh_eur": 0.23395,
-      "price_per_kwh": 1.24943337,
+      "price_per_kwh": 1.24859115,
       "currency": "RON"
     },
     {
@@ -1394,7 +1434,7 @@
       "end_local": "2026-10-12T11:30:00+03:00",
       "price_per_mwh_eur": 205.05,
       "price_per_kwh_eur": 0.20505,
-      "price_per_kwh": 1.0950900300000002,
+      "price_per_kwh": 1.09435185,
       "currency": "RON"
     },
     {
@@ -1404,7 +1444,7 @@
       "end_local": "2026-10-12T11:45:00+03:00",
       "price_per_mwh_eur": 204.02,
       "price_per_kwh_eur": 0.20402,
-      "price_per_kwh": 1.0895892120000001,
+      "price_per_kwh": 1.08885474,
       "currency": "RON"
     },
     {
@@ -1414,7 +1454,7 @@
       "end_local": "2026-10-12T12:00:00+03:00",
       "price_per_mwh_eur": 199.85,
       "price_per_kwh_eur": 0.19985,
-      "price_per_kwh": 1.06731891,
+      "price_per_kwh": 1.06659945,
       "currency": "RON"
     },
     {
@@ -1424,7 +1464,7 @@
       "end_local": "2026-10-12T12:15:00+03:00",
       "price_per_mwh_eur": 218.06,
       "price_per_kwh_eur": 0.21806,
-      "price_per_kwh": 1.164571236,
+      "price_per_kwh": 1.16378622,
       "currency": "RON"
     },
     {
@@ -1434,7 +1474,7 @@
       "end_local": "2026-10-12T12:30:00+03:00",
       "price_per_mwh_eur": 204.04,
       "price_per_kwh_eur": 0.20404,
-      "price_per_kwh": 1.089696024,
+      "price_per_kwh": 1.08896148,
       "currency": "RON"
     },
     {
@@ -1444,7 +1484,7 @@
       "end_local": "2026-10-12T12:45:00+03:00",
       "price_per_mwh_eur": 198.05,
       "price_per_kwh_eur": 0.19805,
-      "price_per_kwh": 1.05770583,
+      "price_per_kwh": 1.0569928499999999,
       "currency": "RON"
     },
     {
@@ -1454,7 +1494,7 @@
       "end_local": "2026-10-12T13:00:00+03:00",
       "price_per_mwh_eur": 201.15,
       "price_per_kwh_eur": 0.20115,
-      "price_per_kwh": 1.07426169,
+      "price_per_kwh": 1.07353755,
       "currency": "RON"
     },
     {
@@ -1464,7 +1504,7 @@
       "end_local": "2026-10-12T13:15:00+03:00",
       "price_per_mwh_eur": 210.35,
       "price_per_kwh_eur": 0.21034999999999998,
-      "price_per_kwh": 1.12339521,
+      "price_per_kwh": 1.1226379499999999,
       "currency": "RON"
     },
     {
@@ -1474,7 +1514,7 @@
       "end_local": "2026-10-12T13:30:00+03:00",
       "price_per_mwh_eur": 212.22,
       "price_per_kwh_eur": 0.21222,
-      "price_per_kwh": 1.133382132,
+      "price_per_kwh": 1.13261814,
       "currency": "RON"
     },
     {
@@ -1484,7 +1524,7 @@
       "end_local": "2026-10-12T13:45:00+03:00",
       "price_per_mwh_eur": 204.39,
       "price_per_kwh_eur": 0.20439,
-      "price_per_kwh": 1.091565234,
+      "price_per_kwh": 1.0908294299999999,
       "currency": "RON"
     },
     {
@@ -1494,7 +1534,7 @@
       "end_local": "2026-10-12T14:00:00+03:00",
       "price_per_mwh_eur": 191.85,
       "price_per_kwh_eur": 0.19185,
-      "price_per_kwh": 1.02459411,
+      "price_per_kwh": 1.02390345,
       "currency": "RON"
     },
     {
@@ -1504,7 +1544,7 @@
       "end_local": "2026-10-12T14:15:00+03:00",
       "price_per_mwh_eur": 215.94,
       "price_per_kwh_eur": 0.21594,
-      "price_per_kwh": 1.153249164,
+      "price_per_kwh": 1.15247178,
       "currency": "RON"
     },
     {
@@ -1514,7 +1554,7 @@
       "end_local": "2026-10-12T14:30:00+03:00",
       "price_per_mwh_eur": 216.37,
       "price_per_kwh_eur": 0.21637,
-      "price_per_kwh": 1.155545622,
+      "price_per_kwh": 1.15476669,
       "currency": "RON"
     },
     {
@@ -1524,7 +1564,7 @@
       "end_local": "2026-10-12T14:45:00+03:00",
       "price_per_mwh_eur": 215.3,
       "price_per_kwh_eur": 0.21530000000000002,
-      "price_per_kwh": 1.14983118,
+      "price_per_kwh": 1.1490561000000001,
       "currency": "RON"
     },
     {
@@ -1534,7 +1574,7 @@
       "end_local": "2026-10-12T15:00:00+03:00",
       "price_per_mwh_eur": 204.07,
       "price_per_kwh_eur": 0.20407,
-      "price_per_kwh": 1.089856242,
+      "price_per_kwh": 1.08912159,
       "currency": "RON"
     },
     {
@@ -1544,7 +1584,7 @@
       "end_local": "2026-10-12T15:15:00+03:00",
       "price_per_mwh_eur": 187.22,
       "price_per_kwh_eur": 0.18722,
-      "price_per_kwh": 0.999867132,
+      "price_per_kwh": 0.9991931399999999,
       "currency": "RON"
     },
     {
@@ -1554,7 +1594,7 @@
       "end_local": "2026-10-12T15:30:00+03:00",
       "price_per_mwh_eur": 207.2,
       "price_per_kwh_eur": 0.2072,
-      "price_per_kwh": 1.10657232,
+      "price_per_kwh": 1.1058264,
       "currency": "RON"
     },
     {
@@ -1564,7 +1604,7 @@
       "end_local": "2026-10-12T15:45:00+03:00",
       "price_per_mwh_eur": 207.23,
       "price_per_kwh_eur": 0.20723,
-      "price_per_kwh": 1.106732538,
+      "price_per_kwh": 1.10598651,
       "currency": "RON"
     },
     {
@@ -1574,7 +1614,7 @@
       "end_local": "2026-10-12T16:00:00+03:00",
       "price_per_mwh_eur": 206.38,
       "price_per_kwh_eur": 0.20638,
-      "price_per_kwh": 1.102193028,
+      "price_per_kwh": 1.10145006,
       "currency": "RON"
     },
     {
@@ -1584,7 +1624,7 @@
       "end_local": "2026-10-12T16:15:00+03:00",
       "price_per_mwh_eur": 202.23,
       "price_per_kwh_eur": 0.20223,
-      "price_per_kwh": 1.080029538,
+      "price_per_kwh": 1.0793015099999999,
       "currency": "RON"
     },
     {
@@ -1594,7 +1634,7 @@
       "end_local": "2026-10-12T16:30:00+03:00",
       "price_per_mwh_eur": 189.15,
       "price_per_kwh_eur": 0.18915,
-      "price_per_kwh": 1.01017449,
+      "price_per_kwh": 1.00949355,
       "currency": "RON"
     },
     {
@@ -1604,7 +1644,7 @@
       "end_local": "2026-10-12T16:45:00+03:00",
       "price_per_mwh_eur": 182.63,
       "price_per_kwh_eur": 0.18263,
-      "price_per_kwh": 0.975353778,
+      "price_per_kwh": 0.9746963099999999,
       "currency": "RON"
     },
     {
@@ -1614,7 +1654,7 @@
       "end_local": "2026-10-12T17:00:00+03:00",
       "price_per_mwh_eur": 238.21,
       "price_per_kwh_eur": 0.23821,
-      "price_per_kwh": 1.272184326,
+      "price_per_kwh": 1.27132677,
       "currency": "RON"
     },
     {
@@ -1624,7 +1664,7 @@
       "end_local": "2026-10-12T17:15:00+03:00",
       "price_per_mwh_eur": 167.24,
       "price_per_kwh_eur": 0.16724,
-      "price_per_kwh": 0.893161944,
+      "price_per_kwh": 0.89255988,
       "currency": "RON"
     },
     {
@@ -1634,7 +1674,7 @@
       "end_local": "2026-10-12T17:30:00+03:00",
       "price_per_mwh_eur": 228.14,
       "price_per_kwh_eur": 0.22813999999999998,
-      "price_per_kwh": 1.218404484,
+      "price_per_kwh": 1.2175831799999999,
       "currency": "RON"
     },
     {
@@ -1644,7 +1684,7 @@
       "end_local": "2026-10-12T17:45:00+03:00",
       "price_per_mwh_eur": 288.42,
       "price_per_kwh_eur": 0.28842,
-      "price_per_kwh": 1.5403358520000001,
+      "price_per_kwh": 1.53929754,
       "currency": "RON"
     },
     {
@@ -1654,7 +1694,7 @@
       "end_local": "2026-10-12T18:00:00+03:00",
       "price_per_mwh_eur": 298.67,
       "price_per_kwh_eur": 0.29867,
-      "price_per_kwh": 1.595077002,
+      "price_per_kwh": 1.5940017899999999,
       "currency": "RON"
     },
     {
@@ -1664,7 +1704,7 @@
       "end_local": "2026-10-12T18:15:00+03:00",
       "price_per_mwh_eur": 245.63,
       "price_per_kwh_eur": 0.24563,
-      "price_per_kwh": 1.311811578,
+      "price_per_kwh": 1.3109273099999998,
       "currency": "RON"
     },
     {
@@ -1674,7 +1714,7 @@
       "end_local": "2026-10-12T18:30:00+03:00",
       "price_per_mwh_eur": 278.89,
       "price_per_kwh_eur": 0.27888999999999997,
-      "price_per_kwh": 1.489439934,
+      "price_per_kwh": 1.4884359299999999,
       "currency": "RON"
     },
     {
@@ -1684,7 +1724,7 @@
       "end_local": "2026-10-12T18:45:00+03:00",
       "price_per_mwh_eur": 287.96,
       "price_per_kwh_eur": 0.28796,
-      "price_per_kwh": 1.5378791760000001,
+      "price_per_kwh": 1.53684252,
       "currency": "RON"
     },
     {
@@ -1694,7 +1734,7 @@
       "end_local": "2026-10-12T19:00:00+03:00",
       "price_per_mwh_eur": 275.92,
       "price_per_kwh_eur": 0.27592,
-      "price_per_kwh": 1.473578352,
+      "price_per_kwh": 1.47258504,
       "currency": "RON"
     },
     {
@@ -1704,7 +1744,7 @@
       "end_local": "2026-10-12T19:15:00+03:00",
       "price_per_mwh_eur": 247.95,
       "price_per_kwh_eur": 0.24794999999999998,
-      "price_per_kwh": 1.32420177,
+      "price_per_kwh": 1.3233091499999998,
       "currency": "RON"
     },
     {
@@ -1714,7 +1754,7 @@
       "end_local": "2026-10-12T19:30:00+03:00",
       "price_per_mwh_eur": 259.74,
       "price_per_kwh_eur": 0.25974,
-      "price_per_kwh": 1.3871674440000001,
+      "price_per_kwh": 1.38623238,
       "currency": "RON"
     },
     {
@@ -1724,7 +1764,7 @@
       "end_local": "2026-10-12T19:45:00+03:00",
       "price_per_mwh_eur": 276.6,
       "price_per_kwh_eur": 0.2766,
-      "price_per_kwh": 1.4772099600000002,
+      "price_per_kwh": 1.4762142,
       "currency": "RON"
     },
     {
@@ -1734,7 +1774,7 @@
       "end_local": "2026-10-12T20:00:00+03:00",
       "price_per_mwh_eur": 291.47,
       "price_per_kwh_eur": 0.29147,
-      "price_per_kwh": 1.556624682,
+      "price_per_kwh": 1.55557539,
       "currency": "RON"
     },
     {
@@ -1744,7 +1784,7 @@
       "end_local": "2026-10-12T20:15:00+03:00",
       "price_per_mwh_eur": 283.89,
       "price_per_kwh_eur": 0.28389,
-      "price_per_kwh": 1.5161429339999999,
+      "price_per_kwh": 1.5151209299999997,
       "currency": "RON"
     },
     {
@@ -1754,7 +1794,7 @@
       "end_local": "2026-10-12T20:30:00+03:00",
       "price_per_mwh_eur": 281.84,
       "price_per_kwh_eur": 0.28184,
-      "price_per_kwh": 1.505194704,
+      "price_per_kwh": 1.5041800799999998,
       "currency": "RON"
     },
     {
@@ -1764,7 +1804,7 @@
       "end_local": "2026-10-12T20:45:00+03:00",
       "price_per_mwh_eur": 280.1,
       "price_per_kwh_eur": 0.2801,
-      "price_per_kwh": 1.4959020600000001,
+      "price_per_kwh": 1.4948937,
       "currency": "RON"
     },
     {
@@ -1774,7 +1814,7 @@
       "end_local": "2026-10-12T21:00:00+03:00",
       "price_per_mwh_eur": 272.31,
       "price_per_kwh_eur": 0.27231,
-      "price_per_kwh": 1.454298786,
+      "price_per_kwh": 1.45331847,
       "currency": "RON"
     },
     {
@@ -1784,7 +1824,7 @@
       "end_local": "2026-10-12T21:15:00+03:00",
       "price_per_mwh_eur": 273.01,
       "price_per_kwh_eur": 0.27301,
-      "price_per_kwh": 1.458037206,
+      "price_per_kwh": 1.4570543699999998,
       "currency": "RON"
     },
     {
@@ -1794,7 +1834,7 @@
       "end_local": "2026-10-12T21:30:00+03:00",
       "price_per_mwh_eur": 257.06,
       "price_per_kwh_eur": 0.25706,
-      "price_per_kwh": 1.372854636,
+      "price_per_kwh": 1.37192922,
       "currency": "RON"
     },
     {
@@ -1804,7 +1844,7 @@
       "end_local": "2026-10-12T21:45:00+03:00",
       "price_per_mwh_eur": 262.1,
       "price_per_kwh_eur": 0.2621,
-      "price_per_kwh": 1.39977126,
+      "price_per_kwh": 1.3988277,
       "currency": "RON"
     },
     {
@@ -1814,7 +1854,7 @@
       "end_local": "2026-10-12T22:00:00+03:00",
       "price_per_mwh_eur": 231.98,
       "price_per_kwh_eur": 0.23198,
-      "price_per_kwh": 1.238912388,
+      "price_per_kwh": 1.2380772599999998,
       "currency": "RON"
     },
     {
@@ -1824,7 +1864,7 @@
       "end_local": "2026-10-12T22:15:00+03:00",
       "price_per_mwh_eur": 249.18,
       "price_per_kwh_eur": 0.24918,
-      "price_per_kwh": 1.3307707080000002,
+      "price_per_kwh": 1.32987366,
       "currency": "RON"
     },
     {
@@ -1834,7 +1874,7 @@
       "end_local": "2026-10-12T22:30:00+03:00",
       "price_per_mwh_eur": 244.77,
       "price_per_kwh_eur": 0.24477000000000002,
-      "price_per_kwh": 1.3072186620000001,
+      "price_per_kwh": 1.30633749,
       "currency": "RON"
     },
     {
@@ -1844,7 +1884,7 @@
       "end_local": "2026-10-12T22:45:00+03:00",
       "price_per_mwh_eur": 254.33,
       "price_per_kwh_eur": 0.25433,
-      "price_per_kwh": 1.358274798,
+      "price_per_kwh": 1.35735921,
       "currency": "RON"
     },
     {
@@ -1854,7 +1894,7 @@
       "end_local": "2026-10-12T23:00:00+03:00",
       "price_per_mwh_eur": 246.65,
       "price_per_kwh_eur": 0.24665,
-      "price_per_kwh": 1.31725899,
+      "price_per_kwh": 1.3163710499999999,
       "currency": "RON"
     },
     {
@@ -1864,7 +1904,7 @@
       "end_local": "2026-10-12T23:15:00+03:00",
       "price_per_mwh_eur": 257.01,
       "price_per_kwh_eur": 0.25701,
-      "price_per_kwh": 1.3725876060000002,
+      "price_per_kwh": 1.3716623700000001,
       "currency": "RON"
     },
     {
@@ -1874,7 +1914,7 @@
       "end_local": "2026-10-12T23:30:00+03:00",
       "price_per_mwh_eur": 247.4,
       "price_per_kwh_eur": 0.2474,
-      "price_per_kwh": 1.3212644400000002,
+      "price_per_kwh": 1.3203738,
       "currency": "RON"
     },
     {
@@ -1884,7 +1924,7 @@
       "end_local": "2026-10-12T23:45:00+03:00",
       "price_per_mwh_eur": 235.46,
       "price_per_kwh_eur": 0.23546,
-      "price_per_kwh": 1.257497676,
+      "price_per_kwh": 1.25665002,
       "currency": "RON"
     },
     {
@@ -1894,7 +1934,7 @@
       "end_local": "2026-10-13T00:00:00+03:00",
       "price_per_mwh_eur": 210.38,
       "price_per_kwh_eur": 0.21037999999999998,
-      "price_per_kwh": 1.123555428,
+      "price_per_kwh": 1.1227980599999998,
       "currency": "RON"
     },
     {
@@ -1904,7 +1944,7 @@
       "end_local": "2026-10-13T00:15:00+03:00",
       "price_per_mwh_eur": 250.96,
       "price_per_kwh_eur": 0.25096,
-      "price_per_kwh": 1.3402769760000002,
+      "price_per_kwh": 1.33937352,
       "currency": "RON"
     },
     {
@@ -1914,7 +1954,7 @@
       "end_local": "2026-10-13T00:30:00+03:00",
       "price_per_mwh_eur": 216.46,
       "price_per_kwh_eur": 0.21646,
-      "price_per_kwh": 1.1560262760000002,
+      "price_per_kwh": 1.15524702,
       "currency": "RON"
     },
     {
@@ -1924,7 +1964,7 @@
       "end_local": "2026-10-13T00:45:00+03:00",
       "price_per_mwh_eur": 191.07,
       "price_per_kwh_eur": 0.19107,
-      "price_per_kwh": 1.020428442,
+      "price_per_kwh": 1.0197405899999998,
       "currency": "RON"
     },
     {
@@ -1934,7 +1974,927 @@
       "end_local": "2026-10-13T01:00:00+03:00",
       "price_per_mwh_eur": 183.63,
       "price_per_kwh_eur": 0.18363,
-      "price_per_kwh": 0.9806943779999999,
+      "price_per_kwh": 0.9800333099999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T22:00:00Z",
+      "end_utc": "2026-10-12T22:15:00Z",
+      "start_local": "2026-10-13T01:00:00+03:00",
+      "end_local": "2026-10-13T01:15:00+03:00",
+      "price_per_mwh_eur": 210.29,
+      "price_per_kwh_eur": 0.21029,
+      "price_per_kwh": 1.12231773,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T22:15:00Z",
+      "end_utc": "2026-10-12T22:30:00Z",
+      "start_local": "2026-10-13T01:15:00+03:00",
+      "end_local": "2026-10-13T01:30:00+03:00",
+      "price_per_mwh_eur": 210.6,
+      "price_per_kwh_eur": 0.21059999999999998,
+      "price_per_kwh": 1.1239721999999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T22:30:00Z",
+      "end_utc": "2026-10-12T22:45:00Z",
+      "start_local": "2026-10-13T01:30:00+03:00",
+      "end_local": "2026-10-13T01:45:00+03:00",
+      "price_per_mwh_eur": 201.81,
+      "price_per_kwh_eur": 0.20181,
+      "price_per_kwh": 1.0770599699999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T22:45:00Z",
+      "end_utc": "2026-10-12T23:00:00Z",
+      "start_local": "2026-10-13T01:45:00+03:00",
+      "end_local": "2026-10-13T02:00:00+03:00",
+      "price_per_mwh_eur": 191.08,
+      "price_per_kwh_eur": 0.19108,
+      "price_per_kwh": 1.0197939599999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T23:00:00Z",
+      "end_utc": "2026-10-12T23:15:00Z",
+      "start_local": "2026-10-13T02:00:00+03:00",
+      "end_local": "2026-10-13T02:15:00+03:00",
+      "price_per_mwh_eur": 209.82,
+      "price_per_kwh_eur": 0.20982,
+      "price_per_kwh": 1.11980934,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T23:15:00Z",
+      "end_utc": "2026-10-12T23:30:00Z",
+      "start_local": "2026-10-13T02:15:00+03:00",
+      "end_local": "2026-10-13T02:30:00+03:00",
+      "price_per_mwh_eur": 204.78,
+      "price_per_kwh_eur": 0.20478,
+      "price_per_kwh": 1.09291086,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T23:30:00Z",
+      "end_utc": "2026-10-12T23:45:00Z",
+      "start_local": "2026-10-13T02:30:00+03:00",
+      "end_local": "2026-10-13T02:45:00+03:00",
+      "price_per_mwh_eur": 199.21,
+      "price_per_kwh_eur": 0.19921,
+      "price_per_kwh": 1.06318377,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-12T23:45:00Z",
+      "end_utc": "2026-10-13T00:00:00Z",
+      "start_local": "2026-10-13T02:45:00+03:00",
+      "end_local": "2026-10-13T03:00:00+03:00",
+      "price_per_mwh_eur": 198.71,
+      "price_per_kwh_eur": 0.19871,
+      "price_per_kwh": 1.06051527,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T00:00:00Z",
+      "end_utc": "2026-10-13T00:15:00Z",
+      "start_local": "2026-10-13T03:00:00+03:00",
+      "end_local": "2026-10-13T03:15:00+03:00",
+      "price_per_mwh_eur": 204.81,
+      "price_per_kwh_eur": 0.20481,
+      "price_per_kwh": 1.0930709699999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T00:15:00Z",
+      "end_utc": "2026-10-13T00:30:00Z",
+      "start_local": "2026-10-13T03:15:00+03:00",
+      "end_local": "2026-10-13T03:30:00+03:00",
+      "price_per_mwh_eur": 201.82,
+      "price_per_kwh_eur": 0.20182,
+      "price_per_kwh": 1.07711334,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T00:30:00Z",
+      "end_utc": "2026-10-13T00:45:00Z",
+      "start_local": "2026-10-13T03:30:00+03:00",
+      "end_local": "2026-10-13T03:45:00+03:00",
+      "price_per_mwh_eur": 205.94,
+      "price_per_kwh_eur": 0.20593999999999998,
+      "price_per_kwh": 1.0991017799999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T00:45:00Z",
+      "end_utc": "2026-10-13T01:00:00Z",
+      "start_local": "2026-10-13T03:45:00+03:00",
+      "end_local": "2026-10-13T04:00:00+03:00",
+      "price_per_mwh_eur": 205.94,
+      "price_per_kwh_eur": 0.20593999999999998,
+      "price_per_kwh": 1.0991017799999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T01:00:00Z",
+      "end_utc": "2026-10-13T01:15:00Z",
+      "start_local": "2026-10-13T04:00:00+03:00",
+      "end_local": "2026-10-13T04:15:00+03:00",
+      "price_per_mwh_eur": 202.52,
+      "price_per_kwh_eur": 0.20252,
+      "price_per_kwh": 1.08084924,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T01:15:00Z",
+      "end_utc": "2026-10-13T01:30:00Z",
+      "start_local": "2026-10-13T04:15:00+03:00",
+      "end_local": "2026-10-13T04:30:00+03:00",
+      "price_per_mwh_eur": 204.65,
+      "price_per_kwh_eur": 0.20465,
+      "price_per_kwh": 1.09221705,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T01:30:00Z",
+      "end_utc": "2026-10-13T01:45:00Z",
+      "start_local": "2026-10-13T04:30:00+03:00",
+      "end_local": "2026-10-13T04:45:00+03:00",
+      "price_per_mwh_eur": 202.4,
+      "price_per_kwh_eur": 0.2024,
+      "price_per_kwh": 1.0802087999999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T01:45:00Z",
+      "end_utc": "2026-10-13T02:00:00Z",
+      "start_local": "2026-10-13T04:45:00+03:00",
+      "end_local": "2026-10-13T05:00:00+03:00",
+      "price_per_mwh_eur": 202.2,
+      "price_per_kwh_eur": 0.2022,
+      "price_per_kwh": 1.0791414,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T02:00:00Z",
+      "end_utc": "2026-10-13T02:15:00Z",
+      "start_local": "2026-10-13T05:00:00+03:00",
+      "end_local": "2026-10-13T05:15:00+03:00",
+      "price_per_mwh_eur": 218.73,
+      "price_per_kwh_eur": 0.21872999999999998,
+      "price_per_kwh": 1.1673620099999997,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T02:15:00Z",
+      "end_utc": "2026-10-13T02:30:00Z",
+      "start_local": "2026-10-13T05:15:00+03:00",
+      "end_local": "2026-10-13T05:30:00+03:00",
+      "price_per_mwh_eur": 194.85,
+      "price_per_kwh_eur": 0.19485,
+      "price_per_kwh": 1.03991445,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T02:30:00Z",
+      "end_utc": "2026-10-13T02:45:00Z",
+      "start_local": "2026-10-13T05:30:00+03:00",
+      "end_local": "2026-10-13T05:45:00+03:00",
+      "price_per_mwh_eur": 187.38,
+      "price_per_kwh_eur": 0.18738,
+      "price_per_kwh": 1.00004706,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T02:45:00Z",
+      "end_utc": "2026-10-13T03:00:00Z",
+      "start_local": "2026-10-13T05:45:00+03:00",
+      "end_local": "2026-10-13T06:00:00+03:00",
+      "price_per_mwh_eur": 198.02,
+      "price_per_kwh_eur": 0.19802,
+      "price_per_kwh": 1.05683274,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T03:00:00Z",
+      "end_utc": "2026-10-13T03:15:00Z",
+      "start_local": "2026-10-13T06:00:00+03:00",
+      "end_local": "2026-10-13T06:15:00+03:00",
+      "price_per_mwh_eur": 183.51,
+      "price_per_kwh_eur": 0.18350999999999998,
+      "price_per_kwh": 0.9793928699999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T03:15:00Z",
+      "end_utc": "2026-10-13T03:30:00Z",
+      "start_local": "2026-10-13T06:15:00+03:00",
+      "end_local": "2026-10-13T06:30:00+03:00",
+      "price_per_mwh_eur": 190.34,
+      "price_per_kwh_eur": 0.19034,
+      "price_per_kwh": 1.01584458,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T03:30:00Z",
+      "end_utc": "2026-10-13T03:45:00Z",
+      "start_local": "2026-10-13T06:30:00+03:00",
+      "end_local": "2026-10-13T06:45:00+03:00",
+      "price_per_mwh_eur": 203.05,
+      "price_per_kwh_eur": 0.20305,
+      "price_per_kwh": 1.08367785,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T03:45:00Z",
+      "end_utc": "2026-10-13T04:00:00Z",
+      "start_local": "2026-10-13T06:45:00+03:00",
+      "end_local": "2026-10-13T07:00:00+03:00",
+      "price_per_mwh_eur": 214.29,
+      "price_per_kwh_eur": 0.21428999999999998,
+      "price_per_kwh": 1.14366573,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T04:00:00Z",
+      "end_utc": "2026-10-13T04:15:00Z",
+      "start_local": "2026-10-13T07:00:00+03:00",
+      "end_local": "2026-10-13T07:15:00+03:00",
+      "price_per_mwh_eur": 221.36,
+      "price_per_kwh_eur": 0.22136,
+      "price_per_kwh": 1.18139832,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T04:15:00Z",
+      "end_utc": "2026-10-13T04:30:00Z",
+      "start_local": "2026-10-13T07:15:00+03:00",
+      "end_local": "2026-10-13T07:30:00+03:00",
+      "price_per_mwh_eur": 234.35,
+      "price_per_kwh_eur": 0.23435,
+      "price_per_kwh": 1.2507259499999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T04:30:00Z",
+      "end_utc": "2026-10-13T04:45:00Z",
+      "start_local": "2026-10-13T07:30:00+03:00",
+      "end_local": "2026-10-13T07:45:00+03:00",
+      "price_per_mwh_eur": 245.06,
+      "price_per_kwh_eur": 0.24506,
+      "price_per_kwh": 1.30788522,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T04:45:00Z",
+      "end_utc": "2026-10-13T05:00:00Z",
+      "start_local": "2026-10-13T07:45:00+03:00",
+      "end_local": "2026-10-13T08:00:00+03:00",
+      "price_per_mwh_eur": 264.63,
+      "price_per_kwh_eur": 0.26463,
+      "price_per_kwh": 1.4123303099999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T05:00:00Z",
+      "end_utc": "2026-10-13T05:15:00Z",
+      "start_local": "2026-10-13T08:00:00+03:00",
+      "end_local": "2026-10-13T08:15:00+03:00",
+      "price_per_mwh_eur": 278.42,
+      "price_per_kwh_eur": 0.27842,
+      "price_per_kwh": 1.4859275399999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T05:15:00Z",
+      "end_utc": "2026-10-13T05:30:00Z",
+      "start_local": "2026-10-13T08:15:00+03:00",
+      "end_local": "2026-10-13T08:30:00+03:00",
+      "price_per_mwh_eur": 288.39,
+      "price_per_kwh_eur": 0.28839,
+      "price_per_kwh": 1.5391374299999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T05:30:00Z",
+      "end_utc": "2026-10-13T05:45:00Z",
+      "start_local": "2026-10-13T08:30:00+03:00",
+      "end_local": "2026-10-13T08:45:00+03:00",
+      "price_per_mwh_eur": 279.26,
+      "price_per_kwh_eur": 0.27926,
+      "price_per_kwh": 1.49041062,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T05:45:00Z",
+      "end_utc": "2026-10-13T06:00:00Z",
+      "start_local": "2026-10-13T08:45:00+03:00",
+      "end_local": "2026-10-13T09:00:00+03:00",
+      "price_per_mwh_eur": 277.94,
+      "price_per_kwh_eur": 0.27794,
+      "price_per_kwh": 1.48336578,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T06:00:00Z",
+      "end_utc": "2026-10-13T06:15:00Z",
+      "start_local": "2026-10-13T09:00:00+03:00",
+      "end_local": "2026-10-13T09:15:00+03:00",
+      "price_per_mwh_eur": 286.51,
+      "price_per_kwh_eur": 0.28651,
+      "price_per_kwh": 1.52910387,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T06:15:00Z",
+      "end_utc": "2026-10-13T06:30:00Z",
+      "start_local": "2026-10-13T09:15:00+03:00",
+      "end_local": "2026-10-13T09:30:00+03:00",
+      "price_per_mwh_eur": 261.2,
+      "price_per_kwh_eur": 0.2612,
+      "price_per_kwh": 1.3940244,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T06:30:00Z",
+      "end_utc": "2026-10-13T06:45:00Z",
+      "start_local": "2026-10-13T09:30:00+03:00",
+      "end_local": "2026-10-13T09:45:00+03:00",
+      "price_per_mwh_eur": 270.74,
+      "price_per_kwh_eur": 0.27074000000000004,
+      "price_per_kwh": 1.44493938,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T06:45:00Z",
+      "end_utc": "2026-10-13T07:00:00Z",
+      "start_local": "2026-10-13T09:45:00+03:00",
+      "end_local": "2026-10-13T10:00:00+03:00",
+      "price_per_mwh_eur": 242.31,
+      "price_per_kwh_eur": 0.24231,
+      "price_per_kwh": 1.29320847,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T07:00:00Z",
+      "end_utc": "2026-10-13T07:15:00Z",
+      "start_local": "2026-10-13T10:00:00+03:00",
+      "end_local": "2026-10-13T10:15:00+03:00",
+      "price_per_mwh_eur": 251.07,
+      "price_per_kwh_eur": 0.25107,
+      "price_per_kwh": 1.33996059,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T07:15:00Z",
+      "end_utc": "2026-10-13T07:30:00Z",
+      "start_local": "2026-10-13T10:15:00+03:00",
+      "end_local": "2026-10-13T10:30:00+03:00",
+      "price_per_mwh_eur": 230.9,
+      "price_per_kwh_eur": 0.2309,
+      "price_per_kwh": 1.2323133,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T07:30:00Z",
+      "end_utc": "2026-10-13T07:45:00Z",
+      "start_local": "2026-10-13T10:30:00+03:00",
+      "end_local": "2026-10-13T10:45:00+03:00",
+      "price_per_mwh_eur": 210.78,
+      "price_per_kwh_eur": 0.21078,
+      "price_per_kwh": 1.12493286,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T07:45:00Z",
+      "end_utc": "2026-10-13T08:00:00Z",
+      "start_local": "2026-10-13T10:45:00+03:00",
+      "end_local": "2026-10-13T11:00:00+03:00",
+      "price_per_mwh_eur": 181.61,
+      "price_per_kwh_eur": 0.18161000000000002,
+      "price_per_kwh": 0.9692525700000001,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T08:00:00Z",
+      "end_utc": "2026-10-13T08:15:00Z",
+      "start_local": "2026-10-13T11:00:00+03:00",
+      "end_local": "2026-10-13T11:15:00+03:00",
+      "price_per_mwh_eur": 234.99,
+      "price_per_kwh_eur": 0.23499,
+      "price_per_kwh": 1.25414163,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T08:15:00Z",
+      "end_utc": "2026-10-13T08:30:00Z",
+      "start_local": "2026-10-13T11:15:00+03:00",
+      "end_local": "2026-10-13T11:30:00+03:00",
+      "price_per_mwh_eur": 210.84,
+      "price_per_kwh_eur": 0.21084,
+      "price_per_kwh": 1.12525308,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T08:30:00Z",
+      "end_utc": "2026-10-13T08:45:00Z",
+      "start_local": "2026-10-13T11:30:00+03:00",
+      "end_local": "2026-10-13T11:45:00+03:00",
+      "price_per_mwh_eur": 171.59,
+      "price_per_kwh_eur": 0.17159,
+      "price_per_kwh": 0.91577583,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T08:45:00Z",
+      "end_utc": "2026-10-13T09:00:00Z",
+      "start_local": "2026-10-13T11:45:00+03:00",
+      "end_local": "2026-10-13T12:00:00+03:00",
+      "price_per_mwh_eur": 164.2,
+      "price_per_kwh_eur": 0.16419999999999998,
+      "price_per_kwh": 0.8763353999999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T09:00:00Z",
+      "end_utc": "2026-10-13T09:15:00Z",
+      "start_local": "2026-10-13T12:00:00+03:00",
+      "end_local": "2026-10-13T12:15:00+03:00",
+      "price_per_mwh_eur": 182.09,
+      "price_per_kwh_eur": 0.18209,
+      "price_per_kwh": 0.97181433,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T09:15:00Z",
+      "end_utc": "2026-10-13T09:30:00Z",
+      "start_local": "2026-10-13T12:15:00+03:00",
+      "end_local": "2026-10-13T12:30:00+03:00",
+      "price_per_mwh_eur": 165.0,
+      "price_per_kwh_eur": 0.165,
+      "price_per_kwh": 0.880605,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T09:30:00Z",
+      "end_utc": "2026-10-13T09:45:00Z",
+      "start_local": "2026-10-13T12:30:00+03:00",
+      "end_local": "2026-10-13T12:45:00+03:00",
+      "price_per_mwh_eur": 157.76,
+      "price_per_kwh_eur": 0.15775999999999998,
+      "price_per_kwh": 0.8419651199999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T09:45:00Z",
+      "end_utc": "2026-10-13T10:00:00Z",
+      "start_local": "2026-10-13T12:45:00+03:00",
+      "end_local": "2026-10-13T13:00:00+03:00",
+      "price_per_mwh_eur": 154.28,
+      "price_per_kwh_eur": 0.15428,
+      "price_per_kwh": 0.8233923599999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T10:00:00Z",
+      "end_utc": "2026-10-13T10:15:00Z",
+      "start_local": "2026-10-13T13:00:00+03:00",
+      "end_local": "2026-10-13T13:15:00+03:00",
+      "price_per_mwh_eur": 159.14,
+      "price_per_kwh_eur": 0.15913999999999998,
+      "price_per_kwh": 0.8493301799999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T10:15:00Z",
+      "end_utc": "2026-10-13T10:30:00Z",
+      "start_local": "2026-10-13T13:15:00+03:00",
+      "end_local": "2026-10-13T13:30:00+03:00",
+      "price_per_mwh_eur": 165.52,
+      "price_per_kwh_eur": 0.16552,
+      "price_per_kwh": 0.8833802399999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T10:30:00Z",
+      "end_utc": "2026-10-13T10:45:00Z",
+      "start_local": "2026-10-13T13:30:00+03:00",
+      "end_local": "2026-10-13T13:45:00+03:00",
+      "price_per_mwh_eur": 169.11,
+      "price_per_kwh_eur": 0.16911,
+      "price_per_kwh": 0.90254007,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T10:45:00Z",
+      "end_utc": "2026-10-13T11:00:00Z",
+      "start_local": "2026-10-13T13:45:00+03:00",
+      "end_local": "2026-10-13T14:00:00+03:00",
+      "price_per_mwh_eur": 179.97,
+      "price_per_kwh_eur": 0.17997,
+      "price_per_kwh": 0.9604998899999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T11:00:00Z",
+      "end_utc": "2026-10-13T11:15:00Z",
+      "start_local": "2026-10-13T14:00:00+03:00",
+      "end_local": "2026-10-13T14:15:00+03:00",
+      "price_per_mwh_eur": 170.74,
+      "price_per_kwh_eur": 0.17074,
+      "price_per_kwh": 0.9112393799999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T11:15:00Z",
+      "end_utc": "2026-10-13T11:30:00Z",
+      "start_local": "2026-10-13T14:15:00+03:00",
+      "end_local": "2026-10-13T14:30:00+03:00",
+      "price_per_mwh_eur": 179.52,
+      "price_per_kwh_eur": 0.17952,
+      "price_per_kwh": 0.95809824,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T11:30:00Z",
+      "end_utc": "2026-10-13T11:45:00Z",
+      "start_local": "2026-10-13T14:30:00+03:00",
+      "end_local": "2026-10-13T14:45:00+03:00",
+      "price_per_mwh_eur": 183.1,
+      "price_per_kwh_eur": 0.18309999999999998,
+      "price_per_kwh": 0.9772046999999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T11:45:00Z",
+      "end_utc": "2026-10-13T12:00:00Z",
+      "start_local": "2026-10-13T14:45:00+03:00",
+      "end_local": "2026-10-13T15:00:00+03:00",
+      "price_per_mwh_eur": 182.42,
+      "price_per_kwh_eur": 0.18242,
+      "price_per_kwh": 0.9735755399999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T12:00:00Z",
+      "end_utc": "2026-10-13T12:15:00Z",
+      "start_local": "2026-10-13T15:00:00+03:00",
+      "end_local": "2026-10-13T15:15:00+03:00",
+      "price_per_mwh_eur": 152.47,
+      "price_per_kwh_eur": 0.15247,
+      "price_per_kwh": 0.81373239,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T12:15:00Z",
+      "end_utc": "2026-10-13T12:30:00Z",
+      "start_local": "2026-10-13T15:15:00+03:00",
+      "end_local": "2026-10-13T15:30:00+03:00",
+      "price_per_mwh_eur": 174.22,
+      "price_per_kwh_eur": 0.17421999999999999,
+      "price_per_kwh": 0.9298121399999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T12:30:00Z",
+      "end_utc": "2026-10-13T12:45:00Z",
+      "start_local": "2026-10-13T15:30:00+03:00",
+      "end_local": "2026-10-13T15:45:00+03:00",
+      "price_per_mwh_eur": 182.72,
+      "price_per_kwh_eur": 0.18272,
+      "price_per_kwh": 0.9751766399999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T12:45:00Z",
+      "end_utc": "2026-10-13T13:00:00Z",
+      "start_local": "2026-10-13T15:45:00+03:00",
+      "end_local": "2026-10-13T16:00:00+03:00",
+      "price_per_mwh_eur": 187.66,
+      "price_per_kwh_eur": 0.18766,
+      "price_per_kwh": 1.00154142,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T13:00:00Z",
+      "end_utc": "2026-10-13T13:15:00Z",
+      "start_local": "2026-10-13T16:00:00+03:00",
+      "end_local": "2026-10-13T16:15:00+03:00",
+      "price_per_mwh_eur": 170.89,
+      "price_per_kwh_eur": 0.17089,
+      "price_per_kwh": 0.9120399299999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T13:15:00Z",
+      "end_utc": "2026-10-13T13:30:00Z",
+      "start_local": "2026-10-13T16:15:00+03:00",
+      "end_local": "2026-10-13T16:30:00+03:00",
+      "price_per_mwh_eur": 178.32,
+      "price_per_kwh_eur": 0.17832,
+      "price_per_kwh": 0.95169384,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T13:30:00Z",
+      "end_utc": "2026-10-13T13:45:00Z",
+      "start_local": "2026-10-13T16:30:00+03:00",
+      "end_local": "2026-10-13T16:45:00+03:00",
+      "price_per_mwh_eur": 187.64,
+      "price_per_kwh_eur": 0.18763999999999997,
+      "price_per_kwh": 1.0014346799999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T13:45:00Z",
+      "end_utc": "2026-10-13T14:00:00Z",
+      "start_local": "2026-10-13T16:45:00+03:00",
+      "end_local": "2026-10-13T17:00:00+03:00",
+      "price_per_mwh_eur": 193.77,
+      "price_per_kwh_eur": 0.19377,
+      "price_per_kwh": 1.03415049,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T14:00:00Z",
+      "end_utc": "2026-10-13T14:15:00Z",
+      "start_local": "2026-10-13T17:00:00+03:00",
+      "end_local": "2026-10-13T17:15:00+03:00",
+      "price_per_mwh_eur": 189.22,
+      "price_per_kwh_eur": 0.18922,
+      "price_per_kwh": 1.0098671399999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T14:15:00Z",
+      "end_utc": "2026-10-13T14:30:00Z",
+      "start_local": "2026-10-13T17:15:00+03:00",
+      "end_local": "2026-10-13T17:30:00+03:00",
+      "price_per_mwh_eur": 204.63,
+      "price_per_kwh_eur": 0.20463,
+      "price_per_kwh": 1.09211031,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T14:30:00Z",
+      "end_utc": "2026-10-13T14:45:00Z",
+      "start_local": "2026-10-13T17:30:00+03:00",
+      "end_local": "2026-10-13T17:45:00+03:00",
+      "price_per_mwh_eur": 244.53,
+      "price_per_kwh_eur": 0.24453,
+      "price_per_kwh": 1.3050566099999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T14:45:00Z",
+      "end_utc": "2026-10-13T15:00:00Z",
+      "start_local": "2026-10-13T17:45:00+03:00",
+      "end_local": "2026-10-13T18:00:00+03:00",
+      "price_per_mwh_eur": 241.5,
+      "price_per_kwh_eur": 0.2415,
+      "price_per_kwh": 1.2888855,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T15:00:00Z",
+      "end_utc": "2026-10-13T15:15:00Z",
+      "start_local": "2026-10-13T18:00:00+03:00",
+      "end_local": "2026-10-13T18:15:00+03:00",
+      "price_per_mwh_eur": 209.39,
+      "price_per_kwh_eur": 0.20939,
+      "price_per_kwh": 1.11751443,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T15:15:00Z",
+      "end_utc": "2026-10-13T15:30:00Z",
+      "start_local": "2026-10-13T18:15:00+03:00",
+      "end_local": "2026-10-13T18:30:00+03:00",
+      "price_per_mwh_eur": 232.11,
+      "price_per_kwh_eur": 0.23211,
+      "price_per_kwh": 1.23877107,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T15:30:00Z",
+      "end_utc": "2026-10-13T15:45:00Z",
+      "start_local": "2026-10-13T18:30:00+03:00",
+      "end_local": "2026-10-13T18:45:00+03:00",
+      "price_per_mwh_eur": 266.09,
+      "price_per_kwh_eur": 0.26609,
+      "price_per_kwh": 1.4201223299999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T15:45:00Z",
+      "end_utc": "2026-10-13T16:00:00Z",
+      "start_local": "2026-10-13T18:45:00+03:00",
+      "end_local": "2026-10-13T19:00:00+03:00",
+      "price_per_mwh_eur": 291.0,
+      "price_per_kwh_eur": 0.291,
+      "price_per_kwh": 1.5530669999999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T16:00:00Z",
+      "end_utc": "2026-10-13T16:15:00Z",
+      "start_local": "2026-10-13T19:00:00+03:00",
+      "end_local": "2026-10-13T19:15:00+03:00",
+      "price_per_mwh_eur": 256.31,
+      "price_per_kwh_eur": 0.25631,
+      "price_per_kwh": 1.3679264699999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T16:15:00Z",
+      "end_utc": "2026-10-13T16:30:00Z",
+      "start_local": "2026-10-13T19:15:00+03:00",
+      "end_local": "2026-10-13T19:30:00+03:00",
+      "price_per_mwh_eur": 270.42,
+      "price_per_kwh_eur": 0.27042,
+      "price_per_kwh": 1.44323154,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T16:30:00Z",
+      "end_utc": "2026-10-13T16:45:00Z",
+      "start_local": "2026-10-13T19:30:00+03:00",
+      "end_local": "2026-10-13T19:45:00+03:00",
+      "price_per_mwh_eur": 281.01,
+      "price_per_kwh_eur": 0.28101,
+      "price_per_kwh": 1.4997503699999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T16:45:00Z",
+      "end_utc": "2026-10-13T17:00:00Z",
+      "start_local": "2026-10-13T19:45:00+03:00",
+      "end_local": "2026-10-13T20:00:00+03:00",
+      "price_per_mwh_eur": 291.13,
+      "price_per_kwh_eur": 0.29113,
+      "price_per_kwh": 1.55376081,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T17:00:00Z",
+      "end_utc": "2026-10-13T17:15:00Z",
+      "start_local": "2026-10-13T20:00:00+03:00",
+      "end_local": "2026-10-13T20:15:00+03:00",
+      "price_per_mwh_eur": 286.75,
+      "price_per_kwh_eur": 0.28675,
+      "price_per_kwh": 1.5303847499999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T17:15:00Z",
+      "end_utc": "2026-10-13T17:30:00Z",
+      "start_local": "2026-10-13T20:15:00+03:00",
+      "end_local": "2026-10-13T20:30:00+03:00",
+      "price_per_mwh_eur": 281.59,
+      "price_per_kwh_eur": 0.28158999999999995,
+      "price_per_kwh": 1.5028458299999996,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T17:30:00Z",
+      "end_utc": "2026-10-13T17:45:00Z",
+      "start_local": "2026-10-13T20:30:00+03:00",
+      "end_local": "2026-10-13T20:45:00+03:00",
+      "price_per_mwh_eur": 270.16,
+      "price_per_kwh_eur": 0.27016,
+      "price_per_kwh": 1.44184392,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T17:45:00Z",
+      "end_utc": "2026-10-13T18:00:00Z",
+      "start_local": "2026-10-13T20:45:00+03:00",
+      "end_local": "2026-10-13T21:00:00+03:00",
+      "price_per_mwh_eur": 267.41,
+      "price_per_kwh_eur": 0.26741000000000004,
+      "price_per_kwh": 1.4271671700000002,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T18:00:00Z",
+      "end_utc": "2026-10-13T18:15:00Z",
+      "start_local": "2026-10-13T21:00:00+03:00",
+      "end_local": "2026-10-13T21:15:00+03:00",
+      "price_per_mwh_eur": 276.76,
+      "price_per_kwh_eur": 0.27676,
+      "price_per_kwh": 1.47706812,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T18:15:00Z",
+      "end_utc": "2026-10-13T18:30:00Z",
+      "start_local": "2026-10-13T21:15:00+03:00",
+      "end_local": "2026-10-13T21:30:00+03:00",
+      "price_per_mwh_eur": 279.06,
+      "price_per_kwh_eur": 0.27906,
+      "price_per_kwh": 1.4893432199999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T18:30:00Z",
+      "end_utc": "2026-10-13T18:45:00Z",
+      "start_local": "2026-10-13T21:30:00+03:00",
+      "end_local": "2026-10-13T21:45:00+03:00",
+      "price_per_mwh_eur": 281.9,
+      "price_per_kwh_eur": 0.2819,
+      "price_per_kwh": 1.5045003,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T18:45:00Z",
+      "end_utc": "2026-10-13T19:00:00Z",
+      "start_local": "2026-10-13T21:45:00+03:00",
+      "end_local": "2026-10-13T22:00:00+03:00",
+      "price_per_mwh_eur": 269.4,
+      "price_per_kwh_eur": 0.2694,
+      "price_per_kwh": 1.4377877999999997,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T19:00:00Z",
+      "end_utc": "2026-10-13T19:15:00Z",
+      "start_local": "2026-10-13T22:00:00+03:00",
+      "end_local": "2026-10-13T22:15:00+03:00",
+      "price_per_mwh_eur": 260.93,
+      "price_per_kwh_eur": 0.26093,
+      "price_per_kwh": 1.3925834099999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T19:15:00Z",
+      "end_utc": "2026-10-13T19:30:00Z",
+      "start_local": "2026-10-13T22:15:00+03:00",
+      "end_local": "2026-10-13T22:30:00+03:00",
+      "price_per_mwh_eur": 267.52,
+      "price_per_kwh_eur": 0.26752,
+      "price_per_kwh": 1.4277542399999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T19:30:00Z",
+      "end_utc": "2026-10-13T19:45:00Z",
+      "start_local": "2026-10-13T22:30:00+03:00",
+      "end_local": "2026-10-13T22:45:00+03:00",
+      "price_per_mwh_eur": 236.59,
+      "price_per_kwh_eur": 0.23659,
+      "price_per_kwh": 1.2626808299999999,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T19:45:00Z",
+      "end_utc": "2026-10-13T20:00:00Z",
+      "start_local": "2026-10-13T22:45:00+03:00",
+      "end_local": "2026-10-13T23:00:00+03:00",
+      "price_per_mwh_eur": 214.34,
+      "price_per_kwh_eur": 0.21434,
+      "price_per_kwh": 1.14393258,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T20:00:00Z",
+      "end_utc": "2026-10-13T20:15:00Z",
+      "start_local": "2026-10-13T23:00:00+03:00",
+      "end_local": "2026-10-13T23:15:00+03:00",
+      "price_per_mwh_eur": 246.41,
+      "price_per_kwh_eur": 0.24641,
+      "price_per_kwh": 1.31509017,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T20:15:00Z",
+      "end_utc": "2026-10-13T20:30:00Z",
+      "start_local": "2026-10-13T23:15:00+03:00",
+      "end_local": "2026-10-13T23:30:00+03:00",
+      "price_per_mwh_eur": 229.14,
+      "price_per_kwh_eur": 0.22913999999999998,
+      "price_per_kwh": 1.2229201799999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T20:30:00Z",
+      "end_utc": "2026-10-13T20:45:00Z",
+      "start_local": "2026-10-13T23:30:00+03:00",
+      "end_local": "2026-10-13T23:45:00+03:00",
+      "price_per_mwh_eur": 214.01,
+      "price_per_kwh_eur": 0.21400999999999998,
+      "price_per_kwh": 1.1421713699999998,
+      "currency": "RON"
+    },
+    {
+      "start_utc": "2026-10-13T20:45:00Z",
+      "end_utc": "2026-10-13T21:00:00Z",
+      "start_local": "2026-10-13T23:45:00+03:00",
+      "end_local": "2026-10-14T00:00:00+03:00",
+      "price_per_mwh_eur": 196.5,
+      "price_per_kwh_eur": 0.1965,
+      "price_per_kwh": 1.0487205,
       "currency": "RON"
     }
   ],
@@ -1944,13 +2904,53 @@
       "eic_code": "10YRO-TEL------P",
       "prices": [
         {
+          "start_utc": "2026-10-10T21:00:00Z",
+          "end_utc": "2026-10-10T21:15:00Z",
+          "start_local": "2026-10-11T00:00:00+03:00",
+          "end_local": "2026-10-11T00:15:00+03:00",
+          "price_per_mwh_eur": 254.53,
+          "price_per_kwh_eur": 0.25453,
+          "price_per_kwh": 1.3584266099999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-10T21:15:00Z",
+          "end_utc": "2026-10-10T21:30:00Z",
+          "start_local": "2026-10-11T00:15:00+03:00",
+          "end_local": "2026-10-11T00:30:00+03:00",
+          "price_per_mwh_eur": 230.58,
+          "price_per_kwh_eur": 0.23058,
+          "price_per_kwh": 1.23060546,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-10T21:30:00Z",
+          "end_utc": "2026-10-10T21:45:00Z",
+          "start_local": "2026-10-11T00:30:00+03:00",
+          "end_local": "2026-10-11T00:45:00+03:00",
+          "price_per_mwh_eur": 228.23,
+          "price_per_kwh_eur": 0.22823,
+          "price_per_kwh": 1.21806351,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-10T21:45:00Z",
+          "end_utc": "2026-10-10T22:00:00Z",
+          "start_local": "2026-10-11T00:45:00+03:00",
+          "end_local": "2026-10-11T01:00:00+03:00",
+          "price_per_mwh_eur": 206.71,
+          "price_per_kwh_eur": 0.20671,
+          "price_per_kwh": 1.10321127,
+          "currency": "RON"
+        },
+        {
           "start_utc": "2026-10-10T22:00:00Z",
           "end_utc": "2026-10-10T22:15:00Z",
           "start_local": "2026-10-11T01:00:00+03:00",
           "end_local": "2026-10-11T01:15:00+03:00",
           "price_per_mwh_eur": 245.13,
           "price_per_kwh_eur": 0.24513,
-          "price_per_kwh": 1.309141278,
+          "price_per_kwh": 1.3082588099999999,
           "currency": "RON"
         },
         {
@@ -1960,7 +2960,7 @@
           "end_local": "2026-10-11T01:30:00+03:00",
           "price_per_mwh_eur": 229.2,
           "price_per_kwh_eur": 0.2292,
-          "price_per_kwh": 1.22406552,
+          "price_per_kwh": 1.2232404,
           "currency": "RON"
         },
         {
@@ -1970,7 +2970,7 @@
           "end_local": "2026-10-11T01:45:00+03:00",
           "price_per_mwh_eur": 241.05,
           "price_per_kwh_eur": 0.24105000000000001,
-          "price_per_kwh": 1.28735163,
+          "price_per_kwh": 1.28648385,
           "currency": "RON"
         },
         {
@@ -1980,7 +2980,7 @@
           "end_local": "2026-10-11T02:00:00+03:00",
           "price_per_mwh_eur": 224.23,
           "price_per_kwh_eur": 0.22422999999999998,
-          "price_per_kwh": 1.197522738,
+          "price_per_kwh": 1.1967155099999998,
           "currency": "RON"
         },
         {
@@ -1990,7 +2990,7 @@
           "end_local": "2026-10-11T02:15:00+03:00",
           "price_per_mwh_eur": 236.74,
           "price_per_kwh_eur": 0.23674,
-          "price_per_kwh": 1.2643336440000001,
+          "price_per_kwh": 1.26348138,
           "currency": "RON"
         },
         {
@@ -2000,7 +3000,7 @@
           "end_local": "2026-10-11T02:30:00+03:00",
           "price_per_mwh_eur": 226.7,
           "price_per_kwh_eur": 0.22669999999999998,
-          "price_per_kwh": 1.21071402,
+          "price_per_kwh": 1.2098978999999999,
           "currency": "RON"
         },
         {
@@ -2010,7 +3010,7 @@
           "end_local": "2026-10-11T02:45:00+03:00",
           "price_per_mwh_eur": 216.39,
           "price_per_kwh_eur": 0.21639,
-          "price_per_kwh": 1.155652434,
+          "price_per_kwh": 1.1548734299999999,
           "currency": "RON"
         },
         {
@@ -2020,7 +3020,7 @@
           "end_local": "2026-10-11T03:00:00+03:00",
           "price_per_mwh_eur": 218.06,
           "price_per_kwh_eur": 0.21806,
-          "price_per_kwh": 1.164571236,
+          "price_per_kwh": 1.16378622,
           "currency": "RON"
         },
         {
@@ -2030,7 +3030,7 @@
           "end_local": "2026-10-11T03:15:00+03:00",
           "price_per_mwh_eur": 239.24,
           "price_per_kwh_eur": 0.23924,
-          "price_per_kwh": 1.277685144,
+          "price_per_kwh": 1.27682388,
           "currency": "RON"
         },
         {
@@ -2040,7 +3040,7 @@
           "end_local": "2026-10-11T03:30:00+03:00",
           "price_per_mwh_eur": 215.34,
           "price_per_kwh_eur": 0.21534,
-          "price_per_kwh": 1.150044804,
+          "price_per_kwh": 1.14926958,
           "currency": "RON"
         },
         {
@@ -2050,7 +3050,7 @@
           "end_local": "2026-10-11T03:45:00+03:00",
           "price_per_mwh_eur": 218.36,
           "price_per_kwh_eur": 0.21836000000000003,
-          "price_per_kwh": 1.1661734160000001,
+          "price_per_kwh": 1.16538732,
           "currency": "RON"
         },
         {
@@ -2060,7 +3060,7 @@
           "end_local": "2026-10-11T04:00:00+03:00",
           "price_per_mwh_eur": 200.02,
           "price_per_kwh_eur": 0.20002,
-          "price_per_kwh": 1.068226812,
+          "price_per_kwh": 1.06750674,
           "currency": "RON"
         },
         {
@@ -2070,7 +3070,7 @@
           "end_local": "2026-10-11T04:15:00+03:00",
           "price_per_mwh_eur": 223.29,
           "price_per_kwh_eur": 0.22329,
-          "price_per_kwh": 1.192502574,
+          "price_per_kwh": 1.19169873,
           "currency": "RON"
         },
         {
@@ -2080,7 +3080,7 @@
           "end_local": "2026-10-11T04:30:00+03:00",
           "price_per_mwh_eur": 205.76,
           "price_per_kwh_eur": 0.20576,
-          "price_per_kwh": 1.098881856,
+          "price_per_kwh": 1.09814112,
           "currency": "RON"
         },
         {
@@ -2090,7 +3090,7 @@
           "end_local": "2026-10-11T04:45:00+03:00",
           "price_per_mwh_eur": 201.61,
           "price_per_kwh_eur": 0.20161,
-          "price_per_kwh": 1.0767183660000001,
+          "price_per_kwh": 1.07599257,
           "currency": "RON"
         },
         {
@@ -2100,7 +3100,7 @@
           "end_local": "2026-10-11T05:00:00+03:00",
           "price_per_mwh_eur": 192.42,
           "price_per_kwh_eur": 0.19241999999999998,
-          "price_per_kwh": 1.027638252,
+          "price_per_kwh": 1.0269455399999998,
           "currency": "RON"
         },
         {
@@ -2110,7 +3110,7 @@
           "end_local": "2026-10-11T05:15:00+03:00",
           "price_per_mwh_eur": 194.02,
           "price_per_kwh_eur": 0.19402,
-          "price_per_kwh": 1.036183212,
+          "price_per_kwh": 1.03548474,
           "currency": "RON"
         },
         {
@@ -2120,7 +3120,7 @@
           "end_local": "2026-10-11T05:30:00+03:00",
           "price_per_mwh_eur": 194.08,
           "price_per_kwh_eur": 0.19408,
-          "price_per_kwh": 1.036503648,
+          "price_per_kwh": 1.0358049599999999,
           "currency": "RON"
         },
         {
@@ -2130,7 +3130,7 @@
           "end_local": "2026-10-11T05:45:00+03:00",
           "price_per_mwh_eur": 198.55,
           "price_per_kwh_eur": 0.19855,
-          "price_per_kwh": 1.06037613,
+          "price_per_kwh": 1.05966135,
           "currency": "RON"
         },
         {
@@ -2140,7 +3140,7 @@
           "end_local": "2026-10-11T06:00:00+03:00",
           "price_per_mwh_eur": 211.76,
           "price_per_kwh_eur": 0.21176,
-          "price_per_kwh": 1.1309254560000002,
+          "price_per_kwh": 1.13016312,
           "currency": "RON"
         },
         {
@@ -2150,7 +3150,7 @@
           "end_local": "2026-10-11T06:15:00+03:00",
           "price_per_mwh_eur": 190.79,
           "price_per_kwh_eur": 0.19079,
-          "price_per_kwh": 1.018933074,
+          "price_per_kwh": 1.01824623,
           "currency": "RON"
         },
         {
@@ -2160,7 +3160,7 @@
           "end_local": "2026-10-11T06:30:00+03:00",
           "price_per_mwh_eur": 200.8,
           "price_per_kwh_eur": 0.2008,
-          "price_per_kwh": 1.07239248,
+          "price_per_kwh": 1.0716695999999999,
           "currency": "RON"
         },
         {
@@ -2170,7 +3170,7 @@
           "end_local": "2026-10-11T06:45:00+03:00",
           "price_per_mwh_eur": 220.77,
           "price_per_kwh_eur": 0.22077000000000002,
-          "price_per_kwh": 1.1790442620000001,
+          "price_per_kwh": 1.17824949,
           "currency": "RON"
         },
         {
@@ -2180,7 +3180,7 @@
           "end_local": "2026-10-11T07:00:00+03:00",
           "price_per_mwh_eur": 219.42,
           "price_per_kwh_eur": 0.21941999999999998,
-          "price_per_kwh": 1.171834452,
+          "price_per_kwh": 1.1710445399999998,
           "currency": "RON"
         },
         {
@@ -2190,7 +3190,7 @@
           "end_local": "2026-10-11T07:15:00+03:00",
           "price_per_mwh_eur": 214.05,
           "price_per_kwh_eur": 0.21405000000000002,
-          "price_per_kwh": 1.1431554300000002,
+          "price_per_kwh": 1.14238485,
           "currency": "RON"
         },
         {
@@ -2200,7 +3200,7 @@
           "end_local": "2026-10-11T07:30:00+03:00",
           "price_per_mwh_eur": 208.84,
           "price_per_kwh_eur": 0.20884,
-          "price_per_kwh": 1.1153309040000001,
+          "price_per_kwh": 1.11457908,
           "currency": "RON"
         },
         {
@@ -2210,7 +3210,7 @@
           "end_local": "2026-10-11T07:45:00+03:00",
           "price_per_mwh_eur": 220.42,
           "price_per_kwh_eur": 0.22041999999999998,
-          "price_per_kwh": 1.177175052,
+          "price_per_kwh": 1.1763815399999997,
           "currency": "RON"
         },
         {
@@ -2220,7 +3220,7 @@
           "end_local": "2026-10-11T08:00:00+03:00",
           "price_per_mwh_eur": 221.34,
           "price_per_kwh_eur": 0.22134,
-          "price_per_kwh": 1.1820884040000001,
+          "price_per_kwh": 1.18129158,
           "currency": "RON"
         },
         {
@@ -2230,7 +3230,7 @@
           "end_local": "2026-10-11T08:15:00+03:00",
           "price_per_mwh_eur": 243.83,
           "price_per_kwh_eur": 0.24383000000000002,
-          "price_per_kwh": 1.302198498,
+          "price_per_kwh": 1.30132071,
           "currency": "RON"
         },
         {
@@ -2240,7 +3240,7 @@
           "end_local": "2026-10-11T08:30:00+03:00",
           "price_per_mwh_eur": 224.93,
           "price_per_kwh_eur": 0.22493000000000002,
-          "price_per_kwh": 1.201261158,
+          "price_per_kwh": 1.20045141,
           "currency": "RON"
         },
         {
@@ -2250,7 +3250,7 @@
           "end_local": "2026-10-11T08:45:00+03:00",
           "price_per_mwh_eur": 219.36,
           "price_per_kwh_eur": 0.21936000000000003,
-          "price_per_kwh": 1.1715140160000002,
+          "price_per_kwh": 1.1707243200000002,
           "currency": "RON"
         },
         {
@@ -2260,7 +3260,7 @@
           "end_local": "2026-10-11T09:00:00+03:00",
           "price_per_mwh_eur": 186.12,
           "price_per_kwh_eur": 0.18612,
-          "price_per_kwh": 0.9939924720000001,
+          "price_per_kwh": 0.99332244,
           "currency": "RON"
         },
         {
@@ -2270,7 +3270,7 @@
           "end_local": "2026-10-11T09:15:00+03:00",
           "price_per_mwh_eur": 228.93,
           "price_per_kwh_eur": 0.22893,
-          "price_per_kwh": 1.222623558,
+          "price_per_kwh": 1.2217994099999998,
           "currency": "RON"
         },
         {
@@ -2280,7 +3280,7 @@
           "end_local": "2026-10-11T09:30:00+03:00",
           "price_per_mwh_eur": 189.97,
           "price_per_kwh_eur": 0.18997,
-          "price_per_kwh": 1.0145537820000001,
+          "price_per_kwh": 1.01386989,
           "currency": "RON"
         },
         {
@@ -2290,7 +3290,7 @@
           "end_local": "2026-10-11T09:45:00+03:00",
           "price_per_mwh_eur": 174.83,
           "price_per_kwh_eur": 0.17483,
-          "price_per_kwh": 0.9336970980000001,
+          "price_per_kwh": 0.93306771,
           "currency": "RON"
         },
         {
@@ -2300,7 +3300,7 @@
           "end_local": "2026-10-11T10:00:00+03:00",
           "price_per_mwh_eur": 168.44,
           "price_per_kwh_eur": 0.16844,
-          "price_per_kwh": 0.8995706640000001,
+          "price_per_kwh": 0.89896428,
           "currency": "RON"
         },
         {
@@ -2310,7 +3310,7 @@
           "end_local": "2026-10-11T10:15:00+03:00",
           "price_per_mwh_eur": 172.06,
           "price_per_kwh_eur": 0.17206,
-          "price_per_kwh": 0.918903636,
+          "price_per_kwh": 0.9182842199999999,
           "currency": "RON"
         },
         {
@@ -2320,7 +3320,7 @@
           "end_local": "2026-10-11T10:30:00+03:00",
           "price_per_mwh_eur": 137.24,
           "price_per_kwh_eur": 0.13724,
-          "price_per_kwh": 0.7329439440000001,
+          "price_per_kwh": 0.73244988,
           "currency": "RON"
         },
         {
@@ -2330,7 +3330,7 @@
           "end_local": "2026-10-11T10:45:00+03:00",
           "price_per_mwh_eur": 77.91,
           "price_per_kwh_eur": 0.07791,
-          "price_per_kwh": 0.416086146,
+          "price_per_kwh": 0.41580566999999996,
           "currency": "RON"
         },
         {
@@ -2340,7 +3340,7 @@
           "end_local": "2026-10-11T11:00:00+03:00",
           "price_per_mwh_eur": 77.36,
           "price_per_kwh_eur": 0.07736,
-          "price_per_kwh": 0.41314881600000003,
+          "price_per_kwh": 0.41287031999999996,
           "currency": "RON"
         },
         {
@@ -2350,7 +3350,7 @@
           "end_local": "2026-10-11T11:15:00+03:00",
           "price_per_mwh_eur": 77.39,
           "price_per_kwh_eur": 0.07739,
-          "price_per_kwh": 0.413309034,
+          "price_per_kwh": 0.41303043,
           "currency": "RON"
         },
         {
@@ -2360,7 +3360,7 @@
           "end_local": "2026-10-11T11:30:00+03:00",
           "price_per_mwh_eur": 87.62,
           "price_per_kwh_eur": 0.08762,
-          "price_per_kwh": 0.467943372,
+          "price_per_kwh": 0.46762794,
           "currency": "RON"
         },
         {
@@ -2370,7 +3370,7 @@
           "end_local": "2026-10-11T11:45:00+03:00",
           "price_per_mwh_eur": 87.85,
           "price_per_kwh_eur": 0.08785,
-          "price_per_kwh": 0.46917171,
+          "price_per_kwh": 0.46885544999999995,
           "currency": "RON"
         },
         {
@@ -2380,7 +3380,7 @@
           "end_local": "2026-10-11T12:00:00+03:00",
           "price_per_mwh_eur": 86.96,
           "price_per_kwh_eur": 0.08696,
-          "price_per_kwh": 0.46441857599999997,
+          "price_per_kwh": 0.46410551999999994,
           "currency": "RON"
         },
         {
@@ -2390,7 +3390,7 @@
           "end_local": "2026-10-11T12:15:00+03:00",
           "price_per_mwh_eur": 116.02,
           "price_per_kwh_eur": 0.11602,
-          "price_per_kwh": 0.6196164120000001,
+          "price_per_kwh": 0.61919874,
           "currency": "RON"
         },
         {
@@ -2400,7 +3400,7 @@
           "end_local": "2026-10-11T12:30:00+03:00",
           "price_per_mwh_eur": 130.46,
           "price_per_kwh_eur": 0.13046000000000002,
-          "price_per_kwh": 0.6967346760000002,
+          "price_per_kwh": 0.6962650200000001,
           "currency": "RON"
         },
         {
@@ -2410,7 +3410,7 @@
           "end_local": "2026-10-11T12:45:00+03:00",
           "price_per_mwh_eur": 123.31,
           "price_per_kwh_eur": 0.12331,
-          "price_per_kwh": 0.658549386,
+          "price_per_kwh": 0.65810547,
           "currency": "RON"
         },
         {
@@ -2420,7 +3420,7 @@
           "end_local": "2026-10-11T13:00:00+03:00",
           "price_per_mwh_eur": 115.9,
           "price_per_kwh_eur": 0.1159,
-          "price_per_kwh": 0.61897554,
+          "price_per_kwh": 0.6185583,
           "currency": "RON"
         },
         {
@@ -2430,7 +3430,7 @@
           "end_local": "2026-10-11T13:15:00+03:00",
           "price_per_mwh_eur": 99.9,
           "price_per_kwh_eur": 0.0999,
-          "price_per_kwh": 0.5335259400000001,
+          "price_per_kwh": 0.5331663,
           "currency": "RON"
         },
         {
@@ -2440,7 +3440,7 @@
           "end_local": "2026-10-11T13:30:00+03:00",
           "price_per_mwh_eur": 81.37,
           "price_per_kwh_eur": 0.08137,
-          "price_per_kwh": 0.434564622,
+          "price_per_kwh": 0.43427169,
           "currency": "RON"
         },
         {
@@ -2450,7 +3450,7 @@
           "end_local": "2026-10-11T13:45:00+03:00",
           "price_per_mwh_eur": 67.85,
           "price_per_kwh_eur": 0.06785,
-          "price_per_kwh": 0.36235971,
+          "price_per_kwh": 0.36211544999999995,
           "currency": "RON"
         },
         {
@@ -2460,7 +3460,7 @@
           "end_local": "2026-10-11T14:00:00+03:00",
           "price_per_mwh_eur": 67.07,
           "price_per_kwh_eur": 0.06706999999999999,
-          "price_per_kwh": 0.358194042,
+          "price_per_kwh": 0.35795258999999996,
           "currency": "RON"
         },
         {
@@ -2470,7 +3470,7 @@
           "end_local": "2026-10-11T14:15:00+03:00",
           "price_per_mwh_eur": 53.69,
           "price_per_kwh_eur": 0.053689999999999995,
-          "price_per_kwh": 0.286736814,
+          "price_per_kwh": 0.28654352999999994,
           "currency": "RON"
         },
         {
@@ -2480,7 +3480,7 @@
           "end_local": "2026-10-11T14:30:00+03:00",
           "price_per_mwh_eur": 40.68,
           "price_per_kwh_eur": 0.04068,
-          "price_per_kwh": 0.21725560800000002,
+          "price_per_kwh": 0.21710916,
           "currency": "RON"
         },
         {
@@ -2490,7 +3490,7 @@
           "end_local": "2026-10-11T14:45:00+03:00",
           "price_per_mwh_eur": 15.22,
           "price_per_kwh_eur": 0.015220000000000001,
-          "price_per_kwh": 0.081283932,
+          "price_per_kwh": 0.08122914,
           "currency": "RON"
         },
         {
@@ -2500,7 +3500,7 @@
           "end_local": "2026-10-11T15:00:00+03:00",
           "price_per_mwh_eur": 19.24,
           "price_per_kwh_eur": 0.01924,
-          "price_per_kwh": 0.102753144,
+          "price_per_kwh": 0.10268387999999999,
           "currency": "RON"
         },
         {
@@ -2510,7 +3510,7 @@
           "end_local": "2026-10-11T15:15:00+03:00",
           "price_per_mwh_eur": 44.97,
           "price_per_kwh_eur": 0.044969999999999996,
-          "price_per_kwh": 0.240166782,
+          "price_per_kwh": 0.24000488999999997,
           "currency": "RON"
         },
         {
@@ -2520,7 +3520,7 @@
           "end_local": "2026-10-11T15:30:00+03:00",
           "price_per_mwh_eur": 45.24,
           "price_per_kwh_eur": 0.04524,
-          "price_per_kwh": 0.24160874400000001,
+          "price_per_kwh": 0.24144588,
           "currency": "RON"
         },
         {
@@ -2530,7 +3530,7 @@
           "end_local": "2026-10-11T15:45:00+03:00",
           "price_per_mwh_eur": 51.71,
           "price_per_kwh_eur": 0.05171,
-          "price_per_kwh": 0.276162426,
+          "price_per_kwh": 0.27597626999999997,
           "currency": "RON"
         },
         {
@@ -2540,7 +3540,7 @@
           "end_local": "2026-10-11T16:00:00+03:00",
           "price_per_mwh_eur": 46.53,
           "price_per_kwh_eur": 0.04653,
-          "price_per_kwh": 0.24849811800000002,
+          "price_per_kwh": 0.24833061,
           "currency": "RON"
         },
         {
@@ -2550,7 +3550,7 @@
           "end_local": "2026-10-11T16:15:00+03:00",
           "price_per_mwh_eur": 62.44,
           "price_per_kwh_eur": 0.062439999999999996,
-          "price_per_kwh": 0.333467064,
+          "price_per_kwh": 0.33324227999999995,
           "currency": "RON"
         },
         {
@@ -2560,7 +3560,7 @@
           "end_local": "2026-10-11T16:30:00+03:00",
           "price_per_mwh_eur": 73.76,
           "price_per_kwh_eur": 0.07376,
-          "price_per_kwh": 0.39392265600000004,
+          "price_per_kwh": 0.39365712,
           "currency": "RON"
         },
         {
@@ -2570,7 +3570,7 @@
           "end_local": "2026-10-11T16:45:00+03:00",
           "price_per_mwh_eur": 85.35,
           "price_per_kwh_eur": 0.08535,
-          "price_per_kwh": 0.45582021,
+          "price_per_kwh": 0.45551294999999997,
           "currency": "RON"
         },
         {
@@ -2580,7 +3580,7 @@
           "end_local": "2026-10-11T17:00:00+03:00",
           "price_per_mwh_eur": 103.09,
           "price_per_kwh_eur": 0.10309,
-          "price_per_kwh": 0.550562454,
+          "price_per_kwh": 0.55019133,
           "currency": "RON"
         },
         {
@@ -2590,7 +3590,7 @@
           "end_local": "2026-10-11T17:15:00+03:00",
           "price_per_mwh_eur": 97.59,
           "price_per_kwh_eur": 0.09759000000000001,
-          "price_per_kwh": 0.5211891540000001,
+          "price_per_kwh": 0.5208378300000001,
           "currency": "RON"
         },
         {
@@ -2600,7 +3600,7 @@
           "end_local": "2026-10-11T17:30:00+03:00",
           "price_per_mwh_eur": 147.8,
           "price_per_kwh_eur": 0.14780000000000001,
-          "price_per_kwh": 0.7893406800000001,
+          "price_per_kwh": 0.7888086000000001,
           "currency": "RON"
         },
         {
@@ -2610,7 +3610,7 @@
           "end_local": "2026-10-11T17:45:00+03:00",
           "price_per_mwh_eur": 187.54,
           "price_per_kwh_eur": 0.18753999999999998,
-          "price_per_kwh": 1.001576124,
+          "price_per_kwh": 1.00090098,
           "currency": "RON"
         },
         {
@@ -2620,7 +3620,7 @@
           "end_local": "2026-10-11T18:00:00+03:00",
           "price_per_mwh_eur": 248.09,
           "price_per_kwh_eur": 0.24809,
-          "price_per_kwh": 1.3249494540000002,
+          "price_per_kwh": 1.32405633,
           "currency": "RON"
         },
         {
@@ -2630,7 +3630,7 @@
           "end_local": "2026-10-11T18:15:00+03:00",
           "price_per_mwh_eur": 177.13,
           "price_per_kwh_eur": 0.17712999999999998,
-          "price_per_kwh": 0.945980478,
+          "price_per_kwh": 0.9453428099999999,
           "currency": "RON"
         },
         {
@@ -2640,7 +3640,7 @@
           "end_local": "2026-10-11T18:30:00+03:00",
           "price_per_mwh_eur": 197.94,
           "price_per_kwh_eur": 0.19794,
-          "price_per_kwh": 1.0571183640000001,
+          "price_per_kwh": 1.05640578,
           "currency": "RON"
         },
         {
@@ -2650,7 +3650,7 @@
           "end_local": "2026-10-11T18:45:00+03:00",
           "price_per_mwh_eur": 220.85,
           "price_per_kwh_eur": 0.22085,
-          "price_per_kwh": 1.17947151,
+          "price_per_kwh": 1.17867645,
           "currency": "RON"
         },
         {
@@ -2660,7 +3660,7 @@
           "end_local": "2026-10-11T19:00:00+03:00",
           "price_per_mwh_eur": 243.78,
           "price_per_kwh_eur": 0.24378,
-          "price_per_kwh": 1.301931468,
+          "price_per_kwh": 1.30105386,
           "currency": "RON"
         },
         {
@@ -2670,7 +3670,7 @@
           "end_local": "2026-10-11T19:15:00+03:00",
           "price_per_mwh_eur": 216.93,
           "price_per_kwh_eur": 0.21693,
-          "price_per_kwh": 1.158536358,
+          "price_per_kwh": 1.15775541,
           "currency": "RON"
         },
         {
@@ -2680,7 +3680,7 @@
           "end_local": "2026-10-11T19:30:00+03:00",
           "price_per_mwh_eur": 228.39,
           "price_per_kwh_eur": 0.22838999999999998,
-          "price_per_kwh": 1.219739634,
+          "price_per_kwh": 1.2189174299999999,
           "currency": "RON"
         },
         {
@@ -2690,7 +3690,7 @@
           "end_local": "2026-10-11T19:45:00+03:00",
           "price_per_mwh_eur": 228.8,
           "price_per_kwh_eur": 0.2288,
-          "price_per_kwh": 1.2219292800000001,
+          "price_per_kwh": 1.2211056,
           "currency": "RON"
         },
         {
@@ -2700,7 +3700,7 @@
           "end_local": "2026-10-11T20:00:00+03:00",
           "price_per_mwh_eur": 239.41,
           "price_per_kwh_eur": 0.23940999999999998,
-          "price_per_kwh": 1.278593046,
+          "price_per_kwh": 1.2777311699999998,
           "currency": "RON"
         },
         {
@@ -2710,7 +3710,7 @@
           "end_local": "2026-10-11T20:15:00+03:00",
           "price_per_mwh_eur": 223.63,
           "price_per_kwh_eur": 0.22363,
-          "price_per_kwh": 1.194318378,
+          "price_per_kwh": 1.19351331,
           "currency": "RON"
         },
         {
@@ -2720,7 +3720,7 @@
           "end_local": "2026-10-11T20:30:00+03:00",
           "price_per_mwh_eur": 234.01,
           "price_per_kwh_eur": 0.23401,
-          "price_per_kwh": 1.249753806,
+          "price_per_kwh": 1.2489113699999999,
           "currency": "RON"
         },
         {
@@ -2730,7 +3730,7 @@
           "end_local": "2026-10-11T20:45:00+03:00",
           "price_per_mwh_eur": 239.92,
           "price_per_kwh_eur": 0.23992,
-          "price_per_kwh": 1.281316752,
+          "price_per_kwh": 1.2804530399999998,
           "currency": "RON"
         },
         {
@@ -2740,7 +3740,7 @@
           "end_local": "2026-10-11T21:00:00+03:00",
           "price_per_mwh_eur": 241.59,
           "price_per_kwh_eur": 0.24159,
-          "price_per_kwh": 1.2902355540000001,
+          "price_per_kwh": 1.28936583,
           "currency": "RON"
         },
         {
@@ -2750,7 +3750,7 @@
           "end_local": "2026-10-11T21:15:00+03:00",
           "price_per_mwh_eur": 236.61,
           "price_per_kwh_eur": 0.23661000000000001,
-          "price_per_kwh": 1.263639366,
+          "price_per_kwh": 1.26278757,
           "currency": "RON"
         },
         {
@@ -2760,7 +3760,7 @@
           "end_local": "2026-10-11T21:30:00+03:00",
           "price_per_mwh_eur": 234.14,
           "price_per_kwh_eur": 0.23414,
-          "price_per_kwh": 1.250448084,
+          "price_per_kwh": 1.2496051799999999,
           "currency": "RON"
         },
         {
@@ -2770,7 +3770,7 @@
           "end_local": "2026-10-11T21:45:00+03:00",
           "price_per_mwh_eur": 231.65,
           "price_per_kwh_eur": 0.23165,
-          "price_per_kwh": 1.23714999,
+          "price_per_kwh": 1.2363160499999999,
           "currency": "RON"
         },
         {
@@ -2780,7 +3780,7 @@
           "end_local": "2026-10-11T22:00:00+03:00",
           "price_per_mwh_eur": 217.78,
           "price_per_kwh_eur": 0.21778,
-          "price_per_kwh": 1.163075868,
+          "price_per_kwh": 1.1622918599999998,
           "currency": "RON"
         },
         {
@@ -2790,7 +3790,7 @@
           "end_local": "2026-10-11T22:15:00+03:00",
           "price_per_mwh_eur": 225.52,
           "price_per_kwh_eur": 0.22552,
-          "price_per_kwh": 1.204412112,
+          "price_per_kwh": 1.2036002399999999,
           "currency": "RON"
         },
         {
@@ -2800,7 +3800,7 @@
           "end_local": "2026-10-11T22:30:00+03:00",
           "price_per_mwh_eur": 215.55,
           "price_per_kwh_eur": 0.21555000000000002,
-          "price_per_kwh": 1.1511663300000001,
+          "price_per_kwh": 1.1503903500000001,
           "currency": "RON"
         },
         {
@@ -2810,7 +3810,7 @@
           "end_local": "2026-10-11T22:45:00+03:00",
           "price_per_mwh_eur": 212.34,
           "price_per_kwh_eur": 0.21234,
-          "price_per_kwh": 1.1340230040000001,
+          "price_per_kwh": 1.13325858,
           "currency": "RON"
         },
         {
@@ -2820,7 +3820,7 @@
           "end_local": "2026-10-11T23:00:00+03:00",
           "price_per_mwh_eur": 244.55,
           "price_per_kwh_eur": 0.24455000000000002,
-          "price_per_kwh": 1.30604373,
+          "price_per_kwh": 1.30516335,
           "currency": "RON"
         },
         {
@@ -2830,7 +3830,7 @@
           "end_local": "2026-10-11T23:15:00+03:00",
           "price_per_mwh_eur": 236.28,
           "price_per_kwh_eur": 0.23628,
-          "price_per_kwh": 1.261876968,
+          "price_per_kwh": 1.2610263599999998,
           "currency": "RON"
         },
         {
@@ -2840,7 +3840,7 @@
           "end_local": "2026-10-11T23:30:00+03:00",
           "price_per_mwh_eur": 228.28,
           "price_per_kwh_eur": 0.22828,
-          "price_per_kwh": 1.2191521680000001,
+          "price_per_kwh": 1.21833036,
           "currency": "RON"
         },
         {
@@ -2850,7 +3850,7 @@
           "end_local": "2026-10-11T23:45:00+03:00",
           "price_per_mwh_eur": 231.54,
           "price_per_kwh_eur": 0.23154,
-          "price_per_kwh": 1.236562524,
+          "price_per_kwh": 1.23572898,
           "currency": "RON"
         },
         {
@@ -2860,7 +3860,7 @@
           "end_local": "2026-10-12T00:00:00+03:00",
           "price_per_mwh_eur": 228.38,
           "price_per_kwh_eur": 0.22838,
-          "price_per_kwh": 1.219686228,
+          "price_per_kwh": 1.21886406,
           "currency": "RON"
         },
         {
@@ -2870,7 +3870,7 @@
           "end_local": "2026-10-12T00:15:00+03:00",
           "price_per_mwh_eur": 234.62,
           "price_per_kwh_eur": 0.23462,
-          "price_per_kwh": 1.2530115720000001,
+          "price_per_kwh": 1.25216694,
           "currency": "RON"
         },
         {
@@ -2880,7 +3880,7 @@
           "end_local": "2026-10-12T00:30:00+03:00",
           "price_per_mwh_eur": 226.12,
           "price_per_kwh_eur": 0.22612000000000002,
-          "price_per_kwh": 1.2076164720000002,
+          "price_per_kwh": 1.20680244,
           "currency": "RON"
         },
         {
@@ -2890,7 +3890,7 @@
           "end_local": "2026-10-12T00:45:00+03:00",
           "price_per_mwh_eur": 216.99,
           "price_per_kwh_eur": 0.21699000000000002,
-          "price_per_kwh": 1.158856794,
+          "price_per_kwh": 1.1580756300000001,
           "currency": "RON"
         },
         {
@@ -2900,7 +3900,7 @@
           "end_local": "2026-10-12T01:00:00+03:00",
           "price_per_mwh_eur": 195.24,
           "price_per_kwh_eur": 0.19524,
-          "price_per_kwh": 1.042698744,
+          "price_per_kwh": 1.04199588,
           "currency": "RON"
         },
         {
@@ -2910,7 +3910,7 @@
           "end_local": "2026-10-12T01:15:00+03:00",
           "price_per_mwh_eur": 216.83,
           "price_per_kwh_eur": 0.21683000000000002,
-          "price_per_kwh": 1.1580022980000002,
+          "price_per_kwh": 1.15722171,
           "currency": "RON"
         },
         {
@@ -2920,7 +3920,7 @@
           "end_local": "2026-10-12T01:30:00+03:00",
           "price_per_mwh_eur": 204.51,
           "price_per_kwh_eur": 0.20451,
-          "price_per_kwh": 1.0922061060000001,
+          "price_per_kwh": 1.0914698699999998,
           "currency": "RON"
         },
         {
@@ -2930,7 +3930,7 @@
           "end_local": "2026-10-12T01:45:00+03:00",
           "price_per_mwh_eur": 195.56,
           "price_per_kwh_eur": 0.19556,
-          "price_per_kwh": 1.0444077360000001,
+          "price_per_kwh": 1.0437037200000001,
           "currency": "RON"
         },
         {
@@ -2940,7 +3940,7 @@
           "end_local": "2026-10-12T02:00:00+03:00",
           "price_per_mwh_eur": 199.25,
           "price_per_kwh_eur": 0.19925,
-          "price_per_kwh": 1.06411455,
+          "price_per_kwh": 1.06339725,
           "currency": "RON"
         },
         {
@@ -2950,7 +3950,7 @@
           "end_local": "2026-10-12T02:15:00+03:00",
           "price_per_mwh_eur": 201.89,
           "price_per_kwh_eur": 0.20189,
-          "price_per_kwh": 1.078213734,
+          "price_per_kwh": 1.0774869299999998,
           "currency": "RON"
         },
         {
@@ -2960,7 +3960,7 @@
           "end_local": "2026-10-12T02:30:00+03:00",
           "price_per_mwh_eur": 205.45,
           "price_per_kwh_eur": 0.20545,
-          "price_per_kwh": 1.09722627,
+          "price_per_kwh": 1.09648665,
           "currency": "RON"
         },
         {
@@ -2970,7 +3970,7 @@
           "end_local": "2026-10-12T02:45:00+03:00",
           "price_per_mwh_eur": 212.29,
           "price_per_kwh_eur": 0.21228999999999998,
-          "price_per_kwh": 1.1337559739999998,
+          "price_per_kwh": 1.1329917299999999,
           "currency": "RON"
         },
         {
@@ -2980,7 +3980,7 @@
           "end_local": "2026-10-12T03:00:00+03:00",
           "price_per_mwh_eur": 207.4,
           "price_per_kwh_eur": 0.2074,
-          "price_per_kwh": 1.10764044,
+          "price_per_kwh": 1.1068938,
           "currency": "RON"
         },
         {
@@ -2990,7 +3990,7 @@
           "end_local": "2026-10-12T03:15:00+03:00",
           "price_per_mwh_eur": 200.62,
           "price_per_kwh_eur": 0.20062,
-          "price_per_kwh": 1.071431172,
+          "price_per_kwh": 1.0707089399999998,
           "currency": "RON"
         },
         {
@@ -3000,7 +4000,7 @@
           "end_local": "2026-10-12T03:30:00+03:00",
           "price_per_mwh_eur": 207.73,
           "price_per_kwh_eur": 0.20773,
-          "price_per_kwh": 1.109402838,
+          "price_per_kwh": 1.1086550099999999,
           "currency": "RON"
         },
         {
@@ -3010,7 +4010,7 @@
           "end_local": "2026-10-12T03:45:00+03:00",
           "price_per_mwh_eur": 207.98,
           "price_per_kwh_eur": 0.20798,
-          "price_per_kwh": 1.1107379880000001,
+          "price_per_kwh": 1.1099892599999999,
           "currency": "RON"
         },
         {
@@ -3020,7 +4020,7 @@
           "end_local": "2026-10-12T04:00:00+03:00",
           "price_per_mwh_eur": 217.65,
           "price_per_kwh_eur": 0.21765,
-          "price_per_kwh": 1.16238159,
+          "price_per_kwh": 1.16159805,
           "currency": "RON"
         },
         {
@@ -3030,7 +4030,7 @@
           "end_local": "2026-10-12T04:15:00+03:00",
           "price_per_mwh_eur": 216.74,
           "price_per_kwh_eur": 0.21674000000000002,
-          "price_per_kwh": 1.1575216440000002,
+          "price_per_kwh": 1.15674138,
           "currency": "RON"
         },
         {
@@ -3040,7 +4040,7 @@
           "end_local": "2026-10-12T04:30:00+03:00",
           "price_per_mwh_eur": 206.81,
           "price_per_kwh_eur": 0.20681,
-          "price_per_kwh": 1.104489486,
+          "price_per_kwh": 1.10374497,
           "currency": "RON"
         },
         {
@@ -3050,7 +4050,7 @@
           "end_local": "2026-10-12T04:45:00+03:00",
           "price_per_mwh_eur": 198.42,
           "price_per_kwh_eur": 0.19841999999999999,
-          "price_per_kwh": 1.059681852,
+          "price_per_kwh": 1.0589675399999998,
           "currency": "RON"
         },
         {
@@ -3060,7 +4060,7 @@
           "end_local": "2026-10-12T05:00:00+03:00",
           "price_per_mwh_eur": 199.69,
           "price_per_kwh_eur": 0.19969,
-          "price_per_kwh": 1.0664644140000001,
+          "price_per_kwh": 1.06574553,
           "currency": "RON"
         },
         {
@@ -3070,7 +4070,7 @@
           "end_local": "2026-10-12T05:15:00+03:00",
           "price_per_mwh_eur": 191.35,
           "price_per_kwh_eur": 0.19135,
-          "price_per_kwh": 1.02192381,
+          "price_per_kwh": 1.02123495,
           "currency": "RON"
         },
         {
@@ -3080,7 +4080,7 @@
           "end_local": "2026-10-12T05:30:00+03:00",
           "price_per_mwh_eur": 201.78,
           "price_per_kwh_eur": 0.20178000000000001,
-          "price_per_kwh": 1.0776262680000002,
+          "price_per_kwh": 1.07689986,
           "currency": "RON"
         },
         {
@@ -3090,7 +4090,7 @@
           "end_local": "2026-10-12T05:45:00+03:00",
           "price_per_mwh_eur": 199.6,
           "price_per_kwh_eur": 0.1996,
-          "price_per_kwh": 1.06598376,
+          "price_per_kwh": 1.0652652,
           "currency": "RON"
         },
         {
@@ -3100,7 +4100,7 @@
           "end_local": "2026-10-12T06:00:00+03:00",
           "price_per_mwh_eur": 212.9,
           "price_per_kwh_eur": 0.2129,
-          "price_per_kwh": 1.13701374,
+          "price_per_kwh": 1.1362473,
           "currency": "RON"
         },
         {
@@ -3110,7 +4110,7 @@
           "end_local": "2026-10-12T06:15:00+03:00",
           "price_per_mwh_eur": 216.66,
           "price_per_kwh_eur": 0.21666,
-          "price_per_kwh": 1.157094396,
+          "price_per_kwh": 1.15631442,
           "currency": "RON"
         },
         {
@@ -3120,7 +4120,7 @@
           "end_local": "2026-10-12T06:30:00+03:00",
           "price_per_mwh_eur": 269.25,
           "price_per_kwh_eur": 0.26925,
-          "price_per_kwh": 1.43795655,
+          "price_per_kwh": 1.4369872499999998,
           "currency": "RON"
         },
         {
@@ -3130,7 +4130,7 @@
           "end_local": "2026-10-12T06:45:00+03:00",
           "price_per_mwh_eur": 285.64,
           "price_per_kwh_eur": 0.28564,
-          "price_per_kwh": 1.525488984,
+          "price_per_kwh": 1.52446068,
           "currency": "RON"
         },
         {
@@ -3140,7 +4140,7 @@
           "end_local": "2026-10-12T07:00:00+03:00",
           "price_per_mwh_eur": 299.23,
           "price_per_kwh_eur": 0.29923,
-          "price_per_kwh": 1.5980677380000001,
+          "price_per_kwh": 1.59699051,
           "currency": "RON"
         },
         {
@@ -3150,7 +4150,7 @@
           "end_local": "2026-10-12T07:15:00+03:00",
           "price_per_mwh_eur": 265.96,
           "price_per_kwh_eur": 0.26596,
-          "price_per_kwh": 1.420385976,
+          "price_per_kwh": 1.4194285199999999,
           "currency": "RON"
         },
         {
@@ -3160,7 +4160,7 @@
           "end_local": "2026-10-12T07:30:00+03:00",
           "price_per_mwh_eur": 277.69,
           "price_per_kwh_eur": 0.27769,
-          "price_per_kwh": 1.483031214,
+          "price_per_kwh": 1.48203153,
           "currency": "RON"
         },
         {
@@ -3170,7 +4170,7 @@
           "end_local": "2026-10-12T07:45:00+03:00",
           "price_per_mwh_eur": 291.41,
           "price_per_kwh_eur": 0.29141,
-          "price_per_kwh": 1.556304246,
+          "price_per_kwh": 1.55525517,
           "currency": "RON"
         },
         {
@@ -3180,7 +4180,7 @@
           "end_local": "2026-10-12T08:00:00+03:00",
           "price_per_mwh_eur": 286.45,
           "price_per_kwh_eur": 0.28645,
-          "price_per_kwh": 1.52981487,
+          "price_per_kwh": 1.5287836499999998,
           "currency": "RON"
         },
         {
@@ -3190,7 +4190,7 @@
           "end_local": "2026-10-12T08:15:00+03:00",
           "price_per_mwh_eur": 344.11,
           "price_per_kwh_eur": 0.34411,
-          "price_per_kwh": 1.8377538660000001,
+          "price_per_kwh": 1.8365150700000001,
           "currency": "RON"
         },
         {
@@ -3200,7 +4200,7 @@
           "end_local": "2026-10-12T08:30:00+03:00",
           "price_per_mwh_eur": 327.94,
           "price_per_kwh_eur": 0.32794,
-          "price_per_kwh": 1.751396364,
+          "price_per_kwh": 1.75021578,
           "currency": "RON"
         },
         {
@@ -3210,7 +4210,7 @@
           "end_local": "2026-10-12T08:45:00+03:00",
           "price_per_mwh_eur": 299.36,
           "price_per_kwh_eur": 0.29936,
-          "price_per_kwh": 1.5987620160000002,
+          "price_per_kwh": 1.59768432,
           "currency": "RON"
         },
         {
@@ -3220,7 +4220,7 @@
           "end_local": "2026-10-12T09:00:00+03:00",
           "price_per_mwh_eur": 270.8,
           "price_per_kwh_eur": 0.2708,
-          "price_per_kwh": 1.44623448,
+          "price_per_kwh": 1.4452595999999998,
           "currency": "RON"
         },
         {
@@ -3230,7 +4230,7 @@
           "end_local": "2026-10-12T09:15:00+03:00",
           "price_per_mwh_eur": 300.28,
           "price_per_kwh_eur": 0.30028,
-          "price_per_kwh": 1.603675368,
+          "price_per_kwh": 1.6025943599999999,
           "currency": "RON"
         },
         {
@@ -3240,7 +4240,7 @@
           "end_local": "2026-10-12T09:30:00+03:00",
           "price_per_mwh_eur": 301.19,
           "price_per_kwh_eur": 0.30119,
-          "price_per_kwh": 1.608535314,
+          "price_per_kwh": 1.60745103,
           "currency": "RON"
         },
         {
@@ -3250,7 +4250,7 @@
           "end_local": "2026-10-12T09:45:00+03:00",
           "price_per_mwh_eur": 257.17,
           "price_per_kwh_eur": 0.25717,
-          "price_per_kwh": 1.373442102,
+          "price_per_kwh": 1.37251629,
           "currency": "RON"
         },
         {
@@ -3260,7 +4260,7 @@
           "end_local": "2026-10-12T10:00:00+03:00",
           "price_per_mwh_eur": 241.19,
           "price_per_kwh_eur": 0.24119,
-          "price_per_kwh": 1.2880993139999999,
+          "price_per_kwh": 1.2872310299999998,
           "currency": "RON"
         },
         {
@@ -3270,7 +4270,7 @@
           "end_local": "2026-10-12T10:15:00+03:00",
           "price_per_mwh_eur": 266.74,
           "price_per_kwh_eur": 0.26674000000000003,
-          "price_per_kwh": 1.4245516440000003,
+          "price_per_kwh": 1.4235913800000002,
           "currency": "RON"
         },
         {
@@ -3280,7 +4280,7 @@
           "end_local": "2026-10-12T10:30:00+03:00",
           "price_per_mwh_eur": 242.59,
           "price_per_kwh_eur": 0.24259,
-          "price_per_kwh": 1.2955761540000001,
+          "price_per_kwh": 1.2947028299999999,
           "currency": "RON"
         },
         {
@@ -3290,7 +4290,7 @@
           "end_local": "2026-10-12T10:45:00+03:00",
           "price_per_mwh_eur": 218.05,
           "price_per_kwh_eur": 0.21805000000000002,
-          "price_per_kwh": 1.16451783,
+          "price_per_kwh": 1.1637328500000002,
           "currency": "RON"
         },
         {
@@ -3300,7 +4300,7 @@
           "end_local": "2026-10-12T11:00:00+03:00",
           "price_per_mwh_eur": 190.23,
           "price_per_kwh_eur": 0.19022999999999998,
-          "price_per_kwh": 1.015942338,
+          "price_per_kwh": 1.0152575099999999,
           "currency": "RON"
         },
         {
@@ -3310,7 +4310,7 @@
           "end_local": "2026-10-12T11:15:00+03:00",
           "price_per_mwh_eur": 233.95,
           "price_per_kwh_eur": 0.23395,
-          "price_per_kwh": 1.24943337,
+          "price_per_kwh": 1.24859115,
           "currency": "RON"
         },
         {
@@ -3320,7 +4320,7 @@
           "end_local": "2026-10-12T11:30:00+03:00",
           "price_per_mwh_eur": 205.05,
           "price_per_kwh_eur": 0.20505,
-          "price_per_kwh": 1.0950900300000002,
+          "price_per_kwh": 1.09435185,
           "currency": "RON"
         },
         {
@@ -3330,7 +4330,7 @@
           "end_local": "2026-10-12T11:45:00+03:00",
           "price_per_mwh_eur": 204.02,
           "price_per_kwh_eur": 0.20402,
-          "price_per_kwh": 1.0895892120000001,
+          "price_per_kwh": 1.08885474,
           "currency": "RON"
         },
         {
@@ -3340,7 +4340,7 @@
           "end_local": "2026-10-12T12:00:00+03:00",
           "price_per_mwh_eur": 199.85,
           "price_per_kwh_eur": 0.19985,
-          "price_per_kwh": 1.06731891,
+          "price_per_kwh": 1.06659945,
           "currency": "RON"
         },
         {
@@ -3350,7 +4350,7 @@
           "end_local": "2026-10-12T12:15:00+03:00",
           "price_per_mwh_eur": 218.06,
           "price_per_kwh_eur": 0.21806,
-          "price_per_kwh": 1.164571236,
+          "price_per_kwh": 1.16378622,
           "currency": "RON"
         },
         {
@@ -3360,7 +4360,7 @@
           "end_local": "2026-10-12T12:30:00+03:00",
           "price_per_mwh_eur": 204.04,
           "price_per_kwh_eur": 0.20404,
-          "price_per_kwh": 1.089696024,
+          "price_per_kwh": 1.08896148,
           "currency": "RON"
         },
         {
@@ -3370,7 +4370,7 @@
           "end_local": "2026-10-12T12:45:00+03:00",
           "price_per_mwh_eur": 198.05,
           "price_per_kwh_eur": 0.19805,
-          "price_per_kwh": 1.05770583,
+          "price_per_kwh": 1.0569928499999999,
           "currency": "RON"
         },
         {
@@ -3380,7 +4380,7 @@
           "end_local": "2026-10-12T13:00:00+03:00",
           "price_per_mwh_eur": 201.15,
           "price_per_kwh_eur": 0.20115,
-          "price_per_kwh": 1.07426169,
+          "price_per_kwh": 1.07353755,
           "currency": "RON"
         },
         {
@@ -3390,7 +4390,7 @@
           "end_local": "2026-10-12T13:15:00+03:00",
           "price_per_mwh_eur": 210.35,
           "price_per_kwh_eur": 0.21034999999999998,
-          "price_per_kwh": 1.12339521,
+          "price_per_kwh": 1.1226379499999999,
           "currency": "RON"
         },
         {
@@ -3400,7 +4400,7 @@
           "end_local": "2026-10-12T13:30:00+03:00",
           "price_per_mwh_eur": 212.22,
           "price_per_kwh_eur": 0.21222,
-          "price_per_kwh": 1.133382132,
+          "price_per_kwh": 1.13261814,
           "currency": "RON"
         },
         {
@@ -3410,7 +4410,7 @@
           "end_local": "2026-10-12T13:45:00+03:00",
           "price_per_mwh_eur": 204.39,
           "price_per_kwh_eur": 0.20439,
-          "price_per_kwh": 1.091565234,
+          "price_per_kwh": 1.0908294299999999,
           "currency": "RON"
         },
         {
@@ -3420,7 +4420,7 @@
           "end_local": "2026-10-12T14:00:00+03:00",
           "price_per_mwh_eur": 191.85,
           "price_per_kwh_eur": 0.19185,
-          "price_per_kwh": 1.02459411,
+          "price_per_kwh": 1.02390345,
           "currency": "RON"
         },
         {
@@ -3430,7 +4430,7 @@
           "end_local": "2026-10-12T14:15:00+03:00",
           "price_per_mwh_eur": 215.94,
           "price_per_kwh_eur": 0.21594,
-          "price_per_kwh": 1.153249164,
+          "price_per_kwh": 1.15247178,
           "currency": "RON"
         },
         {
@@ -3440,7 +4440,7 @@
           "end_local": "2026-10-12T14:30:00+03:00",
           "price_per_mwh_eur": 216.37,
           "price_per_kwh_eur": 0.21637,
-          "price_per_kwh": 1.155545622,
+          "price_per_kwh": 1.15476669,
           "currency": "RON"
         },
         {
@@ -3450,7 +4450,7 @@
           "end_local": "2026-10-12T14:45:00+03:00",
           "price_per_mwh_eur": 215.3,
           "price_per_kwh_eur": 0.21530000000000002,
-          "price_per_kwh": 1.14983118,
+          "price_per_kwh": 1.1490561000000001,
           "currency": "RON"
         },
         {
@@ -3460,7 +4460,7 @@
           "end_local": "2026-10-12T15:00:00+03:00",
           "price_per_mwh_eur": 204.07,
           "price_per_kwh_eur": 0.20407,
-          "price_per_kwh": 1.089856242,
+          "price_per_kwh": 1.08912159,
           "currency": "RON"
         },
         {
@@ -3470,7 +4470,7 @@
           "end_local": "2026-10-12T15:15:00+03:00",
           "price_per_mwh_eur": 187.22,
           "price_per_kwh_eur": 0.18722,
-          "price_per_kwh": 0.999867132,
+          "price_per_kwh": 0.9991931399999999,
           "currency": "RON"
         },
         {
@@ -3480,7 +4480,7 @@
           "end_local": "2026-10-12T15:30:00+03:00",
           "price_per_mwh_eur": 207.2,
           "price_per_kwh_eur": 0.2072,
-          "price_per_kwh": 1.10657232,
+          "price_per_kwh": 1.1058264,
           "currency": "RON"
         },
         {
@@ -3490,7 +4490,7 @@
           "end_local": "2026-10-12T15:45:00+03:00",
           "price_per_mwh_eur": 207.23,
           "price_per_kwh_eur": 0.20723,
-          "price_per_kwh": 1.106732538,
+          "price_per_kwh": 1.10598651,
           "currency": "RON"
         },
         {
@@ -3500,7 +4500,7 @@
           "end_local": "2026-10-12T16:00:00+03:00",
           "price_per_mwh_eur": 206.38,
           "price_per_kwh_eur": 0.20638,
-          "price_per_kwh": 1.102193028,
+          "price_per_kwh": 1.10145006,
           "currency": "RON"
         },
         {
@@ -3510,7 +4510,7 @@
           "end_local": "2026-10-12T16:15:00+03:00",
           "price_per_mwh_eur": 202.23,
           "price_per_kwh_eur": 0.20223,
-          "price_per_kwh": 1.080029538,
+          "price_per_kwh": 1.0793015099999999,
           "currency": "RON"
         },
         {
@@ -3520,7 +4520,7 @@
           "end_local": "2026-10-12T16:30:00+03:00",
           "price_per_mwh_eur": 189.15,
           "price_per_kwh_eur": 0.18915,
-          "price_per_kwh": 1.01017449,
+          "price_per_kwh": 1.00949355,
           "currency": "RON"
         },
         {
@@ -3530,7 +4530,7 @@
           "end_local": "2026-10-12T16:45:00+03:00",
           "price_per_mwh_eur": 182.63,
           "price_per_kwh_eur": 0.18263,
-          "price_per_kwh": 0.975353778,
+          "price_per_kwh": 0.9746963099999999,
           "currency": "RON"
         },
         {
@@ -3540,7 +4540,7 @@
           "end_local": "2026-10-12T17:00:00+03:00",
           "price_per_mwh_eur": 238.21,
           "price_per_kwh_eur": 0.23821,
-          "price_per_kwh": 1.272184326,
+          "price_per_kwh": 1.27132677,
           "currency": "RON"
         },
         {
@@ -3550,7 +4550,7 @@
           "end_local": "2026-10-12T17:15:00+03:00",
           "price_per_mwh_eur": 167.24,
           "price_per_kwh_eur": 0.16724,
-          "price_per_kwh": 0.893161944,
+          "price_per_kwh": 0.89255988,
           "currency": "RON"
         },
         {
@@ -3560,7 +4560,7 @@
           "end_local": "2026-10-12T17:30:00+03:00",
           "price_per_mwh_eur": 228.14,
           "price_per_kwh_eur": 0.22813999999999998,
-          "price_per_kwh": 1.218404484,
+          "price_per_kwh": 1.2175831799999999,
           "currency": "RON"
         },
         {
@@ -3570,7 +4570,7 @@
           "end_local": "2026-10-12T17:45:00+03:00",
           "price_per_mwh_eur": 288.42,
           "price_per_kwh_eur": 0.28842,
-          "price_per_kwh": 1.5403358520000001,
+          "price_per_kwh": 1.53929754,
           "currency": "RON"
         },
         {
@@ -3580,7 +4580,7 @@
           "end_local": "2026-10-12T18:00:00+03:00",
           "price_per_mwh_eur": 298.67,
           "price_per_kwh_eur": 0.29867,
-          "price_per_kwh": 1.595077002,
+          "price_per_kwh": 1.5940017899999999,
           "currency": "RON"
         },
         {
@@ -3590,7 +4590,7 @@
           "end_local": "2026-10-12T18:15:00+03:00",
           "price_per_mwh_eur": 245.63,
           "price_per_kwh_eur": 0.24563,
-          "price_per_kwh": 1.311811578,
+          "price_per_kwh": 1.3109273099999998,
           "currency": "RON"
         },
         {
@@ -3600,7 +4600,7 @@
           "end_local": "2026-10-12T18:30:00+03:00",
           "price_per_mwh_eur": 278.89,
           "price_per_kwh_eur": 0.27888999999999997,
-          "price_per_kwh": 1.489439934,
+          "price_per_kwh": 1.4884359299999999,
           "currency": "RON"
         },
         {
@@ -3610,7 +4610,7 @@
           "end_local": "2026-10-12T18:45:00+03:00",
           "price_per_mwh_eur": 287.96,
           "price_per_kwh_eur": 0.28796,
-          "price_per_kwh": 1.5378791760000001,
+          "price_per_kwh": 1.53684252,
           "currency": "RON"
         },
         {
@@ -3620,7 +4620,7 @@
           "end_local": "2026-10-12T19:00:00+03:00",
           "price_per_mwh_eur": 275.92,
           "price_per_kwh_eur": 0.27592,
-          "price_per_kwh": 1.473578352,
+          "price_per_kwh": 1.47258504,
           "currency": "RON"
         },
         {
@@ -3630,7 +4630,7 @@
           "end_local": "2026-10-12T19:15:00+03:00",
           "price_per_mwh_eur": 247.95,
           "price_per_kwh_eur": 0.24794999999999998,
-          "price_per_kwh": 1.32420177,
+          "price_per_kwh": 1.3233091499999998,
           "currency": "RON"
         },
         {
@@ -3640,7 +4640,7 @@
           "end_local": "2026-10-12T19:30:00+03:00",
           "price_per_mwh_eur": 259.74,
           "price_per_kwh_eur": 0.25974,
-          "price_per_kwh": 1.3871674440000001,
+          "price_per_kwh": 1.38623238,
           "currency": "RON"
         },
         {
@@ -3650,7 +4650,7 @@
           "end_local": "2026-10-12T19:45:00+03:00",
           "price_per_mwh_eur": 276.6,
           "price_per_kwh_eur": 0.2766,
-          "price_per_kwh": 1.4772099600000002,
+          "price_per_kwh": 1.4762142,
           "currency": "RON"
         },
         {
@@ -3660,7 +4660,7 @@
           "end_local": "2026-10-12T20:00:00+03:00",
           "price_per_mwh_eur": 291.47,
           "price_per_kwh_eur": 0.29147,
-          "price_per_kwh": 1.556624682,
+          "price_per_kwh": 1.55557539,
           "currency": "RON"
         },
         {
@@ -3670,7 +4670,7 @@
           "end_local": "2026-10-12T20:15:00+03:00",
           "price_per_mwh_eur": 283.89,
           "price_per_kwh_eur": 0.28389,
-          "price_per_kwh": 1.5161429339999999,
+          "price_per_kwh": 1.5151209299999997,
           "currency": "RON"
         },
         {
@@ -3680,7 +4680,7 @@
           "end_local": "2026-10-12T20:30:00+03:00",
           "price_per_mwh_eur": 281.84,
           "price_per_kwh_eur": 0.28184,
-          "price_per_kwh": 1.505194704,
+          "price_per_kwh": 1.5041800799999998,
           "currency": "RON"
         },
         {
@@ -3690,7 +4690,7 @@
           "end_local": "2026-10-12T20:45:00+03:00",
           "price_per_mwh_eur": 280.1,
           "price_per_kwh_eur": 0.2801,
-          "price_per_kwh": 1.4959020600000001,
+          "price_per_kwh": 1.4948937,
           "currency": "RON"
         },
         {
@@ -3700,7 +4700,7 @@
           "end_local": "2026-10-12T21:00:00+03:00",
           "price_per_mwh_eur": 272.31,
           "price_per_kwh_eur": 0.27231,
-          "price_per_kwh": 1.454298786,
+          "price_per_kwh": 1.45331847,
           "currency": "RON"
         },
         {
@@ -3710,7 +4710,7 @@
           "end_local": "2026-10-12T21:15:00+03:00",
           "price_per_mwh_eur": 273.01,
           "price_per_kwh_eur": 0.27301,
-          "price_per_kwh": 1.458037206,
+          "price_per_kwh": 1.4570543699999998,
           "currency": "RON"
         },
         {
@@ -3720,7 +4720,7 @@
           "end_local": "2026-10-12T21:30:00+03:00",
           "price_per_mwh_eur": 257.06,
           "price_per_kwh_eur": 0.25706,
-          "price_per_kwh": 1.372854636,
+          "price_per_kwh": 1.37192922,
           "currency": "RON"
         },
         {
@@ -3730,7 +4730,7 @@
           "end_local": "2026-10-12T21:45:00+03:00",
           "price_per_mwh_eur": 262.1,
           "price_per_kwh_eur": 0.2621,
-          "price_per_kwh": 1.39977126,
+          "price_per_kwh": 1.3988277,
           "currency": "RON"
         },
         {
@@ -3740,7 +4740,7 @@
           "end_local": "2026-10-12T22:00:00+03:00",
           "price_per_mwh_eur": 231.98,
           "price_per_kwh_eur": 0.23198,
-          "price_per_kwh": 1.238912388,
+          "price_per_kwh": 1.2380772599999998,
           "currency": "RON"
         },
         {
@@ -3750,7 +4750,7 @@
           "end_local": "2026-10-12T22:15:00+03:00",
           "price_per_mwh_eur": 249.18,
           "price_per_kwh_eur": 0.24918,
-          "price_per_kwh": 1.3307707080000002,
+          "price_per_kwh": 1.32987366,
           "currency": "RON"
         },
         {
@@ -3760,7 +4760,7 @@
           "end_local": "2026-10-12T22:30:00+03:00",
           "price_per_mwh_eur": 244.77,
           "price_per_kwh_eur": 0.24477000000000002,
-          "price_per_kwh": 1.3072186620000001,
+          "price_per_kwh": 1.30633749,
           "currency": "RON"
         },
         {
@@ -3770,7 +4770,7 @@
           "end_local": "2026-10-12T22:45:00+03:00",
           "price_per_mwh_eur": 254.33,
           "price_per_kwh_eur": 0.25433,
-          "price_per_kwh": 1.358274798,
+          "price_per_kwh": 1.35735921,
           "currency": "RON"
         },
         {
@@ -3780,7 +4780,7 @@
           "end_local": "2026-10-12T23:00:00+03:00",
           "price_per_mwh_eur": 246.65,
           "price_per_kwh_eur": 0.24665,
-          "price_per_kwh": 1.31725899,
+          "price_per_kwh": 1.3163710499999999,
           "currency": "RON"
         },
         {
@@ -3790,7 +4790,7 @@
           "end_local": "2026-10-12T23:15:00+03:00",
           "price_per_mwh_eur": 257.01,
           "price_per_kwh_eur": 0.25701,
-          "price_per_kwh": 1.3725876060000002,
+          "price_per_kwh": 1.3716623700000001,
           "currency": "RON"
         },
         {
@@ -3800,7 +4800,7 @@
           "end_local": "2026-10-12T23:30:00+03:00",
           "price_per_mwh_eur": 247.4,
           "price_per_kwh_eur": 0.2474,
-          "price_per_kwh": 1.3212644400000002,
+          "price_per_kwh": 1.3203738,
           "currency": "RON"
         },
         {
@@ -3810,7 +4810,7 @@
           "end_local": "2026-10-12T23:45:00+03:00",
           "price_per_mwh_eur": 235.46,
           "price_per_kwh_eur": 0.23546,
-          "price_per_kwh": 1.257497676,
+          "price_per_kwh": 1.25665002,
           "currency": "RON"
         },
         {
@@ -3820,7 +4820,7 @@
           "end_local": "2026-10-13T00:00:00+03:00",
           "price_per_mwh_eur": 210.38,
           "price_per_kwh_eur": 0.21037999999999998,
-          "price_per_kwh": 1.123555428,
+          "price_per_kwh": 1.1227980599999998,
           "currency": "RON"
         },
         {
@@ -3830,7 +4830,7 @@
           "end_local": "2026-10-13T00:15:00+03:00",
           "price_per_mwh_eur": 250.96,
           "price_per_kwh_eur": 0.25096,
-          "price_per_kwh": 1.3402769760000002,
+          "price_per_kwh": 1.33937352,
           "currency": "RON"
         },
         {
@@ -3840,7 +4840,7 @@
           "end_local": "2026-10-13T00:30:00+03:00",
           "price_per_mwh_eur": 216.46,
           "price_per_kwh_eur": 0.21646,
-          "price_per_kwh": 1.1560262760000002,
+          "price_per_kwh": 1.15524702,
           "currency": "RON"
         },
         {
@@ -3850,7 +4850,7 @@
           "end_local": "2026-10-13T00:45:00+03:00",
           "price_per_mwh_eur": 191.07,
           "price_per_kwh_eur": 0.19107,
-          "price_per_kwh": 1.020428442,
+          "price_per_kwh": 1.0197405899999998,
           "currency": "RON"
         },
         {
@@ -3860,7 +4860,927 @@
           "end_local": "2026-10-13T01:00:00+03:00",
           "price_per_mwh_eur": 183.63,
           "price_per_kwh_eur": 0.18363,
-          "price_per_kwh": 0.9806943779999999,
+          "price_per_kwh": 0.9800333099999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T22:00:00Z",
+          "end_utc": "2026-10-12T22:15:00Z",
+          "start_local": "2026-10-13T01:00:00+03:00",
+          "end_local": "2026-10-13T01:15:00+03:00",
+          "price_per_mwh_eur": 210.29,
+          "price_per_kwh_eur": 0.21029,
+          "price_per_kwh": 1.12231773,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T22:15:00Z",
+          "end_utc": "2026-10-12T22:30:00Z",
+          "start_local": "2026-10-13T01:15:00+03:00",
+          "end_local": "2026-10-13T01:30:00+03:00",
+          "price_per_mwh_eur": 210.6,
+          "price_per_kwh_eur": 0.21059999999999998,
+          "price_per_kwh": 1.1239721999999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T22:30:00Z",
+          "end_utc": "2026-10-12T22:45:00Z",
+          "start_local": "2026-10-13T01:30:00+03:00",
+          "end_local": "2026-10-13T01:45:00+03:00",
+          "price_per_mwh_eur": 201.81,
+          "price_per_kwh_eur": 0.20181,
+          "price_per_kwh": 1.0770599699999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T22:45:00Z",
+          "end_utc": "2026-10-12T23:00:00Z",
+          "start_local": "2026-10-13T01:45:00+03:00",
+          "end_local": "2026-10-13T02:00:00+03:00",
+          "price_per_mwh_eur": 191.08,
+          "price_per_kwh_eur": 0.19108,
+          "price_per_kwh": 1.0197939599999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T23:00:00Z",
+          "end_utc": "2026-10-12T23:15:00Z",
+          "start_local": "2026-10-13T02:00:00+03:00",
+          "end_local": "2026-10-13T02:15:00+03:00",
+          "price_per_mwh_eur": 209.82,
+          "price_per_kwh_eur": 0.20982,
+          "price_per_kwh": 1.11980934,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T23:15:00Z",
+          "end_utc": "2026-10-12T23:30:00Z",
+          "start_local": "2026-10-13T02:15:00+03:00",
+          "end_local": "2026-10-13T02:30:00+03:00",
+          "price_per_mwh_eur": 204.78,
+          "price_per_kwh_eur": 0.20478,
+          "price_per_kwh": 1.09291086,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T23:30:00Z",
+          "end_utc": "2026-10-12T23:45:00Z",
+          "start_local": "2026-10-13T02:30:00+03:00",
+          "end_local": "2026-10-13T02:45:00+03:00",
+          "price_per_mwh_eur": 199.21,
+          "price_per_kwh_eur": 0.19921,
+          "price_per_kwh": 1.06318377,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-12T23:45:00Z",
+          "end_utc": "2026-10-13T00:00:00Z",
+          "start_local": "2026-10-13T02:45:00+03:00",
+          "end_local": "2026-10-13T03:00:00+03:00",
+          "price_per_mwh_eur": 198.71,
+          "price_per_kwh_eur": 0.19871,
+          "price_per_kwh": 1.06051527,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T00:00:00Z",
+          "end_utc": "2026-10-13T00:15:00Z",
+          "start_local": "2026-10-13T03:00:00+03:00",
+          "end_local": "2026-10-13T03:15:00+03:00",
+          "price_per_mwh_eur": 204.81,
+          "price_per_kwh_eur": 0.20481,
+          "price_per_kwh": 1.0930709699999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T00:15:00Z",
+          "end_utc": "2026-10-13T00:30:00Z",
+          "start_local": "2026-10-13T03:15:00+03:00",
+          "end_local": "2026-10-13T03:30:00+03:00",
+          "price_per_mwh_eur": 201.82,
+          "price_per_kwh_eur": 0.20182,
+          "price_per_kwh": 1.07711334,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T00:30:00Z",
+          "end_utc": "2026-10-13T00:45:00Z",
+          "start_local": "2026-10-13T03:30:00+03:00",
+          "end_local": "2026-10-13T03:45:00+03:00",
+          "price_per_mwh_eur": 205.94,
+          "price_per_kwh_eur": 0.20593999999999998,
+          "price_per_kwh": 1.0991017799999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T00:45:00Z",
+          "end_utc": "2026-10-13T01:00:00Z",
+          "start_local": "2026-10-13T03:45:00+03:00",
+          "end_local": "2026-10-13T04:00:00+03:00",
+          "price_per_mwh_eur": 205.94,
+          "price_per_kwh_eur": 0.20593999999999998,
+          "price_per_kwh": 1.0991017799999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T01:00:00Z",
+          "end_utc": "2026-10-13T01:15:00Z",
+          "start_local": "2026-10-13T04:00:00+03:00",
+          "end_local": "2026-10-13T04:15:00+03:00",
+          "price_per_mwh_eur": 202.52,
+          "price_per_kwh_eur": 0.20252,
+          "price_per_kwh": 1.08084924,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T01:15:00Z",
+          "end_utc": "2026-10-13T01:30:00Z",
+          "start_local": "2026-10-13T04:15:00+03:00",
+          "end_local": "2026-10-13T04:30:00+03:00",
+          "price_per_mwh_eur": 204.65,
+          "price_per_kwh_eur": 0.20465,
+          "price_per_kwh": 1.09221705,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T01:30:00Z",
+          "end_utc": "2026-10-13T01:45:00Z",
+          "start_local": "2026-10-13T04:30:00+03:00",
+          "end_local": "2026-10-13T04:45:00+03:00",
+          "price_per_mwh_eur": 202.4,
+          "price_per_kwh_eur": 0.2024,
+          "price_per_kwh": 1.0802087999999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T01:45:00Z",
+          "end_utc": "2026-10-13T02:00:00Z",
+          "start_local": "2026-10-13T04:45:00+03:00",
+          "end_local": "2026-10-13T05:00:00+03:00",
+          "price_per_mwh_eur": 202.2,
+          "price_per_kwh_eur": 0.2022,
+          "price_per_kwh": 1.0791414,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T02:00:00Z",
+          "end_utc": "2026-10-13T02:15:00Z",
+          "start_local": "2026-10-13T05:00:00+03:00",
+          "end_local": "2026-10-13T05:15:00+03:00",
+          "price_per_mwh_eur": 218.73,
+          "price_per_kwh_eur": 0.21872999999999998,
+          "price_per_kwh": 1.1673620099999997,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T02:15:00Z",
+          "end_utc": "2026-10-13T02:30:00Z",
+          "start_local": "2026-10-13T05:15:00+03:00",
+          "end_local": "2026-10-13T05:30:00+03:00",
+          "price_per_mwh_eur": 194.85,
+          "price_per_kwh_eur": 0.19485,
+          "price_per_kwh": 1.03991445,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T02:30:00Z",
+          "end_utc": "2026-10-13T02:45:00Z",
+          "start_local": "2026-10-13T05:30:00+03:00",
+          "end_local": "2026-10-13T05:45:00+03:00",
+          "price_per_mwh_eur": 187.38,
+          "price_per_kwh_eur": 0.18738,
+          "price_per_kwh": 1.00004706,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T02:45:00Z",
+          "end_utc": "2026-10-13T03:00:00Z",
+          "start_local": "2026-10-13T05:45:00+03:00",
+          "end_local": "2026-10-13T06:00:00+03:00",
+          "price_per_mwh_eur": 198.02,
+          "price_per_kwh_eur": 0.19802,
+          "price_per_kwh": 1.05683274,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T03:00:00Z",
+          "end_utc": "2026-10-13T03:15:00Z",
+          "start_local": "2026-10-13T06:00:00+03:00",
+          "end_local": "2026-10-13T06:15:00+03:00",
+          "price_per_mwh_eur": 183.51,
+          "price_per_kwh_eur": 0.18350999999999998,
+          "price_per_kwh": 0.9793928699999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T03:15:00Z",
+          "end_utc": "2026-10-13T03:30:00Z",
+          "start_local": "2026-10-13T06:15:00+03:00",
+          "end_local": "2026-10-13T06:30:00+03:00",
+          "price_per_mwh_eur": 190.34,
+          "price_per_kwh_eur": 0.19034,
+          "price_per_kwh": 1.01584458,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T03:30:00Z",
+          "end_utc": "2026-10-13T03:45:00Z",
+          "start_local": "2026-10-13T06:30:00+03:00",
+          "end_local": "2026-10-13T06:45:00+03:00",
+          "price_per_mwh_eur": 203.05,
+          "price_per_kwh_eur": 0.20305,
+          "price_per_kwh": 1.08367785,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T03:45:00Z",
+          "end_utc": "2026-10-13T04:00:00Z",
+          "start_local": "2026-10-13T06:45:00+03:00",
+          "end_local": "2026-10-13T07:00:00+03:00",
+          "price_per_mwh_eur": 214.29,
+          "price_per_kwh_eur": 0.21428999999999998,
+          "price_per_kwh": 1.14366573,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T04:00:00Z",
+          "end_utc": "2026-10-13T04:15:00Z",
+          "start_local": "2026-10-13T07:00:00+03:00",
+          "end_local": "2026-10-13T07:15:00+03:00",
+          "price_per_mwh_eur": 221.36,
+          "price_per_kwh_eur": 0.22136,
+          "price_per_kwh": 1.18139832,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T04:15:00Z",
+          "end_utc": "2026-10-13T04:30:00Z",
+          "start_local": "2026-10-13T07:15:00+03:00",
+          "end_local": "2026-10-13T07:30:00+03:00",
+          "price_per_mwh_eur": 234.35,
+          "price_per_kwh_eur": 0.23435,
+          "price_per_kwh": 1.2507259499999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T04:30:00Z",
+          "end_utc": "2026-10-13T04:45:00Z",
+          "start_local": "2026-10-13T07:30:00+03:00",
+          "end_local": "2026-10-13T07:45:00+03:00",
+          "price_per_mwh_eur": 245.06,
+          "price_per_kwh_eur": 0.24506,
+          "price_per_kwh": 1.30788522,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T04:45:00Z",
+          "end_utc": "2026-10-13T05:00:00Z",
+          "start_local": "2026-10-13T07:45:00+03:00",
+          "end_local": "2026-10-13T08:00:00+03:00",
+          "price_per_mwh_eur": 264.63,
+          "price_per_kwh_eur": 0.26463,
+          "price_per_kwh": 1.4123303099999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T05:00:00Z",
+          "end_utc": "2026-10-13T05:15:00Z",
+          "start_local": "2026-10-13T08:00:00+03:00",
+          "end_local": "2026-10-13T08:15:00+03:00",
+          "price_per_mwh_eur": 278.42,
+          "price_per_kwh_eur": 0.27842,
+          "price_per_kwh": 1.4859275399999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T05:15:00Z",
+          "end_utc": "2026-10-13T05:30:00Z",
+          "start_local": "2026-10-13T08:15:00+03:00",
+          "end_local": "2026-10-13T08:30:00+03:00",
+          "price_per_mwh_eur": 288.39,
+          "price_per_kwh_eur": 0.28839,
+          "price_per_kwh": 1.5391374299999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T05:30:00Z",
+          "end_utc": "2026-10-13T05:45:00Z",
+          "start_local": "2026-10-13T08:30:00+03:00",
+          "end_local": "2026-10-13T08:45:00+03:00",
+          "price_per_mwh_eur": 279.26,
+          "price_per_kwh_eur": 0.27926,
+          "price_per_kwh": 1.49041062,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T05:45:00Z",
+          "end_utc": "2026-10-13T06:00:00Z",
+          "start_local": "2026-10-13T08:45:00+03:00",
+          "end_local": "2026-10-13T09:00:00+03:00",
+          "price_per_mwh_eur": 277.94,
+          "price_per_kwh_eur": 0.27794,
+          "price_per_kwh": 1.48336578,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T06:00:00Z",
+          "end_utc": "2026-10-13T06:15:00Z",
+          "start_local": "2026-10-13T09:00:00+03:00",
+          "end_local": "2026-10-13T09:15:00+03:00",
+          "price_per_mwh_eur": 286.51,
+          "price_per_kwh_eur": 0.28651,
+          "price_per_kwh": 1.52910387,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T06:15:00Z",
+          "end_utc": "2026-10-13T06:30:00Z",
+          "start_local": "2026-10-13T09:15:00+03:00",
+          "end_local": "2026-10-13T09:30:00+03:00",
+          "price_per_mwh_eur": 261.2,
+          "price_per_kwh_eur": 0.2612,
+          "price_per_kwh": 1.3940244,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T06:30:00Z",
+          "end_utc": "2026-10-13T06:45:00Z",
+          "start_local": "2026-10-13T09:30:00+03:00",
+          "end_local": "2026-10-13T09:45:00+03:00",
+          "price_per_mwh_eur": 270.74,
+          "price_per_kwh_eur": 0.27074000000000004,
+          "price_per_kwh": 1.44493938,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T06:45:00Z",
+          "end_utc": "2026-10-13T07:00:00Z",
+          "start_local": "2026-10-13T09:45:00+03:00",
+          "end_local": "2026-10-13T10:00:00+03:00",
+          "price_per_mwh_eur": 242.31,
+          "price_per_kwh_eur": 0.24231,
+          "price_per_kwh": 1.29320847,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T07:00:00Z",
+          "end_utc": "2026-10-13T07:15:00Z",
+          "start_local": "2026-10-13T10:00:00+03:00",
+          "end_local": "2026-10-13T10:15:00+03:00",
+          "price_per_mwh_eur": 251.07,
+          "price_per_kwh_eur": 0.25107,
+          "price_per_kwh": 1.33996059,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T07:15:00Z",
+          "end_utc": "2026-10-13T07:30:00Z",
+          "start_local": "2026-10-13T10:15:00+03:00",
+          "end_local": "2026-10-13T10:30:00+03:00",
+          "price_per_mwh_eur": 230.9,
+          "price_per_kwh_eur": 0.2309,
+          "price_per_kwh": 1.2323133,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T07:30:00Z",
+          "end_utc": "2026-10-13T07:45:00Z",
+          "start_local": "2026-10-13T10:30:00+03:00",
+          "end_local": "2026-10-13T10:45:00+03:00",
+          "price_per_mwh_eur": 210.78,
+          "price_per_kwh_eur": 0.21078,
+          "price_per_kwh": 1.12493286,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T07:45:00Z",
+          "end_utc": "2026-10-13T08:00:00Z",
+          "start_local": "2026-10-13T10:45:00+03:00",
+          "end_local": "2026-10-13T11:00:00+03:00",
+          "price_per_mwh_eur": 181.61,
+          "price_per_kwh_eur": 0.18161000000000002,
+          "price_per_kwh": 0.9692525700000001,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T08:00:00Z",
+          "end_utc": "2026-10-13T08:15:00Z",
+          "start_local": "2026-10-13T11:00:00+03:00",
+          "end_local": "2026-10-13T11:15:00+03:00",
+          "price_per_mwh_eur": 234.99,
+          "price_per_kwh_eur": 0.23499,
+          "price_per_kwh": 1.25414163,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T08:15:00Z",
+          "end_utc": "2026-10-13T08:30:00Z",
+          "start_local": "2026-10-13T11:15:00+03:00",
+          "end_local": "2026-10-13T11:30:00+03:00",
+          "price_per_mwh_eur": 210.84,
+          "price_per_kwh_eur": 0.21084,
+          "price_per_kwh": 1.12525308,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T08:30:00Z",
+          "end_utc": "2026-10-13T08:45:00Z",
+          "start_local": "2026-10-13T11:30:00+03:00",
+          "end_local": "2026-10-13T11:45:00+03:00",
+          "price_per_mwh_eur": 171.59,
+          "price_per_kwh_eur": 0.17159,
+          "price_per_kwh": 0.91577583,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T08:45:00Z",
+          "end_utc": "2026-10-13T09:00:00Z",
+          "start_local": "2026-10-13T11:45:00+03:00",
+          "end_local": "2026-10-13T12:00:00+03:00",
+          "price_per_mwh_eur": 164.2,
+          "price_per_kwh_eur": 0.16419999999999998,
+          "price_per_kwh": 0.8763353999999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T09:00:00Z",
+          "end_utc": "2026-10-13T09:15:00Z",
+          "start_local": "2026-10-13T12:00:00+03:00",
+          "end_local": "2026-10-13T12:15:00+03:00",
+          "price_per_mwh_eur": 182.09,
+          "price_per_kwh_eur": 0.18209,
+          "price_per_kwh": 0.97181433,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T09:15:00Z",
+          "end_utc": "2026-10-13T09:30:00Z",
+          "start_local": "2026-10-13T12:15:00+03:00",
+          "end_local": "2026-10-13T12:30:00+03:00",
+          "price_per_mwh_eur": 165.0,
+          "price_per_kwh_eur": 0.165,
+          "price_per_kwh": 0.880605,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T09:30:00Z",
+          "end_utc": "2026-10-13T09:45:00Z",
+          "start_local": "2026-10-13T12:30:00+03:00",
+          "end_local": "2026-10-13T12:45:00+03:00",
+          "price_per_mwh_eur": 157.76,
+          "price_per_kwh_eur": 0.15775999999999998,
+          "price_per_kwh": 0.8419651199999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T09:45:00Z",
+          "end_utc": "2026-10-13T10:00:00Z",
+          "start_local": "2026-10-13T12:45:00+03:00",
+          "end_local": "2026-10-13T13:00:00+03:00",
+          "price_per_mwh_eur": 154.28,
+          "price_per_kwh_eur": 0.15428,
+          "price_per_kwh": 0.8233923599999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T10:00:00Z",
+          "end_utc": "2026-10-13T10:15:00Z",
+          "start_local": "2026-10-13T13:00:00+03:00",
+          "end_local": "2026-10-13T13:15:00+03:00",
+          "price_per_mwh_eur": 159.14,
+          "price_per_kwh_eur": 0.15913999999999998,
+          "price_per_kwh": 0.8493301799999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T10:15:00Z",
+          "end_utc": "2026-10-13T10:30:00Z",
+          "start_local": "2026-10-13T13:15:00+03:00",
+          "end_local": "2026-10-13T13:30:00+03:00",
+          "price_per_mwh_eur": 165.52,
+          "price_per_kwh_eur": 0.16552,
+          "price_per_kwh": 0.8833802399999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T10:30:00Z",
+          "end_utc": "2026-10-13T10:45:00Z",
+          "start_local": "2026-10-13T13:30:00+03:00",
+          "end_local": "2026-10-13T13:45:00+03:00",
+          "price_per_mwh_eur": 169.11,
+          "price_per_kwh_eur": 0.16911,
+          "price_per_kwh": 0.90254007,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T10:45:00Z",
+          "end_utc": "2026-10-13T11:00:00Z",
+          "start_local": "2026-10-13T13:45:00+03:00",
+          "end_local": "2026-10-13T14:00:00+03:00",
+          "price_per_mwh_eur": 179.97,
+          "price_per_kwh_eur": 0.17997,
+          "price_per_kwh": 0.9604998899999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T11:00:00Z",
+          "end_utc": "2026-10-13T11:15:00Z",
+          "start_local": "2026-10-13T14:00:00+03:00",
+          "end_local": "2026-10-13T14:15:00+03:00",
+          "price_per_mwh_eur": 170.74,
+          "price_per_kwh_eur": 0.17074,
+          "price_per_kwh": 0.9112393799999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T11:15:00Z",
+          "end_utc": "2026-10-13T11:30:00Z",
+          "start_local": "2026-10-13T14:15:00+03:00",
+          "end_local": "2026-10-13T14:30:00+03:00",
+          "price_per_mwh_eur": 179.52,
+          "price_per_kwh_eur": 0.17952,
+          "price_per_kwh": 0.95809824,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T11:30:00Z",
+          "end_utc": "2026-10-13T11:45:00Z",
+          "start_local": "2026-10-13T14:30:00+03:00",
+          "end_local": "2026-10-13T14:45:00+03:00",
+          "price_per_mwh_eur": 183.1,
+          "price_per_kwh_eur": 0.18309999999999998,
+          "price_per_kwh": 0.9772046999999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T11:45:00Z",
+          "end_utc": "2026-10-13T12:00:00Z",
+          "start_local": "2026-10-13T14:45:00+03:00",
+          "end_local": "2026-10-13T15:00:00+03:00",
+          "price_per_mwh_eur": 182.42,
+          "price_per_kwh_eur": 0.18242,
+          "price_per_kwh": 0.9735755399999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T12:00:00Z",
+          "end_utc": "2026-10-13T12:15:00Z",
+          "start_local": "2026-10-13T15:00:00+03:00",
+          "end_local": "2026-10-13T15:15:00+03:00",
+          "price_per_mwh_eur": 152.47,
+          "price_per_kwh_eur": 0.15247,
+          "price_per_kwh": 0.81373239,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T12:15:00Z",
+          "end_utc": "2026-10-13T12:30:00Z",
+          "start_local": "2026-10-13T15:15:00+03:00",
+          "end_local": "2026-10-13T15:30:00+03:00",
+          "price_per_mwh_eur": 174.22,
+          "price_per_kwh_eur": 0.17421999999999999,
+          "price_per_kwh": 0.9298121399999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T12:30:00Z",
+          "end_utc": "2026-10-13T12:45:00Z",
+          "start_local": "2026-10-13T15:30:00+03:00",
+          "end_local": "2026-10-13T15:45:00+03:00",
+          "price_per_mwh_eur": 182.72,
+          "price_per_kwh_eur": 0.18272,
+          "price_per_kwh": 0.9751766399999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T12:45:00Z",
+          "end_utc": "2026-10-13T13:00:00Z",
+          "start_local": "2026-10-13T15:45:00+03:00",
+          "end_local": "2026-10-13T16:00:00+03:00",
+          "price_per_mwh_eur": 187.66,
+          "price_per_kwh_eur": 0.18766,
+          "price_per_kwh": 1.00154142,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T13:00:00Z",
+          "end_utc": "2026-10-13T13:15:00Z",
+          "start_local": "2026-10-13T16:00:00+03:00",
+          "end_local": "2026-10-13T16:15:00+03:00",
+          "price_per_mwh_eur": 170.89,
+          "price_per_kwh_eur": 0.17089,
+          "price_per_kwh": 0.9120399299999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T13:15:00Z",
+          "end_utc": "2026-10-13T13:30:00Z",
+          "start_local": "2026-10-13T16:15:00+03:00",
+          "end_local": "2026-10-13T16:30:00+03:00",
+          "price_per_mwh_eur": 178.32,
+          "price_per_kwh_eur": 0.17832,
+          "price_per_kwh": 0.95169384,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T13:30:00Z",
+          "end_utc": "2026-10-13T13:45:00Z",
+          "start_local": "2026-10-13T16:30:00+03:00",
+          "end_local": "2026-10-13T16:45:00+03:00",
+          "price_per_mwh_eur": 187.64,
+          "price_per_kwh_eur": 0.18763999999999997,
+          "price_per_kwh": 1.0014346799999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T13:45:00Z",
+          "end_utc": "2026-10-13T14:00:00Z",
+          "start_local": "2026-10-13T16:45:00+03:00",
+          "end_local": "2026-10-13T17:00:00+03:00",
+          "price_per_mwh_eur": 193.77,
+          "price_per_kwh_eur": 0.19377,
+          "price_per_kwh": 1.03415049,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T14:00:00Z",
+          "end_utc": "2026-10-13T14:15:00Z",
+          "start_local": "2026-10-13T17:00:00+03:00",
+          "end_local": "2026-10-13T17:15:00+03:00",
+          "price_per_mwh_eur": 189.22,
+          "price_per_kwh_eur": 0.18922,
+          "price_per_kwh": 1.0098671399999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T14:15:00Z",
+          "end_utc": "2026-10-13T14:30:00Z",
+          "start_local": "2026-10-13T17:15:00+03:00",
+          "end_local": "2026-10-13T17:30:00+03:00",
+          "price_per_mwh_eur": 204.63,
+          "price_per_kwh_eur": 0.20463,
+          "price_per_kwh": 1.09211031,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T14:30:00Z",
+          "end_utc": "2026-10-13T14:45:00Z",
+          "start_local": "2026-10-13T17:30:00+03:00",
+          "end_local": "2026-10-13T17:45:00+03:00",
+          "price_per_mwh_eur": 244.53,
+          "price_per_kwh_eur": 0.24453,
+          "price_per_kwh": 1.3050566099999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T14:45:00Z",
+          "end_utc": "2026-10-13T15:00:00Z",
+          "start_local": "2026-10-13T17:45:00+03:00",
+          "end_local": "2026-10-13T18:00:00+03:00",
+          "price_per_mwh_eur": 241.5,
+          "price_per_kwh_eur": 0.2415,
+          "price_per_kwh": 1.2888855,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T15:00:00Z",
+          "end_utc": "2026-10-13T15:15:00Z",
+          "start_local": "2026-10-13T18:00:00+03:00",
+          "end_local": "2026-10-13T18:15:00+03:00",
+          "price_per_mwh_eur": 209.39,
+          "price_per_kwh_eur": 0.20939,
+          "price_per_kwh": 1.11751443,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T15:15:00Z",
+          "end_utc": "2026-10-13T15:30:00Z",
+          "start_local": "2026-10-13T18:15:00+03:00",
+          "end_local": "2026-10-13T18:30:00+03:00",
+          "price_per_mwh_eur": 232.11,
+          "price_per_kwh_eur": 0.23211,
+          "price_per_kwh": 1.23877107,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T15:30:00Z",
+          "end_utc": "2026-10-13T15:45:00Z",
+          "start_local": "2026-10-13T18:30:00+03:00",
+          "end_local": "2026-10-13T18:45:00+03:00",
+          "price_per_mwh_eur": 266.09,
+          "price_per_kwh_eur": 0.26609,
+          "price_per_kwh": 1.4201223299999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T15:45:00Z",
+          "end_utc": "2026-10-13T16:00:00Z",
+          "start_local": "2026-10-13T18:45:00+03:00",
+          "end_local": "2026-10-13T19:00:00+03:00",
+          "price_per_mwh_eur": 291.0,
+          "price_per_kwh_eur": 0.291,
+          "price_per_kwh": 1.5530669999999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T16:00:00Z",
+          "end_utc": "2026-10-13T16:15:00Z",
+          "start_local": "2026-10-13T19:00:00+03:00",
+          "end_local": "2026-10-13T19:15:00+03:00",
+          "price_per_mwh_eur": 256.31,
+          "price_per_kwh_eur": 0.25631,
+          "price_per_kwh": 1.3679264699999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T16:15:00Z",
+          "end_utc": "2026-10-13T16:30:00Z",
+          "start_local": "2026-10-13T19:15:00+03:00",
+          "end_local": "2026-10-13T19:30:00+03:00",
+          "price_per_mwh_eur": 270.42,
+          "price_per_kwh_eur": 0.27042,
+          "price_per_kwh": 1.44323154,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T16:30:00Z",
+          "end_utc": "2026-10-13T16:45:00Z",
+          "start_local": "2026-10-13T19:30:00+03:00",
+          "end_local": "2026-10-13T19:45:00+03:00",
+          "price_per_mwh_eur": 281.01,
+          "price_per_kwh_eur": 0.28101,
+          "price_per_kwh": 1.4997503699999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T16:45:00Z",
+          "end_utc": "2026-10-13T17:00:00Z",
+          "start_local": "2026-10-13T19:45:00+03:00",
+          "end_local": "2026-10-13T20:00:00+03:00",
+          "price_per_mwh_eur": 291.13,
+          "price_per_kwh_eur": 0.29113,
+          "price_per_kwh": 1.55376081,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T17:00:00Z",
+          "end_utc": "2026-10-13T17:15:00Z",
+          "start_local": "2026-10-13T20:00:00+03:00",
+          "end_local": "2026-10-13T20:15:00+03:00",
+          "price_per_mwh_eur": 286.75,
+          "price_per_kwh_eur": 0.28675,
+          "price_per_kwh": 1.5303847499999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T17:15:00Z",
+          "end_utc": "2026-10-13T17:30:00Z",
+          "start_local": "2026-10-13T20:15:00+03:00",
+          "end_local": "2026-10-13T20:30:00+03:00",
+          "price_per_mwh_eur": 281.59,
+          "price_per_kwh_eur": 0.28158999999999995,
+          "price_per_kwh": 1.5028458299999996,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T17:30:00Z",
+          "end_utc": "2026-10-13T17:45:00Z",
+          "start_local": "2026-10-13T20:30:00+03:00",
+          "end_local": "2026-10-13T20:45:00+03:00",
+          "price_per_mwh_eur": 270.16,
+          "price_per_kwh_eur": 0.27016,
+          "price_per_kwh": 1.44184392,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T17:45:00Z",
+          "end_utc": "2026-10-13T18:00:00Z",
+          "start_local": "2026-10-13T20:45:00+03:00",
+          "end_local": "2026-10-13T21:00:00+03:00",
+          "price_per_mwh_eur": 267.41,
+          "price_per_kwh_eur": 0.26741000000000004,
+          "price_per_kwh": 1.4271671700000002,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T18:00:00Z",
+          "end_utc": "2026-10-13T18:15:00Z",
+          "start_local": "2026-10-13T21:00:00+03:00",
+          "end_local": "2026-10-13T21:15:00+03:00",
+          "price_per_mwh_eur": 276.76,
+          "price_per_kwh_eur": 0.27676,
+          "price_per_kwh": 1.47706812,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T18:15:00Z",
+          "end_utc": "2026-10-13T18:30:00Z",
+          "start_local": "2026-10-13T21:15:00+03:00",
+          "end_local": "2026-10-13T21:30:00+03:00",
+          "price_per_mwh_eur": 279.06,
+          "price_per_kwh_eur": 0.27906,
+          "price_per_kwh": 1.4893432199999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T18:30:00Z",
+          "end_utc": "2026-10-13T18:45:00Z",
+          "start_local": "2026-10-13T21:30:00+03:00",
+          "end_local": "2026-10-13T21:45:00+03:00",
+          "price_per_mwh_eur": 281.9,
+          "price_per_kwh_eur": 0.2819,
+          "price_per_kwh": 1.5045003,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T18:45:00Z",
+          "end_utc": "2026-10-13T19:00:00Z",
+          "start_local": "2026-10-13T21:45:00+03:00",
+          "end_local": "2026-10-13T22:00:00+03:00",
+          "price_per_mwh_eur": 269.4,
+          "price_per_kwh_eur": 0.2694,
+          "price_per_kwh": 1.4377877999999997,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T19:00:00Z",
+          "end_utc": "2026-10-13T19:15:00Z",
+          "start_local": "2026-10-13T22:00:00+03:00",
+          "end_local": "2026-10-13T22:15:00+03:00",
+          "price_per_mwh_eur": 260.93,
+          "price_per_kwh_eur": 0.26093,
+          "price_per_kwh": 1.3925834099999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T19:15:00Z",
+          "end_utc": "2026-10-13T19:30:00Z",
+          "start_local": "2026-10-13T22:15:00+03:00",
+          "end_local": "2026-10-13T22:30:00+03:00",
+          "price_per_mwh_eur": 267.52,
+          "price_per_kwh_eur": 0.26752,
+          "price_per_kwh": 1.4277542399999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T19:30:00Z",
+          "end_utc": "2026-10-13T19:45:00Z",
+          "start_local": "2026-10-13T22:30:00+03:00",
+          "end_local": "2026-10-13T22:45:00+03:00",
+          "price_per_mwh_eur": 236.59,
+          "price_per_kwh_eur": 0.23659,
+          "price_per_kwh": 1.2626808299999999,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T19:45:00Z",
+          "end_utc": "2026-10-13T20:00:00Z",
+          "start_local": "2026-10-13T22:45:00+03:00",
+          "end_local": "2026-10-13T23:00:00+03:00",
+          "price_per_mwh_eur": 214.34,
+          "price_per_kwh_eur": 0.21434,
+          "price_per_kwh": 1.14393258,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T20:00:00Z",
+          "end_utc": "2026-10-13T20:15:00Z",
+          "start_local": "2026-10-13T23:00:00+03:00",
+          "end_local": "2026-10-13T23:15:00+03:00",
+          "price_per_mwh_eur": 246.41,
+          "price_per_kwh_eur": 0.24641,
+          "price_per_kwh": 1.31509017,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T20:15:00Z",
+          "end_utc": "2026-10-13T20:30:00Z",
+          "start_local": "2026-10-13T23:15:00+03:00",
+          "end_local": "2026-10-13T23:30:00+03:00",
+          "price_per_mwh_eur": 229.14,
+          "price_per_kwh_eur": 0.22913999999999998,
+          "price_per_kwh": 1.2229201799999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T20:30:00Z",
+          "end_utc": "2026-10-13T20:45:00Z",
+          "start_local": "2026-10-13T23:30:00+03:00",
+          "end_local": "2026-10-13T23:45:00+03:00",
+          "price_per_mwh_eur": 214.01,
+          "price_per_kwh_eur": 0.21400999999999998,
+          "price_per_kwh": 1.1421713699999998,
+          "currency": "RON"
+        },
+        {
+          "start_utc": "2026-10-13T20:45:00Z",
+          "end_utc": "2026-10-13T21:00:00Z",
+          "start_local": "2026-10-13T23:45:00+03:00",
+          "end_local": "2026-10-14T00:00:00+03:00",
+          "price_per_mwh_eur": 196.5,
+          "price_per_kwh_eur": 0.1965,
+          "price_per_kwh": 1.0487205,
           "currency": "RON"
         }
       ]
